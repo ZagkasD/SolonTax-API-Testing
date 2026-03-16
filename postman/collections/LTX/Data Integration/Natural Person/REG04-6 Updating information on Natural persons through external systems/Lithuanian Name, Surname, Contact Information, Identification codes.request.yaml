@@ -1,0 +1,176 @@
+$kind: http-request
+url: https://solon-lith-test.centraldg6.athens.intrasoft-intl.private/data-integration/natural-persons
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"requestId\": \"requestId_00002\",\r
+
+    \    \"mapId\": \"08481c16-5a30-4aee-b96b-752ad1d018e4\",\r
+
+    \    \"dateOfInformation\": \"2026-01-01\",\r
+
+    \    \"sourceOfInformationCode\": \"10\", //GR\r
+
+    \    \"isCreate\": false,\r
+
+    \    \"basicPersonalData\": {\r
+
+    \        \"typeOfUpdate\": \"N\",\r
+
+    \        \"placeOfBirth\": \"LT\",\r
+
+    \        \"gender\": \"M\",\r
+
+    \        \"dateOfBirth\": \"2000-01-01\"\r
+
+    \    },\r
+
+    \    \"names\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"K\",\r
+
+    \            \"firstName\": \"Dimos One GR\",\r
+
+    \            \"lastName\": \"Zagkas\",\r
+
+    \            \"avdNumber\": \"63\",\r
+
+    \            \"validFrom\": \"2026-01-01\",\r
+
+    \            \"validTo\": \"2026-01-02\"\r
+
+    \        },\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"firstName\": \"Dimos One GR\",\r
+
+    \            \"lastName\": \"Zagkas1\",\r
+
+    \            \"avdNumber\": \"63\",\r
+
+    \            \"validFrom\": \"2026-01-03\"\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"identifiers\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"identifierTypeCode\": \"2\", //Personal Code\r
+
+    \            \"identifierValue\": \"107715545167542\",\r
+
+    \            \"countryCode\": \"LT\",\r
+
+    \            \"validFrom\": \"2026-01-01\"\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"addresses\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"addressTypeCode\": \"5\",\r
+
+    \            \"address\": \"test address updated\",\r
+
+    \            \"countryCode\": \"GR\",\r
+
+    \            \"validFrom\": \"2026-01-01\"\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"relationships\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"relationshipTypeCode\": \"I_100\", //Marriage\r
+
+    \            \"relatedPartyMapId\":
+    \"d5b2c657-07a5-4390-8814-e5db2585419f\",\r
+
+    \            \"maritalStatusCode\": \"I\",\r
+
+    \            \"maritalStatusDate\": \"2026-01-01\",\r
+
+    \            \"validFrom\": \"2026-01-01\"\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"contacts\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"contactTypeCode\": \"6\",\r
+
+    \            \"contactValue\": \"dzagkas@netcompany.com\",\r
+
+    \            \"validFrom\": \"2026-01-02\"\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"citizenships\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"citizenshipCode\": \"LT\",\r
+
+    \            \"validFrom\": \"2026-01-01\"\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"documents\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"documentTypeCode\": \"1\",\r
+
+    \            \"documentNumber\": \"143252143\",\r
+
+    \            \"avdNumber\": \"63\",\r
+
+    \            \"issueDate\": \"2026-01-01\",\r
+
+    \            \"issueCountryCode\": \"LT\",\r
+
+    \            \"deliveryDate\": \"2026-01-01\",\r
+
+    \            \"validFrom\": \"2026-01-01\"\r
+
+    \        }\r
+
+    \    ]\r
+
+    }"
+order: 3000

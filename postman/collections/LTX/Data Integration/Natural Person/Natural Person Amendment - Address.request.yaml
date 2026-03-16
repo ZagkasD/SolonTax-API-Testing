@@ -1,0 +1,27 @@
+$kind: http-request
+url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/natural-persons
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: >-
+    {
+        "requestId": "requestId_00002",
+        "mapId": "6e7e902c-057a-4c37-8669-ad9778945bbd",
+        "dateOfInformation": "2026-02-05",
+        "sourceOfInformationCode": "10", //GR
+        "isCreate": false,
+        
+        "addresses":[
+            {
+                "typeOfUpdate":"N",
+                "addressTypeCode":"5", // Natural person's actual place of residence
+                "validFrom":"2026-01-01",
+                "validTo":"2026-01-08",
+                "address":"Street 10, Vilnius, Vilnius, LT-01103, Lithuania",
+                "countryCode":"LT"   
+            }
+        ]
+    }
+order: 11000

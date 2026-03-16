@@ -1,0 +1,7 @@
+$kind: http-request
+url: ""
+method: POST
+body:
+  type: text
+  content: ""
+order: 3000

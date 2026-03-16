@@ -1,0 +1,699 @@
+$kind: http-request
+url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/natural-persons
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"requestId\": \"requestId_00002\",\r
+
+    \    // \"mapId\": \"92a726a1-c9b7-4f6d-90db-214c024d18e8\",\r
+
+    \    \"dateOfInformation\": \"2020-01-01\",\r
+
+    \    \"sourceOfInformationCode\": \"10\",\r
+
+    \    \"isCreate\": true,\r
+
+    \    \"basicPersonalData\": {\r
+
+    \        \"typeOfUpdate\": \"N\",\r
+
+    \        \"gender\": \"M\",\r
+
+    \        \"placeOfBirth\": \"GR\",\r
+
+    \        \"dateOfBirth\": \"2013-07-26\"\r
+
+    \        //\"dateOfDeath\": \"2025-01-26\",\r
+
+    \        //\"dateOfDeathCancelDate\": \"2025-01-27\",\r
+
+    \        //\"dateOfDeathAmendDate\": \"2025-01-26\",\r
+
+    \        //\"cancelationDate\": \"2024-01-26\",\r
+
+    \        //\"cancelationReasonCode\": \"1\",\r
+
+    \        // \"notes\": \"\"\r
+
+    \    },\r
+
+    \    \"names\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"firstName\": \"Dimos Third\",\r
+
+    \            \"lastName\": \"Zagkas\",\r
+
+    \            \"avdNumber\": \"63\",\r
+
+    \            \"validFrom\": \"2025-01-01\"\r
+
+    \            //\"cancelationDate\": \"2024-01-26\",\r
+
+    \            //\"cancelationReasonCode\": \"1\",\r
+
+    \            //\"validTo\": \"2065-01-01\"\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"contacts\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"contactTypeCode\": \"6\",\r
+
+    \            \"contactValue\": \"dzagkas@netcompany.com\",\r
+
+    \            \"validFrom\": \"2023-01-01\"\r
+
+    \            //\"cancelationDate\": \"2024-01-26\",\r
+
+    \            //\"cancelationReasonCode\": \"1\",\r
+
+    \            //\"validTo\": \"2065-01-01\"\r
+
+    \        }\r
+
+    \        // ,\r
+
+    \        // {\r
+
+    \        //     \"typeOfUpdate\": \"N\",\r
+
+    \        //     \"contactTypeCode\": \"8\",\r
+
+    \        //     \"contactValue\": \"+37069876543\",\r
+
+    \        //     \"validFrom\": \"2023-01-01\"\r
+
+    \        //     //\"cancelationDate\": \"2024-01-26\",\r
+
+    \        //     //\"cancelationReasonCode\": \"1\",\r
+
+    \        //     //\"validTo\": \"2065-01-01\"\r
+
+    \        // }\r
+
+    \    ],\r
+
+    \    \"identifiers\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"identifierTypeCode\": \"5\",\r
+
+    \            \"identifierValue\": \"207715645167232\",\r
+
+    \            \"countryCode\": \"GR\",\r
+
+    \            \"validFrom\": \"2023-09-22\"\r
+
+    \            //\"cancelationDate\": \"2024-01-26\",\r
+
+    \            //\"cancelationReasonCode\": \"1\",\r
+
+    \            //\"validTo\": \"2065-01-01\"\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"mmTypes\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"Ν\",\r
+
+    \            \"mmTypeCode\": \"215\",\r
+
+    \            \"validFrom\": \"2026-02-12\",\r
+
+    \            \"validTo\": \"2026-02-12\"\r
+
+    \            // \"cancelationDate\": \"2026-02-12\",\r
+
+    \            // \"cancelationReasonCode\": \"string\"\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"addresses\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"addressTypeCode\": \"5\",\r
+
+    \            \"address\": \"test address\",\r
+
+    \            // \"addressObjectType\": \"RM\",\r
+
+    \            \"countryCode\": \"GR\",\r
+
+    \            // \"addressId\": \"54365345\"\r
+
+    \            \"validFrom\": \"2020-01-01\"\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"relationships\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"relationshipTypeCode\": \"Mother\",\r
+
+    \            \"relatedPartyMapId\":
+    \"6e7e902c-057a-4c37-8669-ad9778945bbd\",\r
+
+    \            \"validFrom\": \"2016-01-01\"\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"citizenships\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"citizenshipCode\": \"LT\",\r
+
+    \            \"validFrom\": \"2023-01-11\"\r
+
+    \            //\"cancelationDate\": \"2024-01-26\",\r
+
+    \            //\"cancelationReasonCode\": \"1\",\r
+
+    \            //\"validTo\": \"2065-01-01\"\r
+
+    \        }\r
+
+    \    ]\r
+
+    }\r
+
+    // {\r
+
+    //   \"requestId\": \"string\",\r
+
+    //   \"mapId\": \"stringstringstringstringstringstring\",\r
+
+    //   \"dateOfInformation\": \"2026-02-12\",\r
+
+    //   \"sourceOfInformationCode\": \"string\",\r
+
+    //   \"basicPersonalData\": {\r
+
+    //     \"typeOfUpdate\": \"s\",\r
+
+    //     \"gender\": \"string\",\r
+
+    //     \"placeOfBirth\": \"string\",\r
+
+    //     \"dateOfBirth\": \"2026-02-12\",\r
+
+    //     \"dateOfDeath\": \"2026-02-12\",\r
+
+    //     \"dateOfDeathCancelDate\": \"2026-02-12\",\r
+
+    //     \"dateOfDeathAmendDate\": \"2026-02-12\",\r
+
+    //     \"cancelationDate\": \"2026-02-12\",\r
+
+    //     \"cancelationReasonCode\": \"string\",\r
+
+    //     \"notes\": \"string\"\r
+
+    //   },\r
+
+    //   \"names\": [\r
+
+    //     {\r
+
+    //       \"typeOfUpdate\": \"s\",\r
+
+    //       \"firstName\": \"string\",\r
+
+    //       \"lastName\": \"string\",\r
+
+    //       \"avdNumber\": \"string\",\r
+
+    //       \"validFrom\": \"2026-02-12\",\r
+
+    //       \"validTo\": \"2026-02-12\",\r
+
+    //       \"cancelationDate\": \"2026-02-12\",\r
+
+    //       \"cancelationReasonCode\": \"string\"\r
+
+    //     }\r
+
+    //   ],\r
+
+    //   \"relationships\": [\r
+
+    //     {\r
+
+    //       \"typeOfUpdate\": \"s\",\r
+
+    //       \"relationshipTypeCode\": \"string\",\r
+
+    //       \"relatedPartyMapId\": \"stringstringstringstringstringstring\",\r
+
+    //       \"maritalStatusCode\": \"string\",\r
+
+    //       \"maritalStatusDate\": \"2026-02-12\",\r
+
+    //       \"validFrom\": \"2026-02-12\",\r
+
+    //       \"validTo\": \"2026-02-12\",\r
+
+    //       \"cancelationDate\": \"2026-02-12\",\r
+
+    //       \"cancelationReasonCode\": \"string\"\r
+
+    //     }\r
+
+    //   ],\r
+
+    //   \"addresses\": [\r
+
+    //     {\r
+
+    //       \"typeOfUpdate\": \"s\",\r
+
+    //       \"addressTypeCode\": \"string\",\r
+
+    //       \"addressObjectTypeCode\": \"string\",\r
+
+    //       \"addressId\": \"string\",\r
+
+    //       \"address\": \"string\",\r
+
+    //       \"countryCode\": \"string\",\r
+
+    //       \"validFrom\": \"2026-02-12\",\r
+
+    //       \"validTo\": \"2026-02-12\",\r
+
+    //       \"cancelationDate\": \"2026-02-12\",\r
+
+    //       \"cancelationReasonCode\": \"string\"\r
+
+    //     }\r
+
+    //   ],\r
+
+    //   \"contacts\": [\r
+
+    //     {\r
+
+    //       \"typeOfUpdate\": \"s\",\r
+
+    //       \"contactTypeCode\": \"string\",\r
+
+    //       \"contactValue\": \"string\",\r
+
+    //       \"validFrom\": \"2026-02-12\",\r
+
+    //       \"validTo\": \"2026-02-12\",\r
+
+    //       \"cancelationDate\": \"2026-02-12\",\r
+
+    //       \"cancelationReasonCode\": \"string\"\r
+
+    //     }\r
+
+    //   ],\r
+
+    //   \"identifiers\": [\r
+
+    //     {\r
+
+    //       \"typeOfUpdate\": \"s\",\r
+
+    //       \"identifierTypeCode\": \"string\",\r
+
+    //       \"identifierValue\": \"string\",\r
+
+    //       \"countryCode\": \"string\",\r
+
+    //       \"validFrom\": \"2026-02-12\",\r
+
+    //       \"validTo\": \"2026-02-12\",\r
+
+    //       \"cancelationDate\": \"2026-02-12\",\r
+
+    //       \"cancelationReasonCode\": \"string\"\r
+
+    //     }\r
+
+    //   ],\r
+
+    //   \"citizenships\": [\r
+
+    //     {\r
+
+    //       \"typeOfUpdate\": \"s\",\r
+
+    //       \"citizenshipCode\": \"string\",\r
+
+    //       \"validFrom\": \"2026-02-12\",\r
+
+    //       \"validTo\": \"2026-02-12\",\r
+
+    //       \"cancelationDate\": \"2026-02-12\",\r
+
+    //       \"cancelationReasonCode\": \"string\"\r
+
+    //     }\r
+
+    //   ],\r
+
+    //   \"licenses\": [\r
+
+    //     {\r
+
+    //       \"typeOfUpdate\": \"s\",\r
+
+    //       \"licenseTypeCode\": \"string\",\r
+
+    //       \"licenseNumber\": \"string\",\r
+
+    //       \"issueDate\": \"2026-02-12\",\r
+
+    //       \"issuerMapId\": \"string\",\r
+
+    //       \"documentTypeCode\": \"string\",\r
+
+    //       \"statusCode\": \"string\",\r
+
+    //       \"licenseDateFrom\": \"2026-02-12\",\r
+
+    //       \"licenseDateTo\": \"2026-02-12\",\r
+
+    //       \"validFrom\": \"2026-02-12\",\r
+
+    //       \"validTo\": \"2026-02-12\",\r
+
+    //       \"cancelationDate\": \"2026-02-12\",\r
+
+    //       \"cancelationReasonCode\": \"string\",\r
+
+    //       \"activities\": [\r
+
+    //         {\r
+
+    //           \"typeOfUpdate\": \"s\",\r
+
+    //           \"activityTypeCode\": \"string\",\r
+
+    //           \"addressObjectTypeCode\": \"string\",\r
+
+    //           \"addressId\": \"string\",\r
+
+    //           \"validFrom\": \"2026-02-12\",\r
+
+    //           \"validTo\": \"2026-02-12\",\r
+
+    //           \"cancelationDate\": \"2026-02-12\",\r
+
+    //           \"cancelationReasonCode\": \"string\"\r
+
+    //         }\r
+
+    //       ]\r
+
+    //     }\r
+
+    //   ],\r
+
+    //   \"cashRegisters\": [\r
+
+    //     {\r
+
+    //       \"typeOfUpdate\": \"s\",\r
+
+    //       \"VMI_RegistrationNumber\": \"string\",\r
+
+    //       \"EKA_UniqueNumber\": \"string\",\r
+
+    //       \"EKA_Number\": \"string\",\r
+
+    //       \"EKA_NR_UniqueNumber\": \"string\",\r
+
+    //       \"cashRegisterName\": \"string\",\r
+
+    //       \"cashRegisterTypeCode\": \"string\",\r
+
+    //       \"statusCode\": \"string\",\r
+
+    //       \"statusDate\": \"2026-02-12\",\r
+
+    //       \"addressObjectTypeCode\": \"string\",\r
+
+    //       \"addressId\": \"string\",\r
+
+    //       \"validFrom\": \"2026-02-12\",\r
+
+    //       \"validTo\": \"2026-02-12\",\r
+
+    //       \"cancelationDate\": \"2026-02-12\",\r
+
+    //       \"cancelationReasonCode\": \"string\"\r
+
+    //     }\r
+
+    //   ],\r
+
+    //   \"representatives\": [\r
+
+    //     {\r
+
+    //       \"typeOfUpdate\": \"s\",\r
+
+    //       \"representativePartyMapId\":
+    \"stringstringstringstringstringstring\",\r
+
+    //       \"representativeTypeCode\": \"string\",\r
+
+    //       \"validFrom\": \"2026-02-12\",\r
+
+    //       \"validTo\": \"2026-02-12\",\r
+
+    //       \"assignmentDateFrom\": \"2026-02-12\",\r
+
+    //       \"assignmentDateTo\": \"2026-02-12\",\r
+
+    //       \"cancelationDate\": \"2026-02-12\",\r
+
+    //       \"cancelationReasonCode\": \"string\",\r
+
+    //       \"notes\": \"string\"\r
+
+    //     }\r
+
+    //   ],\r
+
+    //   \"bankAccounts\": [\r
+
+    //     {\r
+
+    //       \"typeOfUpdate\": \"s\",\r
+
+    //       \"bankCodeNumber\": \"string\",\r
+
+    //       \"bankName\": \"string\",\r
+
+    //       \"SWIFT\": \"string\",\r
+
+    //       \"accountNumber\": \"string\",\r
+
+    //       \"accountTypeCode\": \"string\",\r
+
+    //       \"accountPurpose\": \"string\",\r
+
+    //       \"countryCode\": \"string\",\r
+
+    //       \"currencyCode\": \"string\",\r
+
+    //       \"safeBox\": \"string\",\r
+
+    //       \"holderName\": \"string\",\r
+
+    //       \"priority\": \"string\",\r
+
+    //       \"openingDate\": \"2026-02-12\",\r
+
+    //       \"openingYear\": \"stri\",\r
+
+    //       \"closingDate\": \"2026-02-12\",\r
+
+    //       \"closingYear\": \"stri\",\r
+
+    //       \"cancelationDate\": \"2026-02-12\",\r
+
+    //       \"cancelationReasonCode\": \"string\",\r
+
+    //       \"relationships\": [\r
+
+    //         {\r
+
+    //           \"typeOfUpdate\": \"s\",\r
+
+    //           \"relationshipTypeCode\": \"string\",\r
+
+    //           \"identificationNumber\": \"string\",\r
+
+    //           \"fullName\": \"string\",\r
+
+    //           \"validFrom\": \"2026-02-12\",\r
+
+    //           \"validTo\": \"2026-02-12\",\r
+
+    //           \"cancelationDate\": \"2026-02-12\",\r
+
+    //           \"cancelationReasonCode\": \"string\"\r
+
+    //         }\r
+
+    //       ]\r
+
+    //     }\r
+
+    //   ],\r
+
+    //   \"groups\": [\r
+
+    //     {\r
+
+    //       \"typeOfUpdate\": \"s\",\r
+
+    //       \"groupTypeCode\": \"string\",\r
+
+    //       \"orgUnitPartyId\": \"stringstringstringstringstringstring\",\r
+
+    //       \"validFrom\": \"2026-02-12\",\r
+
+    //       \"validTo\": \"2026-02-12\",\r
+
+    //       \"firstYear\": \"2026-02-12\",\r
+
+    //       \"firstTaxPeriod\": \"2026-02-12\",\r
+
+    //       \"taxPeriodCode\": \"string\",\r
+
+    //       \"restartDate\": \"2026-02-12\",\r
+
+    //       \"decisionDate\": \"2026-02-12\",\r
+
+    //       \"decisionNumber\": \"string\",\r
+
+    //       \"cancelationDate\": \"2026-02-12\",\r
+
+    //       \"cancelationReasonCode\": \"string\",\r
+
+    //       \"cancelationComments\": \"string\",\r
+
+    //       \"notes\": \"string\"\r
+
+    //     }\r
+
+    //   ],\r
+
+    //   \"mmTypes\": [\r
+
+    //     {\r
+
+    //       \"typeOfUpdate\": \"s\",\r
+
+    //       \"mmTypeCode\": \"string\",\r
+
+    //       \"validFrom\": \"2026-02-12\",\r
+
+    //       \"validTo\": \"2026-02-12\",\r
+
+    //       \"cancelationDate\": \"2026-02-12\",\r
+
+    //       \"cancelationReasonCode\": \"string\"\r
+
+    //     }\r
+
+    //   ],\r
+
+    //   \"documents\": [\r
+
+    //     {\r
+
+    //       \"typeOfUpdate\": \"s\",\r
+
+    //       \"documentTypeCode\": \"string\",\r
+
+    //       \"documentNumber\": \"string\",\r
+
+    //       \"avdNumber\": \"string\",\r
+
+    //       \"issueDate\": \"2026-02-12\",\r
+
+    //       \"expirationDate\": \"2026-02-12\",\r
+
+    //       \"issueCountryCode\": \"str\",\r
+
+    //       \"deliveryDate\": \"2026-02-12\",\r
+
+    //       \"validFrom\": \"2026-02-12\",\r
+
+    //       \"validTo\": \"2026-02-12\",\r
+
+    //       \"cancelationDate\": \"2026-02-12\",\r
+
+    //       \"cancelationReasonCode\": \"string\"\r
+
+    //     }\r
+
+    //   ],\r
+
+    //   \"educationRecords\": [\r
+
+    //     {\r
+
+    //       \"typeOfUpdate\": \"s\",\r
+
+    //       \"educationTypeCode\": \"string\",\r
+
+    //       \"educationRegisterLearnerId\": \"string\",\r
+
+    //       \"isSuccessfullyCompleted\": true,\r
+
+    //       \"validFrom\": \"2026-02-12\",\r
+
+    //       \"validTo\": \"2026-02-12\",\r
+
+    //       \"cancelationDate\": \"2026-02-12\",\r
+
+    //       \"cancelationReasonCode\": \"string\"\r
+
+    //     }\r
+
+    //   ]\r
+
+    // }"
+order: 2000

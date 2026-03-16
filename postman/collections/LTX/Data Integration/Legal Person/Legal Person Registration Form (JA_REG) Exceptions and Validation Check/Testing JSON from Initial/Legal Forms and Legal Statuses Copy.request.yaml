@@ -1,0 +1,59 @@
+$kind: http-request
+url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/legal-persons
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"requestId\": \"requestId_00007\",\r
+
+    \    \"mapId\": \"a1b2c3d4-e5f6-7890-1234-567890abcdef\",\r
+
+    \    \"isCreate\": false,\r
+
+    \    \"dateOfInformation\": \"2025-11-25\",\r
+
+    \    \"sourceOfInformationCode\": \"65\",\r
+
+    \        \"legalForms\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"C\",\r
+
+    \            \"legalFormTypeCode\": \"111\",\r
+
+    \            \"validFrom\": \"2025-03-01\"\r
+
+    \            //\"validTo\": \"2099-12-31\",\r
+
+    \            //\"cancelationDate\": \"2099-12-31\",\r
+
+    \            //\"cancelationReasonCode\": \"OTHER\"\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"legalStatuses\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"C\",\r
+
+    \            \"legalStatusCode\": \"1\",\r
+
+    \            \"validFrom\": \"2025-03-01\"\r
+
+    \            //\"validTo\": \"2099-12-31\",\r
+
+    \            //\"cancelationDate\": \"2099-12-31\",\r
+
+    \            //\"cancelationReasonCode\": \"OTHER\"\r
+
+    \        }\r
+
+    \    ]\r
+
+    }"
+order: 1000

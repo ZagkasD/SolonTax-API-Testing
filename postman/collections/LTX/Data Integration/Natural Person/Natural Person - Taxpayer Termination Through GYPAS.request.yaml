@@ -1,0 +1,23 @@
+$kind: http-request
+url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/natural-persons
+method: POST
+body:
+  type: json
+  content: |-
+    {
+        "requestId": "requestId_00002",
+        "mapId": "eeac9e05-3dec-4291-80ac-30399a5fc2f4",
+        "dateOfInformation": "2026-02-05",
+        "sourceOfInformationCode": "5002", //GYPAS
+        "isCreate": false,
+
+        "mmTypes": [
+            {
+            "typeOfUpdate": "K",
+            "mmTypeCode": "215",
+            "validFrom": "2026-02-19",
+            "validTo": "2026-03-02"
+            }
+        ]
+    }
+order: 9000

@@ -1,0 +1,23 @@
+$kind: http-request
+url: ""
+method: POST
+body:
+  type: json
+  content: "  \"addresses\": [\r
+
+    \    {\r
+
+    \      \"typeOfUpdate\": \"N\",\r
+
+    \      \"addressTypeCode\": \"5\",\r
+
+    \      \"addressObjectTypeCode\": \"A_KOM\",\r
+
+    \      \"addressId\": \"12580639\",\r
+
+    \      \"countryCode\": \"LT\",\r
+
+    \      \"validFrom\": \"2024-03-11\"\r
+
+    \    }"
+order: 3000

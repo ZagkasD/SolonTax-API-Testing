@@ -1,0 +1,34 @@
+$kind: http-request
+url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/natural-persons
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"requestId\": \"requestId_00002\",\r
+
+    \    \"mapId\": \"d8dc280b-6eac-4b81-9afd-1f1ee1f4b65f\",\r
+
+    \    \"dateOfInformation\": \"2026-01-01\",\r
+
+    \    \"sourceOfInformationCode\": \"10\", //GR\r
+
+    \    \"isCreate\": false,\r
+
+    \    \"basicPersonalData\": {\r
+
+    \        \"typeOfUpdate\": \"K\",\r
+
+    \        \"placeOfBirth\": \"LT\",\r
+
+    \        \"gender\": \"M\",\r
+
+    \        \"dateOfBirth\": \"2000-01-01\",\r
+
+    \        \"dateOfDeath\": \"2026-02-10\" //This is the only necessary
+    information for deregistration\r
+
+    \    }\r
+
+    }"
+order: 1000

@@ -1,0 +1,4 @@
+$kind: collection
+description: Initial JSON body in test description. Used and modified during the
+  test execution.
+order: 1000

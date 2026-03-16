@@ -1,0 +1,488 @@
+$kind: http-request
+url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/natural-persons
+method: POST
+body:
+  type: json
+  content: >-
+    {
+        "requestId": "requestId_00002",
+        "mapId": "0e629902-5d55-42c6-8f2b-ada8266cf860",
+        "dateOfInformation": "2026-01-01",
+        "sourceOfInformationCode": "10",
+        "isCreate": false,
+        "basicPersonalData": {
+            "typeOfUpdate": "K",
+            "gender": "M",
+            "placeOfBirth": "GR",
+            "dateOfBirth": "2013-07-26",
+            "dateOfDeath": "2026-02-02"
+            //"dateOfDeathCancelDate": "2025-01-27",
+            //"dateOfDeathAmendDate": "2025-01-26",
+            //"cancelationDate": "2024-01-26",
+            //"cancelationReasonCode": "1",
+            // "notes": ""
+        }
+        // "names": [
+        //     {
+        //         "typeOfUpdate": "K",
+        //         "firstName": "Dimos",
+        //         "lastName": "Zagkas",
+        //         "avdNumber": "63",
+        //         "validFrom": "2025-01-01",
+        //         //"cancelationDate": "2024-01-26",
+        //         //"cancelationReasonCode": "1",
+        //         "validTo": "2025-12-31"
+        //     },
+        //     {
+        //         "typeOfUpdate": "N",
+        //         "firstName": "Dimos 1",
+        //         "lastName": "Zagkas",
+        //         "avdNumber": "63",
+        //         "validFrom": "2026-01-01"
+        //         //"cancelationDate": "2024-01-26",
+        //         //"cancelationReasonCode": "1",
+        //         // "validTo": "2066-01-01"
+        //     }
+        // ],
+        // "contacts": [
+        //     {
+        //         "typeOfUpdate": "N",
+        //         "contactTypeCode": "6",
+        //         "contactValue": "dzagkas@netcompany.com",
+        //         "validFrom": "2026-01-01"
+        //         //"cancelationDate": "2024-01-26",
+        //         //"cancelationReasonCode": "1",
+        //         //"validTo": "2065-01-01"
+        //     }
+        //     // ,
+        //     // {
+        //     //     "typeOfUpdate": "N",
+        //     //     "contactTypeCode": "8",
+        //     //     "contactValue": "+37069876543",
+        //     //     "validFrom": "2023-01-01"
+        //     //     //"cancelationDate": "2024-01-26",
+        //     //     //"cancelationReasonCode": "1",
+        //     //     //"validTo": "2065-01-01"
+        //     // }
+        // ],
+        // "identifiers": [
+        //     {
+        //         "typeOfUpdate": "K",
+        //         "identifierTypeCode": "53",
+        //         "identifierValue": "207715645167232",
+        //         "countryCode": "GR",
+        //         "validFrom": "2023-09-22",
+        //         //"cancelationDate": "2024-01-26",
+        //         //"cancelationReasonCode": "1",
+        //         "validTo": "2025-12-31"
+        //     },
+        //     {
+        //         "typeOfUpdate": "N",
+        //         "identifierTypeCode": "53",
+        //         "identifierValue": "697715645167232",
+        //         "countryCode": "GR",
+        //         "validFrom": "2026-01-01"
+        //         //"cancelationDate": "2024-01-26",
+        //         //"cancelationReasonCode": "1",
+        //         //"validTo": "2065-01-01"
+        //     }
+        // ],
+        // "mmTypes": [
+        //     {
+        //         "typeOfUpdate": "K",
+        //         "mmTypeCode": "215",
+        //         "validFrom": "2026-02-01",
+        //         "validTo": "2026-02-02"
+        //         // "cancelationDate": "2026-02-12",
+        //         // "cancelationReasonCode": "string"
+        //     },
+        //     {
+        //         "typeOfUpdate": "N",
+        //         "mmTypeCode": "215",
+        //         "validFrom": "2026-02-03"
+        //         // "validTo": "2026-02-02"
+        //         // "cancelationDate": "2026-02-12",
+        //         // "cancelationReasonCode": "string"
+        //     }
+        // ],
+        // "groups": [
+        //     {
+        //         "typeOfUpdate": "K",
+        //         "groupTypeCode": "1",
+        //         // "orgUnitPartyId": "stringstringstringstringstringstring",
+        //         "validFrom": "2026-02-01",
+        //         "validTo": "2026-02-02"
+        //         // "firstYear": "2026-02-12",
+        //         // "firstTaxPeriod": "2026-02-12",
+        //         // "taxPeriodCode": "string",
+        //         // "restartDate": "2026-02-12"
+        //         // "decisionDate": "2026-02-12",
+        //         // "decisionNumber": "string",
+        //         // "cancelationDate": "2026-02-12",
+        //         // "cancelationReasonCode": "string",
+        //         // "cancelationComments": "string",
+        //         // "notes": "string"
+        //     },
+        //     {
+        //         "typeOfUpdate": "N",
+        //         "groupTypeCode": "1",
+        //         // "orgUnitPartyId": "stringstringstringstringstringstring",
+        //         "validFrom": "2026-02-03"
+        //         // "validTo": "2026-02-02"
+        //         // "firstYear": "2026-02-12",
+        //         // "firstTaxPeriod": "2026-02-12",
+        //         // "taxPeriodCode": "string",
+        //         // "restartDate": "2026-02-12"
+        //         // "decisionDate": "2026-02-12",
+        //         // "decisionNumber": "string",
+        //         // "cancelationDate": "2026-02-12",
+        //         // "cancelationReasonCode": "string",
+        //         // "cancelationComments": "string",
+        //         // "notes": "string"
+        //     }
+        // ],
+        // "addresses": [
+        //     {
+        //         "typeOfUpdate": "K",
+        //         "addressTypeCode": "5",
+        //         "address": "test address",
+        //         // "addressObjectType": "RM",
+        //         "countryCode": "GR",
+        //         // "addressId": "54365345"
+        //         "validFrom": "2020-01-01",
+        //         "validTo": "2026-01-01"
+        //     },
+        //     {
+        //         "typeOfUpdate": "N",
+        //         "addressTypeCode": "5",
+        //         "address": "test address 2",
+        //         // "addressObjectType": "RM",
+        //         "countryCode": "GR",
+        //         // "addressId": "54365345"
+        //         "validFrom": "2026-01-02"
+        //     }
+        // ]
+        // "relationships": [
+        //     {
+        //         "typeOfUpdate": "K",
+        //         "relationshipTypeCode": "Mother",
+        //         "relatedPartyMapId": "6e7e902c-057a-4c37-8669-ad9778945bbd",
+        //         "maritalStatusCode": "string",
+        //         "maritalStatusDate": "2026-02-01",
+        //         "validFrom": "2016-02-01",
+        //         "validTo": "2026-02-02"
+        //     },
+        //     {
+        //         "typeOfUpdate": "N",
+        //         "relationshipTypeCode": "Mother",
+        //         "relatedPartyMapId": "6e7e902c-057a-4c37-8669-ad9778945bbd",
+        //         "maritalStatusCode": "string",
+        //         "maritalStatusDate": "2026-02-03",
+        //         "validFrom": "2016-02-03"
+        //     }
+        // ]
+        //     "citizenships": [
+        //         {
+        //             "typeOfUpdate": "N",
+        //             "citizenshipCode": "LT",
+        //             "validFrom": "2023-01-11"
+        //             //"cancelationDate": "2024-01-26",
+        //             //"cancelationReasonCode": "1",
+        //             //"validTo": "2065-01-01"
+        //         }
+        //     ],
+        //     "documents": [
+        //         {
+        //             "typeOfUpdate": "N",
+        //             "documentTypeCode": "1",
+        //             "documentNumber": "string",
+        //             "avdNumber": "string",
+        //             "issueDate": "2026-02-12",
+        //             "expirationDate": "2026-02-12",
+        //             "issueCountryCode": "LT",
+        //             "deliveryDate": "2026-02-12",
+        //             "validFrom": "2026-02-12"
+        //             // "validTo": "2026-02-12",
+        //             // "cancelationDate": "2026-02-12",
+        //             // "cancelationReasonCode": "string"
+        //         }
+        //     ],
+        //     "bankAccounts": [
+        //         {
+        //             "typeOfUpdate": "N",
+        //             // "bankCodeNumber": "string",
+        //             // "bankName": "string",
+        //             // "SWIFT": "string",
+        //             // "accountNumber": "string",
+        //             // "accountTypeCode": "string",
+        //             // "accountPurpose": "string",
+        //             "countryCode": "string",
+        //             "currencyCode": "string"
+        //             // "safeBox": "string",
+        //             // "holderName": "string",
+        //             // "priority": "string",
+        //             // "openingDate": "2026-02-12",
+        //             // "openingYear": "stri",
+        //             // "closingDate": "2026-02-12",
+        //             // "closingYear": "stri",
+        //             // "cancelationDate": "2026-02-12",
+        //             // "cancelationReasonCode": "string",
+        //             // "relationships": [
+        //             //     {
+        //             //         "typeOfUpdate": "N",
+        //             //         "relationshipTypeCode": "string",
+        //             //         "identificationNumber": "string",
+        //             //         "fullName": "string",
+        //             //         "validFrom": "2026-02-12",
+        //             //         "validTo": "2026-02-12",
+        //             //         "cancelationDate": "2026-02-12",
+        //             //         "cancelationReasonCode": "string"
+        //             //     }
+        //             // ]
+        //         }
+        //     ]
+        // }
+        // {
+        //   "requestId": "string",
+        //   "mapId": "stringstringstringstringstringstring",
+        //   "dateOfInformation": "2026-02-12",
+        //   "sourceOfInformationCode": "string",
+        //   "basicPersonalData": {
+        //     "typeOfUpdate": "s",
+        //     "gender": "string",
+        //     "placeOfBirth": "string",
+        //     "dateOfBirth": "2026-02-12",
+        //     "dateOfDeath": "2026-02-12",
+        //     "dateOfDeathCancelDate": "2026-02-12",
+        //     "dateOfDeathAmendDate": "2026-02-12",
+        //     "cancelationDate": "2026-02-12",
+        //     "cancelationReasonCode": "string",
+        //     "notes": "string"
+        //   },
+        //   "names": [
+        //     {
+        //       "typeOfUpdate": "s",
+        //       "firstName": "string",
+        //       "lastName": "string",
+        //       "avdNumber": "string",
+        //       "validFrom": "2026-02-12",
+        //       "validTo": "2026-02-12",
+        //       "cancelationDate": "2026-02-12",
+        //       "cancelationReasonCode": "string"
+        //     }
+        //   ],
+        //   "relationships": [
+        //     {
+        //       "typeOfUpdate": "s",
+        //       "relationshipTypeCode": "string",
+        //       "relatedPartyMapId": "stringstringstringstringstringstring",
+        //       "maritalStatusCode": "string",
+        //       "maritalStatusDate": "2026-02-12",
+        //       "validFrom": "2026-02-12",
+        //       "validTo": "2026-02-12",
+        //       "cancelationDate": "2026-02-12",
+        //       "cancelationReasonCode": "string"
+        //     }
+        //   ],
+        //   "addresses": [
+        //     {
+        //       "typeOfUpdate": "s",
+        //       "addreαssTypeCode": "string",
+        //       "addressObjectTypeCode": "string",
+        //       "addressId": "string",
+        //       "address": "string",
+        //       "countryCode": "string",
+        //       "validFrom": "2026-02-12",
+        //       "validTo": "2026-02-12",
+        //       "cancelationDate": "2026-02-12",
+        //       "cancelationReasonCode": "string"
+        //     }
+        //   ],
+        //   "contacts": [
+        //     {
+        //       "typeOfUpdate": "s",
+        //       "contactTypeCode": "string",
+        //       "contactValue": "string",
+        //       "validFrom": "2026-02-12",
+        //       "validTo": "2026-02-12",
+        //       "cancelationDate": "2026-02-12",
+        //       "cancelationReasonCode": "string"
+        //     }
+        //   ],
+        //   "identifiers": [
+        //     {
+        //       "typeOfUpdate": "s",
+        //       "identifierTypeCode": "string",
+        //       "identifierValue": "string",
+        //       "countryCode": "string",
+        //       "validFrom": "2026-02-12",
+        //       "validTo": "2026-02-12",
+        //       "cancelationDate": "2026-02-12",
+        //       "cancelationReasonCode": "string"
+        //     }
+        //   ],
+        //   "citizenships": [
+        //     {
+        //       "typeOfUpdate": "s",
+        //       "citizenshipCode": "string",
+        //       "validFrom": "2026-02-12",
+        //       "validTo": "2026-02-12",
+        //       "cancelationDate": "2026-02-12",
+        //       "cancelationReasonCode": "string"
+        //     }
+        //   ],
+        //   "licenses": [
+        //     {
+        //       "typeOfUpdate": "s",
+        //       "licenseTypeCode": "string",
+        //       "licenseNumber": "string",
+        //       "issueDate": "2026-02-12",
+        //       "issuerMapId": "string",
+        //       "documentTypeCode": "string",
+        //       "statusCode": "string",
+        //       "licenseDateFrom": "2026-02-12",
+        //       "licenseDateTo": "2026-02-12",
+        //       "validFrom": "2026-02-12",
+        //       "validTo": "2026-02-12",
+        //       "cancelationDate": "2026-02-12",
+        //       "cancelationReasonCode": "string",
+        //       "activities": [
+        //         {
+        //           "typeOfUpdate": "s",
+        //           "activityTypeCode": "string",
+        //           "addressObjectTypeCode": "string",
+        //           "addressId": "string",
+        //           "validFrom": "2026-02-12",
+        //           "validTo": "2026-02-12",
+        //           "cancelationDate": "2026-02-12",
+        //           "cancelationReasonCode": "string"
+        //         }
+        //       ]
+        //     }
+        //   ],
+        //   "cashRegisters": [
+        //     {
+        //       "typeOfUpdate": "s",
+        //       "VMI_RegistrationNumber": "string",
+        //       "EKA_UniqueNumber": "string",
+        //       "EKA_Number": "string",
+        //       "EKA_NR_UniqueNumber": "string",
+        //       "cashRegisterName": "string",
+        //       "cashRegisterTypeCode": "string",
+        //       "statusCode": "string",
+        //       "statusDate": "2026-02-12",
+        //       "addressObjectTypeCode": "string",
+        //       "addressId": "string",
+        //       "validFrom": "2026-02-12",
+        //       "validTo": "2026-02-12",
+        //       "cancelationDate": "2026-02-12",
+        //       "cancelationReasonCode": "string"
+        //     }
+        //   ],
+        //   "representatives": [
+        //     {
+        //       "typeOfUpdate": "s",
+        //       "representativePartyMapId": "stringstringstringstringstringstring",
+        //       "representativeTypeCode": "string",
+        //       "validFrom": "2026-02-12",
+        //       "validTo": "2026-02-12",
+        //       "assignmentDateFrom": "2026-02-12",
+        //       "assignmentDateTo": "2026-02-12",
+        //       "cancelationDate": "2026-02-12",
+        //       "cancelationReasonCode": "string",
+        //       "notes": "string"
+        //     }
+        //   ],
+        //   "bankAccounts": [
+        //     {
+        //       "typeOfUpdate": "s",
+        //       "bankCodeNumber": "string",
+        //       "bankName": "string",
+        //       "SWIFT": "string",
+        //       "accountNumber": "string",
+        //       "accountTypeCode": "string",
+        //       "accountPurpose": "string",
+        //       "countryCode": "string",
+        //       "currencyCode": "string",
+        //       "safeBox": "string",
+        //       "holderName": "string",
+        //       "priority": "string",
+        //       "openingDate": "2026-02-12",
+        //       "openingYear": "stri",
+        //       "closingDate": "2026-02-12",
+        //       "closingYear": "stri",
+        //       "cancelationDate": "2026-02-12",
+        //       "cancelationReasonCode": "string",
+        //       "relationships": [
+        //         {
+        //           "typeOfUpdate": "s",
+        //           "relationshipTypeCode": "string",
+        //           "identificationNumber": "string",
+        //           "fullName": "string",
+        //           "validFrom": "2026-02-12",
+        //           "validTo": "2026-02-12",
+        //           "cancelationDate": "2026-02-12",
+        //           "cancelationReasonCode": "string"
+        //         }
+        //       ]
+        //     }
+        //   ],
+        //   "groups": [
+        //     {
+        //       "typeOfUpdate": "s",
+        //       "groupTypeCode": "string",
+        //       "orgUnitPartyId": "stringstringstringstringstringstring",
+        //       "validFrom": "2026-02-12",
+        //       "validTo": "2026-02-12",
+        //       "firstYear": "2026-02-12",
+        //       "firstTaxPeriod": "2026-02-12",
+        //       "taxPeriodCode": "string",
+        //       "restartDate": "2026-02-12",
+        //       "decisionDate": "2026-02-12",
+        //       "decisionNumber": "string",
+        //       "cancelationDate": "2026-02-12",
+        //       "cancelationReasonCode": "string",
+        //       "cancelationComments": "string",
+        //       "notes": "string"
+        //     }
+        //   ],
+        //   "mmTypes": [
+        //     {
+        //       "typeOfUpdate": "s",
+        //       "mmTypeCode": "string",
+        //       "validFrom": "2026-02-12",
+        //       "validTo": "2026-02-12",
+        //       "cancelationDate": "2026-02-12",
+        //       "cancelationReasonCode": "string"
+        //     }
+        //   ],
+        //   "documents": [
+        //     {
+        //       "typeOfUpdate": "s",
+        //       "documentTypeCode": "string",
+        //       "documentNumber": "string",
+        //       "avdNumber": "string",
+        //       "issueDate": "2026-02-12",
+        //       "expirationDate": "2026-02-12",
+        //       "issueCountryCode": "str",
+        //       "deliveryDate": "2026-02-12",
+        //       "validFrom": "2026-02-12",
+        //       "validTo": "2026-02-12",
+        //       "cancelationDate": "2026-02-12",
+        //       "cancelationReasonCode": "string"
+        //     }
+        //   ],
+        //   "educationRecords": [
+        //     {
+        //       "typeOfUpdate": "s",
+        //       "educationTypeCode": "string",
+        //       "educationRegisterLearnerId": "string",
+        //       "isSuccessfullyCompleted": true,
+        //       "validFrom": "2026-02-12",
+        //       "validTo": "2026-02-12",
+        //       "cancelationDate": "2026-02-12",
+        //       "cancelationReasonCode": "string"
+        //     }
+        //   ]
+    }
+order: 1000

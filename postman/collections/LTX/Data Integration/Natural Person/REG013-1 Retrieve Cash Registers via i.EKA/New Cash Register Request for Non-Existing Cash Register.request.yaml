@@ -1,0 +1,45 @@
+$kind: http-request
+url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/natural-persons
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"requestId\": \"requestId_00002\",\r
+
+    \    \"dateOfInformation\": \"2026-01-01\",\r
+
+    \    \"mapId\": \"986937ce-5689-403c-84f5-428a3333d601\",\r
+
+    \    \"sourceOfInformationCode\": \"200\", //IMAS iEKA\r
+
+    \    \"isCreate\": false,\r
+
+    \    \"cashRegisters\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"VMI_RegistrationNumber\":\"123453653423\",\r
+
+    \            \"EKA_Number\":\"5043893\",\r
+
+    \            \"cashRegisterName\":\"MyCashRegister\", \r
+
+    \            \"cashRegisterTypeCode\":\"50\",\r
+
+    \            \"statusCode\": \"15\",\r
+
+    \            \"statusDate\":\"2026-01-01\",\r
+
+    \            \"validFrom\": \"2026-01-01\",\r
+
+    \            \"addressId\": \"addressId_00002\"\r
+
+    \        }\r
+
+    \    ]\r
+
+    }"
+order: 1000

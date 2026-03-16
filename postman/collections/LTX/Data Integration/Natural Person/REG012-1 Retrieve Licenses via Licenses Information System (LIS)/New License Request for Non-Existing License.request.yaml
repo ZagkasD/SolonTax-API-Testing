@@ -1,0 +1,46 @@
+$kind: http-request
+url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/natural-persons
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"requestId\": \"requestId_00002\",\r
+
+    \    \"dateOfInformation\": \"2026-01-01\",\r
+
+    \    \"mapId\": \"986937ce-5689-403c-84f5-428a3333d601\",\r
+
+    \    \"sourceOfInformationCode\": \"116\", //Licencijų informacinės sistema
+    (LIS)\r
+
+    \    \"isCreate\": false,\r
+
+    \    \"licenses\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"licenseTypeCode\": \"1175\",\r
+
+    \            \"licenseNumber\": \"9087403129837\",\r
+
+    \            \"issueDate\": \"2026-01-01\",\r
+
+    \            \"issuerMapId\": \"986937ce-5689-403c-84f5-428a3333d601\",\r
+
+    \            \"documentTypeCode\": \"24\",\r
+
+    \            \"statusCode\": \"ISD\",\r
+
+    \            \"licenseDateFrom\": \"2026-01-01\",\r
+
+    \            \"validFrom\": \"2026-01-01\"\r
+
+    \        }\r
+
+    \    ]\r
+
+    }"
+order: 1000

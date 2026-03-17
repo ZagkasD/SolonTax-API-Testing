@@ -1,4 +1,5 @@
 $kind: http-request
+name: Update Foreign Name, Surname, Contact Information, Identification codes Copy
 url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/natural-persons
 method: POST
 body:
@@ -7,25 +8,13 @@ body:
 
     \    \"requestId\": \"requestId_00002\",\r
 
-    \    \"mapId\": \"4379ea21-f7d3-4dd8-890f-107947d020ed\",\r
+    \    \"mapId\": \"986937ce-5689-403c-84f5-428a3333d601\",\r
 
     \    \"dateOfInformation\": \"2026-01-01\",\r
 
-    \    \"sourceOfInformationCode\": \"10\", //GR\r
+    \    \"sourceOfInformationCode\": \"6012\", //SODRA-VSDFV\r
 
     \    \"isCreate\": false,\r
-
-    \    \"basicPersonalData\": {\r
-
-    \        \"typeOfUpdate\": \"N\",\r
-
-    \        \"placeOfBirth\": \"LT\",\r
-
-    \        \"gender\": \"M\",\r
-
-    \        \"dateOfBirth\": \"2000-01-01\"\r
-
-    \    },\r
 
     \    \"names\": [\r
 
@@ -33,7 +22,7 @@ body:
 
     \            \"typeOfUpdate\": \"K\",\r
 
-    \            \"firstName\": \"Dimos Nine GR\",\r
+    \            \"firstName\": \"Dimos SODRA_06\",\r
 
     \            \"lastName\": \"Zagkas\",\r
 
@@ -49,11 +38,41 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"firstName\": \"Dimos Nine GR\",\r
+    \            \"firstName\": \"Dimos SODRA_06_Updated\",\r
 
-    \            \"lastName\": \"Zagkas1\",\r
+    \            \"lastName\": \"Zagkas\",\r
 
     \            \"avdNumber\": \"63\",\r
+
+    \            \"validFrom\": \"2026-01-03\"\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"contacts\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"K\",\r
+
+    \            \"contactTypeCode\": \"6\",\r
+
+    \            \"contactValue\": \"dzagkas@netcompany.com\",\r
+
+    \            \"validFrom\": \"2026-01-01\",\r
+
+    \            \"validTo\": \"2026-01-02\"\r
+
+    \        },\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"contactTypeCode\": \"6\",\r
+
+    \            \"contactValue\": \"dzagkas@netcompany.com\",\r
 
     \            \"validFrom\": \"2026-01-03\"\r
 
@@ -67,9 +86,9 @@ body:
 
     \            \"typeOfUpdate\": \"K\",\r
 
-    \            \"identifierTypeCode\": \"2\", //Personal Code\r
+    \            \"identifierTypeCode\": \"9\", //Policyholder\r
 
-    \            \"identifierValue\": \"207715435167542\",\r
+    \            \"identifierValue\": \"207009875662\",\r
 
     \            \"countryCode\": \"LT\",\r
 
@@ -83,45 +102,11 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"identifierTypeCode\": \"2\", //Personal Code\r
+    \            \"identifierTypeCode\": \"9\", //Policyholder\r
 
-    \            \"identifierValue\": \"107715435167542\",\r
+    \            \"identifierValue\": \"107009875662\",\r
 
     \            \"countryCode\": \"LT\",\r
-
-    \            \"validFrom\": \"2026-01-03\"\r
-
-    \        }\r
-
-    \    ],\r
-
-    \    \"addresses\": [\r
-
-    \        {\r
-
-    \            \"typeOfUpdate\": \"K\",\r
-
-    \            \"addressTypeCode\": \"5\",\r
-
-    \            \"address\": \"test address\",\r
-
-    \            \"countryCode\": \"GR\",\r
-
-    \            \"validFrom\": \"2026-01-01\",\r
-
-    \            \"validTo\": \"2026-01-02\"\r
-
-    \        },\r
-
-    \        {\r
-
-    \            \"typeOfUpdate\": \"N\",\r
-
-    \            \"addressTypeCode\": \"5\",\r
-
-    \            \"address\": \"test address\",\r
-
-    \            \"countryCode\": \"GR\",\r
 
     \            \"validFrom\": \"2026-01-03\"\r
 
@@ -130,4 +115,4 @@ body:
     \    ]\r
 
     }"
-order: 4000
+order: 6000

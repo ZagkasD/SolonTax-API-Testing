@@ -1,6 +1,6 @@
 $kind: http-request
 name: FĮ (TIES) Addresses
-url: https://solon-lith-test.centraldg6.athens.intrasoft-intl.private/data-integration/natural-persons
+url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/natural-persons
 method: POST
 body:
   type: json
@@ -33,7 +33,7 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"firstName\": \"Dimos TIES_02\",\r
+    \            \"firstName\": \"Dimos TIES_03\",\r
 
     \            \"lastName\": \"Zagkas\",\r
 

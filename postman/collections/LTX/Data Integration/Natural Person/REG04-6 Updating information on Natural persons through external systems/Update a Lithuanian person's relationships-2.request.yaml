@@ -1,5 +1,5 @@
 $kind: http-request
-name: Update a Lithuanian person's relationships.
+name: Update a Lithuanian person's relationships
 url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/natural-persons
 method: POST
 body:
@@ -50,4 +50,4 @@ body:
     \    ]\r
 
     }"
-order: 7000
+order: 7704

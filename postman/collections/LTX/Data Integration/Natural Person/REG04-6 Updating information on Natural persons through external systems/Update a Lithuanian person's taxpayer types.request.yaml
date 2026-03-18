@@ -1,0 +1,46 @@
+$kind: http-request
+name: Update a Lithuanian person's taxpayer types
+url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/natural-persons
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"requestId\": \"requestId_00002\",\r
+
+    \    \"mapId\": \"ddef951e-8245-4f0e-b1e0-942436dc2fd3\",\r
+
+    \    \"dateOfInformation\": \"2026-01-01\",\r
+
+    \    \"sourceOfInformationCode\": \"6012\", //SODRA-VSDFV\r
+
+    \    \"isCreate\": false,\r
+
+    \    \"mmTypes\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"K\",\r
+
+    \            \"mmTypeCode\": \"216\",\r
+
+    \            \"validFrom\": \"2026-01-01\",\r
+
+    \            \"validTo\": \"2026-01-02\"\r
+
+    \        },\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"mmTypeCode\": \"216\",\r
+
+    \            \"validFrom\": \"2026-01-03\"\r
+
+    \        }\r
+
+    \    ]\r
+
+    }"
+order: 1000

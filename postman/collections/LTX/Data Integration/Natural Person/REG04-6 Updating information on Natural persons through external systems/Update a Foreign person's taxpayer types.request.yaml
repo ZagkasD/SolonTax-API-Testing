@@ -1,5 +1,5 @@
 $kind: http-request
-name: Update a Lithuanian person's taxpayer types.
+name: Update a Foreign person's taxpayer types
 url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/natural-persons
 method: POST
 body:
@@ -8,7 +8,7 @@ body:
 
     \    \"requestId\": \"requestId_00002\",\r
 
-    \    \"mapId\": \"ddef951e-8245-4f0e-b1e0-942436dc2fd3\",\r
+    \    \"mapId\": \"9077eef9-dc11-4ba8-833c-41925532f8e4\",\r
 
     \    \"dateOfInformation\": \"2026-01-01\",\r
 
@@ -43,4 +43,4 @@ body:
     \    ]\r
 
     }"
-order: 1000
+order: 2000

@@ -1,5 +1,5 @@
 $kind: http-request
-name: Update a foreign person's relationships.
+name: Update a foreign person's taxpayer groups
 url: https://solon-lith-test.centraldg6.athens.intrasoft-intl.private/data-integration/natural-persons
 method: POST
 body:
@@ -57,4 +57,4 @@ body:
     \    ]\r
 
     }"
-order: 8000
+order: 9000

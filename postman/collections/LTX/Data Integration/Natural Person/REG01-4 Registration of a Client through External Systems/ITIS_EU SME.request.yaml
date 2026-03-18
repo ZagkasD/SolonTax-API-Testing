@@ -99,9 +99,7 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"orgUnitPartyId\": \"3dd075ff-e291-4975-a511-000010000000\",\r
-
-    \            \"groupTypeCode\": \"1\", // New taxpayer\r
+    \            \"groupTypeCode\": \"12\", // Value added tax payer\r
 
     \            \"validFrom\": \"2026-01-01\"\r
 

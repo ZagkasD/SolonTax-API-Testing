@@ -8,10 +8,9 @@ body:
 
     \    \"requestId\": \"requestId_00002\",\r
 
-    \    \"mapId\": \"46d1ea48-ed34-4e2a-a7c2-ee4baa56ebad\", //Dimos Twelve
-    GR\r
-
     \    \"dateOfInformation\": \"2026-01-01\",\r
+
+    \    \"mapID\":\"\",\r
 
     \    \"sourceOfInformationCode\": \"6004\", //ITIS_EU IS (Information
     Systems)\r
@@ -24,9 +23,7 @@ body:
 
     \            \"typeOfUpdate\": \"K\",\r
 
-    \            \"orgUnitPartyId\": \"3dd075ff-e291-4975-a511-000010000000\",\r
-
-    \            \"groupTypeCode\": \"1\", // New taxpayer\r
+    \            \"groupTypeCode\": \"12\", // Value added tax payer\r
 
     \            \"validFrom\": \"2026-01-01\",\r
 
@@ -34,15 +31,14 @@ body:
 
     \        },\r
 
-    \        {\r
+    \            {\r
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"orgUnitPartyId\": \"3dd075ff-e291-4975-a511-000010000000\",\r
+    \            \"groupTypeCode\": \"15\", // A different VAT calculation
+    method is applied\r
 
-    \            \"groupTypeCode\": \"1\", // New taxpayer\r
-
-    \            \"validFrom\": \"2026-01-03\"\r
+    \            \"validFrom\": \"2026-01-01\"\r
 
     \        }\r
 

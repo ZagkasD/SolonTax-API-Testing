@@ -1,5 +1,6 @@
 $kind: http-request
-url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/natural-persons
+name: FĮ (TIES)
+url: https://solon-lith-test.centraldg6.athens.intrasoft-intl.private/data-integration/natural-persons
 method: POST
 body:
   type: json
@@ -18,9 +19,9 @@ body:
 
     \        \"typeOfUpdate\": \"N\",\r
 
-    \        \"placeOfBirth\": \"GR\",\r
+    \        \"placeOfBirth\": \"LT\",\r
 
-    \        \"gender\": \"V\",\r
+    \        \"gender\": \"M\",\r
 
     \        \"dateOfBirth\": \"2000-01-01\"\r
 
@@ -32,7 +33,7 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"firstName\": \"Dimos TIES_Foreign\",\r
+    \            \"firstName\": \"Dimos TIES_02\",\r
 
     \            \"lastName\": \"Zagkas\",\r
 
@@ -68,9 +69,9 @@ body:
 
     \            \"identifierTypeCode\": \"5\",\r
 
-    \            \"identifierValue\": \"207716987165232\",\r
+    \            \"identifierValue\": \"2077190245165232\",\r
 
-    \            \"countryCode\": \"GR\",\r
+    \            \"countryCode\": \"LT\",\r
 
     \            \"validFrom\": \"2026-01-01\"\r
 
@@ -84,7 +85,7 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"citizenshipCode\": \"GR\",\r
+    \            \"citizenshipCode\": \"LT\",\r
 
     \            \"validFrom\": \"2026-01-01\"\r
 
@@ -92,17 +93,15 @@ body:
 
     \    ],\r
 
-    \    \"addresses\": [\r
+    \    \"groups\": [\r
 
     \        {\r
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"addressTypeCode\": \"5\",\r
+    \            \"orgUnitPartyId\": \"3dd075ff-e291-4975-a511-000010000000\",\r
 
-    \            \"address\": \"test address\",\r
-
-    \            \"countryCode\": \"GR\",\r
+    \            \"groupTypeCode\": \"1\", // New taxpayer\r
 
     \            \"validFrom\": \"2026-01-01\"\r
 
@@ -111,4 +110,4 @@ body:
     \    ]\r
 
     }"
-order: 13000
+order: 10000

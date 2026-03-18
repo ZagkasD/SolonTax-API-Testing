@@ -24,9 +24,9 @@ body:
 
     \            \"mmTypeCode\": \"216\",\r
 
-    \            \"validFrom\": \"2026-01-01\",\r
+    \            \"validFrom\": \"2026-01-03\",\r
 
-    \            \"validTo\": \"2026-01-02\"\r
+    \            \"validTo\": \"2026-01-04\"\r
 
     \        },\r
 
@@ -36,7 +36,7 @@ body:
 
     \            \"mmTypeCode\": \"216\",\r
 
-    \            \"validFrom\": \"2026-01-03\"\r
+    \            \"validFrom\": \"2026-01-05\"\r
 
     \        }\r
 

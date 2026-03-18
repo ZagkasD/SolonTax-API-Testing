@@ -1,5 +1,5 @@
 $kind: http-request
-name: Update a Foreign person's taxpayer types.
+name: Update a Lithuanian person's taxpayer groups
 url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/natural-persons
 method: POST
 body:
@@ -8,21 +8,25 @@ body:
 
     \    \"requestId\": \"requestId_00002\",\r
 
-    \    \"mapId\": \"9077eef9-dc11-4ba8-833c-41925532f8e4\",\r
+    \    \"mapId\": \"46d1ea48-ed34-4e2a-a7c2-ee4baa56ebad\", //Dimos Twelve
+    GR\r
 
     \    \"dateOfInformation\": \"2026-01-01\",\r
 
-    \    \"sourceOfInformationCode\": \"6012\", //SODRA-VSDFV\r
+    \    \"sourceOfInformationCode\": \"6004\", //ITIS_EU IS (Information
+    Systems)\r
 
     \    \"isCreate\": false,\r
 
-    \    \"mmTypes\": [\r
+    \    \"groups\": [\r
 
     \        {\r
 
     \            \"typeOfUpdate\": \"K\",\r
 
-    \            \"mmTypeCode\": \"216\",\r
+    \            \"orgUnitPartyId\": \"3dd075ff-e291-4975-a511-000010000000\",\r
+
+    \            \"groupTypeCode\": \"1\", // New taxpayer\r
 
     \            \"validFrom\": \"2026-01-01\",\r
 
@@ -34,7 +38,9 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"mmTypeCode\": \"216\",\r
+    \            \"orgUnitPartyId\": \"3dd075ff-e291-4975-a511-000010000000\",\r
+
+    \            \"groupTypeCode\": \"1\", // New taxpayer\r
 
     \            \"validFrom\": \"2026-01-03\"\r
 
@@ -43,4 +49,4 @@ body:
     \    ]\r
 
     }"
-order: 2000
+order: 8000

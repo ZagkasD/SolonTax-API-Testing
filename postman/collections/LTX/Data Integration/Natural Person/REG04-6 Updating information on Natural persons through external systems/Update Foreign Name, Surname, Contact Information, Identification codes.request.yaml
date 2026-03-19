@@ -6,7 +6,7 @@ body:
   type: json
   content: "{\r
 
-    \    \"requestId\": \"requestId_00002\",\r
+    \    \"requestId\": \"requestId_Zagkas\",\r
 
     \    \"mapId\": \"08481c16-5a30-4aee-b96b-752ad1d018e4\",\r
 
@@ -72,7 +72,7 @@ body:
 
     \            \"contactTypeCode\": \"6\",\r
 
-    \            \"contactValue\": \"dzagkas@netcompany.com_Updated\",\r
+    \            \"contactValue\": \"dzagkas@netcompanyUpdated.com\",\r
 
     \            \"validFrom\": \"2026-01-03\"\r
 

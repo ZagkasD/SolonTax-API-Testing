@@ -1,0 +1,36 @@
+$kind: http-request
+name: Termination of MM Type through GYPAS
+url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/natural-persons
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"requestId\": \"requestId_Zagkas\",\r
+
+    \    \"mapId\": \"b5b2d953-5eb6-442c-b703-dec0e3fa789c\", \r
+
+    \    \"dateOfInformation\": \"2026-01-01\",\r
+
+    \    \"sourceOfInformationCode\": \"5002\", //GYPAS\r
+
+    \    \"isCreate\": false,\r
+
+    \    \"mmTypes\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"K\",\r
+
+    \            \"mmTypeCode\": \"216\",\r
+
+    \            \"validFrom\": \"2026-03-19\",\r
+
+    \            \"validTo\": \"2026-03-20\"\r
+
+    \        }\r
+
+    \    ]\r
+
+    }"
+order: 1773929438913

@@ -12,21 +12,9 @@ body:
 
     \    \"dateOfInformation\": \"2026-01-01\",\r
 
-    \    \"sourceOfInformationCode\": \"10\", //GR\r
+    \    \"sourceOfInformationCode\": \"6012\", //SODRA-VSDFV\r
 
     \    \"isCreate\": false,\r
-
-    \    \"basicPersonalData\": {\r
-
-    \        \"typeOfUpdate\": \"N\",\r
-
-    \        \"placeOfBirth\": \"LT\",\r
-
-    \        \"gender\": \"M\",\r
-
-    \        \"dateOfBirth\": \"2000-01-01\"\r
-
-    \    },\r
 
     \    \"names\": [\r
 
@@ -34,7 +22,7 @@ body:
 
     \            \"typeOfUpdate\": \"K\",\r
 
-    \            \"firstName\": \"Dimos One GR\",\r
+    \            \"firstName\": \"Dimos SODRA_2_Foreign\",\r
 
     \            \"lastName\": \"Zagkas\",\r
 
@@ -50,9 +38,9 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"firstName\": \"Dimos One GR\",\r
+    \            \"firstName\": \"Dimos SODRA_2_Foreign\",\r
 
-    \            \"lastName\": \"Zagkas1\",\r
+    \            \"lastName\": \"Zagkas_Updated\",\r
 
     \            \"avdNumber\": \"63\",\r
 
@@ -62,64 +50,21 @@ body:
 
     \    ],\r
 
-    \    \"identifiers\": [\r
-
-    \        {\r
-
-    \            \"typeOfUpdate\": \"N\",\r
-
-    \            \"identifierTypeCode\": \"2\", //Personal Code\r
-
-    \            \"identifierValue\": \"107715545167542\",\r
-
-    \            \"countryCode\": \"LT\",\r
-
-    \            \"validFrom\": \"2026-01-01\"\r
-
-    \        }\r
-
-    \    ],\r
-
-    \    \"addresses\": [\r
-
-    \        {\r
-
-    \            \"typeOfUpdate\": \"N\",\r
-
-    \            \"addressTypeCode\": \"5\",\r
-
-    \            \"address\": \"test address updated\",\r
-
-    \            \"countryCode\": \"GR\",\r
-
-    \            \"validFrom\": \"2026-01-01\"\r
-
-    \        }\r
-
-    \    ],\r
-
-    \    \"relationships\": [\r
-
-    \        {\r
-
-    \            \"typeOfUpdate\": \"N\",\r
-
-    \            \"relationshipTypeCode\": \"I_100\", //Marriage\r
-
-    \            \"relatedPartyMapId\":
-    \"d5b2c657-07a5-4390-8814-e5db2585419f\",\r
-
-    \            \"maritalStatusCode\": \"I\",\r
-
-    \            \"maritalStatusDate\": \"2026-01-01\",\r
-
-    \            \"validFrom\": \"2026-01-01\"\r
-
-    \        }\r
-
-    \    ],\r
-
     \    \"contacts\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"K\",\r
+
+    \            \"contactTypeCode\": \"6\",\r
+
+    \            \"contactValue\": \"dzagkas@netcompany.com\",\r
+
+    \            \"validFrom\": \"2026-01-01\",\r
+
+    \            \"validTo\":\"2026-01-02\"\r
+
+    \        },\r
 
     \        {\r
 
@@ -127,47 +72,45 @@ body:
 
     \            \"contactTypeCode\": \"6\",\r
 
-    \            \"contactValue\": \"dzagkas@netcompany.com\",\r
+    \            \"contactValue\": \"dzagkas@netcompany.com_Updated\",\r
 
-    \            \"validFrom\": \"2026-01-02\"\r
+    \            \"validFrom\": \"2026-01-03\"\r
 
     \        }\r
 
+    \r
+
     \    ],\r
 
-    \    \"citizenships\": [\r
+    \    \"identifiers\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"K\",\r
+
+    \            \"identifierTypeCode\": \"5\", //Personal Code\r
+
+    \            \"identifierValue\": \"207858459267232\",\r
+
+    \            \"countryCode\": \"GR\",\r
+
+    \            \"validFrom\": \"2026-01-01\",\r
+
+    \            \"validTo\":\"2026-01-02\"\r
+
+    \        },\r
 
     \        {\r
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"citizenshipCode\": \"LT\",\r
+    \            \"identifierTypeCode\": \"5\", //Personal Code\r
 
-    \            \"validFrom\": \"2026-01-01\"\r
+    \            \"identifierValue\": \"307858459267232\",\r
 
-    \        }\r
+    \            \"countryCode\": \"GR\",\r
 
-    \    ],\r
-
-    \    \"documents\": [\r
-
-    \        {\r
-
-    \            \"typeOfUpdate\": \"N\",\r
-
-    \            \"documentTypeCode\": \"1\",\r
-
-    \            \"documentNumber\": \"143252143\",\r
-
-    \            \"avdNumber\": \"63\",\r
-
-    \            \"issueDate\": \"2026-01-01\",\r
-
-    \            \"issueCountryCode\": \"LT\",\r
-
-    \            \"deliveryDate\": \"2026-01-01\",\r
-
-    \            \"validFrom\": \"2026-01-01\"\r
+    \            \"validFrom\": \"2026-01-03\"\r
 
     \        }\r
 

@@ -1,5 +1,5 @@
 $kind: http-request
-name: Update Lithuanian Name, Surname, Contact Information, Identification codes
+name: Update Foreign Name, Surname, Contact Information, Identification codes
 url: https://solon-lith-test.centraldg6.athens.intrasoft-intl.private/data-integration/natural-persons
 method: POST
 body:
@@ -174,4 +174,4 @@ body:
     \    ]\r
 
     }"
-order: 4000
+order: 3763

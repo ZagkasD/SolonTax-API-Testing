@@ -1,12 +1,12 @@
 $kind: http-request
-name: ITIS_EU SME
+name: ITIS_EU IS Foreign
 url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/natural-persons
 method: POST
 body:
   type: json
   content: "{\r
 
-    \    \"requestId\": \"requestId_Zagkas\",\r
+    \    \"requestId\": \"requestId_00002\",\r
 
     \    \"dateOfInformation\": \"2026-01-01\",\r
 
@@ -33,7 +33,7 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"firstName\": \"Dimos SME_04\",\r
+    \            \"firstName\": \"Dimos EPRIS_01\",\r
 
     \            \"lastName\": \"Zagkas\",\r
 
@@ -69,9 +69,24 @@ body:
 
     \            \"identifierTypeCode\": \"5\",\r
 
-    \            \"identifierValue\": \"207892325165232\",\r
+    \            \"identifierValue\": \"207719845167232\",\r
 
-    \            \"countryCode\": \"LT\",\r
+    \            \"countryCode\": \"GR\",\r
+
+    \            \"validFrom\": \"2026-01-01\"\r
+
+    \        },\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"identifierTypeCode\": \"8\", // Value added tax payer code in
+    a foreign country\r
+
+    \            \"identifierValue\": \"207710945166532\",\r
+
+    \            \"countryCode\": \"GR\",\r
 
     \            \"validFrom\": \"2026-01-01\"\r
 
@@ -79,13 +94,17 @@ body:
 
     \    ],\r
 
-    \    \"citizenships\": [\r
+    \    \"addresses\": [\r
 
     \        {\r
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"citizenshipCode\": \"LT\",\r
+    \            \"addressTypeCode\": \"5\",\r
+
+    \            \"address\": \"test address\",\r
+
+    \            \"countryCode\": \"GR\",\r
 
     \            \"validFrom\": \"2026-01-01\"\r
 
@@ -93,19 +112,21 @@ body:
 
     \    ],\r
 
-    \    \"groups\": [\r
+    \    \"banks\":[\r
 
     \        {\r
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"groupTypeCode\": \"12\", // Value added tax payer\r
+    \            \"code\": \"97943279234\",\r
 
-    \            \"validFrom\": \"2026-01-01\"\r
+    \            \"bic\": \"4273983\"\r
 
     \        }\r
 
     \    ]\r
 
+    \r
+
     }"
-order: 10000
+order: 8777

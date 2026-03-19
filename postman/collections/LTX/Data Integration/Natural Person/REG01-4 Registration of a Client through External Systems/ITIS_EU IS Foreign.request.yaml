@@ -6,7 +6,7 @@ body:
   type: json
   content: "{\r
 
-    \    \"requestId\": \"requestId_00002\",\r
+    \    \"requestId\": \"requestId_Zagkas\",\r
 
     \    \"dateOfInformation\": \"2026-01-01\",\r
 
@@ -19,9 +19,9 @@ body:
 
     \        \"typeOfUpdate\": \"N\",\r
 
-    \        \"placeOfBirth\": \"LT\",\r
+    \        \"placeOfBirth\": \"GR\",\r
 
-    \        \"gender\": \"M\",\r
+    \        \"gender\": \"V\",\r
 
     \        \"dateOfBirth\": \"2000-01-01\"\r
 
@@ -33,7 +33,7 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"firstName\": \"Dimos EPRIS_01\",\r
+    \            \"firstName\": \"Dimos ITIS_EU_01\",\r
 
     \            \"lastName\": \"Zagkas\",\r
 
@@ -75,21 +75,6 @@ body:
 
     \            \"validFrom\": \"2026-01-01\"\r
 
-    \        },\r
-
-    \        {\r
-
-    \            \"typeOfUpdate\": \"N\",\r
-
-    \            \"identifierTypeCode\": \"8\", // Value added tax payer code in
-    a foreign country\r
-
-    \            \"identifierValue\": \"207710945166532\",\r
-
-    \            \"countryCode\": \"GR\",\r
-
-    \            \"validFrom\": \"2026-01-01\"\r
-
     \        }\r
 
     \    ],\r
@@ -110,23 +95,7 @@ body:
 
     \        }\r
 
-    \    ],\r
-
-    \    \"banks\":[\r
-
-    \        {\r
-
-    \            \"typeOfUpdate\": \"N\",\r
-
-    \            \"code\": \"97943279234\",\r
-
-    \            \"bic\": \"4273983\"\r
-
-    \        }\r
-
     \    ]\r
-
-    \r
 
     }"
 order: 8777

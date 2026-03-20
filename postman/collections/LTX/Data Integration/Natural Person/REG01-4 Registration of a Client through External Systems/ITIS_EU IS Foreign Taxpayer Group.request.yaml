@@ -1,5 +1,5 @@
 $kind: http-request
-name: FĮ (TIES) Addresses
+name: ITIS_EU IS Foreign Taxpayer Group
 url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/natural-persons
 method: POST
 body:
@@ -19,9 +19,9 @@ body:
 
     \        \"typeOfUpdate\": \"N\",\r
 
-    \        \"placeOfBirth\": \"LT\",\r
+    \        \"placeOfBirth\": \"GR\",\r
 
-    \        \"gender\": \"M\",\r
+    \        \"gender\": \"V\",\r
 
     \        \"dateOfBirth\": \"2000-01-01\"\r
 
@@ -33,7 +33,7 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"firstName\": \"Dimos TIES_03\",\r
+    \            \"firstName\": \"Dimos ITIS_EU_01\",\r
 
     \            \"lastName\": \"Zagkas\",\r
 
@@ -61,6 +61,24 @@ body:
 
     \    ],\r
 
+    \    \"identifiers\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"identifierTypeCode\": \"5\",\r
+
+    \            \"identifierValue\": \"207719845167232\",\r
+
+    \            \"countryCode\": \"GR\",\r
+
+    \            \"validFrom\": \"2026-01-01\"\r
+
+    \        }\r
+
+    \    ],\r
+
     \    \"addresses\": [\r
 
     \        {\r
@@ -77,25 +95,7 @@ body:
 
     \        }\r
 
-    \    ],\r
-
-    \    \"identifiers\": [\r
-
-    \        {\r
-
-    \            \"typeOfUpdate\": \"N\",\r
-
-    \            \"identifierTypeCode\": \"5\",\r
-
-    \            \"identifierValue\": \"2077190245167832\",\r
-
-    \            \"countryCode\": \"LT\",\r
-
-    \            \"validFrom\": \"2026-01-01\"\r
-
-    \        }\r
-
     \    ]\r
 
     }"
-order: 13000
+order: 8476

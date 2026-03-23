@@ -33,7 +33,7 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"firstName\": \"Dimos ITIS_EU_01\",\r
+    \            \"firstName\": \"Dimos ITIS_EU_02\",\r
 
     \            \"lastName\": \"Zagkas\",\r
 
@@ -69,7 +69,7 @@ body:
 
     \            \"identifierTypeCode\": \"5\",\r
 
-    \            \"identifierValue\": \"207719845167232\",\r
+    \            \"identifierValue\": \"20771989267232\",\r
 
     \            \"countryCode\": \"GR\",\r
 
@@ -90,6 +90,20 @@ body:
     \            \"address\": \"test address\",\r
 
     \            \"countryCode\": \"GR\",\r
+
+    \            \"validFrom\": \"2026-01-01\"\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"groups\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"groupTypeCode\": \"15\",\r
 
     \            \"validFrom\": \"2026-01-01\"\r
 

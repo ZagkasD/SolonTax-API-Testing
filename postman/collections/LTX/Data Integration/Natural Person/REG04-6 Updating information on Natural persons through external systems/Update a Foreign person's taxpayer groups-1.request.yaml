@@ -1,39 +1,33 @@
 $kind: http-request
 name: Update a Foreign person's taxpayer groups
-url: https://solon-lith-test.centraldg6.athens.intrasoft-intl.private/data-integration/natural-persons
+url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/natural-persons
 method: POST
 body:
   type: json
   content: "{\r
 
-    \    \"requestId\": \"requestId_00002\",\r
+    \    \"requestId\": \"requestId_Zagkas\",\r
 
-    \    \"mapId\": \"6750c3c5-73dc-4f74-ac53-4cd87e118897\", //Dimos Sodra_4\r
+    \    \"mapId\": \"c0f4bd3f-6036-467f-8587-68bce0a35acb\", \r
 
     \    \"dateOfInformation\": \"2026-01-01\",\r
 
-    \    \"sourceOfInformationCode\": \"6012\", //SODRA\r
+    \    \"sourceOfInformationCode\": \"6004\", //ITIS_EU IS (Information
+    Systems)\r
 
     \    \"isCreate\": false,\r
 
-    \    \"relationships\": [\r
+    \    \"groups\": [\r
 
     \        {\r
 
     \            \"typeOfUpdate\": \"K\",\r
 
-    \            \"relationshipTypeCode\": \"I_100\", //Marriage\r
-
-    \            \"relatedPartyMapId\":
-    \"ac8ec842-b761-49e9-9d7c-a9e9484279b6\",\r
-
-    \            \"maritalStatusCode\": \"N\",\r
-
-    \            \"maritalStatusDate\": \"2026-01-01\",\r
+    \            \"groupTypeCode\": \"15\",\r
 
     \            \"validFrom\": \"2026-01-01\",\r
 
-    \            \"validTo\": \"2026-01-02\"\r
+    \            \"validTo\":\"2026-01-02\"\r
 
     \        },\r
 
@@ -41,14 +35,7 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"relationshipTypeCode\": \"I_100\", //Marriage\r
-
-    \            \"relatedPartyMapId\":
-    \"ac8ec842-b761-49e9-9d7c-a9e9484279b6\",\r
-
-    \            \"maritalStatusCode\": \"I\",\r
-
-    \            \"maritalStatusDate\": \"2026-01-01\",\r
+    \            \"groupTypeCode\": \"16\",\r
 
     \            \"validFrom\": \"2026-01-03\"\r
 

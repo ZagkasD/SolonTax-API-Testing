@@ -1,4 +1,5 @@
 $kind: http-request
+name: New License Request for Non-Existing License
 url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/natural-persons
 method: POST
 body:
@@ -9,7 +10,7 @@ body:
 
     \    \"dateOfInformation\": \"2026-01-01\",\r
 
-    \    \"mapId\": \"986937ce-5689-403c-84f5-428a3333d601\",\r
+    \    \"mapId\": \"c9a52cce-e32f-488d-a68f-f2ba204dd39e\",\r
 
     \    \"sourceOfInformationCode\": \"116\", //Licencijų informacinės sistema
     (LIS)\r
@@ -28,7 +29,7 @@ body:
 
     \            \"issueDate\": \"2026-01-01\",\r
 
-    \            \"issuerMapId\": \"986937ce-5689-403c-84f5-428a3333d601\",\r
+    \            \"issuerMapId\": \"c9a52cce-e32f-488d-a68f-f2ba204dd39e\",\r
 
     \            \"documentTypeCode\": \"24\",\r
 

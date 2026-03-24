@@ -12,7 +12,7 @@ body:
 
     \    \"dateOfInformation\": \"2026-01-01\",\r
 
-    \    \"sourceOfInformationCode\": \"10\", //GR\r
+    \    \"sourceOfInformationCode\": \"6004\", //ITIS_EU IS\r
 
     \    \"isCreate\": false,\r
 
@@ -62,40 +62,6 @@ body:
 
     \    ],\r
 
-    \    \"identifiers\": [\r
-
-    \        {\r
-
-    \            \"typeOfUpdate\": \"K\",\r
-
-    \            \"identifierTypeCode\": \"2\", //Personal Code\r
-
-    \            \"identifierValue\": \"207715435167542\",\r
-
-    \            \"countryCode\": \"LT\",\r
-
-    \            \"validFrom\": \"2026-01-01\",\r
-
-    \            \"validTo\": \"2026-01-02\"\r
-
-    \        },\r
-
-    \        {\r
-
-    \            \"typeOfUpdate\": \"N\",\r
-
-    \            \"identifierTypeCode\": \"2\", //Personal Code\r
-
-    \            \"identifierValue\": \"107715435167542\",\r
-
-    \            \"countryCode\": \"LT\",\r
-
-    \            \"validFrom\": \"2026-01-03\"\r
-
-    \        }\r
-
-    \    ],\r
-
     \    \"addresses\": [\r
 
     \        {\r
@@ -131,4 +97,4 @@ body:
     \    ]\r
 
     }"
-order: 4000
+order: 5000

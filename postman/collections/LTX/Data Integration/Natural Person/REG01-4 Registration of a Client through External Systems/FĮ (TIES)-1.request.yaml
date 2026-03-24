@@ -1,5 +1,6 @@
 $kind: http-request
-url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/natural-persons
+name: FĮ (TIES)
+url: https://solon-lith-test.centraldg6.athens.intrasoft-intl.private/data-integration/natural-persons
 method: POST
 body:
   type: json
@@ -9,7 +10,8 @@ body:
 
     \    \"dateOfInformation\": \"2026-01-01\",\r
 
-    \    \"sourceOfInformationCode\": \"112\", //JADIS\r
+    \    \"sourceOfInformationCode\": \"6004\", //ITIS_EU IS (Information
+    Systems)\r
 
     \    \"isCreate\": true,\r
 
@@ -17,9 +19,9 @@ body:
 
     \        \"typeOfUpdate\": \"N\",\r
 
-    \        \"placeOfBirth\": \"GR\",\r
+    \        \"placeOfBirth\": \"LT\",\r
 
-    \        \"gender\": \"V\",\r
+    \        \"gender\": \"M\",\r
 
     \        \"dateOfBirth\": \"2000-01-01\"\r
 
@@ -31,7 +33,7 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"firstName\": \"Dimos JADIS_01\",\r
+    \            \"firstName\": \"Dimos TIES_02\",\r
 
     \            \"lastName\": \"Zagkas\",\r
 
@@ -65,12 +67,11 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"identifierTypeCode\": \"5\", //Identification number (code)
-    in a foreign country\r
+    \            \"identifierTypeCode\": \"5\",\r
 
-    \            \"identifierValue\": \"207858459287532\",\r
+    \            \"identifierValue\": \"2077190245165232\",\r
 
-    \            \"countryCode\": \"GR\",\r
+    \            \"countryCode\": \"LT\",\r
 
     \            \"validFrom\": \"2026-01-01\"\r
 
@@ -84,7 +85,23 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"citizenshipCode\": \"GR\",\r
+    \            \"citizenshipCode\": \"LT\",\r
+
+    \            \"validFrom\": \"2026-01-01\"\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"groups\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"orgUnitPartyId\": \"3dd075ff-e291-4975-a511-000010000000\",\r
+
+    \            \"groupTypeCode\": \"1\", // New taxpayer\r
 
     \            \"validFrom\": \"2026-01-01\"\r
 
@@ -93,4 +110,4 @@ body:
     \    ]\r
 
     }"
-order: 16000
+order: 12000

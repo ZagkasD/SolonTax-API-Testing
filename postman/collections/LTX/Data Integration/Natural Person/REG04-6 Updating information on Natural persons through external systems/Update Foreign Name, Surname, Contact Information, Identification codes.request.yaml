@@ -1,0 +1,120 @@
+$kind: http-request
+name: Update Foreign Name, Surname, Contact Information, Identification codes
+url: https://solon-lith-test.centraldg6.athens.intrasoft-intl.private/data-integration/natural-persons
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"requestId\": \"requestId_Zagkas\",\r
+
+    \    \"mapId\": \"08481c16-5a30-4aee-b96b-752ad1d018e4\",\r
+
+    \    \"dateOfInformation\": \"2026-01-01\",\r
+
+    \    \"sourceOfInformationCode\": \"6012\", //SODRA-VSDFV\r
+
+    \    \"isCreate\": false,\r
+
+    \    \"names\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"K\",\r
+
+    \            \"firstName\": \"Dimos SODRA_2_Foreign\",\r
+
+    \            \"lastName\": \"Zagkas\",\r
+
+    \            \"avdNumber\": \"63\",\r
+
+    \            \"validFrom\": \"2026-01-01\",\r
+
+    \            \"validTo\": \"2026-01-02\"\r
+
+    \        },\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"firstName\": \"Dimos SODRA_2_Foreign\",\r
+
+    \            \"lastName\": \"Zagkas_Updated\",\r
+
+    \            \"avdNumber\": \"63\",\r
+
+    \            \"validFrom\": \"2026-01-03\"\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"contacts\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"K\",\r
+
+    \            \"contactTypeCode\": \"6\",\r
+
+    \            \"contactValue\": \"dzagkas@netcompany.com\",\r
+
+    \            \"validFrom\": \"2026-01-01\",\r
+
+    \            \"validTo\":\"2026-01-02\"\r
+
+    \        },\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"contactTypeCode\": \"6\",\r
+
+    \            \"contactValue\": \"dzagkas@netcompanyUpdated.com\",\r
+
+    \            \"validFrom\": \"2026-01-03\"\r
+
+    \        }\r
+
+    \r
+
+    \    ],\r
+
+    \    \"identifiers\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"K\",\r
+
+    \            \"identifierTypeCode\": \"5\", //Personal Code\r
+
+    \            \"identifierValue\": \"207858459267232\",\r
+
+    \            \"countryCode\": \"GR\",\r
+
+    \            \"validFrom\": \"2026-01-01\",\r
+
+    \            \"validTo\":\"2026-01-02\"\r
+
+    \        },\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"identifierTypeCode\": \"5\", //Personal Code\r
+
+    \            \"identifierValue\": \"307858459267232\",\r
+
+    \            \"countryCode\": \"GR\",\r
+
+    \            \"validFrom\": \"2026-01-03\"\r
+
+    \        }\r
+
+    \    ]\r
+
+    }"
+order: 3763

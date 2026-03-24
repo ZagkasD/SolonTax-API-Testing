@@ -1,5 +1,5 @@
 $kind: http-request
-name: Update a Lithuanian person's taxpayer groups
+name: Update a Foreign person's taxpayer groups
 url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/natural-persons
 method: POST
 body:
@@ -8,7 +8,7 @@ body:
 
     \    \"requestId\": \"requestId_Zagkas\",\r
 
-    \    \"mapID\": \"ab60c1cd-133c-40ce-be76-d9c102339735\",\r
+    \    \"mapId\": \"c0f4bd3f-6036-467f-8587-68bce0a35acb\", \r
 
     \    \"dateOfInformation\": \"2026-01-01\",\r
 
@@ -23,11 +23,11 @@ body:
 
     \            \"typeOfUpdate\": \"K\",\r
 
-    \            \"groupTypeCode\": \"12\", // Value added tax payer\r
+    \            \"groupTypeCode\": \"15\",\r
 
     \            \"validFrom\": \"2026-01-01\",\r
 
-    \            \"validTo\": \"2026-01-02\"\r
+    \            \"validTo\":\"2026-01-02\"\r
 
     \        },\r
 
@@ -35,8 +35,7 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"groupTypeCode\": \"15\", // A different VAT calculation
-    method is applied\r
+    \            \"groupTypeCode\": \"16\",\r
 
     \            \"validFrom\": \"2026-01-03\"\r
 
@@ -45,4 +44,4 @@ body:
     \    ]\r
 
     }"
-order: 9000
+order: 10000

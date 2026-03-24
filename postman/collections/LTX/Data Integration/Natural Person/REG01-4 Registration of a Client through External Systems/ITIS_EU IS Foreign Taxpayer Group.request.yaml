@@ -1,15 +1,17 @@
 $kind: http-request
+name: ITIS_EU IS Foreign Taxpayer Group
 url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/natural-persons
 method: POST
 body:
   type: json
   content: "{\r
 
-    \    \"requestId\": \"requestId_00002\",\r
+    \    \"requestId\": \"requestId_Zagkas\",\r
 
     \    \"dateOfInformation\": \"2026-01-01\",\r
 
-    \    \"sourceOfInformationCode\": \"112\", //JADIS\r
+    \    \"sourceOfInformationCode\": \"6004\", //ITIS_EU IS (Information
+    Systems)\r
 
     \    \"isCreate\": true,\r
 
@@ -31,7 +33,7 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"firstName\": \"Dimos JADIS_01\",\r
+    \            \"firstName\": \"Dimos ITIS_EU_02\",\r
 
     \            \"lastName\": \"Zagkas\",\r
 
@@ -65,10 +67,9 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"identifierTypeCode\": \"5\", //Identification number (code)
-    in a foreign country\r
+    \            \"identifierTypeCode\": \"5\",\r
 
-    \            \"identifierValue\": \"207858459287532\",\r
+    \            \"identifierValue\": \"20771989267232\",\r
 
     \            \"countryCode\": \"GR\",\r
 
@@ -78,13 +79,31 @@ body:
 
     \    ],\r
 
-    \    \"citizenships\": [\r
+    \    \"addresses\": [\r
 
     \        {\r
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"citizenshipCode\": \"GR\",\r
+    \            \"addressTypeCode\": \"5\",\r
+
+    \            \"address\": \"test address\",\r
+
+    \            \"countryCode\": \"GR\",\r
+
+    \            \"validFrom\": \"2026-01-01\"\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"groups\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"groupTypeCode\": \"15\",\r
 
     \            \"validFrom\": \"2026-01-01\"\r
 
@@ -93,4 +112,4 @@ body:
     \    ]\r
 
     }"
-order: 16000
+order: 8476

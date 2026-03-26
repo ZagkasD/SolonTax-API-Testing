@@ -1,6 +1,6 @@
 $kind: http-request
 name: JADIS
-url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/natural-persons
+url: https://solon-lith-test.centraldg6.athens.intrasoft-intl.private/data-integration/natural-persons
 method: POST
 body:
   type: json
@@ -32,7 +32,7 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"firstName\": \"Dimos JADIS_01\",\r
+    \            \"firstName\": \"Dimos JADIS_02\",\r
 
     \            \"lastName\": \"Zagkas\",\r
 
@@ -66,10 +66,9 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"identifierTypeCode\": \"5\", //Identification number (code)
-    in a foreign country\r
+    \            \"identifierTypeCode\": \"9\", //Policyholder code\r
 
-    \            \"identifierValue\": \"207858459287532\",\r
+    \            \"identifierValue\": \"207858459287542\",\r
 
     \            \"countryCode\": \"GR\",\r
 
@@ -94,4 +93,4 @@ body:
     \    ]\r
 
     }"
-order: 16000
+order: 18000

@@ -1,11 +1,12 @@
 $kind: http-request
-url: https://solon-lith-test.centraldg6.athens.intrasoft-intl.private/data-integration/natural-persons
+name: JAR
+url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/natural-persons
 method: POST
 body:
   type: json
   content: "{\r
 
-    \    \"requestId\": \"requestId_00002\",\r
+    \    \"requestId\": \"requestId_Zagkas\",\r
 
     \    \"dateOfInformation\": \"2026-01-01\",\r
 
@@ -31,7 +32,7 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"firstName\": \"Dimos SODRA_2\",\r
+    \            \"firstName\": \"Dimos SODRA_07\",\r
 
     \            \"lastName\": \"Zagkas\",\r
 
@@ -67,7 +68,7 @@ body:
 
     \            \"identifierTypeCode\": \"9\", //Policyholder\r
 
-    \            \"identifierValue\": \"207765654167232\",\r
+    \            \"identifierValue\": \"207009875262\",\r
 
     \            \"countryCode\": \"LT\",\r
 
@@ -115,10 +116,14 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"relationshipTypeCode\": \"C_8\",\r
+    \            \"relationshipTypeCode\": \"I_100\", //Marriage\r
 
     \            \"relatedPartyMapId\":
-    \"d5b2c657-07a5-4390-8814-e5db2585419f\",\r
+    \"46d1ea48-ed34-4e2a-a7c2-ee4baa56ebad\",\r
+
+    \            \"maritalStatusCode\": \"I\",\r
+
+    \            \"maritalStatusDate\": \"2026-01-01\",\r
 
     \            \"validFrom\": \"2026-01-01\"\r
 
@@ -140,22 +145,20 @@ body:
 
     \    ],\r
 
-    \    // \"groups\": [\r
+    \    \"groups\": [\r
 
-    \    //     {\r
+    \        {\r
 
-    \    //         \"typeOfUpdate\": \"N\",\r
+    \            \"typeOfUpdate\": \"N\",\r
 
-    \    //         \"orgUnitPartyId\":
-    \"3dd075ff-e291-4975-a511-000010000000\",\r
+    \            \"groupTypeCode\": \"5\", // Payer of state social insurance
+    contributions (policyholder)\r
 
-    \    //         \"groupTypeCode\": \"1\", // New taxpayer\r
+    \            \"validFrom\": \"2026-01-01\"\r
 
-    \    //         \"validFrom\": \"2026-01-01\"\r
+    \        }\r
 
-    \    //     }\r
-
-    \    // ],\r
+    \    ],\r
 
     \    \"documents\": [\r
 
@@ -163,7 +166,8 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"documentTypeCode\": \"1\",\r
+    \            \"documentTypeCode\": \"1\", //Passsport of a citizen of the
+    Republic of Lithuania\r
 
     \            \"documentNumber\": \"143252143\",\r
 
@@ -182,4 +186,4 @@ body:
     \    ]\r
 
     }"
-order: 3000
+order: 1477

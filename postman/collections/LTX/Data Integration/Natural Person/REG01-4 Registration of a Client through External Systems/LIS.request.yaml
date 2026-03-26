@@ -1,11 +1,12 @@
 $kind: http-request
+name: LIS
 url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/natural-persons
 method: POST
 body:
   type: json
   content: "{\r
 
-    \    \"requestId\": \"requestId_00002\",\r
+    \    \"requestId\": \"requestId_Zagkas\",\r
 
     \    \"dateOfInformation\": \"2026-01-01\",\r
 
@@ -31,7 +32,7 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"firstName\": \"Dimos LIS_1\",\r
+    \            \"firstName\": \"Dimos LIS_69\",\r
 
     \            \"lastName\": \"Zagkas\",\r
 
@@ -59,15 +60,34 @@ body:
 
     \    ],\r
 
-    \    \"groups\": [\r
+    \    \"identifiers\": [\r
 
     \        {\r
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"orgUnitPartyId\": \"3dd075ff-e291-4975-a511-000010000000\",\r
+    \            \"identifierTypeCode\": \"9\", //Policyholder code\r
 
-    \            \"groupTypeCode\": \"1\", // New taxpayer\r
+    \            \"identifierValue\": \"207858459287542\",\r
+
+    \            \"countryCode\": \"GR\",\r
+
+    \            \"validFrom\": \"2026-01-01\"\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"relationships\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"relationshipTypeCode\": \"C_8\", //Policyholder\r
+
+    \            \"relatedPartyMapId\":
+    \"be7f176e-6b9b-43c6-aea1-34c878df396c\",\r
 
     \            \"validFrom\": \"2026-01-01\"\r
 
@@ -76,4 +96,4 @@ body:
     \    ]\r
 
     }"
-order: 17000
+order: 16000

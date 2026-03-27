@@ -1,15 +1,16 @@
 $kind: http-request
-url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/natural-persons
+name: New Cash Register Request for Non-Existing Cash Register
+url: https://solon-lith-test.centraldg6.athens.intrasoft-intl.private/data-integration/natural-persons
 method: POST
 body:
   type: json
   content: "{\r
 
-    \    \"requestId\": \"requestId_00002\",\r
+    \    \"requestId\": \"requestId_Zagkas\",\r
 
     \    \"dateOfInformation\": \"2026-01-01\",\r
 
-    \    \"mapId\": \"986937ce-5689-403c-84f5-428a3333d601\",\r
+    \    \"mapId\": \"d5b2c657-07a5-4390-8814-e5db2585419f\",\r
 
     \    \"sourceOfInformationCode\": \"200\", //IMAS iEKA\r
 
@@ -21,21 +22,21 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"VMI_RegistrationNumber\":\"123453653423\",\r
+    \            \"VMI_RegistrationNumber\": \"12345369823\",\r
 
-    \            \"EKA_Number\":\"5043893\",\r
+    \            \"EKA_Number\": \"5049839893\",\r
 
-    \            \"cashRegisterName\":\"MyCashRegister\", \r
+    \            \"cashRegisterName\": \"MyCashRegister\",\r
 
-    \            \"cashRegisterTypeCode\":\"50\",\r
+    \            \"cashRegisterTypeCode\": \"50\",\r
 
     \            \"statusCode\": \"15\",\r
 
-    \            \"statusDate\":\"2026-01-01\",\r
+    \            \"statusDate\": \"2026-01-01\",\r
 
     \            \"validFrom\": \"2026-01-01\",\r
 
-    \            \"addressId\": \"addressId_00002\"\r
+    \            \"addressId\": \"requestId_Zagkas\"\r
 
     \        }\r
 

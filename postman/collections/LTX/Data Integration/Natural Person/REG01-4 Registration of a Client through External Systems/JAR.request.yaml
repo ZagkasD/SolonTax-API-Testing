@@ -10,7 +10,7 @@ body:
 
     \    \"dateOfInformation\": \"2026-01-01\",\r
 
-    \    \"sourceOfInformationCode\": \"6012\", //SODRA-VSDFV\r
+    \    \"sourceOfInformationCode\": \"65\", //JAR\r
 
     \    \"isCreate\": true,\r
 
@@ -20,7 +20,7 @@ body:
 
     \        \"placeOfBirth\": \"LT\",\r
 
-    \        \"gender\": \"M\",\r
+    \        \"gender\": \"V\",\r
 
     \        \"dateOfBirth\": \"2000-01-01\"\r
 
@@ -32,7 +32,7 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"firstName\": \"Dimos SODRA_07\",\r
+    \            \"firstName\": \"Dimos JAR_01\",\r
 
     \            \"lastName\": \"Zagkas\",\r
 
@@ -66,64 +66,12 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"identifierTypeCode\": \"9\", //Policyholder\r
+    \            \"identifierTypeCode\": \"5\", //Identification number (code)
+    in a foreign country\r
 
     \            \"identifierValue\": \"207009875262\",\r
 
     \            \"countryCode\": \"LT\",\r
-
-    \            \"validFrom\": \"2026-01-01\"\r
-
-    \        }\r
-
-    \    ],\r
-
-    \    \"mmTypes\": [\r
-
-    \        {\r
-
-    \            \"typeOfUpdate\": \"N\",\r
-
-    \            \"mmTypeCode\": \"216\",\r
-
-    \            \"validFrom\": \"2026-01-01\"\r
-
-    \        }\r
-
-    \    ],\r
-
-    \    \"addresses\": [\r
-
-    \        {\r
-
-    \            \"typeOfUpdate\": \"N\",\r
-
-    \            \"addressTypeCode\": \"5\",\r
-
-    \            \"address\": \"test address\",\r
-
-    \            \"countryCode\": \"GR\",\r
-
-    \            \"validFrom\": \"2026-01-01\"\r
-
-    \        }\r
-
-    \    ],\r
-
-    \    \"relationships\": [\r
-
-    \        {\r
-
-    \            \"typeOfUpdate\": \"N\",\r
-
-    \            \"relationshipTypeCode\": \"I_100\", //Marriage\r
-
-    \            \"relatedPartyMapId\":
-    \"46d1ea48-ed34-4e2a-a7c2-ee4baa56ebad\",\r
-
-    \            \"maritalStatusCode\": \"I\",\r
-
-    \            \"maritalStatusDate\": \"2026-01-01\",\r
 
     \            \"validFrom\": \"2026-01-01\"\r
 
@@ -138,46 +86,6 @@ body:
     \            \"typeOfUpdate\": \"N\",\r
 
     \            \"citizenshipCode\": \"LT\",\r
-
-    \            \"validFrom\": \"2026-01-01\"\r
-
-    \        }\r
-
-    \    ],\r
-
-    \    \"groups\": [\r
-
-    \        {\r
-
-    \            \"typeOfUpdate\": \"N\",\r
-
-    \            \"groupTypeCode\": \"5\", // Payer of state social insurance
-    contributions (policyholder)\r
-
-    \            \"validFrom\": \"2026-01-01\"\r
-
-    \        }\r
-
-    \    ],\r
-
-    \    \"documents\": [\r
-
-    \        {\r
-
-    \            \"typeOfUpdate\": \"N\",\r
-
-    \            \"documentTypeCode\": \"1\", //Passsport of a citizen of the
-    Republic of Lithuania\r
-
-    \            \"documentNumber\": \"143252143\",\r
-
-    \            \"avdNumber\": \"63\",\r
-
-    \            \"issueDate\": \"2026-01-01\",\r
-
-    \            \"issueCountryCode\": \"LT\",\r
-
-    \            \"deliveryDate\": \"2026-01-01\",\r
 
     \            \"validFrom\": \"2026-01-01\"\r
 

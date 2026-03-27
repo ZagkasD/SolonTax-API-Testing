@@ -1,12 +1,12 @@
 $kind: http-request
-name: Registration of a Lithuanian Client Received from GR
+name: Registration of a Lithuanian Client Received from GR 2
 url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/natural-persons
 method: POST
 body:
   type: json
   content: "{\r
 
-    \    \"requestId\": \"requestId_Zagkas\",\r
+    \    \"requestId\": \"requestId_00002\",\r
 
     \    \"dateOfInformation\": \"2026-01-01\",\r
 
@@ -114,4 +114,4 @@ body:
     \    ]\r
 
     }"
-order: 3000
+order: 1768

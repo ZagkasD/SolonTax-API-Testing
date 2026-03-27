@@ -1,6 +1,6 @@
 $kind: http-request
-name: Registration of a Lithuanian Client Received from GR 2
-url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/natural-persons
+name: Registration of a Lithuanian Client Received from GR 3
+url: https://solon-lith-test.centraldg6.athens.intrasoft-intl.private/data-integration/natural-persons
 method: POST
 body:
   type: json
@@ -32,7 +32,7 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"firstName\": \"Dimos GR_01\",\r
+    \            \"firstName\": \"Dimos GR No Citizen_5\",\r
 
     \            \"lastName\": \"Zagkas\",\r
 
@@ -52,27 +52,9 @@ body:
 
     \            \"identifierTypeCode\": \"2\", //Personal Code\r
 
-    \            \"identifierValue\": \"207718524667542\",\r
+    \            \"identifierValue\": \"207718582906242\",\r
 
     \            \"countryCode\": \"LT\",\r
-
-    \            \"validFrom\": \"2026-01-01\"\r
-
-    \        }\r
-
-    \    ],\r
-
-    \    \"addresses\": [\r
-
-    \        {\r
-
-    \            \"typeOfUpdate\": \"N\",\r
-
-    \            \"addressTypeCode\": \"5\",\r
-
-    \            \"address\": \"test address\",\r
-
-    \            \"countryCode\": \"GR\",\r
 
     \            \"validFrom\": \"2026-01-01\"\r
 
@@ -96,22 +78,23 @@ body:
 
     \    ],\r
 
-    \    \"relationships\": [\r
+    \    \"addresses\": [\r
 
     \        {\r
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"relationshipTypeCode\": \"I_100\",\r
+    \            \"addressTypeCode\": \"5\",\r
 
-    \            \"relatedPartyMapId\":
-    \"eeac9e05-3dec-4291-80ac-30399a5fc2f4\",\r
+    \            \"address\": \"test address\",\r
 
-    \            \"validFrom\": \"2016-01-01\"\r
+    \            \"countryCode\": \"GR\",\r
+
+    \            \"validFrom\": \"2026-01-01\"\r
 
     \        }\r
 
     \    ]\r
 
     }"
-order: 1018
+order: 2000

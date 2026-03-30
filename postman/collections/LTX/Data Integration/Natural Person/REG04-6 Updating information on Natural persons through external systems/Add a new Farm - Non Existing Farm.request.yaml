@@ -1,0 +1,50 @@
+$kind: http-request
+name: Add a new Farm - Non Existing Farm
+url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/farm-data
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"requestId\": \"requestId_Zagkas\",\r
+
+    \    \"mapId\": \"d7d33aa8-9c76-426c-b98e-c6740f0b6436\",\r
+
+    \    \"dateOfInformation\": \"2026-03-30\",\r
+
+    \    \"sourceOfInformationCode\": \"44\", //UUR\r
+
+    \    \"owners\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"s\",\r
+
+    \            \"ownerPartyId\": \"string\",\r
+
+    \            \"isNatural\": true,\r
+
+    \            \"validFrom\": \"2026-03-30\"\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"partners\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"s\",\r
+
+    \            \"partnerPartyId\": \"string\",\r
+
+    \            \"isNatural\": true,\r
+
+    \            \"validFrom\": \"2026-03-30\"\r
+
+    \        }\r
+
+    \    ]\r
+
+    }"
+order: 4125714368430918

@@ -12,19 +12,23 @@ body:
 
     \    \"dateOfInformation\": \"2026-03-30\",\r
 
+    \    // \"sourceOfInformationCode\": \"10\", //GR\r
+
     \    \"sourceOfInformationCode\": \"44\", //UUR\r
 
     \    \"owners\": [\r
 
     \        {\r
 
-    \            \"typeOfUpdate\": \"s\",\r
+    \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"ownerPartyId\": \"string\",\r
+    \            \"ownerPartyId\": \"d7d33aa8-9c76-426c-b98e-c6740f0b6436\",\r
 
     \            \"isNatural\": true,\r
 
     \            \"validFrom\": \"2026-03-30\"\r
+
+    \            // \"sourceOfInformationCode\": \"44\" //UUR\r
 
     \        }\r
 
@@ -34,17 +38,45 @@ body:
 
     \        {\r
 
-    \            \"typeOfUpdate\": \"s\",\r
+    \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"partnerPartyId\": \"string\",\r
+    \            \"partnerPartyId\": \"d7d33aa8-9c76-426c-b98e-c6740f0b6436\",\r
 
     \            \"isNatural\": true,\r
 
     \            \"validFrom\": \"2026-03-30\"\r
 
+    \            // \"sourceOfInformationCode\": \"44\" //UUR\r
+
     \        }\r
 
-    \    ]\r
+    \    ],\r
+
+    \    \"statuses\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"statusCL\": \"3\",\r
+
+    \            \"validFrom\": \"2026-03-30\"\r
+
+    \            // \"sourceOfInformationCode\": \"44\" //UUR\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"identifiers\": {\r
+
+    \        \"identifierValue\": \"7948327972\",\r
+
+    \        \"identifierTypeCode\": \"14\", //Farmers\r
+
+    \        \"validFrom\": \"2026-03-30\"\r
+
+    \    }\r
 
     }"
 order: 4125714368430918

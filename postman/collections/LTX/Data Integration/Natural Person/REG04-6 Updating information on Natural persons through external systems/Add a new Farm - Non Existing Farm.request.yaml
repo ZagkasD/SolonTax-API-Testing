@@ -8,13 +8,51 @@ body:
 
     \    \"requestId\": \"requestId_Zagkas\",\r
 
-    \    \"mapId\": \"d7d33aa8-9c76-426c-b98e-c6740f0b6436\",\r
-
-    \    \"dateOfInformation\": \"2026-03-30\",\r
-
-    \    // \"sourceOfInformationCode\": \"10\", //GR\r
+    \    \"dateOfInformation\": \"2026-03-31\",\r
 
     \    \"sourceOfInformationCode\": \"44\", //UUR\r
+
+    \    \"isCreate\":\"True\",\r
+
+    \    \"addresses\":[\r
+
+    \      {\r
+
+    \        \"typeOfUpdate\":\"N\",\r
+
+    \        \"addressTypeCode\":\"46\", //Property address\r
+
+    \        \"validFrom\":\"2026-03-31\"\r
+
+    \      }\r
+
+    \    ],\r
+
+    \    \"contacts\":\"\",\r
+
+    \    \"statuses\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"statusCL\": \"3\",\r
+
+    \            \"validFrom\": \"2026-03-30\"\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"identifiers\": {\r
+
+    \        \"identifierValue\": \"7948327972\",\r
+
+    \        \"identifierTypeCode\": \"14\", //Farmers\r
+
+    \        \"validFrom\": \"2026-03-30\"\r
+
+    \    },\r
 
     \    \"owners\": [\r
 
@@ -27,8 +65,6 @@ body:
     \            \"isNatural\": true,\r
 
     \            \"validFrom\": \"2026-03-30\"\r
-
-    \            // \"sourceOfInformationCode\": \"44\" //UUR\r
 
     \        }\r
 
@@ -46,37 +82,9 @@ body:
 
     \            \"validFrom\": \"2026-03-30\"\r
 
-    \            // \"sourceOfInformationCode\": \"44\" //UUR\r
-
     \        }\r
 
-    \    ],\r
-
-    \    \"statuses\": [\r
-
-    \        {\r
-
-    \            \"typeOfUpdate\": \"N\",\r
-
-    \            \"statusCL\": \"3\",\r
-
-    \            \"validFrom\": \"2026-03-30\"\r
-
-    \            // \"sourceOfInformationCode\": \"44\" //UUR\r
-
-    \        }\r
-
-    \    ],\r
-
-    \    \"identifiers\": {\r
-
-    \        \"identifierValue\": \"7948327972\",\r
-
-    \        \"identifierTypeCode\": \"14\", //Farmers\r
-
-    \        \"validFrom\": \"2026-03-30\"\r
-
-    \    }\r
+    \    ]\r
 
     }"
 order: 4125714368430918

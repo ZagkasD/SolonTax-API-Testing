@@ -1,0 +1,106 @@
+$kind: http-request
+name: Add a new Farm 2 - Non Existing Farm
+url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/farm-data
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"requestId\": \"MIR_2\",\r
+
+    \    \"dateOfInformation\": \"2026-03-27\",\r
+
+    \    \"sourceOfInformationCode\": \"44\", //UUR\r
+
+    \    \"contacts\": [],\r
+
+    \    \"identifiers\": {\r
+
+    \        \"validFrom\": \"2026-03-27\",\r
+
+    \        \"identifierValue\": \"5319757\",\r
+
+    \        \"identifierTypeCode\": \"14\"\r
+
+    \    },\r
+
+    \    \"owners\": [\r
+
+    \        {\r
+
+    \            \"mmTypes\": [\r
+
+    \                {\r
+
+    \                    \"validFrom\": \"2026-03-27\",\r
+
+    \                    \"activities\": [\r
+
+    \                        {\r
+
+    \                            \"isMain\": true,\r
+
+    \                            \"validFrom\": \"2026-03-27\",\r
+
+    \                            \"typeOfUpdate\": \"N\",\r
+
+    \                            \"activityTypeCode\": \"011100\"\r
+
+    \                        }\r
+
+    \                    ],\r
+
+    \                    \"mmTypeCode\": \"203\",\r
+
+    \                    \"typeOfUpdate\": \"N\"\r
+
+    \                }\r
+
+    \            ],\r
+
+    \            \"isNatural\": false,\r
+
+    \            \"validFrom\": \"2026-03-27\",\r
+
+    \            \"ownerPartyId\": \"520235e1-47be-4501-b99b-f1b2af511ba7\",\r
+
+    \            \"typeOfUpdate\": \"N\"\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"statuses\": [\r
+
+    \        {\r
+
+    \            \"statusCL\": \"3\",\r
+
+    \            \"validFrom\": \"2026-03-27\",\r
+
+    \            \"typeOfUpdate\": \"N\"\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"addresses\": [\r
+
+    \        {\r
+
+    \            \"addressId\": \"11\",\r
+
+    \            \"validFrom\": \"2026-03-27\",\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"addressTypeCode\": \"43\",\r
+
+    \            \"addressObjectTypeCode\": \"SAV\"\r
+
+    \        }\r
+
+    \    ]\r
+
+    }"
+order: 1713619285843209

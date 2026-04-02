@@ -1,4 +1,5 @@
 $kind: http-request
+name: SODRA Copy
 url: https://solon-lith-test.centraldg6.athens.intrasoft-intl.private/data-integration/natural-persons
 method: POST
 body:
@@ -31,7 +32,7 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"firstName\": \"Dimos SODRA_2\",\r
+    \            \"firstName\": \"Dimos SODRA_3\",\r
 
     \            \"lastName\": \"Zagkas\",\r
 
@@ -67,7 +68,7 @@ body:
 
     \            \"identifierTypeCode\": \"9\", //Policyholder\r
 
-    \            \"identifierValue\": \"207765654167232\",\r
+    \            \"identifierValue\": \"207765654897232\",\r
 
     \            \"countryCode\": \"LT\",\r
 
@@ -109,22 +110,22 @@ body:
 
     \    ],\r
 
-    \    \"relationships\": [\r
+    \    // \"relationships\": [\r
 
-    \        {\r
+    \    //     {\r
 
-    \            \"typeOfUpdate\": \"N\",\r
+    \    //         \"typeOfUpdate\": \"N\",\r
 
-    \            \"relationshipTypeCode\": \"C_8\",\r
+    \    //         \"relationshipTypeCode\": \"C_8\",\r
 
-    \            \"relatedPartyMapId\":
+    \    //         \"relatedPartyMapId\":
     \"d5b2c657-07a5-4390-8814-e5db2585419f\",\r
 
-    \            \"validFrom\": \"2026-01-01\"\r
+    \    //         \"validFrom\": \"2026-01-01\"\r
 
-    \        }\r
+    \    //     }\r
 
-    \    ],\r
+    \    // ],\r
 
     \    \"citizenships\": [\r
 

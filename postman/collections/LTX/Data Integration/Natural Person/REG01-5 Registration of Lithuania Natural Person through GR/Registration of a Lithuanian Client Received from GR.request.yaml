@@ -1,6 +1,6 @@
 $kind: http-request
 name: Registration of a Lithuanian Client Received from GR
-url: https://solon-lith-test.centraldg6.athens.intrasoft-intl.private/data-integration/natural-persons
+url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/natural-persons
 method: POST
 body:
   type: json
@@ -32,7 +32,7 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"firstName\": \"Dimos GR_08\",\r
+    \            \"firstName\": \"Dimos GR_09\",\r
 
     \            \"lastName\": \"Zagkas\",\r
 
@@ -52,7 +52,7 @@ body:
 
     \            \"identifierTypeCode\": \"2\", //Personal Code\r
 
-    \            \"identifierValue\": \"207718529178542\",\r
+    \            \"identifierValue\": \"207918529178542\",\r
 
     \            \"countryCode\": \"LT\",\r
 
@@ -70,9 +70,10 @@ body:
 
     \            \"addressTypeCode\": \"5\",\r
 
-    \            \"address\": \"test address\",\r
+    \            \"address\": \"Grand lake 31 XI5 RT10 LT-1234 , Melissamouth
+    Antakalnis Vilnius city municipality\",\r
 
-    \            \"countryCode\": \"GR\",\r
+    \            \"countryCode\": \"LT\",\r
 
     \            \"validFrom\": \"2026-01-01\"\r
 

@@ -1,12 +1,12 @@
 $kind: http-request
 name: Add a new Farm 2 - Non Existing Farm
-url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/farm-data
+url: https://solon-lith-test.centraldg6.athens.intrasoft-intl.private/data-integration/farm-data
 method: POST
 body:
   type: json
   content: "{\r
 
-    \    \"requestId\": \"MIR_2\",\r
+    \    \"requestId\": \"requestId_Zagkas\",\r
 
     \    \"dateOfInformation\": \"2026-03-27\",\r
 
@@ -18,9 +18,9 @@ body:
 
     \        \"validFrom\": \"2026-03-27\",\r
 
-    \        \"identifierValue\": \"5319757\",\r
+    \        \"identifierValue\": \"4319757\",\r
 
-    \        \"identifierTypeCode\": \"14\"\r
+    \        \"identifierTypeCode\": \"14\" //Farmers\r
 
     \    },\r
 
@@ -28,9 +28,23 @@ body:
 
     \        {\r
 
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"isNatural\": false,\r
+
+    \            \"ownerPartyId\": \"a7f81b0b-71d0-4205-ad0b-5fc668de0701\",
+    //FA\r
+
+    \            \"validFrom\": \"2026-03-27\",\r
+
     \            \"mmTypes\": [\r
 
     \                {\r
+
+    \                    \"typeOfUpdate\": \"N\",\r
+
+    \                    \"mmTypeCode\": \"203\", // The only available mmtype
+    of owner\r
 
     \                    \"validFrom\": \"2026-03-27\",\r
 
@@ -38,33 +52,69 @@ body:
 
     \                        {\r
 
-    \                            \"isMain\": true,\r
-
-    \                            \"validFrom\": \"2026-03-27\",\r
-
     \                            \"typeOfUpdate\": \"N\",\r
 
-    \                            \"activityTypeCode\": \"011100\"\r
+    \                            \"activityTypeCode\": \"011100\", //Cereal\r
+
+    \                            \"isMain\": true,\r
+
+    \                            \"validFrom\": \"2026-03-27\"\r
 
     \                        }\r
 
-    \                    ],\r
-
-    \                    \"mmTypeCode\": \"203\",\r
-
-    \                    \"typeOfUpdate\": \"N\"\r
+    \                    ]\r
 
     \                }\r
 
-    \            ],\r
+    \            ]\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"partners\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
 
     \            \"isNatural\": false,\r
 
+    \            \"partnerPartyId\": \"ddde3feb-0a4e-46d6-ad5b-e062d716be31\",
+    //FA\r
+
     \            \"validFrom\": \"2026-03-27\",\r
 
-    \            \"ownerPartyId\": \"520235e1-47be-4501-b99b-f1b2af511ba7\",\r
+    \            \"mmTypes\": [\r
 
-    \            \"typeOfUpdate\": \"N\"\r
+    \                {\r
+
+    \                    \"typeOfUpdate\": \"N\",\r
+
+    \                    \"mmTypeCode\": \"222\", // The only available mmtype
+    of partner\r
+
+    \                    \"validFrom\": \"2026-03-27\",\r
+
+    \                    \"activities\": [\r
+
+    \                        {\r
+
+    \                            \"typeOfUpdate\": \"N\",\r
+
+    \                            \"activityTypeCode\": \"011100\", //Cereal\r
+
+    \                            \"isMain\": true,\r
+
+    \                            \"validFrom\": \"2026-03-27\"\r
+
+    \                        }\r
+
+    \                    ]\r
+
+    \                }\r
+
+    \            ]\r
 
     \        }\r
 

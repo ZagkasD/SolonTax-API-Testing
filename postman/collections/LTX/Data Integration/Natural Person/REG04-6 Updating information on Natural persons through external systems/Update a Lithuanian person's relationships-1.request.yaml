@@ -8,14 +8,11 @@ body:
 
     \    \"requestId\": \"requestId_00002\",\r
 
-    \    \"mapId\": \"46d1ea48-ed34-4e2a-a7c2-ee4baa56ebad\", //Dimos Twelve
-    GR\r
+    \    \"mapId\": \"71e70e00-a525-4240-af2e-fa2d7d5c12ba\", \r
 
     \    \"dateOfInformation\": \"2026-01-01\",\r
 
     \    \"sourceOfInformationCode\": \"10\", //GR\r
-
-    \    \"isCreate\": false,\r
 
     \    \"relationships\": [\r
 
@@ -30,22 +27,22 @@ body:
 
     \            \"validFrom\": \"2016-01-01\",\r
 
-    \            \"validTo\": \"2026-01-02\"\r
-
-    \        },\r
-
-    \        {\r
-
-    \            \"typeOfUpdate\": \"N\",\r
-
-    \            \"relationshipTypeCode\": \"I_100\",\r
-
-    \            \"relatedPartyMapId\":
-    \"4379ea21-f7d3-4dd8-890f-107947d020ed\",\r
-
-    \            \"validFrom\": \"2016-01-03\"\r
+    \            \"validTo\": \"2026-04-02\"\r
 
     \        }\r
+
+    \        // {\r
+
+    \        //     \"typeOfUpdate\": \"N\",\r
+
+    \        //     \"relationshipTypeCode\": \"I_100\",\r
+
+    \        //     \"relatedPartyMapId\":
+    \"4379ea21-f7d3-4dd8-890f-107947d020ed\",\r
+
+    \        //     \"validFrom\": \"2016-01-03\"\r
+
+    \        // }\r
 
     \    ]\r
 

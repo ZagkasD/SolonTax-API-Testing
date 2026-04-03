@@ -1,4 +1,5 @@
 $kind: http-request
+name: Add a new AGR Holding - Non Existing AGR Holding
 url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/farm-data
 method: POST
 body:
@@ -17,13 +18,11 @@ body:
 
     \        \"validFrom\": \"2026-04-03\",\r
 
-    \        \"identifierValue\": \"43188990857\",\r
+    \        \"identifierValue\": \"431888792857\",\r
 
     \        \"identifierTypeCode\": \"14\" //Farmers\r
 
-    \    }\r
-
-    \    ,\r
+    \    },\r
 
     \    \"owners\": [\r
 
@@ -33,7 +32,7 @@ body:
 
     \            \"isNatural\": true,\r
 
-    \            \"ownerPartyId\": \"8a00d8c2-a65c-48a2-a1a9-aa39c52490f3\",
+    \            \"ownerPartyId\": \"986937ce-5689-403c-84f5-428a3333d601\",
     //FA\r
 
     \            \"validFrom\": \"2026-04-03\",\r
@@ -44,8 +43,8 @@ body:
 
     \                    \"typeOfUpdate\": \"N\",\r
 
-    \                    \"mmTypeCode\": \"203\", // The only available mmtype
-    of owner\r
+    \                    \"mmTypeCode\": \"232\", // This mmtype allows
+    activities\r
 
     \                    \"validFrom\": \"2026-04-03\",\r
 
@@ -71,59 +70,9 @@ body:
 
     \        }\r
 
-    \    ]\r
+    \    ],\r
 
-    \    ,\r
-
-    \    \"partners\": [\r
-
-    \        {\r
-
-    \            \"typeOfUpdate\": \"N\",\r
-
-    \            \"isNatural\": true,\r
-
-    \            \"partnerPartyId\": \"c9a52cce-e32f-488d-a68f-f2ba204dd39e\",
-    //FA\r
-
-    \            \"validFrom\": \"2026-04-03\",\r
-
-    \            \"mmTypes\": [\r
-
-    \                {\r
-
-    \                    \"typeOfUpdate\": \"N\",\r
-
-    \                    \"mmTypeCode\": \"222\", // The only available mmtype
-    of partner\r
-
-    \                    \"validFrom\": \"2026-04-03\",\r
-
-    \                    \"activities\": [\r
-
-    \                        {\r
-
-    \                            \"typeOfUpdate\": \"N\",\r
-
-    \                            \"activityTypeCode\": \"011100\", //Cereal\r
-
-    \                            \"isMain\": true,\r
-
-    \                            \"validFrom\": \"2026-04-03\"\r
-
-    \                        }\r
-
-    \                    ]\r
-
-    \                }\r
-
-    \            ]\r
-
-    \        }\r
-
-    \    ]\r
-
-    \    ,\r
+    \    // ZUKVR Doesn't send partners!!!\r
 
     \    \"statuses\": [\r
 

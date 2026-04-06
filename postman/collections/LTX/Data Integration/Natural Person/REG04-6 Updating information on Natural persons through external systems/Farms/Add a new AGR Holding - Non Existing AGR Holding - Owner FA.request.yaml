@@ -1,0 +1,111 @@
+$kind: http-request
+url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/farm-data
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"requestId\": \"requestId_Zagkas\",\r
+
+    \    \"dateOfInformation\": \"2026-04-03\",\r
+
+    \    \"sourceOfInformationCode\": \"6005\", //ZUKVR\r
+
+    \    \"contacts\": [],\r
+
+    \    \"identifiers\": {\r
+
+    \        \"validFrom\": \"2026-04-03\",\r
+
+    \        \"identifierValue\": \"431888792857\",\r
+
+    \        \"identifierTypeCode\": \"14\" //Farmers\r
+
+    \    },\r
+
+    \    \"owners\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"isNatural\": true,\r
+
+    \            \"ownerPartyId\": \"986937ce-5689-403c-84f5-428a3333d601\",
+    //FA\r
+
+    \            \"validFrom\": \"2026-04-03\",\r
+
+    \            \"mmTypes\": [\r
+
+    \                {\r
+
+    \                    \"typeOfUpdate\": \"N\",\r
+
+    \                    \"mmTypeCode\": \"232\", // This mmtype allows
+    activities\r
+
+    \                    \"validFrom\": \"2026-04-03\",\r
+
+    \                    \"activities\": [\r
+
+    \                        {\r
+
+    \                            \"typeOfUpdate\": \"N\",\r
+
+    \                            \"activityTypeCode\": \"011100\", //Cereal\r
+
+    \                            \"isMain\": true,\r
+
+    \                            \"validFrom\": \"2026-04-03\"\r
+
+    \                        }\r
+
+    \                    ]\r
+
+    \                }\r
+
+    \            ]\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    // ZUKVR Doesn't send partners!!!\r
+
+    \    \"statuses\": [\r
+
+    \        {\r
+
+    \            \"statusCL\": \"3\",\r
+
+    \            \"validFrom\": \"2026-04-03\",\r
+
+    \            \"typeOfUpdate\": \"N\"\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"addresses\": [\r
+
+    \        {\r
+
+    \            \"addressId\": \"11\",\r
+
+    \            \"validFrom\": \"2026-04-03\",\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"addressTypeCode\": \"43\", //Address of place of activity\r
+
+    \            \"addressObjectTypeCode\": \"SAV\" //Municipality\r
+
+    \        }\r
+
+    \    ]\r
+
+    }"
+examples: .resources/Add a new AGR Holding - Non Existing AGR Holding - Owner
+  FA.resources/examples
+order: 3639863626957469

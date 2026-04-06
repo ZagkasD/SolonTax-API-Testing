@@ -1,0 +1,135 @@
+$kind: http-request
+name: Add a new Farm - Non Existing Farm
+url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/farm-data
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"requestId\": \"requestId_Zagkas\",\r
+
+    \    \"dateOfInformation\": \"2026-03-31\",\r
+
+    \    \"sourceOfInformationCode\": \"44\", //UUR\r
+
+    \    \"owners\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"ownerPartyId\": \"d7d33aa8-9c76-426c-b98e-c6740f0b6436\",
+    //FA\r
+
+    \            \"isNatural\": true,\r
+
+    \            \"validFrom\": \"2026-01-01\"\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"identifiers\": {\r
+
+    \        \"identifierValue\": \"79483289172\",\r
+
+    \        \"identifierTypeCode\": \"14\", //Farmers\r
+
+    \        \"validFrom\": \"2026-01-01\",\r
+
+    \        \"mmTypes\":[\r
+
+    \            {\r
+
+    \                \"typeOfUpdate\":\"N\",\r
+
+    \                \"mmTypeCode\":\"203\", //The only acceptable mmtype for
+    owner of farm\r
+
+    \                \"validFrom\":\"2026-01-01\",\r
+
+    \                \"activities\":[\r
+
+    \                    {\r
+
+    \                        \"typeOfUpdate\":\"N\",\r
+
+    \                        \"activityTypeCode\":\"\",\r
+
+    \                        \"isMain\":\"\",\r
+
+    \                        \"validFrom\":\"2026-01-01\"\r
+
+    \                    }\r
+
+    \                ]\r
+
+    \            }\r
+
+    \        ]\r
+
+    \    },\r
+
+    \    \"statuses\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"statusCL\": \"3\", //Registered\r
+
+    \            \"validFrom\": \"2026-01-01\"\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"partners\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"partnerPartyId\": \"8a00d8c2-a65c-48a2-a1a9-aa39c52490f3\",
+    //FA\r
+
+    \            \"isNatural\": true,\r
+
+    \            \"validFrom\": \"2026-01-01\"\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"addresses\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"addressTypeCode\": \"43\", //Address of place of activity\r
+
+    \            \"validFrom\": \"2026-01-01\"\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"contacts\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"contactTypeCode\": \"5\", //Email\r
+
+    \            \"contactValue\": \"dzagkas@netcompany.com\",\r
+
+    \            \"validFrom\": \"2026-01-01\"\r
+
+    \        }\r
+
+    \    ]\r
+
+    }"
+order: 1775459366849

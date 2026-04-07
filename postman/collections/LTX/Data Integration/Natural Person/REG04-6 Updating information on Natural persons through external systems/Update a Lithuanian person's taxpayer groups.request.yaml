@@ -8,7 +8,7 @@ body:
 
     \    \"requestId\": \"requestId_Zagkas\",\r
 
-    \    \"mapID\": \"ab60c1cd-133c-40ce-be76-d9c102339735\",\r
+    \    \"mapID\": \"46d1ea48-ed34-4e2a-a7c2-ee4baa56ebad\",\r
 
     \    \"dateOfInformation\": \"2026-01-01\",\r
 
@@ -19,17 +19,17 @@ body:
 
     \    \"groups\": [\r
 
-    \        {\r
+    \        // {\r
 
-    \            \"typeOfUpdate\": \"K\",\r
+    \        //     \"typeOfUpdate\": \"K\",\r
 
-    \            \"groupTypeCode\": \"12\", // Value added tax payer\r
+    \        //     \"groupTypeCode\": \"12\", // Value added tax payer\r
 
-    \            \"validFrom\": \"2026-01-01\",\r
+    \        //     \"validFrom\": \"2026-01-01\",\r
 
-    \            \"validTo\": \"2026-01-02\"\r
+    \        //     \"validTo\": \"2026-01-02\"\r
 
-    \        },\r
+    \        // },\r
 
     \        {\r
 

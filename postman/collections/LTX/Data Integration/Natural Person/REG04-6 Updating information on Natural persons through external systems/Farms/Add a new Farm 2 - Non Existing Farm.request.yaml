@@ -130,7 +130,7 @@ body:
 
     \        {\r
 
-    \            \"statusCL\": \"3\",\r
+    \            \"statusCL\": \"3\", //Registered\r
 
     \            \"validFrom\": \"2026-04-03\",\r
 
@@ -159,4 +159,4 @@ body:
     \    ]\r
 
     }"
-order: 4286086771732298
+order: 6000

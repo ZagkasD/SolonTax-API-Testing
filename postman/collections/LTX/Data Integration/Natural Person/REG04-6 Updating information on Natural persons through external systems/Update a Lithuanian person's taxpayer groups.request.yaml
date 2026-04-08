@@ -8,14 +8,12 @@ body:
 
     \    \"requestId\": \"requestId_Zagkas\",\r
 
-    \    \"mapID\": \"46d1ea48-ed34-4e2a-a7c2-ee4baa56ebad\",\r
+    \    \"mapID\": \"d8dc280b-6eac-4b81-9afd-1f1ee1f4b65f\",\r
 
-    \    \"dateOfInformation\": \"2026-01-01\",\r
+    \    \"dateOfInformation\": \"2026-04-07\",\r
 
-    \    \"sourceOfInformationCode\": \"6004\", //ITIS_EU IS (Information
+    \    \"sourceOfInformationCode\": \"10\", //ITIS_EU IS (Information
     Systems)\r
-
-    \    \"isCreate\": false,\r
 
     \    \"groups\": [\r
 
@@ -35,10 +33,14 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"groupTypeCode\": \"15\", // A different VAT calculation
+    \            \"groupTypeCode\": \"119\", // A different VAT calculation
     method is applied\r
 
-    \            \"validFrom\": \"2026-01-03\"\r
+    \            \"firstYear\":\"2026-06-01\",\r
+
+    \            \"validFrom\": \"2026-06-01\",\r
+
+    \            \"validTo\":\"2026-06-30\"\r
 
     \        }\r
 

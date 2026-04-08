@@ -1,0 +1,88 @@
+$kind: http-request
+name: Amendment of Activity
+url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/farm-data
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"requestId\": \"requestId_Zagkas\",\r
+
+    \    \"dateOfInformation\": \"2026-04-03\",\r
+
+    \    \"mapId\":\"fd808ee7-3fda-4a4b-b3d8-c352286a2576\",\r
+
+    \    \"sourceOfInformationCode\": \"44\", //UUR,\r
+
+    \    \"owners\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"R\",// Read only, (licences), keep the
+    entry, no valid to\r
+
+    \            \"isNatural\": true,\r
+
+    \            \"ownerPartyId\": \"8a00d8c2-a65c-48a2-a1a9-aa39c52490f3\",
+    //FA\r
+
+    \            \"validFrom\": \"2026-04-03\",\r
+
+    \            \"mmTypes\": [\r
+
+    \                {\r
+
+    \                    \"typeOfUpdate\": \"R\",\r
+
+    \                    \"mmTypeCode\": \"203\", // The only available mmtype
+    of owner\r
+
+    \                    \"validFrom\": \"2026-04-03\",\r
+
+    \                    \r
+
+    \                    \"activities\": [\r
+
+    \                        {\r
+
+    \                            \"typeOfUpdate\": \"K\",//Need type of update
+    R\r
+
+    \                            \"activityTypeCode\": \"011100\", //Cereal\r
+
+    \                            \"isMain\": true,\r
+
+    \                            \"validFrom\": \"2026-04-03\",\r
+
+    \                            \"validTo\":\"2026-04-04\"\r
+
+    \                        },\r
+
+    \                        {\r
+
+    \                            \"typeOfUpdate\": \"N\",//Need type of update
+    R\r
+
+    \                            \"activityTypeCode\": \"011100\", //Cereal\r
+
+    \                            \"isMain\": true,\r
+
+    \                            \"validFrom\": \"2026-04-05\"\r
+
+    \                            \r
+
+    \                        }\r
+
+    \                    ]\r
+
+    \                }\r
+
+    \            ]\r
+
+    \        }\r
+
+    \    ]\r
+
+    }"
+examples: .resources/Amendment of Activity.resources/examples
+order: 5884

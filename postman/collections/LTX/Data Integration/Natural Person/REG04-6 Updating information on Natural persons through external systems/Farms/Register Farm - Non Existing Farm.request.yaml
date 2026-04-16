@@ -1,5 +1,4 @@
 $kind: http-request
-name: Add a new Farm 2 - Non Existing Farm
 url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/farm-data
 method: POST
 body:
@@ -12,13 +11,27 @@ body:
 
     \    \"sourceOfInformationCode\": \"44\", //UUR\r
 
-    \    \"contacts\": [],\r
+    \    \"contacts\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"contactTypeCode\": \"6\",\r
+
+    \            \"contactValue\": \"dzagkas@netcompany.com\",\r
+
+    \            \"validFrom\": \"2026-01-01\"\r
+
+    \        }\r
+
+    \    ],\r
 
     \    \"identifiers\": {\r
 
     \        \"validFrom\": \"2026-04-03\",\r
 
-    \        \"identifierValue\": \"43188990857\",\r
+    \        \"identifierValue\": \"43188978857\",\r
 
     \        \"identifierTypeCode\": \"14\" //Farmers\r
 
@@ -34,7 +47,7 @@ body:
 
     \            \"isNatural\": true,\r
 
-    \            \"ownerPartyId\": \"8a00d8c2-a65c-48a2-a1a9-aa39c52490f3\",
+    \            \"ownerPartyId\": \"986937ce-5689-403c-84f5-428a3333d601\",
     //FA\r
 
     \            \"validFrom\": \"2026-04-03\",\r
@@ -84,7 +97,7 @@ body:
 
     \            \"isNatural\": true,\r
 
-    \            \"partnerPartyId\": \"c9a52cce-e32f-488d-a68f-f2ba204dd39e\",
+    \            \"partnerPartyId\": \"4379ea21-f7d3-4dd8-890f-107947d020ed\",
     //FA\r
 
     \            \"validFrom\": \"2026-04-03\",\r
@@ -152,11 +165,12 @@ body:
 
     \            \"addressTypeCode\": \"43\", //Address of place of activity\r
 
-    \            \"addressObjectTypeCode\": \"SAV\" //Municipality\r
+    \            \"addressObjectTypeCode\": \"SAV\" //Municipality,        }\r
 
     \        }\r
 
     \    ]\r
 
     }"
-order: 6000
+examples: .resources/Register Farm - Non Existing Farm.resources/examples
+order: 1464

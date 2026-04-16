@@ -1,5 +1,4 @@
 $kind: http-request
-name: Amendment of Activity
 url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/farm-data
 method: POST
 body:
@@ -84,5 +83,5 @@ body:
     \    ]\r
 
     }"
-examples: .resources/Amendment of Activity.resources/examples
-order: 5884
+examples: .resources/Amendment of Individual Activity Through UUR.resources/examples
+order: 3593372754691513

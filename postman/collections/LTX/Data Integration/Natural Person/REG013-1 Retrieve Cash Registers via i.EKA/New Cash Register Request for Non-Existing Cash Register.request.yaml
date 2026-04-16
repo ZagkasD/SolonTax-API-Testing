@@ -1,6 +1,6 @@
 $kind: http-request
 name: New Cash Register Request for Non-Existing Cash Register
-url: https://solon-lith-test.centraldg6.athens.intrasoft-intl.private/data-integration/natural-persons
+url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/natural-persons
 method: POST
 body:
   type: json
@@ -10,11 +10,9 @@ body:
 
     \    \"dateOfInformation\": \"2026-01-01\",\r
 
-    \    \"mapId\": \"d5b2c657-07a5-4390-8814-e5db2585419f\",\r
+    \    \"mapId\": \"5e76df13-b8b9-4cc0-998b-bbeab81c8a99\",\r
 
     \    \"sourceOfInformationCode\": \"200\", //IMAS iEKA\r
-
-    \    \"isCreate\": false,\r
 
     \    \"cashRegisters\": [\r
 
@@ -36,7 +34,7 @@ body:
 
     \            \"validFrom\": \"2026-01-01\",\r
 
-    \            \"addressId\": \"requestId_Zagkas\"\r
+    \            \"addressId\": \"417310772251\"\r
 
     \        }\r
 

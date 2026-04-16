@@ -1,5 +1,4 @@
 $kind: http-request
-name: Termination of activity
 url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/farm-data
 method: POST
 body:
@@ -43,5 +42,5 @@ body:
     \    ]\r
 
     }"
-examples: .resources/Termination of activity.resources/examples
+examples: .resources/Termination of Individual Activity Through UUR.resources/examples
 order: 381305159161203

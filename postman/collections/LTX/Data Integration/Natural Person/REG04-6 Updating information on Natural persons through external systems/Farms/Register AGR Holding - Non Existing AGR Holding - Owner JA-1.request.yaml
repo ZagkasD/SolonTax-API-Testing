@@ -1,4 +1,5 @@
 $kind: http-request
+name: Register AGR Holding - Non Existing AGR Holding - Owner JA
 url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/farm-data
 method: POST
 body:
@@ -29,10 +30,10 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"isNatural\": true,\r
+    \            \"isNatural\": false,\r
 
-    \            \"ownerPartyId\": \"986937ce-5689-403c-84f5-428a3333d601\",
-    //FA\r
+    \            \"ownerPartyId\": \"974e98ba-eb38-4917-b131-dcf87130297e\",
+    //LJA\r
 
     \            \"validFrom\": \"2026-04-03\",\r
 
@@ -42,26 +43,10 @@ body:
 
     \                    \"typeOfUpdate\": \"N\",\r
 
-    \                    \"mmTypeCode\": \"232\", // This mmtype allows
+    \                    \"mmTypeCode\": \"248\", // This mmtype does not allow
     activities\r
 
-    \                    \"validFrom\": \"2026-04-03\",\r
-
-    \                    \"activities\": [\r
-
-    \                        {\r
-
-    \                            \"typeOfUpdate\": \"N\",\r
-
-    \                            \"activityTypeCode\": \"011100\", //Cereal\r
-
-    \                            \"isMain\": true,\r
-
-    \                            \"validFrom\": \"2026-04-03\"\r
-
-    \                        }\r
-
-    \                    ]\r
+    \                    \"validFrom\": \"2026-04-03\"\r
 
     \                }\r
 
@@ -107,5 +92,5 @@ body:
 
     }"
 examples: .resources/Add a new AGR Holding - Non Existing AGR Holding - Owner
-  FA.resources/examples
-order: 3000
+  JA.resources/examples
+order: 2000

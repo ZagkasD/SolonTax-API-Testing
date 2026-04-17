@@ -1,4 +1,5 @@
 $kind: http-request
+name: Register Farm - Non Existing Farm
 url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/farm-data
 method: POST
 body:
@@ -31,7 +32,7 @@ body:
 
     \        \"validFrom\": \"2026-04-03\",\r
 
-    \        \"identifierValue\": \"43188978857\",\r
+    \        \"identifierValue\": \"431888857\",\r
 
     \        \"identifierTypeCode\": \"14\" //Farmers\r
 
@@ -47,7 +48,7 @@ body:
 
     \            \"isNatural\": true,\r
 
-    \            \"ownerPartyId\": \"986937ce-5689-403c-84f5-428a3333d601\",
+    \            \"ownerPartyId\": \"d16bde53-cdbb-4230-90e4-b3d750bec869\",
     //FA\r
 
     \            \"validFrom\": \"2026-04-03\",\r
@@ -97,7 +98,7 @@ body:
 
     \            \"isNatural\": true,\r
 
-    \            \"partnerPartyId\": \"4379ea21-f7d3-4dd8-890f-107947d020ed\",
+    \            \"partnerPartyId\": \"986937ce-5689-403c-84f5-428a3333d601\",
     //FA\r
 
     \            \"validFrom\": \"2026-04-03\",\r

@@ -13,8 +13,6 @@ body:
     \    \"sourceOfInformationCode\": \"6004\", //ITIS_EU IS (Information
     Systems)\r
 
-    \    \"isCreate\": true,\r
-
     \    \"basicPersonalData\": {\r
 
     \        \"typeOfUpdate\": \"N\",\r
@@ -33,9 +31,9 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"firstName\": \"Dimos SME_04\",\r
+    \            \"firstName\": \"Kon Groups\",\r
 
-    \            \"lastName\": \"Zagkas\",\r
+    \            \"lastName\": \"Louk\",\r
 
     \            \"avdNumber\": \"63\",\r
 
@@ -53,7 +51,7 @@ body:
 
     \            \"contactTypeCode\": \"6\",\r
 
-    \            \"contactValue\": \"dzagkas@netcompany.com\",\r
+    \            \"contactValue\": \"dzagkas@netcompany.com\", \r
 
     \            \"validFrom\": \"2026-01-01\"\r
 
@@ -69,7 +67,7 @@ body:
 
     \            \"identifierTypeCode\": \"5\",\r
 
-    \            \"identifierValue\": \"207892325165232\",\r
+    \            \"identifierValue\": \"207892891982165232\",\r
 
     \            \"countryCode\": \"LT\",\r
 

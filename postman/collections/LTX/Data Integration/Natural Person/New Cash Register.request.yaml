@@ -1,0 +1,44 @@
+$kind: http-request
+name: New Cash Register
+url: ""
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"requestId\": \"requestId_Zagkas\",\r
+
+    \    \"dateOfInformation\": \"2026-01-01\",\r
+
+    \    \"mapId\": \"5e76df13-b8b9-4cc0-998b-bbeab81c8a99\",\r
+
+    \    \"sourceOfInformationCode\": \"200\", //IMAS iEKA\r
+
+    \    \"cashRegisters\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"VMI_RegistrationNumber\": \"12345369823\",\r
+
+    \            \"EKA_Number\": \"5049839893\",\r
+
+    \            \"cashRegisterName\": \"MyCashRegister\",\r
+
+    \            \"cashRegisterTypeCode\": \"50\",\r
+
+    \            \"statusCode\": \"15\",\r
+
+    \            \"statusDate\": \"2026-01-01\",\r
+
+    \            \"validFrom\": \"2026-01-01\",\r
+
+    \            \"addressId\": \"417310772251\"\r
+
+    \        }\r
+
+    \    ]\r
+
+    } "
+order: 650994346228450

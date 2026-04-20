@@ -1,163 +1,66 @@
 $kind: http-request
 name: FĮ (TIES) (Bank Accounts)
-url: https://solon-lith-test.centraldg6.athens.intrasoft-intl.private/data-integration/natural-persons
+url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/bank-accounts
 method: POST
 body:
   type: json
   content: "{\r
 
-    \    \"requestId\": \"requestId_Zagkas\",\r
+    \  \"requestId\": \"requestId_Zagkas\",\r
 
-    \    \"dateOfInformation\": \"2026-01-01\",\r
+    \  \"mapId\": \"6cb2a9b2-28bf-41fd-842b-f43a4c646e1a\",\r
 
-    \    \"sourceOfInformationCode\": \"6004\", //ITIS_EU IS (Information
-    Systems)\r
+    \  \"dateOfInformation\": \"2026-04-17\",\r
 
-    \    \"isCreate\": true,\r
+    \  \"sourceOfInformationCode\": \"6004\", //ITIS_EU IS (Information Systems)\r
 
-    \    \"basicPersonalData\": {\r
+    \  \"accountDetails\": {\r
 
-    \        \"typeOfUpdate\": \"N\",\r
+    \    \"typeOfUpdate\": \"N\",\r
 
-    \        \"placeOfBirth\": \"LT\",\r
+    \    \"financialInstitutionId\": \"089439027u9\",\r
 
-    \        \"gender\": \"M\",\r
+    \    \"accountNumber\": \"0784923079\",\r
 
-    \        \"dateOfBirth\": \"2000-01-01\"\r
+    \    // \"iban\": \"9487329237\",\r
 
-    \    },\r
+    \    \"accountType\": \"7\", //Savings account\r
 
-    \    \"names\": [\r
+    \    \"currency\": \"EUR\",\r
 
-    \        {\r
+    \    \"validFrom\": \"2026-01-01\",\r
 
-    \            \"typeOfUpdate\": \"N\",\r
+    \    \"ownerPartyId\": \"6cb2a9b2-28bf-41fd-842b-f43a4c646e1a\" //Natural person\r
 
-    \            \"firstName\": \"Dimos TIES03\",\r
+    \  },\r
 
-    \            \"lastName\": \"Zagkas\",\r
+    \  \"safeDetails\": {\r
 
-    \            \"avdNumber\": \"63\",\r
+    \    \"typeOfUpdate\": \"N\",\r
 
-    \            \"validFrom\": \"2026-01-01\"\r
+    \    \"financialInstitutionId\": \"90827439879432\",\r
 
-    \        }\r
+    \    \"safeBoxNumber\": \"7804329879\",\r
 
-    \    ],\r
+    \    \"validFrom\": \"2026-01-01\",\r
 
-    \    \"contacts\": [\r
+    \    \"ownerPartyId\": \"6cb2a9b2-28bf-41fd-842b-f43a4c646e1a\"\r
 
-    \        {\r
+    \  },\r
 
-    \            \"typeOfUpdate\": \"N\",\r
+    \  \"representative\": [\r
 
-    \            \"contactTypeCode\": \"6\",\r
+    \    {\r
 
-    \            \"contactValue\": \"dzagkas@netcompany.com\",\r
+    \      \"typeOfUpdate\": \"N\",\r
 
-    \            \"validFrom\": \"2026-01-01\"\r
+    \      \"validFrom\": \"2026-01-01\",\r
 
-    \        }\r
+    \      \"representativePartyId\": \"719d45d0-845f-4119-9890-bb824b791d83\"\r
 
-    \    ],\r
+    \    }\r
 
-    \    \"identifiers\": [\r
-
-    \        {\r
-
-    \            \"typeOfUpdate\": \"N\",\r
-
-    \            \"identifierTypeCode\": \"5\",\r
-
-    \            \"identifierValue\": \"20779018245165232\",\r
-
-    \            \"countryCode\": \"LT\",\r
-
-    \            \"validFrom\": \"2026-01-01\"\r
-
-    \        }\r
-
-    \    ],\r
-
-    \    \"citizenships\": [\r
-
-    \        {\r
-
-    \            \"typeOfUpdate\": \"N\",\r
-
-    \            \"citizenshipCode\": \"LT\",\r
-
-    \            \"validFrom\": \"2026-01-01\"\r
-
-    \        }\r
-
-    \    ],\r
-
-    \    \"groups\": [\r
-
-    \        {\r
-
-    \            \"typeOfUpdate\": \"N\",\r
-
-    \            \"orgUnitPartyId\": \"3dd075ff-e291-4975-a511-000010000000\",\r
-
-    \            \"groupTypeCode\": \"1\", // New taxpayer\r
-
-    \            \"validFrom\": \"2026-01-01\"\r
-
-    \        }\r
-
-    \    ],\r
-
-    \    \"bankAccounts\": [\r
-
-    \        {\r
-
-    \            \"typeOfUpdate\": \"N\",\r
-
-    \            // \"bankCodeNumber\": \"string\",\r
-
-    \            // \"bankName\": \"string\",\r
-
-    \            // \"SWIFT\": \"string\",\r
-
-    \            // \"accountNumber\": \"string\",\r
-
-    \            // \"accountTypeCode\": \"string\",\r
-
-    \            // \"accountPurpose\": \"string\",\r
-
-    \            \"countryCode\": \"string\",\r
-
-    \            \"currencyCode\": \"string\"\r
-
-    \            // \"safeBox\": \"string\",\r
-
-    \            // \"holderName\": \"string\",\r
-
-    \            // \"priority\": \"string\",\r
-
-    \            // \"openingDate\": \"2026-04-17\",\r
-
-    \            // \"openingYear\": \"stri\",\r
-
-    \            // \"relationships\": [\r
-
-    \            //     {\r
-
-    \            //         \"typeOfUpdate\": \"string\",\r
-
-    \            //         \"validFrom\": \"2026-04-17\",\r
-
-    \            //         \"representativePartyId\": \"string\"\r
-
-    \            //     }\r
-
-    \            // ]\r
-
-    \        }\r
-
-    \    ]\r
+    \  ]\r
 
     }"
 order: 13796

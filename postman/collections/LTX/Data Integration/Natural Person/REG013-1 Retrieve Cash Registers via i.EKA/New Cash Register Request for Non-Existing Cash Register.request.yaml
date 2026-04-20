@@ -20,9 +20,9 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"VMI_RegistrationNumber\": \"12345369823\",\r
+    \            \"VMI_RegistrationNumber\": \"12345397183\",\r
 
-    \            \"EKA_Number\": \"5049839893\",\r
+    \            \"EKA_Number\": \"5049839987312\",\r
 
     \            \"cashRegisterName\": \"MyCashRegister\",\r
 
@@ -30,15 +30,17 @@ body:
 
     \            \"statusCode\": \"15\",\r
 
-    \            \"statusDate\": \"2026-01-01\",\r
+    \            \"statusDate\": \"2025-01-01\",\r
 
-    \            \"validFrom\": \"2026-01-01\",\r
+    \            \"validFrom\": \"2025-01-01\",\r
 
-    \            \"addressId\": \"417310772251\"\r
+    \            \"addressId\": \"417310772251\",\r
+
+    \            \"addressObjectTypeCode\": \"A_KOM\"\r
 
     \        }\r
 
     \    ]\r
 
-    }"
+    } "
 order: 1000

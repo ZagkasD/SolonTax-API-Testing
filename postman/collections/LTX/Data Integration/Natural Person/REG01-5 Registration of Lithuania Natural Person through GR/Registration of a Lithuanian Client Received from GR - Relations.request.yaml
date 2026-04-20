@@ -1,5 +1,5 @@
 $kind: http-request
-name: Registration of a Lithuanian Client Received from GR
+name: Registration of a Lithuanian Client Received from GR - Relationships
 url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/natural-persons
 method: POST
 body:
@@ -11,8 +11,6 @@ body:
     \    \"dateOfInformation\": \"2026-01-01\",\r
 
     \    \"sourceOfInformationCode\": \"10\", //GR\r
-
-    \    \"isCreate\": true,\r
 
     \    \"basicPersonalData\": {\r
 
@@ -32,7 +30,7 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"firstName\": \"Dimos GR_09\",\r
+    \            \"firstName\": \"Dimos GR Ten\",\r
 
     \            \"lastName\": \"Zagkas\",\r
 
@@ -52,7 +50,7 @@ body:
 
     \            \"identifierTypeCode\": \"2\", //Personal Code\r
 
-    \            \"identifierValue\": \"207918529178542\",\r
+    \            \"identifierValue\": \"2089718529178542\",\r
 
     \            \"countryCode\": \"LT\",\r
 
@@ -70,8 +68,11 @@ body:
 
     \            \"addressTypeCode\": \"5\",\r
 
-    \            \"address\": \"Grand lake 31 XI5 RT10 LT-1234 , Melissamouth
-    Antakalnis Vilnius city municipality\",\r
+    \            // \"address\": \"Grand lake 31 XI5 RT10 LT-1234 , Melissamouth Antakalnis Vilnius city municipality\",\r
+
+    \            \"addressId\": \"417310773573\",\r
+
+    \            \"addressObjectTypeCode\": \"A_KOM\",\r
 
     \            \"countryCode\": \"LT\",\r
 
@@ -103,10 +104,33 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"relationshipTypeCode\": \"I_100\",\r
+    \            \"relationshipTypeCode\": \"I_100\", //Marriage\r
 
-    \            \"relatedPartyMapId\":
-    \"eeac9e05-3dec-4291-80ac-30399a5fc2f4\",\r
+    \            \"relatedPartyMapId\": \"5e76df13-b8b9-4cc0-998b-bbeab81c8a99\",\r
+
+    \            \"validFrom\": \"2016-01-01\"\r
+
+    \        },\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"relationshipTypeCode\": \"I_102\", //Mother\r
+
+    \            \"relatedPartyMapId\": \"d7d33aa8-9c76-426c-b98e-c6740f0b6436\",\r
+
+    \            \"validFrom\": \"2016-01-01\"\r
+
+    \        },\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"relationshipTypeCode\": \"I_101\", //Father\r
+
+    \            \"relatedPartyMapId\": \"4379ea21-f7d3-4dd8-890f-107947d020ed\",\r
 
     \            \"validFrom\": \"2016-01-01\"\r
 
@@ -115,4 +139,4 @@ body:
     \    ]\r
 
     }"
-order: 2000
+order: 1641

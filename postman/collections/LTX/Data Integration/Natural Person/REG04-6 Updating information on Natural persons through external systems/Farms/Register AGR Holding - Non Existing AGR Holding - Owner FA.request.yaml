@@ -131,4 +131,4 @@ body:
     }"
 examples: .resources/Register AGR Holding - Non Existing AGR Holding - Owner
   FA.resources/examples
-order: 3000
+order: 5000

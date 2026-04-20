@@ -1,5 +1,5 @@
 $kind: http-request
-name: Register AGR Holding - Non Existing AGR Holding - Owner LJA
+name: Register Farm - Validations 3rd
 url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/farm-data
 method: POST
 body:
@@ -10,7 +10,7 @@ body:
 
     \    \"dateOfInformation\": \"2026-04-03\",\r
 
-    \    \"sourceOfInformationCode\": \"6005\", //ZUKVR\r
+    \    \"sourceOfInformationCode\": \"44\", //UUR\r
 
     \    \"contacts\": [\r
 
@@ -32,7 +32,7 @@ body:
 
     \        \"validFrom\": \"2026-04-03\",\r
 
-    \        \"identifierValue\": \"43188978857\",\r
+    \        \"identifierValue\": \"9874302987590-\",\r
 
     \        \"identifierTypeCode\": \"14\" //Farmers\r
 
@@ -46,10 +46,9 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"isNatural\": false,\r
+    \            \"isNatural\": true,\r
 
-    \            \"ownerPartyId\": \"702f9444-2f90-4f6c-b951-c35223c60aad\",
-    //LJA\r
+    \            \"ownerPartyId\": \"1dc63133-fda3-4b1d-ac7b-f79df9c4ecb3\", //FA\r
 
     \            \"validFrom\": \"2026-04-03\",\r
 
@@ -59,8 +58,7 @@ body:
 
     \                    \"typeOfUpdate\": \"N\",\r
 
-    \                    \"mmTypeCode\": \"248\", // This mmtype does not allow
-    activities\r
+    \                    \"mmTypeCode\": \"203\", // The only available mmtype of owner\r
 
     \                    \"validFrom\": \"2026-04-03\"\r
 
@@ -70,13 +68,41 @@ body:
 
     \        }\r
 
-    \    ],\r
+    \    ]\r
 
-    \    \r
+    \    ,\r
 
-    \    // ZUKVR Doesn't send partners!!!\r
+    \    \"partners\": [\r
 
-    \r
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"isNatural\": true,\r
+
+    \            \"partnerPartyId\": \"c0550c1c-de47-49f0-aa94-692b889474ec\", //FA\r
+
+    \            \"validFrom\": \"2026-04-03\",\r
+
+    \            \"mmTypes\": [\r
+
+    \                {\r
+
+    \                    \"typeOfUpdate\": \"N\",\r
+
+    \                    \"mmTypeCode\": \"222\", // The only available mmtype of partner\r
+
+    \                    \"validFrom\": \"2026-04-03\"\r
+
+    \                }\r
+
+    \            ]\r
+
+    \        }\r
+
+    \    ]\r
+
+    \    ,\r
 
     \    \"statuses\": [\r
 
@@ -111,6 +137,5 @@ body:
     \    ]\r
 
     }"
-examples: .resources/Add a new AGR Holding - Non Existing AGR Holding - Owner
-  JA.resources/examples
-order: 4000
+examples: .resources/Register Farm - Validations 3rd.resources/examples
+order: 4469290132793902

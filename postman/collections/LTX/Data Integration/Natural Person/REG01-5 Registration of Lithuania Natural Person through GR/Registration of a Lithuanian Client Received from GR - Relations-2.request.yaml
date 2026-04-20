@@ -1,0 +1,64 @@
+$kind: http-request
+name: Registration of a Lithuanian Client Received from GR - Relationships Divorce
+url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/natural-persons
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"requestId\": \"requestId_Zagkas\",\r
+
+    \    \"dateOfInformation\": \"2026-01-01\",\r
+
+    \    \"mapId\": \"00311ec3-cd45-41c8-82de-4d21f6b96649\",\r
+
+    \    \"sourceOfInformationCode\": \"10\", //GR\r
+
+    \    \"basicPersonalData\": {\r
+
+    \        \"typeOfUpdate\": \"N\",\r
+
+    \        \"placeOfBirth\": \"LT\",\r
+
+    \        \"gender\": \"V\",\r
+
+    \        \"dateOfBirth\": \"2000-01-01\"\r
+
+    \    },\r
+
+    \    \"relationships\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"K\",\r
+
+    \            \"relationshipTypeCode\": \"I_100\", //Marriage\r
+
+    \            \"relatedPartyMapId\": \"5e76df13-b8b9-4cc0-998b-bbeab81c8a99\",\r
+
+    \            \"validFrom\": \"2016-01-01\",\r
+
+    \            \"validTo\": \"2016-01-02\"\r
+
+    \        },\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"relationshipTypeCode\": \"I_100\", //Marriage\r
+
+    \            \"relatedPartyMapId\": \"5e76df13-b8b9-4cc0-998b-bbeab81c8a99\",\r
+
+    \            \"maritalStatusCode\": \"I\", //Divorced\r
+
+    \            \"maritalStatusDate\": \"2016-01-03\",\r
+
+    \            \"validFrom\": \"2016-01-03\"\r
+
+    \        }\r
+
+    \    ]\r
+
+    }"
+order: 181964263919358

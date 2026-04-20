@@ -1,5 +1,5 @@
 $kind: http-request
-name: Register AGR Holding - Non Existing AGR Holding - Owner LJA
+name: Register Farm - Validations 2nd
 url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/farm-data
 method: POST
 body:
@@ -10,7 +10,7 @@ body:
 
     \    \"dateOfInformation\": \"2026-04-03\",\r
 
-    \    \"sourceOfInformationCode\": \"6005\", //ZUKVR\r
+    \    \"sourceOfInformationCode\": \"44\", //UUR\r
 
     \    \"contacts\": [\r
 
@@ -32,7 +32,7 @@ body:
 
     \        \"validFrom\": \"2026-04-03\",\r
 
-    \        \"identifierValue\": \"43188978857\",\r
+    \        \"identifierValue\": \"43197857\",\r
 
     \        \"identifierTypeCode\": \"14\" //Farmers\r
 
@@ -46,37 +46,35 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"isNatural\": false,\r
+    \            \"isNatural\": true,\r
 
-    \            \"ownerPartyId\": \"702f9444-2f90-4f6c-b951-c35223c60aad\",
-    //LJA\r
+    \            \"ownerPartyId\": \"c9a52cce-e32f-488d-a68f-f2ba204dd39e\", //FA\r
 
-    \            \"validFrom\": \"2026-04-03\",\r
-
-    \            \"mmTypes\": [\r
-
-    \                {\r
-
-    \                    \"typeOfUpdate\": \"N\",\r
-
-    \                    \"mmTypeCode\": \"248\", // This mmtype does not allow
-    activities\r
-
-    \                    \"validFrom\": \"2026-04-03\"\r
-
-    \                }\r
-
-    \            ]\r
+    \            \"validFrom\": \"2026-04-03\"\r
 
     \        }\r
 
-    \    ],\r
+    \    ]\r
 
-    \    \r
+    \    ,\r
 
-    \    // ZUKVR Doesn't send partners!!!\r
+    \    \"partners\": [\r
 
-    \r
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"isNatural\": true,\r
+
+    \            \"partnerPartyId\": \"d7d33aa8-9c76-426c-b98e-c6740f0b6436\", //FA\r
+
+    \            \"validFrom\": \"2026-04-03\"\r
+
+    \        }\r
+
+    \    ]\r
+
+    \    ,\r
 
     \    \"statuses\": [\r
 
@@ -111,6 +109,5 @@ body:
     \    ]\r
 
     }"
-examples: .resources/Add a new AGR Holding - Non Existing AGR Holding - Owner
-  JA.resources/examples
-order: 4000
+examples: .resources/Register Farm - Validations 2nd.resources/examples
+order: 4249402527973770

@@ -32,7 +32,7 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"firstName\": \"Dimos GR_09\",\r
+    \            \"firstName\": \"Dimos GR Blue\",\r
 
     \            \"lastName\": \"Zagkas\",\r
 
@@ -52,7 +52,7 @@ body:
 
     \            \"identifierTypeCode\": \"2\", //Personal Code\r
 
-    \            \"identifierValue\": \"207918529178542\",\r
+    \            \"identifierValue\": \"2079487308978542\",\r
 
     \            \"countryCode\": \"LT\",\r
 
@@ -70,8 +70,7 @@ body:
 
     \            \"addressTypeCode\": \"5\",\r
 
-    \            \"address\": \"Grand lake 31 XI5 RT10 LT-1234 , Melissamouth
-    Antakalnis Vilnius city municipality\",\r
+    \            \"address\": \"Grand lake 31 XI5 RT10 LT-1234 , Melissamouth Antakalnis Vilnius city municipality\",\r
 
     \            \"countryCode\": \"LT\",\r
 
@@ -105,8 +104,7 @@ body:
 
     \            \"relationshipTypeCode\": \"I_100\",\r
 
-    \            \"relatedPartyMapId\":
-    \"eeac9e05-3dec-4291-80ac-30399a5fc2f4\",\r
+    \            \"relatedPartyMapId\": \"eeac9e05-3dec-4291-80ac-30399a5fc2f4\",\r
 
     \            \"validFrom\": \"2016-01-01\"\r
 

@@ -1,5 +1,11 @@
 $kind: http-request
-name: Register Farm - Validations 3rd
+name: "AGR_REG Form: Validate Gap in Activities 2"
+description: |-
+  Gap at the beginning - activity starts after MM type.
+
+  Set up for both owner and partner:  
+  MMType: 2026-02-10 - open  
+  Activity: 2026-03-10 - open
 url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/farm-data
 method: POST
 body:
@@ -32,13 +38,11 @@ body:
 
     \        \"validFrom\": \"2026-04-03\",\r
 
-    \        \"identifierValue\": \"9874302987590-\",\r
+    \        \"identifierValue\": \"987439873287590-\",\r
 
     \        \"identifierTypeCode\": \"14\" //Farmers\r
 
-    \    }\r
-
-    \    ,\r
+    \    },\r
 
     \    \"owners\": [\r
 
@@ -48,9 +52,9 @@ body:
 
     \            \"isNatural\": true,\r
 
-    \            \"ownerPartyId\": \"1dc63133-fda3-4b1d-ac7b-f79df9c4ecb3\", //FA\r
+    \            \"ownerPartyId\": \"3fde2f53-5513-48a6-a8b7-616f979c4b73\", //FA\r
 
-    \            \"validFrom\": \"2026-04-03\",\r
+    \            \"validFrom\": \"2026-02-10\",\r
 
     \            \"mmTypes\": [\r
 
@@ -60,7 +64,23 @@ body:
 
     \                    \"mmTypeCode\": \"203\", // The only available mmtype of owner\r
 
-    \                    \"validFrom\": \"2026-04-03\"\r
+    \                    \"validFrom\": \"2026-02-10\",\r
+
+    \                    \"activities\": [\r
+
+    \                        {\r
+
+    \                            \"typeOfUpdate\": \"N\",\r
+
+    \                            \"activityTypeCode\": \"011100\", //Cereal\r
+
+    \                            \"isMain\": true,\r
+
+    \                            \"validFrom\": \"2026-03-10\"\r
+
+    \                        }\r
+
+    \                    ]\r
 
     \                }\r
 
@@ -68,9 +88,7 @@ body:
 
     \        }\r
 
-    \    ]\r
-
-    \    ,\r
+    \    ],\r
 
     \    \"partners\": [\r
 
@@ -80,9 +98,9 @@ body:
 
     \            \"isNatural\": true,\r
 
-    \            \"partnerPartyId\": \"c0550c1c-de47-49f0-aa94-692b889474ec\", //FA\r
+    \            \"partnerPartyId\": \"abd0fff7-6868-415d-bf58-0f846843c187\", //FA\r
 
-    \            \"validFrom\": \"2026-04-03\",\r
+    \            \"validFrom\": \"2026-02-10\",\r
 
     \            \"mmTypes\": [\r
 
@@ -92,7 +110,23 @@ body:
 
     \                    \"mmTypeCode\": \"222\", // The only available mmtype of partner\r
 
-    \                    \"validFrom\": \"2026-04-03\"\r
+    \                    \"validFrom\": \"2026-02-10\",\r
+
+    \                    \"activities\": [\r
+
+    \                        {\r
+
+    \                            \"typeOfUpdate\": \"N\",\r
+
+    \                            \"activityTypeCode\": \"011100\", //Cereal\r
+
+    \                            \"isMain\": true,\r
+
+    \                            \"validFrom\": \"2026-03-10\"\r
+
+    \                        }\r
+
+    \                    ]\r
 
     \                }\r
 
@@ -100,9 +134,7 @@ body:
 
     \        }\r
 
-    \    ]\r
-
-    \    ,\r
+    \    ],\r
 
     \    \"statuses\": [\r
 
@@ -137,5 +169,5 @@ body:
     \    ]\r
 
     }"
-examples: .resources/Register Farm - Validations 3rd.resources/examples
-order: 4469290132793902
+examples: .resources/AGR_REG Form- Validate Gap in Activities 2.resources/examples
+order: 3952982260973547

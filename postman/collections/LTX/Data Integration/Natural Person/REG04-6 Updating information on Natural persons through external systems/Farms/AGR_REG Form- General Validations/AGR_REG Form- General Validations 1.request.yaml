@@ -1,4 +1,5 @@
 $kind: http-request
+name: "AGR_REG Form: General Validations 1"
 url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/farm-data
 method: POST
 body:
@@ -12,5 +13,5 @@ body:
     \    \"sourceOfInformationCode\": \"44\" //UUR\r
 
     }"
-examples: .resources/Register Farm - Validations 1st.resources/examples
-order: 1800
+examples: .resources/AGR_REG Form- General Validations 1.resources/examples
+order: 1776764265494

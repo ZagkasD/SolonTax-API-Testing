@@ -93,4 +93,4 @@ body:
     }"
 examples: .resources/Add a new AGR Holding - Non Existing AGR Holding - Owner
   JA.resources/examples
-order: 3000
+order: 6000

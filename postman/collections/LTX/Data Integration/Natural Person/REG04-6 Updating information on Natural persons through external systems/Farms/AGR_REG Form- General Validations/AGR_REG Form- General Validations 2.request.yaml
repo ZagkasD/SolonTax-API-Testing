@@ -1,0 +1,17 @@
+$kind: http-request
+name: "AGR_REG Form: General Validations 2"
+url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/farm-data
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"requestId\": \"requestId_Zagkas\",\r
+
+    \    \"dateOfInformation\": \"2026-04-03\",\r
+
+    \    \"sourceOfInformationCode\": \"44\" //UUR\r
+
+    }"
+examples: .resources/AGR_REG Form- General Validations 2.resources/examples
+order: 3962216390685433

@@ -8,7 +8,7 @@ body:
 
     \    \"requestId\": \"requestId_Zagkas\",\r
 
-    \    \"dateOfInformation\": \"2026-01-01\",\r
+    \    \"dateOfInformation\": \"2000-01-01\",\r
 
     \    \"sourceOfInformationCode\": \"10\", //GR\r
 
@@ -30,13 +30,13 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"firstName\": \"Dimos GR SixEight\",\r
+    \            \"firstName\": \"Dimos GR Green\",\r
 
     \            \"lastName\": \"Zagkas\",\r
 
     \            \"avdNumber\": \"63\",\r
 
-    \            \"validFrom\": \"2026-01-01\"\r
+    \            \"validFrom\": \"2000-01-01\"\r
 
     \        }\r
 
@@ -50,11 +50,11 @@ body:
 
     \            \"identifierTypeCode\": \"2\", //Personal Code\r
 
-    \            \"identifierValue\": \"20788989764283906242\",\r
+    \            \"identifierValue\": \"20788998780976242\",\r
 
     \            \"countryCode\": \"LT\",\r
 
-    \            \"validFrom\": \"2026-01-01\"\r
+    \            \"validFrom\": \"2000-01-01\"\r
 
     \        }\r
 
@@ -70,7 +70,7 @@ body:
 
     \            \"contactValue\": \"dzagkas@netcompany.com\",\r
 
-    \            \"validFrom\": \"2026-01-01\"\r
+    \            \"validFrom\": \"2000-01-01\"\r
 
     \        }\r
 
@@ -88,7 +88,7 @@ body:
 
     \            \"countryCode\": \"GR\",\r
 
-    \            \"validFrom\": \"2026-01-01\"\r
+    \            \"validFrom\": \"2000-01-01\"\r
 
     \        }\r
 

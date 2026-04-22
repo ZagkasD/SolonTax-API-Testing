@@ -1,5 +1,11 @@
 $kind: http-request
-name: Register Farm - Non Existing Farm
+name: "AGR_REG Form: Validate Gap in Activities 5"
+description: |-
+  Gap at the end - MM type has end date, last activity ends earlier.
+
+  Set up for both owner and partner:  
+  MMType: 2026-01-22 - 2026-02-01  
+  Activity 1: 2026-01-22 - 2026-01-30
 url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/farm-data
 method: POST
 body:
@@ -8,7 +14,7 @@ body:
 
     \    \"requestId\": \"requestId_Zagkas\",\r
 
-    \    \"dateOfInformation\": \"2026-04-03\",\r
+    \    \"dateOfInformation\": \"2026-01-22\",\r
 
     \    \"sourceOfInformationCode\": \"44\", //UUR\r
 
@@ -30,15 +36,13 @@ body:
 
     \    \"identifiers\": {\r
 
-    \        \"validFrom\": \"2026-04-03\",\r
+    \        \"validFrom\": \"2026-01-22\",\r
 
-    \        \"identifierValue\": \"431888857\",\r
+    \        \"identifierValue\": \"9874399874980537590-\",\r
 
     \        \"identifierTypeCode\": \"14\" //Farmers\r
 
-    \    }\r
-
-    \    ,\r
+    \    },\r
 
     \    \"owners\": [\r
 
@@ -48,10 +52,9 @@ body:
 
     \            \"isNatural\": true,\r
 
-    \            \"ownerPartyId\": \"d16bde53-cdbb-4230-90e4-b3d750bec869\",
-    //FA\r
+    \            \"ownerPartyId\": \"8ff7e56d-c5ba-464c-abdf-fa0bb6b830a8\", //FA\r
 
-    \            \"validFrom\": \"2026-04-03\",\r
+    \            \"validFrom\": \"2026-01-22\",\r
 
     \            \"mmTypes\": [\r
 
@@ -59,10 +62,11 @@ body:
 
     \                    \"typeOfUpdate\": \"N\",\r
 
-    \                    \"mmTypeCode\": \"203\", // The only available mmtype
-    of owner\r
+    \                    \"mmTypeCode\": \"203\", // The only available mmtype of owner\r
 
-    \                    \"validFrom\": \"2026-04-03\",\r
+    \                    \"validFrom\": \"2026-01-22\",\r
+
+    \                    \"validTo\":\"2026-02-01\", \r
 
     \                    \"activities\": [\r
 
@@ -74,7 +78,9 @@ body:
 
     \                            \"isMain\": true,\r
 
-    \                            \"validFrom\": \"2026-04-03\"\r
+    \                            \"validFrom\": \"2026-01-22\",\r
+
+    \                            \"validTo\":\"2026-01-30\"\r
 
     \                        }\r
 
@@ -86,9 +92,7 @@ body:
 
     \        }\r
 
-    \    ]\r
-
-    \    ,\r
+    \    ],\r
 
     \    \"partners\": [\r
 
@@ -98,10 +102,9 @@ body:
 
     \            \"isNatural\": true,\r
 
-    \            \"partnerPartyId\": \"986937ce-5689-403c-84f5-428a3333d601\",
-    //FA\r
+    \            \"partnerPartyId\": \"63c3b89f-64cb-4edb-bbed-179a0338d074\", //FA\r
 
-    \            \"validFrom\": \"2026-04-03\",\r
+    \            \"validFrom\": \"2026-01-22\",\r
 
     \            \"mmTypes\": [\r
 
@@ -109,10 +112,11 @@ body:
 
     \                    \"typeOfUpdate\": \"N\",\r
 
-    \                    \"mmTypeCode\": \"222\", // The only available mmtype
-    of partner\r
+    \                    \"mmTypeCode\": \"222\", // The only available mmtype of partner\r
 
-    \                    \"validFrom\": \"2026-04-03\",\r
+    \                    \"validFrom\": \"2026-01-22\",\r
+
+    \                    \"validTo\":\"2026-02-01\", \r
 
     \                    \"activities\": [\r
 
@@ -124,7 +128,9 @@ body:
 
     \                            \"isMain\": true,\r
 
-    \                            \"validFrom\": \"2026-04-03\"\r
+    \                            \"validFrom\": \"2026-01-22\",\r
+
+    \                            \"validTo\":\"2026-01-30\"\r
 
     \                        }\r
 
@@ -136,9 +142,7 @@ body:
 
     \        }\r
 
-    \    ]\r
-
-    \    ,\r
+    \    ],\r
 
     \    \"statuses\": [\r
 
@@ -146,7 +150,7 @@ body:
 
     \            \"statusCL\": \"3\", //Registered\r
 
-    \            \"validFrom\": \"2026-04-03\",\r
+    \            \"validFrom\": \"2026-01-22\",\r
 
     \            \"typeOfUpdate\": \"N\"\r
 
@@ -160,7 +164,7 @@ body:
 
     \            \"addressId\": \"11\",\r
 
-    \            \"validFrom\": \"2026-04-03\",\r
+    \            \"validFrom\": \"2026-01-22\",\r
 
     \            \"typeOfUpdate\": \"N\",\r
 
@@ -173,5 +177,5 @@ body:
     \    ]\r
 
     }"
-examples: .resources/Register Farm - Non Existing Farm.resources/examples
-order: 5000
+examples: .resources/AGR_REG Form- Validate Gap in Activities 5.resources/examples
+order: 4393910407064081

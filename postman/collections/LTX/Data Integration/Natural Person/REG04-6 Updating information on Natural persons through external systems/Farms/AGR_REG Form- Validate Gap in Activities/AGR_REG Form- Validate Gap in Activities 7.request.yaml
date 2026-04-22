@@ -1,0 +1,117 @@
+$kind: http-request
+name: "AGR_REG Form: Validate Gap in Activities 7"
+description: |-
+  MMtype not requiring activity (248/249)
+
+  Only for ZUKVR
+
+  Set up for both owner and partner:  
+  MMType: 01/01/2026 - open  
+  No activities
+url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/farm-data
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"requestId\": \"requestId_Zagkas\",\r
+
+    \    \"dateOfInformation\": \"2026-01-22\",\r
+
+    \    \"sourceOfInformationCode\": \"6005\", //ZUKVR,\r
+
+    \    \"farmName\":\"Farm_Zagkas\",\r
+
+    \    \"contacts\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"contactTypeCode\": \"6\",\r
+
+    \            \"contactValue\": \"dzagkas@netcompany.com\",\r
+
+    \            \"validFrom\": \"2026-01-01\"\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"identifiers\": {\r
+
+    \        \"validFrom\": \"2026-01-22\",\r
+
+    \        \"identifierValue\": \"98776445330\",\r
+
+    \        \"identifierTypeCode\": \"14\" //Farmers\r
+
+    \    },\r
+
+    \    \"owners\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"isNatural\": true,\r
+
+    \            \"ownerPartyId\": \"d825a654-ace2-41a1-97ed-398f08fc1bd5\",
+    //FA\r
+
+    \            \"validFrom\": \"2026-01-01\",\r
+
+    \            \"mmTypes\": [\r
+
+    \                {\r
+
+    \                    \"typeOfUpdate\": \"N\",\r
+
+    \                    \"mmTypeCode\": \"248\", // The only available mmtype
+    of owner\r
+
+    \                    \"validFrom\": \"2026-01-01\"\r
+
+    \                }\r
+
+    \            ]\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"statuses\": [\r
+
+    \        {\r
+
+    \            \"statusCL\": \"3\", //Registered\r
+
+    \            \"validFrom\": \"2026-01-22\",\r
+
+    \            \"typeOfUpdate\": \"N\"\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"addresses\": [\r
+
+    \        {\r
+
+    \            \"addressId\": \"11\",\r
+
+    \            \"validFrom\": \"2026-01-22\",\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"addressTypeCode\": \"43\", //Address of place of activity\r
+
+    \            \"addressObjectTypeCode\": \"SAV\" //Municipality,        }\r
+
+    \        }\r
+
+    \    ]\r
+
+    }"
+examples: .resources/AGR_REG Form- Validate Gap in Activities 7.resources/examples
+order: 8000

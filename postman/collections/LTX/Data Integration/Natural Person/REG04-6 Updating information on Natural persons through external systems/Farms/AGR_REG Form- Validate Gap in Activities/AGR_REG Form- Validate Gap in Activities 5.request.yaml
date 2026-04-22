@@ -16,7 +16,9 @@ body:
 
     \    \"dateOfInformation\": \"2026-01-22\",\r
 
-    \    \"sourceOfInformationCode\": \"44\", //UUR\r
+    \    \"sourceOfInformationCode\": \"44\", //UUR,\r
+
+    \    \"farmName\":\"Farm_Zagkas\",\r
 
     \    \"contacts\": [\r
 
@@ -38,7 +40,7 @@ body:
 
     \        \"validFrom\": \"2026-01-22\",\r
 
-    \        \"identifierValue\": \"9874399874980537590-\",\r
+    \        \"identifierValue\": \"98740958730\",\r
 
     \        \"identifierTypeCode\": \"14\" //Farmers\r
 
@@ -52,9 +54,10 @@ body:
 
     \            \"isNatural\": true,\r
 
-    \            \"ownerPartyId\": \"8ff7e56d-c5ba-464c-abdf-fa0bb6b830a8\", //FA\r
+    \            \"ownerPartyId\": \"8ff7e56d-c5ba-464c-abdf-fa0bb6b830a8\",
+    //FA\r
 
-    \            \"validFrom\": \"2026-01-22\",\r
+    \            \"validFrom\": \"2026-01-01\",\r
 
     \            \"mmTypes\": [\r
 
@@ -62,11 +65,12 @@ body:
 
     \                    \"typeOfUpdate\": \"N\",\r
 
-    \                    \"mmTypeCode\": \"203\", // The only available mmtype of owner\r
+    \                    \"mmTypeCode\": \"203\", // The only available mmtype
+    of owner\r
 
-    \                    \"validFrom\": \"2026-01-22\",\r
+    \                    \"validFrom\": \"2026-01-01\",\r
 
-    \                    \"validTo\":\"2026-02-01\", \r
+    \                    \"validTo\":\"2026-12-31\", \r
 
     \                    \"activities\": [\r
 
@@ -78,9 +82,9 @@ body:
 
     \                            \"isMain\": true,\r
 
-    \                            \"validFrom\": \"2026-01-22\",\r
+    \                            \"validFrom\": \"2026-01-01\",\r
 
-    \                            \"validTo\":\"2026-01-30\"\r
+    \                            \"validTo\":\"2026-12-01\"\r
 
     \                        }\r
 
@@ -102,35 +106,37 @@ body:
 
     \            \"isNatural\": true,\r
 
-    \            \"partnerPartyId\": \"63c3b89f-64cb-4edb-bbed-179a0338d074\", //FA\r
+    \            \"partnerPartyId\": \"63c3b89f-64cb-4edb-bbed-179a0338d074\",
+    //FA\r
 
-    \            \"validFrom\": \"2026-01-22\",\r
+    \            \"validFrom\": \"2026-01-01\",\r
 
     \            \"mmTypes\": [\r
 
     \                {\r
 
-    \                    \"typeOfUpdate\": \"N\",\r
+    \                    \"typeOfUpdate\": \"N\",// R here\r
 
-    \                    \"mmTypeCode\": \"222\", // The only available mmtype of partner\r
+    \                    \"mmTypeCode\": \"222\", // The only available mmtype
+    of partner\r
 
-    \                    \"validFrom\": \"2026-01-22\",\r
+    \                    \"validFrom\": \"2026-01-01\",\r
 
-    \                    \"validTo\":\"2026-02-01\", \r
+    \                    \"validTo\":\"2026-12-31\", \r
 
     \                    \"activities\": [\r
 
     \                        {\r
 
-    \                            \"typeOfUpdate\": \"N\",\r
+    \                            \"typeOfUpdate\": \"N\",// k here\r
 
     \                            \"activityTypeCode\": \"011100\", //Cereal\r
 
     \                            \"isMain\": true,\r
 
-    \                            \"validFrom\": \"2026-01-22\",\r
+    \                            \"validFrom\": \"2026-01-01\",\r
 
-    \                            \"validTo\":\"2026-01-30\"\r
+    \                            \"validTo\":\"2026-12-01\"\r
 
     \                        }\r
 
@@ -178,4 +184,4 @@ body:
 
     }"
 examples: .resources/AGR_REG Form- Validate Gap in Activities 5.resources/examples
-order: 4393910407064081
+order: 7000

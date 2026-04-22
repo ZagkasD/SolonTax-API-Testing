@@ -39,7 +39,7 @@ body:
 
     \        \"validFrom\": \"2026-04-03\",\r
 
-    \        \"identifierValue\": \"9874399874980537590-\",\r
+    \        \"identifierValue\": \"973497945\",\r
 
     \        \"identifierTypeCode\": \"14\" //Farmers\r
 
@@ -53,19 +53,19 @@ body:
 
     \            \"isNatural\": true,\r
 
-    \            \"ownerPartyId\": \"51ca9c63-4af5-42be-bf9f-d697d4810edb\", //FA\r
+    \            \"ownerPartyId\": \"421669c5-a4f5-4fb5-a2c3-276ec333aa8a\", //FA\r
 
-    \            \"validFrom\": \"2026-01-22\",\r
+    \            \"validFrom\": \"2026-01-01\",\r
 
     \            \"mmTypes\": [\r
 
     \                {\r
 
-    \                    \"typeOfUpdate\": \"N\",\r
+    \                    \"typeOfUpdate\": \"N\", //Read\r
 
     \                    \"mmTypeCode\": \"203\", // The only available mmtype of owner\r
 
-    \                    \"validFrom\": \"2026-01-22\",\r
+    \                    \"validFrom\": \"2026-01-01\",\r
 
     \                    \"activities\": [\r
 
@@ -77,23 +77,23 @@ body:
 
     \                            \"isMain\": true,\r
 
-    \                            \"validFrom\": \"2026-01-22\",\r
+    \                            \"validFrom\": \"2026-01-01\",\r
 
-    \                            \"validTo\":\"2026-02-01\"\r
-
-    \                        },\r
-
-    \                        {\r
-
-    \                            \"typeOfUpdate\": \"N\",\r
-
-    \                            \"activityTypeCode\": \"011100\", //Cereal\r
-
-    \                            \"isMain\": true,\r
-
-    \                            \"validFrom\": \"2026-02-02\"\r
+    \                            \"validTo\":\"2026-06-01\"\r
 
     \                        }\r
+
+    \                        // ,{\r
+
+    \                        //     \"typeOfUpdate\": \"N\",\r
+
+    \                        //     \"activityTypeCode\": \"011320\",\r
+
+    \                        //     \"isMain\": true,\r
+
+    \                        //     \"validFrom\": \"2026-02-02\"\r
+
+    \                        // }\r
 
     \                    ]\r
 
@@ -105,65 +105,65 @@ body:
 
     \    ],\r
 
-    \    \"partners\": [\r
+    \    //\"partners\": [\r
 
-    \        {\r
+    \    //     {\r
 
-    \            \"typeOfUpdate\": \"N\",\r
+    \    //         \"typeOfUpdate\": \"N\",\r
 
-    \            \"isNatural\": true,\r
+    \    //         \"isNatural\": true,\r
 
-    \            \"partnerPartyId\": \"abd0fff7-6868-415d-bf58-0f846843c187\", //FA\r
+    \    //         \"partnerPartyId\": \"07c04082-9093-46e9-8847-a56ec46b1b60\", //FA\r
 
-    \            \"validFrom\": \"2026-02-10\",\r
+    \    //         \"validFrom\": \"2026-01-01\",\r
 
-    \            \"mmTypes\": [\r
+    \    //         \"mmTypes\": [\r
 
-    \                {\r
+    \    //             {\r
 
-    \                    \"typeOfUpdate\": \"N\",\r
+    \    //                 \"typeOfUpdate\": \"N\",\r
 
-    \                    \"mmTypeCode\": \"222\", // The only available mmtype of partner\r
+    \    //                 \"mmTypeCode\": \"222\", // The only available mmtype of partner\r
 
-    \                    \"validFrom\": \"2026-01-22\",\r
+    \    //                 \"validFrom\": \"2026-01-01\",\r
 
-    \                    \"activities\": [\r
+    \    //                 \"activities\": [\r
 
-    \                        {\r
+    \    //                     {\r
 
-    \                            \"typeOfUpdate\": \"N\",\r
+    \    //                         \"typeOfUpdate\": \"N\",\r
 
-    \                            \"activityTypeCode\": \"011100\", //Cereal\r
+    \    //                         \"activityTypeCode\": \"011100\", //Cereal\r
 
-    \                            \"isMain\": true,\r
+    \    //                         \"isMain\": true,\r
 
-    \                            \"validFrom\": \"2026-01-22\",\r
+    \    //                         \"validFrom\": \"2026-01-01\",\r
 
-    \                            \"validTo\":\"2026-02-01\"\r
+    \    //                         \"validTo\":\"2026-06-01\"\r
 
-    \                        },\r
+    \    //                     }\r
 
-    \                        {\r
+    \    //                     // ,{\r
 
-    \                            \"typeOfUpdate\": \"N\",\r
+    \    //                     //     \"typeOfUpdate\": \"N\",\r
 
-    \                            \"activityTypeCode\": \"011100\", //Cereal\r
+    \    //                     //     \"activityTypeCode\": \"011320\",\r
 
-    \                            \"isMain\": true,\r
+    \    //                     //     \"isMain\": true,\r
 
-    \                            \"validFrom\": \"2026-02-02\"\r
+    \    //                     //     \"validFrom\": \"2026-02-02\"\r
 
-    \                        }\r
+    \    //                     // }\r
 
-    \                    ]\r
+    \    //                 ]\r
 
-    \                }\r
+    \    //             }\r
 
-    \            ]\r
+    \    //         ]\r
 
-    \        }\r
+    \    //     }\r
 
-    \    ],\r
+    \    // ],\r
 
     \    \"statuses\": [\r
 
@@ -199,4 +199,4 @@ body:
 
     }"
 examples: .resources/AGR_REG Form- Validate Gap in Activities 4.resources/examples
-order: 4266533771588127
+order: 5000

@@ -39,7 +39,7 @@ body:
 
     \        \"validFrom\": \"2026-04-03\",\r
 
-    \        \"identifierValue\": \"987439873287590-\",\r
+    \        \"identifierValue\": \"98743980975943\",\r
 
     \        \"identifierTypeCode\": \"14\" //Farmers\r
 
@@ -53,19 +53,21 @@ body:
 
     \            \"isNatural\": true,\r
 
-    \            \"ownerPartyId\": \"3fde2f53-5513-48a6-a8b7-616f979c4b73\", //FA\r
+    \            \"ownerPartyId\": \"a1f23065-2b90-411c-bae8-44b1b2d1c2b3\",
+    //FA\r
 
-    \            \"validFrom\": \"2026-02-10\",\r
+    \            \"validFrom\": \"2026-01-01\",\r
 
     \            \"mmTypes\": [\r
 
     \                {\r
 
-    \                    \"typeOfUpdate\": \"N\",\r
+    \                    \"typeOfUpdate\": \"R\",\r
 
-    \                    \"mmTypeCode\": \"203\", // The only available mmtype of owner\r
+    \                    \"mmTypeCode\": \"203\", // The only available mmtype
+    of owner\r
 
-    \                    \"validFrom\": \"2026-02-10\",\r
+    \                    \"validFrom\": \"2026-01-01\",\r
 
     \                    \"activities\": [\r
 
@@ -77,9 +79,9 @@ body:
 
     \                            \"isMain\": true,\r
 
-    \                            \"validFrom\": \"2026-02-10\",\r
+    \                            \"validFrom\": \"2026-01-01\",\r
 
-    \                            \"validTo\":\"2026-02-15\"\r
+    \                            \"validTo\":\"2026-02-01\"\r
 
     \                        },\r
 
@@ -91,7 +93,7 @@ body:
 
     \                            \"isMain\": true,\r
 
-    \                            \"validFrom\": \"2026-03-10\"\r
+    \                            \"validFrom\": \"2026-03-01\"\r
 
     \                        }\r
 
@@ -113,7 +115,8 @@ body:
 
     \            \"isNatural\": true,\r
 
-    \            \"partnerPartyId\": \"abd0fff7-6868-415d-bf58-0f846843c187\", //FA\r
+    \            \"partnerPartyId\": \"fddad0af-6200-4f18-aba7-e738a3d66b9a\",
+    //FA\r
 
     \            \"validFrom\": \"2026-02-10\",\r
 
@@ -121,9 +124,10 @@ body:
 
     \                {\r
 
-    \                    \"typeOfUpdate\": \"N\",\r
+    \                    \"typeOfUpdate\": \"R\",\r
 
-    \                    \"mmTypeCode\": \"222\", // The only available mmtype of partner\r
+    \                    \"mmTypeCode\": \"222\", // The only available mmtype
+    of partner\r
 
     \                    \"validFrom\": \"2026-02-10\",\r
 
@@ -199,4 +203,4 @@ body:
 
     }"
 examples: .resources/AGR_REG Form- Validate Gap in Activities 3.resources/examples
-order: 4226133118664509
+order: 3000

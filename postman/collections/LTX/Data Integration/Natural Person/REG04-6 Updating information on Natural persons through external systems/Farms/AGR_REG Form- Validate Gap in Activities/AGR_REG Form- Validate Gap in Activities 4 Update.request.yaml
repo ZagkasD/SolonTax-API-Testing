@@ -1,11 +1,12 @@
 $kind: http-request
-name: "AGR_REG Form: Validate Gap in Activities 1"
+name: "AGR_REG Form: Validate Gap in Activities 4 Update"
 description: |-
-  Single activity fully covers MM type period.
+  Two activities with no gap (consecutive days).
 
-  Set up for both owner and partner  
-  MMType: 2026-02-10 - open  
-  Activity: 2026-02-10 - open
+  Set up for both owner and partner:  
+  MMType: 2026-01-22 - open  
+  Activity 1: 2026-01-22 - 2026-02-01  
+  Activity 2: 2026-02-02 - open
 url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/farm-data
 method: POST
 body:
@@ -38,7 +39,7 @@ body:
 
     \        \"validFrom\": \"2026-04-03\",\r
 
-    \        \"identifierValue\": \"987439873287590-\",\r
+    \        \"identifierValue\": \"9874399874980537590-\",\r
 
     \        \"identifierTypeCode\": \"14\" //Farmers\r
 
@@ -52,21 +53,19 @@ body:
 
     \            \"isNatural\": true,\r
 
-    \            \"ownerPartyId\": \"3fde2f53-5513-48a6-a8b7-616f979c4b73\",
-    //FA\r
+    \            \"ownerPartyId\": \"51ca9c63-4af5-42be-bf9f-d697d4810edb\", //FA\r
 
-    \            \"validFrom\": \"2026-02-10\",\r
+    \            \"validFrom\": \"2026-01-22\",\r
 
     \            \"mmTypes\": [\r
 
     \                {\r
 
-    \                    \"typeOfUpdate\": \"N\",\r
+    \                    \"typeOfUpdate\": \"R\", //Read\r
 
-    \                    \"mmTypeCode\": \"203\", // The only available mmtype
-    of owner\r
+    \                    \"mmTypeCode\": \"203\", // The only available mmtype of owner\r
 
-    \                    \"validFrom\": \"2026-02-10\",\r
+    \                    \"validFrom\": \"2026-01-22\",\r
 
     \                    \"activities\": [\r
 
@@ -78,7 +77,21 @@ body:
 
     \                            \"isMain\": true,\r
 
-    \                            \"validFrom\": \"2026-02-10\"\r
+    \                            \"validFrom\": \"2026-01-22\",\r
+
+    \                            \"validTo\":\"2026-02-01\"\r
+
+    \                        },\r
+
+    \                        {\r
+
+    \                            \"typeOfUpdate\": \"N\",\r
+
+    \                            \"activityTypeCode\": \"011320\",\r
+
+    \                            \"isMain\": true,\r
+
+    \                            \"validFrom\": \"2026-02-02\"\r
 
     \                        }\r
 
@@ -100,8 +113,7 @@ body:
 
     \            \"isNatural\": true,\r
 
-    \            \"partnerPartyId\": \"abd0fff7-6868-415d-bf58-0f846843c187\",
-    //FA\r
+    \            \"partnerPartyId\": \"abd0fff7-6868-415d-bf58-0f846843c187\", //FA\r
 
     \            \"validFrom\": \"2026-02-10\",\r
 
@@ -109,12 +121,11 @@ body:
 
     \                {\r
 
-    \                    \"typeOfUpdate\": \"N\",\r
+    \                    \"typeOfUpdate\": \"R\",\r
 
-    \                    \"mmTypeCode\": \"222\", // The only available mmtype
-    of partner\r
+    \                    \"mmTypeCode\": \"222\", // The only available mmtype of partner\r
 
-    \                    \"validFrom\": \"2026-02-10\",\r
+    \                    \"validFrom\": \"2026-01-22\",\r
 
     \                    \"activities\": [\r
 
@@ -126,7 +137,21 @@ body:
 
     \                            \"isMain\": true,\r
 
-    \                            \"validFrom\": \"2026-02-10\"\r
+    \                            \"validFrom\": \"2026-01-22\",\r
+
+    \                            \"validTo\":\"2026-02-01\"\r
+
+    \                        },\r
+
+    \                        {\r
+
+    \                            \"typeOfUpdate\": \"N\",\r
+
+    \                            \"activityTypeCode\": \"011320\",\r
+
+    \                            \"isMain\": true,\r
+
+    \                            \"validFrom\": \"2026-02-02\"\r
 
     \                        }\r
 
@@ -173,5 +198,5 @@ body:
     \    ]\r
 
     }"
-examples: .resources/AGR_REG Form- Validate Gap in Activities 1.resources/examples
-order: 1000
+examples: .resources/AGR_REG Form- Validate Gap in Activities 4 Update.resources/examples
+order: 4656

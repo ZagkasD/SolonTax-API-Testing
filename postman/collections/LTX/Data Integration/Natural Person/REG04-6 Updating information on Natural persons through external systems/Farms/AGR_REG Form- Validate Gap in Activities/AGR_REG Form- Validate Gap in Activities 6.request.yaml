@@ -1,11 +1,11 @@
 $kind: http-request
-name: "AGR_REG Form: Validate Gap in Activities 1"
+name: "AGR_REG Form: Validate Gap in Activities 6"
 description: |-
-  Single activity fully covers MM type period.
+  MM type with end date fully covered by activities.
 
-  Set up for both owner and partner  
-  MMType: 2026-02-10 - open  
-  Activity: 2026-02-10 - open
+  Set up for both owner and partner:  
+  MMType: 01/01/2026 - 31/12/2026  
+  Activity : 01/01/2026 - 31/12/2026
 url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/farm-data
 method: POST
 body:
@@ -14,9 +14,11 @@ body:
 
     \    \"requestId\": \"requestId_Zagkas\",\r
 
-    \    \"dateOfInformation\": \"2026-04-03\",\r
+    \    \"dateOfInformation\": \"2026-01-22\",\r
 
-    \    \"sourceOfInformationCode\": \"44\", //UUR\r
+    \    \"sourceOfInformationCode\": \"44\", //UUR,\r
+
+    \    \"farmName\":\"Farm_Zagkas\",\r
 
     \    \"contacts\": [\r
 
@@ -36,9 +38,9 @@ body:
 
     \    \"identifiers\": {\r
 
-    \        \"validFrom\": \"2026-04-03\",\r
+    \        \"validFrom\": \"2026-01-22\",\r
 
-    \        \"identifierValue\": \"987439873287590-\",\r
+    \        \"identifierValue\": \"98740958730\",\r
 
     \        \"identifierTypeCode\": \"14\" //Farmers\r
 
@@ -52,10 +54,10 @@ body:
 
     \            \"isNatural\": true,\r
 
-    \            \"ownerPartyId\": \"3fde2f53-5513-48a6-a8b7-616f979c4b73\",
+    \            \"ownerPartyId\": \"b317dca5-a6cd-458b-968b-b5172e53be19\",
     //FA\r
 
-    \            \"validFrom\": \"2026-02-10\",\r
+    \            \"validFrom\": \"2026-01-01\",\r
 
     \            \"mmTypes\": [\r
 
@@ -66,7 +68,9 @@ body:
     \                    \"mmTypeCode\": \"203\", // The only available mmtype
     of owner\r
 
-    \                    \"validFrom\": \"2026-02-10\",\r
+    \                    \"validFrom\": \"2026-01-01\",\r
+
+    \                    \"validTo\":\"2026-12-31\", \r
 
     \                    \"activities\": [\r
 
@@ -78,7 +82,9 @@ body:
 
     \                            \"isMain\": true,\r
 
-    \                            \"validFrom\": \"2026-02-10\"\r
+    \                            \"validFrom\": \"2026-01-01\",\r
+
+    \                            \"validTo\":\"2026-12-31\"\r
 
     \                        }\r
 
@@ -100,10 +106,10 @@ body:
 
     \            \"isNatural\": true,\r
 
-    \            \"partnerPartyId\": \"abd0fff7-6868-415d-bf58-0f846843c187\",
+    \            \"partnerPartyId\": \"199a5b33-80be-4a0e-be6e-68b445e4fa62\",
     //FA\r
 
-    \            \"validFrom\": \"2026-02-10\",\r
+    \            \"validFrom\": \"2026-01-01\",\r
 
     \            \"mmTypes\": [\r
 
@@ -114,7 +120,9 @@ body:
     \                    \"mmTypeCode\": \"222\", // The only available mmtype
     of partner\r
 
-    \                    \"validFrom\": \"2026-02-10\",\r
+    \                    \"validFrom\": \"2026-01-01\",\r
+
+    \                    \"validTo\":\"2026-12-31\", \r
 
     \                    \"activities\": [\r
 
@@ -126,7 +134,9 @@ body:
 
     \                            \"isMain\": true,\r
 
-    \                            \"validFrom\": \"2026-02-10\"\r
+    \                            \"validFrom\": \"2026-01-01\",\r
+
+    \                            \"validTo\":\"2026-12-31\"\r
 
     \                        }\r
 
@@ -146,7 +156,7 @@ body:
 
     \            \"statusCL\": \"3\", //Registered\r
 
-    \            \"validFrom\": \"2026-04-03\",\r
+    \            \"validFrom\": \"2026-01-22\",\r
 
     \            \"typeOfUpdate\": \"N\"\r
 
@@ -160,7 +170,7 @@ body:
 
     \            \"addressId\": \"11\",\r
 
-    \            \"validFrom\": \"2026-04-03\",\r
+    \            \"validFrom\": \"2026-01-22\",\r
 
     \            \"typeOfUpdate\": \"N\",\r
 
@@ -173,5 +183,5 @@ body:
     \    ]\r
 
     }"
-examples: .resources/AGR_REG Form- Validate Gap in Activities 1.resources/examples
-order: 1000
+examples: .resources/AGR_REG Form- Validate Gap in Activities 6.resources/examples
+order: 6000

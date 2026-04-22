@@ -1,11 +1,5 @@
 $kind: http-request
-name: "AGR_REG Form: Validate Gap in Activities 1"
-description: |-
-  Single activity fully covers MM type period.
-
-  Set up for both owner and partner  
-  MMType: 2026-02-10 - open  
-  Activity: 2026-02-10 - open
+name: Farm Validations - Owner and Partner can only be FA
 url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/farm-data
 method: POST
 body:
@@ -38,11 +32,13 @@ body:
 
     \        \"validFrom\": \"2026-04-03\",\r
 
-    \        \"identifierValue\": \"987439873287590-\",\r
+    \        \"identifierValue\": \"865423897689\",\r
 
     \        \"identifierTypeCode\": \"14\" //Farmers\r
 
-    \    },\r
+    \    }\r
+
+    \    ,\r
 
     \    \"owners\": [\r
 
@@ -52,10 +48,9 @@ body:
 
     \            \"isNatural\": true,\r
 
-    \            \"ownerPartyId\": \"3fde2f53-5513-48a6-a8b7-616f979c4b73\",
-    //FA\r
+    \            \"ownerPartyId\": \"1b25c182-626e-4e71-80db-a0cc6942cd0a\", //LJA\r
 
-    \            \"validFrom\": \"2026-02-10\",\r
+    \            \"validFrom\": \"2026-04-03\",\r
 
     \            \"mmTypes\": [\r
 
@@ -63,10 +58,9 @@ body:
 
     \                    \"typeOfUpdate\": \"N\",\r
 
-    \                    \"mmTypeCode\": \"203\", // The only available mmtype
-    of owner\r
+    \                    \"mmTypeCode\": \"203\", // The only available mmtype of owner\r
 
-    \                    \"validFrom\": \"2026-02-10\",\r
+    \                    \"validFrom\": \"2026-04-03\",\r
 
     \                    \"activities\": [\r
 
@@ -78,7 +72,7 @@ body:
 
     \                            \"isMain\": true,\r
 
-    \                            \"validFrom\": \"2026-02-10\"\r
+    \                            \"validFrom\": \"2026-04-03\"\r
 
     \                        }\r
 
@@ -90,7 +84,9 @@ body:
 
     \        }\r
 
-    \    ],\r
+    \    ]\r
+
+    \    ,\r
 
     \    \"partners\": [\r
 
@@ -100,10 +96,9 @@ body:
 
     \            \"isNatural\": true,\r
 
-    \            \"partnerPartyId\": \"abd0fff7-6868-415d-bf58-0f846843c187\",
-    //FA\r
+    \            \"partnerPartyId\": \"780e7e66-a8bf-41a7-872b-a5906109c757\", //LJA\r
 
-    \            \"validFrom\": \"2026-02-10\",\r
+    \            \"validFrom\": \"2026-04-03\",\r
 
     \            \"mmTypes\": [\r
 
@@ -111,10 +106,9 @@ body:
 
     \                    \"typeOfUpdate\": \"N\",\r
 
-    \                    \"mmTypeCode\": \"222\", // The only available mmtype
-    of partner\r
+    \                    \"mmTypeCode\": \"222\", // The only available mmtype of partner\r
 
-    \                    \"validFrom\": \"2026-02-10\",\r
+    \                    \"validFrom\": \"2026-04-03\",\r
 
     \                    \"activities\": [\r
 
@@ -126,7 +120,7 @@ body:
 
     \                            \"isMain\": true,\r
 
-    \                            \"validFrom\": \"2026-02-10\"\r
+    \                            \"validFrom\": \"2026-04-03\"\r
 
     \                        }\r
 
@@ -138,7 +132,9 @@ body:
 
     \        }\r
 
-    \    ],\r
+    \    ]\r
+
+    \    ,\r
 
     \    \"statuses\": [\r
 
@@ -173,5 +169,4 @@ body:
     \    ]\r
 
     }"
-examples: .resources/AGR_REG Form- Validate Gap in Activities 1.resources/examples
-order: 1000
+order: 1776850902297

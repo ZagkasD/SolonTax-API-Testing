@@ -1,5 +1,5 @@
 $kind: http-request
-name: Register AGR Holding - Non Existing AGR Holding - Owner FA
+name: "Register Farm: Non Existing Farm"
 url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/farm-data
 method: POST
 body:
@@ -10,7 +10,7 @@ body:
 
     \    \"dateOfInformation\": \"2026-04-03\",\r
 
-    \    \"sourceOfInformationCode\": \"6005\", //ZUKVR\r
+    \    \"sourceOfInformationCode\": \"44\", //UUR\r
 
     \    \"contacts\": [\r
 
@@ -32,7 +32,7 @@ body:
 
     \        \"validFrom\": \"2026-04-03\",\r
 
-    \        \"identifierValue\": \"43188978057\",\r
+    \        \"identifierValue\": \"431888857\",\r
 
     \        \"identifierTypeCode\": \"14\" //Farmers\r
 
@@ -48,8 +48,7 @@ body:
 
     \            \"isNatural\": true,\r
 
-    \            \"ownerPartyId\": \"986937ce-5689-403c-84f5-428a3333d601\",
-    //FA\r
+    \            \"ownerPartyId\": \"d16bde53-cdbb-4230-90e4-b3d750bec869\", //FA\r
 
     \            \"validFrom\": \"2026-04-03\",\r
 
@@ -59,8 +58,7 @@ body:
 
     \                    \"typeOfUpdate\": \"N\",\r
 
-    \                    \"mmTypeCode\": \"232\", // This mmtype allows
-    activities\r
+    \                    \"mmTypeCode\": \"203\", // The only available mmtype of owner\r
 
     \                    \"validFrom\": \"2026-04-03\",\r
 
@@ -80,7 +78,53 @@ body:
 
     \                    ]\r
 
-    \r
+    \                }\r
+
+    \            ]\r
+
+    \        }\r
+
+    \    ]\r
+
+    \    ,\r
+
+    \    \"partners\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"isNatural\": true,\r
+
+    \            \"partnerPartyId\": \"986937ce-5689-403c-84f5-428a3333d601\", //FA\r
+
+    \            \"validFrom\": \"2026-04-03\",\r
+
+    \            \"mmTypes\": [\r
+
+    \                {\r
+
+    \                    \"typeOfUpdate\": \"N\",\r
+
+    \                    \"mmTypeCode\": \"222\", // The only available mmtype of partner\r
+
+    \                    \"validFrom\": \"2026-04-03\",\r
+
+    \                    \"activities\": [\r
+
+    \                        {\r
+
+    \                            \"typeOfUpdate\": \"N\",\r
+
+    \                            \"activityTypeCode\": \"011100\", //Cereal\r
+
+    \                            \"isMain\": true,\r
+
+    \                            \"validFrom\": \"2026-04-03\"\r
+
+    \                        }\r
+
+    \                    ]\r
 
     \                }\r
 
@@ -88,13 +132,9 @@ body:
 
     \        }\r
 
-    \    ],\r
+    \    ]\r
 
-    \    \r
-
-    \    // ZUKVR Doesn't send partners!!!\r
-
-    \r
+    \    ,\r
 
     \    \"statuses\": [\r
 
@@ -129,6 +169,5 @@ body:
     \    ]\r
 
     }"
-examples: .resources/Register AGR Holding - Non Existing AGR Holding - Owner
-  FA.resources/examples
-order: 8000
+examples: .resources/Register Farm- Non Existing Farm.resources/examples
+order: 2000

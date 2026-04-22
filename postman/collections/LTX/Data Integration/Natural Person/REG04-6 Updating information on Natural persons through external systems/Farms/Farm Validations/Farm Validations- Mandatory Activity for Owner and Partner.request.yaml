@@ -1,5 +1,5 @@
 $kind: http-request
-name: Register Farm - Non Existing Farm
+name: "Farm Validations: Mandatory Activity for Owner and Partner"
 url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/farm-data
 method: POST
 body:
@@ -62,23 +62,7 @@ body:
     \                    \"mmTypeCode\": \"203\", // The only available mmtype
     of owner\r
 
-    \                    \"validFrom\": \"2026-04-03\",\r
-
-    \                    \"activities\": [\r
-
-    \                        {\r
-
-    \                            \"typeOfUpdate\": \"N\",\r
-
-    \                            \"activityTypeCode\": \"011100\", //Cereal\r
-
-    \                            \"isMain\": true,\r
-
-    \                            \"validFrom\": \"2026-04-03\"\r
-
-    \                        }\r
-
-    \                    ]\r
+    \                    \"validFrom\": \"2026-04-03\"\r
 
     \                }\r
 
@@ -112,23 +96,7 @@ body:
     \                    \"mmTypeCode\": \"222\", // The only available mmtype
     of partner\r
 
-    \                    \"validFrom\": \"2026-04-03\",\r
-
-    \                    \"activities\": [\r
-
-    \                        {\r
-
-    \                            \"typeOfUpdate\": \"N\",\r
-
-    \                            \"activityTypeCode\": \"011100\", //Cereal\r
-
-    \                            \"isMain\": true,\r
-
-    \                            \"validFrom\": \"2026-04-03\"\r
-
-    \                        }\r
-
-    \                    ]\r
+    \                    \"validFrom\": \"2026-04-03\"\r
 
     \                }\r
 
@@ -173,5 +141,4 @@ body:
     \    ]\r
 
     }"
-examples: .resources/Register Farm - Non Existing Farm.resources/examples
-order: 5000
+order: 2318135724617114

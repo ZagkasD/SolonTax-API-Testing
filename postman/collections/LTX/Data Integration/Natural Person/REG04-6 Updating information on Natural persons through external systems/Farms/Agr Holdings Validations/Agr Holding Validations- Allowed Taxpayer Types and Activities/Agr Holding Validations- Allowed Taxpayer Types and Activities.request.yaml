@@ -1,5 +1,5 @@
 $kind: http-request
-name: Farm Validations - Allowed Taxpayer Types
+name: "Agr Holding Validations: Allowed Taxpayer Types and Activities"
 url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/farm-data
 method: POST
 body:
@@ -10,7 +10,7 @@ body:
 
     \    \"dateOfInformation\": \"2026-04-03\",\r
 
-    \    \"sourceOfInformationCode\": \"44\", //UUR\r
+    \    \"sourceOfInformationCode\": \"6005\", //ZUKVR\r
 
     \    \"contacts\": [\r
 
@@ -32,7 +32,7 @@ body:
 
     \        \"validFrom\": \"2026-04-03\",\r
 
-    \        \"identifierValue\": \"431888857\",\r
+    \        \"identifierValue\": \"43188978057\",\r
 
     \        \"identifierTypeCode\": \"14\" //Farmers\r
 
@@ -48,7 +48,7 @@ body:
 
     \            \"isNatural\": true,\r
 
-    \            \"ownerPartyId\": \"d16bde53-cdbb-4230-90e4-b3d750bec869\", //FA\r
+    \            \"ownerPartyId\": \"421669c5-a4f5-4fb5-a2c3-276ec333aa8a\", //FA\r
 
     \            \"validFrom\": \"2026-04-03\",\r
 
@@ -58,7 +58,7 @@ body:
 
     \                    \"typeOfUpdate\": \"N\",\r
 
-    \                    \"mmTypeCode\": \"215\", // Not allowed mmtype\r
+    \                    \"mmTypeCode\": \"250\", // This mmtype allows activities\r
 
     \                    \"validFrom\": \"2026-04-03\",\r
 
@@ -78,53 +78,7 @@ body:
 
     \                    ]\r
 
-    \                }\r
-
-    \            ]\r
-
-    \        }\r
-
-    \    ]\r
-
-    \    ,\r
-
-    \    \"partners\": [\r
-
-    \        {\r
-
-    \            \"typeOfUpdate\": \"N\",\r
-
-    \            \"isNatural\": true,\r
-
-    \            \"partnerPartyId\": \"986937ce-5689-403c-84f5-428a3333d601\", //FA\r
-
-    \            \"validFrom\": \"2026-04-03\",\r
-
-    \            \"mmTypes\": [\r
-
-    \                {\r
-
-    \                    \"typeOfUpdate\": \"N\",\r
-
-    \                    \"mmTypeCode\": \"216\", //Not allowed mmtype\r
-
-    \                    \"validFrom\": \"2026-04-03\",\r
-
-    \                    \"activities\": [\r
-
-    \                        {\r
-
-    \                            \"typeOfUpdate\": \"N\",\r
-
-    \                            \"activityTypeCode\": \"011100\", //Cereal\r
-
-    \                            \"isMain\": true,\r
-
-    \                            \"validFrom\": \"2026-04-03\"\r
-
-    \                        }\r
-
-    \                    ]\r
+    \r
 
     \                }\r
 
@@ -132,9 +86,7 @@ body:
 
     \        }\r
 
-    \    ]\r
-
-    \    ,\r
+    \    ],\r
 
     \    \"statuses\": [\r
 
@@ -169,4 +121,5 @@ body:
     \    ]\r
 
     }"
-order: 1191023968505622
+examples: .resources/Register Farm - Non Existing Farm-1.resources/examples
+order: 4178377534050633

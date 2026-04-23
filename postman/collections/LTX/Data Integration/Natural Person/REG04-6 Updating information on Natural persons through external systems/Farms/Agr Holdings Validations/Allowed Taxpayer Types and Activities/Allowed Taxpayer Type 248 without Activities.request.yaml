@@ -1,5 +1,5 @@
 $kind: http-request
-name: "AGR_REG Form: General Validations 3"
+name: Allowed Taxpayer Type 248 without Activities
 url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/farm-data
 method: POST
 body:
@@ -10,7 +10,7 @@ body:
 
     \    \"dateOfInformation\": \"2026-04-03\",\r
 
-    \    \"sourceOfInformationCode\": \"44\", //UUR\r
+    \    \"sourceOfInformationCode\": \"6005\", //ZUKVR\r
 
     \    \"contacts\": [\r
 
@@ -32,7 +32,7 @@ body:
 
     \        \"validFrom\": \"2026-04-03\",\r
 
-    \        \"identifierValue\": \"43197857\",\r
+    \        \"identifierValue\": \"43188978057\",\r
 
     \        \"identifierTypeCode\": \"14\" //Farmers\r
 
@@ -48,35 +48,27 @@ body:
 
     \            \"isNatural\": true,\r
 
-    \            \"ownerPartyId\": \"c9a52cce-e32f-488d-a68f-f2ba204dd39e\",
-    //FA\r
+    \            \"ownerPartyId\": \"25156445-f955-4e90-8eeb-28007fba2f35\", //FA\r
 
-    \            \"validFrom\": \"2026-04-03\"\r
+    \            \"validFrom\": \"2026-04-03\",\r
 
-    \        }\r
+    \            \"mmTypes\": [\r
 
-    \    ]\r
+    \                {\r
 
-    \    ,\r
+    \                    \"typeOfUpdate\": \"N\",\r
 
-    \    \"partners\": [\r
+    \                    \"mmTypeCode\": \"248\", // This mmtype allows activities\r
 
-    \        {\r
+    \                    \"validFrom\": \"2026-04-03\"\r
 
-    \            \"typeOfUpdate\": \"N\",\r
+    \                }\r
 
-    \            \"isNatural\": true,\r
-
-    \            \"partnerPartyId\": \"d7d33aa8-9c76-426c-b98e-c6740f0b6436\",
-    //FA\r
-
-    \            \"validFrom\": \"2026-04-03\"\r
+    \            ]\r
 
     \        }\r
 
-    \    ]\r
-
-    \    ,\r
+    \    ],\r
 
     \    \"statuses\": [\r
 
@@ -111,5 +103,4 @@ body:
     \    ]\r
 
     }"
-examples: .resources/AGR_REG Form- General Validations 3.resources/examples
-order: 4000
+order: 3924020398306653

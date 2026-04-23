@@ -1,5 +1,5 @@
 $kind: http-request
-name: "Agr Holding Validations: Allowed Taxpayer Types and Activities"
+name: Allowed Taxpayer Type 250 with Activities
 url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/farm-data
 method: POST
 body:
@@ -48,7 +48,7 @@ body:
 
     \            \"isNatural\": true,\r
 
-    \            \"ownerPartyId\": \"421669c5-a4f5-4fb5-a2c3-276ec333aa8a\", //FA\r
+    \            \"ownerPartyId\": \"986937ce-5689-403c-84f5-428a3333d601\", //FA\r
 
     \            \"validFrom\": \"2026-04-03\",\r
 
@@ -121,5 +121,4 @@ body:
     \    ]\r
 
     }"
-examples: .resources/Register Farm - Non Existing Farm-1.resources/examples
-order: 4178377534050633
+order: 2650098060532709

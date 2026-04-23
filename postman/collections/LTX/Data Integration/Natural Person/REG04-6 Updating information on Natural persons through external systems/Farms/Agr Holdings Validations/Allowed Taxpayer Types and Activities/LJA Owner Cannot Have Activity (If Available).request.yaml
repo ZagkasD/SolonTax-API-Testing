@@ -1,5 +1,5 @@
 $kind: http-request
-name: "Agr Holding Validations: Allowed Taxpayer Types and Activities"
+name: LJA Owner Cannot Have Activity (If Available)
 url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/farm-data
 method: POST
 body:
@@ -36,9 +36,7 @@ body:
 
     \        \"identifierTypeCode\": \"14\" //Farmers\r
 
-    \    }\r
-
-    \    ,\r
+    \    },\r
 
     \    \"owners\": [\r
 
@@ -46,9 +44,9 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"isNatural\": true,\r
+    \            \"isNatural\": false,\r
 
-    \            \"ownerPartyId\": \"421669c5-a4f5-4fb5-a2c3-276ec333aa8a\", //FA\r
+    \            \"ownerPartyId\": \"9f16f8eb-bdc2-41c4-8733-d121535e0e85\", //LJA\r
 
     \            \"validFrom\": \"2026-04-03\",\r
 
@@ -58,7 +56,7 @@ body:
 
     \                    \"typeOfUpdate\": \"N\",\r
 
-    \                    \"mmTypeCode\": \"250\", // This mmtype allows activities\r
+    \                    \"mmTypeCode\": \"232\", // This mmtype allows activities\r
 
     \                    \"validFrom\": \"2026-04-03\",\r
 
@@ -77,8 +75,6 @@ body:
     \                        }\r
 
     \                    ]\r
-
-    \r
 
     \                }\r
 
@@ -121,5 +117,4 @@ body:
     \    ]\r
 
     }"
-examples: .resources/Register Farm - Non Existing Farm-1.resources/examples
-order: 4178377534050633
+order: 4490342920379924

@@ -1,5 +1,5 @@
 $kind: http-request
-name: "Agr Holding Validations: No Partners Allowed"
+name: "Only One Active Owner per Agr Holding"
 url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/farm-data
 method: POST
 body:
@@ -10,7 +10,7 @@ body:
 
     \    \"dateOfInformation\": \"2026-04-03\",\r
 
-    \    \"sourceOfInformationCode\": \"6005\", //ZUKVR\r
+    \    \"sourceOfInformationCode\": \"6005\", //UUR\r
 
     \    \"contacts\": [\r
 
@@ -32,13 +32,11 @@ body:
 
     \        \"validFrom\": \"2026-04-03\",\r
 
-    \        \"identifierValue\": \"43188978057\",\r
+    \        \"identifierValue\": \"9875492\",\r
 
     \        \"identifierTypeCode\": \"14\" //Farmers\r
 
-    \    }\r
-
-    \    ,\r
+    \    },\r
 
     \    \"owners\": [\r
 
@@ -48,7 +46,7 @@ body:
 
     \            \"isNatural\": true,\r
 
-    \            \"ownerPartyId\": \"986937ce-5689-403c-84f5-428a3333d601\",
+    \            \"ownerPartyId\": \"0d5ff964-a200-41b9-8cd4-6fdb4d5e38b8\",
     //FA\r
 
     \            \"validFrom\": \"2026-04-03\",\r
@@ -59,8 +57,8 @@ body:
 
     \                    \"typeOfUpdate\": \"N\",\r
 
-    \                    \"mmTypeCode\": \"232\", // This mmtype allows
-    activities\r
+    \                    \"mmTypeCode\": \"232\", // The only available mmtype
+    of owner\r
 
     \                    \"validFrom\": \"2026-04-03\",\r
 
@@ -80,17 +78,11 @@ body:
 
     \                    ]\r
 
-    \r
-
     \                }\r
 
     \            ]\r
 
-    \        }\r
-
-    \    ],\r
-
-    \       \"partners\": [\r
+    \        },\r
 
     \        {\r
 
@@ -98,7 +90,7 @@ body:
 
     \            \"isNatural\": true,\r
 
-    \            \"partnerPartyId\": \"986937ce-5689-403c-84f5-428a3333d601\",
+    \            \"ownerPartyId\": \"0d5ff964-a200-41b9-8cd4-6fdb4d5e38b8\",
     //FA\r
 
     \            \"validFrom\": \"2026-04-03\",\r
@@ -109,8 +101,8 @@ body:
 
     \                    \"typeOfUpdate\": \"N\",\r
 
-    \                    \"mmTypeCode\": \"222\", // The only available mmtype
-    of partner\r
+    \                    \"mmTypeCode\": \"232\", // The only available mmtype
+    of owner\r
 
     \                    \"validFrom\": \"2026-04-03\",\r
 
@@ -164,12 +156,11 @@ body:
 
     \            \"addressTypeCode\": \"43\", //Address of place of activity\r
 
-    \            \"addressObjectTypeCode\": \"SAV\" //Municipality,        }\r
+    \            \"addressObjectTypeCode\": \"SAV\" //Municipality\r
 
     \        }\r
 
     \    ]\r
 
     }"
-examples: .resources/Register Farm - Non Existing Farm-1.resources/examples
-order: 1923789916485014
+order: 3000

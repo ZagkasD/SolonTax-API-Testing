@@ -1,5 +1,5 @@
 $kind: http-request
-name: "TypeOfUpdate is K: validTo is mandatory"
+name: "Only One Active Owner per Farm"
 url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/farm-data
 method: POST
 body:
@@ -12,9 +12,23 @@ body:
 
     \    \"sourceOfInformationCode\": \"44\", //UUR\r
 
-    \    \"identifiers\": {\r
+    \    \"contacts\": [\r
 
-    \        \"typeOfUpdate\": \"K\",\r
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"contactTypeCode\": \"6\",\r
+
+    \            \"contactValue\": \"dzagkas@netcompany.com\",\r
+
+    \            \"validFrom\": \"2026-01-01\"\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"identifiers\": {\r
 
     \        \"validFrom\": \"2026-04-03\",\r
 
@@ -28,11 +42,55 @@ body:
 
     \        {\r
 
-    \            \"typeOfUpdate\": \"K\",\r
+    \            \"typeOfUpdate\": \"N\",\r
 
     \            \"isNatural\": true,\r
 
-    \            \"ownerPartyId\": \"d16bde53-cdbb-4230-90e4-b3d750bec869\",
+    \            \"ownerPartyId\": \"0d5ff964-a200-41b9-8cd4-6fdb4d5e38b8\",
+    //FA\r
+
+    \            \"validFrom\": \"2026-04-03\",\r
+
+    \            \"mmTypes\": [\r
+
+    \                {\r
+
+    \                    \"typeOfUpdate\": \"N\",\r
+
+    \                    \"mmTypeCode\": \"203\", // The only available mmtype
+    of owner\r
+
+    \                    \"validFrom\": \"2026-04-03\",\r
+
+    \                    \"activities\": [\r
+
+    \                        {\r
+
+    \                            \"typeOfUpdate\": \"N\",\r
+
+    \                            \"activityTypeCode\": \"011100\", //Cereal\r
+
+    \                            \"isMain\": true,\r
+
+    \                            \"validFrom\": \"2026-04-03\"\r
+
+    \                        }\r
+
+    \                    ]\r
+
+    \                }\r
+
+    \            ]\r
+
+    \        },\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"isNatural\": true,\r
+
+    \            \"ownerPartyId\": \"0d5ff964-a200-41b9-8cd4-6fdb4d5e38b8\",
     //FA\r
 
     \            \"validFrom\": \"2026-04-03\",\r
@@ -76,11 +134,11 @@ body:
 
     \        {\r
 
-    \            \"typeOfUpdate\": \"K\",\r
+    \            \"typeOfUpdate\": \"N\",\r
 
     \            \"isNatural\": true,\r
 
-    \            \"partnerPartyId\": \"986937ce-5689-403c-84f5-428a3333d601\",
+    \            \"partnerPartyId\": \"fd80cc23-fa75-4255-9d05-84c15ad296ec\",
     //FA\r
 
     \            \"validFrom\": \"2026-04-03\",\r
@@ -128,7 +186,7 @@ body:
 
     \            \"validFrom\": \"2026-04-03\",\r
 
-    \            \"typeOfUpdate\": \"K\"\r
+    \            \"typeOfUpdate\": \"N\"\r
 
     \        }\r
 
@@ -142,16 +200,15 @@ body:
 
     \            \"validFrom\": \"2026-04-03\",\r
 
-    \            \"typeOfUpdate\": \"K\",\r
+    \            \"typeOfUpdate\": \"N\",\r
 
     \            \"addressTypeCode\": \"43\", //Address of place of activity\r
 
-    \            \"addressObjectTypeCode\": \"SAV\" //Municipality,        }\r
+    \            \"addressObjectTypeCode\": \"SAV\" //Municipality\r
 
     \        }\r
 
     \    ]\r
 
     }"
-examples: .resources/TypeOfUpdate is K- validTo is mandatory.resources/examples
-order: 5000
+order: 1722

@@ -1,5 +1,5 @@
 $kind: http-request
-name: "Farm Validations: Allowed Taxpayer Types"
+name: "No Partners Allowed"
 url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/farm-data
 method: POST
 body:
@@ -10,7 +10,7 @@ body:
 
     \    \"dateOfInformation\": \"2026-04-03\",\r
 
-    \    \"sourceOfInformationCode\": \"44\", //UUR\r
+    \    \"sourceOfInformationCode\": \"6005\", //ZUKVR\r
 
     \    \"contacts\": [\r
 
@@ -32,7 +32,7 @@ body:
 
     \        \"validFrom\": \"2026-04-03\",\r
 
-    \        \"identifierValue\": \"431888857\",\r
+    \        \"identifierValue\": \"43188978057\",\r
 
     \        \"identifierTypeCode\": \"14\" //Farmers\r
 
@@ -48,7 +48,7 @@ body:
 
     \            \"isNatural\": true,\r
 
-    \            \"ownerPartyId\": \"d16bde53-cdbb-4230-90e4-b3d750bec869\",
+    \            \"ownerPartyId\": \"986937ce-5689-403c-84f5-428a3333d601\",
     //FA\r
 
     \            \"validFrom\": \"2026-04-03\",\r
@@ -59,7 +59,8 @@ body:
 
     \                    \"typeOfUpdate\": \"N\",\r
 
-    \                    \"mmTypeCode\": \"215\", // Not allowed mmtype\r
+    \                    \"mmTypeCode\": \"232\", // This mmtype allows
+    activities\r
 
     \                    \"validFrom\": \"2026-04-03\",\r
 
@@ -79,17 +80,17 @@ body:
 
     \                    ]\r
 
+    \r
+
     \                }\r
 
     \            ]\r
 
     \        }\r
 
-    \    ]\r
+    \    ],\r
 
-    \    ,\r
-
-    \    \"partners\": [\r
+    \       \"partners\": [\r
 
     \        {\r
 
@@ -108,7 +109,8 @@ body:
 
     \                    \"typeOfUpdate\": \"N\",\r
 
-    \                    \"mmTypeCode\": \"216\", //Not allowed mmtype\r
+    \                    \"mmTypeCode\": \"222\", // The only available mmtype
+    of partner\r
 
     \                    \"validFrom\": \"2026-04-03\",\r
 
@@ -134,9 +136,7 @@ body:
 
     \        }\r
 
-    \    ]\r
-
-    \    ,\r
+    \    ],\r
 
     \    \"statuses\": [\r
 
@@ -171,4 +171,5 @@ body:
     \    ]\r
 
     }"
-order: 1191023968505622
+examples: .resources/Register Farm - Non Existing Farm-1.resources/examples
+order: 1000

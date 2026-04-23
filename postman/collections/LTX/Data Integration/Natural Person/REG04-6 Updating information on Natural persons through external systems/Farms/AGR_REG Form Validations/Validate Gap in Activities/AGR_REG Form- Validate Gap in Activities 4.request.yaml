@@ -79,21 +79,21 @@ body:
 
     \                            \"validFrom\": \"2026-01-01\",\r
 
-    \                            \"validTo\":\"2026-06-01\"\r
+    \                            \"validTo\":\"2026-02-01\"\r
+
+    \                        },\r
+
+    \                        {\r
+
+    \                            \"typeOfUpdate\": \"N\",\r
+
+    \                            \"activityTypeCode\": \"011320\",\r
+
+    \                            \"isMain\": true,\r
+
+    \                            \"validFrom\": \"2026-02-02\"\r
 
     \                        }\r
-
-    \                        // ,{\r
-
-    \                        //     \"typeOfUpdate\": \"N\",\r
-
-    \                        //     \"activityTypeCode\": \"011320\",\r
-
-    \                        //     \"isMain\": true,\r
-
-    \                        //     \"validFrom\": \"2026-02-02\"\r
-
-    \                        // }\r
 
     \                    ]\r
 
@@ -105,65 +105,65 @@ body:
 
     \    ],\r
 
-    \    //\"partners\": [\r
+    \    \"partners\": [\r
 
-    \    //     {\r
+    \        {\r
 
-    \    //         \"typeOfUpdate\": \"N\",\r
+    \            \"typeOfUpdate\": \"N\",\r
 
-    \    //         \"isNatural\": true,\r
+    \            \"isNatural\": true,\r
 
-    \    //         \"partnerPartyId\": \"07c04082-9093-46e9-8847-a56ec46b1b60\", //FA\r
+    \            \"partnerPartyId\": \"07c04082-9093-46e9-8847-a56ec46b1b60\", //FA\r
 
-    \    //         \"validFrom\": \"2026-01-01\",\r
+    \            \"validFrom\": \"2026-01-01\",\r
 
-    \    //         \"mmTypes\": [\r
+    \            \"mmTypes\": [\r
 
-    \    //             {\r
+    \                {\r
 
-    \    //                 \"typeOfUpdate\": \"N\",\r
+    \                    \"typeOfUpdate\": \"N\",\r
 
-    \    //                 \"mmTypeCode\": \"222\", // The only available mmtype of partner\r
+    \                    \"mmTypeCode\": \"222\", // The only available mmtype of partner\r
 
-    \    //                 \"validFrom\": \"2026-01-01\",\r
+    \                    \"validFrom\": \"2026-01-01\",\r
 
-    \    //                 \"activities\": [\r
+    \                    \"activities\": [\r
 
-    \    //                     {\r
+    \                        {\r
 
-    \    //                         \"typeOfUpdate\": \"N\",\r
+    \                            \"typeOfUpdate\": \"N\",\r
 
-    \    //                         \"activityTypeCode\": \"011100\", //Cereal\r
+    \                            \"activityTypeCode\": \"011100\", //Cereal\r
 
-    \    //                         \"isMain\": true,\r
+    \                            \"isMain\": true,\r
 
-    \    //                         \"validFrom\": \"2026-01-01\",\r
+    \                            \"validFrom\": \"2026-01-01\",\r
 
-    \    //                         \"validTo\":\"2026-06-01\"\r
+    \                            \"validTo\":\"2026-02-01\"\r
 
-    \    //                     }\r
+    \                        },\r
 
-    \    //                     // ,{\r
+    \                        {\r
 
-    \    //                     //     \"typeOfUpdate\": \"N\",\r
+    \                            \"typeOfUpdate\": \"N\",\r
 
-    \    //                     //     \"activityTypeCode\": \"011320\",\r
+    \                            \"activityTypeCode\": \"011320\",\r
 
-    \    //                     //     \"isMain\": true,\r
+    \                            \"isMain\": true,\r
 
-    \    //                     //     \"validFrom\": \"2026-02-02\"\r
+    \                            \"validFrom\": \"2026-02-02\"\r
 
-    \    //                     // }\r
+    \                        }\r
 
-    \    //                 ]\r
+    \                    ]\r
 
-    \    //             }\r
+    \                }\r
 
-    \    //         ]\r
+    \            ]\r
 
-    \    //     }\r
+    \        }\r
 
-    \    // ],\r
+    \    ],\r
 
     \    \"statuses\": [\r
 
@@ -191,7 +191,7 @@ body:
 
     \            \"addressTypeCode\": \"43\", //Address of place of activity\r
 
-    \            \"addressObjectTypeCode\": \"SAV\" //Municipality,        }\r
+    \            \"addressObjectTypeCode\": \"SAV\" //Municipality\r
 
     \        }\r
 

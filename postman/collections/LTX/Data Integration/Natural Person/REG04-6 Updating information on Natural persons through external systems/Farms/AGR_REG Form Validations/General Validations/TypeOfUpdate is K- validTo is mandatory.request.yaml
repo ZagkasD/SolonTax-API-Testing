@@ -1,5 +1,5 @@
 $kind: http-request
-name: "Register Farm: Non Existing Farm"
+name: "TypeOfUpdate is K: validTo is mandatory"
 url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/farm-data
 method: POST
 body:
@@ -12,23 +12,9 @@ body:
 
     \    \"sourceOfInformationCode\": \"44\", //UUR\r
 
-    \    \"contacts\": [\r
-
-    \        {\r
-
-    \            \"typeOfUpdate\": \"N\",\r
-
-    \            \"contactTypeCode\": \"6\",\r
-
-    \            \"contactValue\": \"dzagkas@netcompany.com\",\r
-
-    \            \"validFrom\": \"2026-01-01\"\r
-
-    \        }\r
-
-    \    ],\r
-
     \    \"identifiers\": {\r
+
+    \        \"typeOfUpdate\": \"K\",\r
 
     \        \"validFrom\": \"2026-04-03\",\r
 
@@ -36,15 +22,13 @@ body:
 
     \        \"identifierTypeCode\": \"14\" //Farmers\r
 
-    \    }\r
-
-    \    ,\r
+    \    },\r
 
     \    \"owners\": [\r
 
     \        {\r
 
-    \            \"typeOfUpdate\": \"N\",\r
+    \            \"typeOfUpdate\": \"K\",\r
 
     \            \"isNatural\": true,\r
 
@@ -56,7 +40,7 @@ body:
 
     \                {\r
 
-    \                    \"typeOfUpdate\": \"N\",\r
+    \                    \"typeOfUpdate\": \"K\",\r
 
     \                    \"mmTypeCode\": \"203\", // The only available mmtype of owner\r
 
@@ -66,7 +50,7 @@ body:
 
     \                        {\r
 
-    \                            \"typeOfUpdate\": \"N\",\r
+    \                            \"typeOfUpdate\": \"K\",\r
 
     \                            \"activityTypeCode\": \"011100\", //Cereal\r
 
@@ -84,15 +68,13 @@ body:
 
     \        }\r
 
-    \    ]\r
-
-    \    ,\r
+    \    ],\r
 
     \    \"partners\": [\r
 
     \        {\r
 
-    \            \"typeOfUpdate\": \"N\",\r
+    \            \"typeOfUpdate\": \"K\",\r
 
     \            \"isNatural\": true,\r
 
@@ -104,7 +86,7 @@ body:
 
     \                {\r
 
-    \                    \"typeOfUpdate\": \"N\",\r
+    \                    \"typeOfUpdate\": \"K\",\r
 
     \                    \"mmTypeCode\": \"222\", // The only available mmtype of partner\r
 
@@ -114,7 +96,7 @@ body:
 
     \                        {\r
 
-    \                            \"typeOfUpdate\": \"N\",\r
+    \                            \"typeOfUpdate\": \"K\",\r
 
     \                            \"activityTypeCode\": \"011100\", //Cereal\r
 
@@ -132,9 +114,7 @@ body:
 
     \        }\r
 
-    \    ]\r
-
-    \    ,\r
+    \    ],\r
 
     \    \"statuses\": [\r
 
@@ -144,7 +124,7 @@ body:
 
     \            \"validFrom\": \"2026-04-03\",\r
 
-    \            \"typeOfUpdate\": \"N\"\r
+    \            \"typeOfUpdate\": \"K\"\r
 
     \        }\r
 
@@ -158,16 +138,16 @@ body:
 
     \            \"validFrom\": \"2026-04-03\",\r
 
-    \            \"typeOfUpdate\": \"N\",\r
+    \            \"typeOfUpdate\": \"K\",\r
 
     \            \"addressTypeCode\": \"43\", //Address of place of activity\r
 
-    \            \"addressObjectTypeCode\": \"SAV\" //Municipality\r
+    \            \"addressObjectTypeCode\": \"SAV\" //Municipality,        }\r
 
     \        }\r
 
     \    ]\r
 
     }"
-examples: .resources/Register Farm- Non Existing Farm.resources/examples
-order: 2000
+examples: .resources/TypeOfUpdate is K- validTo is mandatory.resources/examples
+order: 5000

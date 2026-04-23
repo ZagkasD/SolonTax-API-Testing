@@ -1,5 +1,5 @@
 $kind: http-request
-name: typeOfUpdate is C, cancelationDate and cancelationReason is mandatory
+name: Same person cannot be owner and partner
 url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/farm-data
 method: POST
 body:
@@ -11,6 +11,22 @@ body:
     \    \"dateOfInformation\": \"2026-04-03\",\r
 
     \    \"sourceOfInformationCode\": \"44\", //UUR\r
+
+    \    \"contacts\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"contactTypeCode\": \"6\",\r
+
+    \            \"contactValue\": \"dzagkas@netcompany.com\",\r
+
+    \            \"validFrom\": \"2026-01-01\"\r
+
+    \        }\r
+
+    \    ],\r
 
     \    \"identifiers\": {\r
 
@@ -26,11 +42,11 @@ body:
 
     \        {\r
 
-    \            \"typeOfUpdate\": \"C\",\r
+    \            \"typeOfUpdate\": \"N\",\r
 
     \            \"isNatural\": true,\r
 
-    \            \"ownerPartyId\": \"d16bde53-cdbb-4230-90e4-b3d750bec869\", //FA\r
+    \            \"ownerPartyId\": \"0d5ff964-a200-41b9-8cd4-6fdb4d5e38b8\", //FA\r
 
     \            \"validFrom\": \"2026-04-03\",\r
 
@@ -72,11 +88,11 @@ body:
 
     \        {\r
 
-    \            \"typeOfUpdate\": \"C\",\r
+    \            \"typeOfUpdate\": \"N\",\r
 
     \            \"isNatural\": true,\r
 
-    \            \"partnerPartyId\": \"986937ce-5689-403c-84f5-428a3333d601\", //FA\r
+    \            \"partnerPartyId\": \"0d5ff964-a200-41b9-8cd4-6fdb4d5e38b8\", //FA\r
 
     \            \"validFrom\": \"2026-04-03\",\r
 
@@ -122,7 +138,7 @@ body:
 
     \            \"validFrom\": \"2026-04-03\",\r
 
-    \            \"typeOfUpdate\": \"C\"\r
+    \            \"typeOfUpdate\": \"N\"\r
 
     \        }\r
 
@@ -136,16 +152,15 @@ body:
 
     \            \"validFrom\": \"2026-04-03\",\r
 
-    \            \"typeOfUpdate\": \"C\",\r
+    \            \"typeOfUpdate\": \"N\",\r
 
     \            \"addressTypeCode\": \"43\", //Address of place of activity\r
 
-    \            \"addressObjectTypeCode\": \"SAV\" //Municipality,        }\r
+    \            \"addressObjectTypeCode\": \"SAV\" //Municipality\r
 
     \        }\r
 
     \    ]\r
 
     }"
-examples: .resources/typeOfUpdate is C, cancelationDate and cancelationReason is mand.resources/examples
-order: 4780
+order: 1302320988031771

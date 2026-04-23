@@ -1,5 +1,5 @@
 $kind: http-request
-name: "Register Farm: Non Existing Farm"
+name: "Mandatory Activity for Owner and Partner"
 url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/farm-data
 method: POST
 body:
@@ -48,7 +48,8 @@ body:
 
     \            \"isNatural\": true,\r
 
-    \            \"ownerPartyId\": \"d16bde53-cdbb-4230-90e4-b3d750bec869\", //FA\r
+    \            \"ownerPartyId\": \"d16bde53-cdbb-4230-90e4-b3d750bec869\",
+    //FA\r
 
     \            \"validFrom\": \"2026-04-03\",\r
 
@@ -58,25 +59,10 @@ body:
 
     \                    \"typeOfUpdate\": \"N\",\r
 
-    \                    \"mmTypeCode\": \"203\", // The only available mmtype of owner\r
+    \                    \"mmTypeCode\": \"203\", // The only available mmtype
+    of owner\r
 
-    \                    \"validFrom\": \"2026-04-03\",\r
-
-    \                    \"activities\": [\r
-
-    \                        {\r
-
-    \                            \"typeOfUpdate\": \"N\",\r
-
-    \                            \"activityTypeCode\": \"011100\", //Cereal\r
-
-    \                            \"isMain\": true,\r
-
-    \                            \"validFrom\": \"2026-04-03\"\r
-
-    \                        }\r
-
-    \                    ]\r
+    \                    \"validFrom\": \"2026-04-03\"\r
 
     \                }\r
 
@@ -96,7 +82,8 @@ body:
 
     \            \"isNatural\": true,\r
 
-    \            \"partnerPartyId\": \"986937ce-5689-403c-84f5-428a3333d601\", //FA\r
+    \            \"partnerPartyId\": \"986937ce-5689-403c-84f5-428a3333d601\",
+    //FA\r
 
     \            \"validFrom\": \"2026-04-03\",\r
 
@@ -106,25 +93,10 @@ body:
 
     \                    \"typeOfUpdate\": \"N\",\r
 
-    \                    \"mmTypeCode\": \"222\", // The only available mmtype of partner\r
+    \                    \"mmTypeCode\": \"222\", // The only available mmtype
+    of partner\r
 
-    \                    \"validFrom\": \"2026-04-03\",\r
-
-    \                    \"activities\": [\r
-
-    \                        {\r
-
-    \                            \"typeOfUpdate\": \"N\",\r
-
-    \                            \"activityTypeCode\": \"011100\", //Cereal\r
-
-    \                            \"isMain\": true,\r
-
-    \                            \"validFrom\": \"2026-04-03\"\r
-
-    \                        }\r
-
-    \                    ]\r
+    \                    \"validFrom\": \"2026-04-03\"\r
 
     \                }\r
 
@@ -162,12 +134,11 @@ body:
 
     \            \"addressTypeCode\": \"43\", //Address of place of activity\r
 
-    \            \"addressObjectTypeCode\": \"SAV\" //Municipality\r
+    \            \"addressObjectTypeCode\": \"SAV\" //Municipality,        }\r
 
     \        }\r
 
     \    ]\r
 
     }"
-examples: .resources/Register Farm- Non Existing Farm.resources/examples
-order: 2000
+order: 4000

@@ -10,31 +10,19 @@ body:
 
     \    \"dateOfInformation\": \"2026-04-03\",\r
 
+    \    \"mapdId\":\"e2a8f8a8-4fd5-4862-872b-0ae31ef60581\",// farm\r
+
     \    \"sourceOfInformationCode\": \"44\", //UUR\r
-
-    \    \"contacts\": [\r
-
-    \        {\r
-
-    \            \"typeOfUpdate\": \"N\",\r
-
-    \            \"contactTypeCode\": \"6\",\r
-
-    \            \"contactValue\": \"dzagkas@netcompany.com\",\r
-
-    \            \"validFrom\": \"2026-01-01\"\r
-
-    \        }\r
-
-    \    ],\r
 
     \    \"identifiers\": {\r
 
-    \        \"validFrom\": \"2026-04-03\",\r
+    \        \"TypeOfUpdate\":\"K\",\r
 
-    \        \"identifierValue\": \"43197857\",\r
+    \        \"identifierValue\": \"9874520398\",\r
 
-    \        \"identifierTypeCode\": \"14\" //Farmers\r
+    \        \"identifierTypeCode\": \"14\", //Farmers\r
+
+    \        \"validFrom\": \"2026-04-03\"\r
 
     \    }\r
 
@@ -44,11 +32,11 @@ body:
 
     \        {\r
 
-    \            \"typeOfUpdate\": \"N\",\r
+    \            \"typeOfUpdate\": \"K\",\r
 
     \            \"isNatural\": true,\r
 
-    \            \"ownerPartyId\": \"c9a52cce-e32f-488d-a68f-f2ba204dd39e\", //FA\r
+    \            \"ownerPartyId\": \"4b53a7f6-137e-4f45-a434-d9530f98dbe6\", //FA\r
 
     \            \"validFrom\": \"2026-04-03\"\r
 

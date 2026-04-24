@@ -1,12 +1,5 @@
 $kind: http-request
-name: "AGR_REG Form: Validate Gap in Activities 3"
-description: |-
-  Gap between two consecutive activities.
-
-  Set up for both owner and partner:  
-  MMType: 2026-02-10 - open  
-  Activity 1: 2026-02-10 - 2026-02-15  
-  Activity 2: 2026-03-10 - open
+name: Deregistration Happy Path
 url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/farm-data
 method: POST
 body:
@@ -15,7 +8,9 @@ body:
 
     \    \"requestId\": \"requestId_Zagkas\",\r
 
-    \    \"dateOfInformation\": \"2026-04-03\",\r
+    \    \"dateOfInformation\": \"2026-01-01\",\r
+
+    \    \"mapId\": \"8b41dea0-75d3-4c4b-9b90-660c48f05f40\",\r
 
     \    \"sourceOfInformationCode\": \"44\", //UUR\r
 
@@ -23,13 +18,15 @@ body:
 
     \        {\r
 
-    \            \"typeOfUpdate\": \"N\",\r
+    \            \"typeOfUpdate\": \"K\",\r
 
     \            \"contactTypeCode\": \"6\",\r
 
     \            \"contactValue\": \"dzagkas@netcompany.com\",\r
 
-    \            \"validFrom\": \"2026-01-01\"\r
+    \            \"validFrom\": \"2026-01-01\",\r
+
+    \            \"validTo\": \"2026-01-31\"\r
 
     \        }\r
 
@@ -37,11 +34,11 @@ body:
 
     \    \"identifiers\": {\r
 
-    \        \"validFrom\": \"2026-04-03\",\r
+    \        \"identifierValue\": \"87694387\",\r
 
-    \        \"identifierValue\": \"98743980975943\",\r
+    \        \"identifierTypeCode\": \"14\", //Farmers\r
 
-    \        \"identifierTypeCode\": \"14\" //Farmers\r
+    \        \"validFrom\": \"2026-04-03\"\r
 
     \    },\r
 
@@ -49,29 +46,33 @@ body:
 
     \        {\r
 
-    \            \"typeOfUpdate\": \"N\",\r
+    \            \"typeOfUpdate\": \"K\",\r
 
     \            \"isNatural\": true,\r
 
-    \            \"ownerPartyId\": \"a1f23065-2b90-411c-bae8-44b1b2d1c2b3\", //FA\r
+    \            \"ownerPartyId\": \"36442b67-5856-4340-9ee1-d826e8cd71ba\", //FA\r
 
     \            \"validFrom\": \"2026-01-01\",\r
+
+    \            \"validTo\": \"2026-01-31\",\r
 
     \            \"mmTypes\": [\r
 
     \                {\r
 
-    \                    \"typeOfUpdate\": \"R\",\r
+    \                    \"typeOfUpdate\": \"K\",\r
 
     \                    \"mmTypeCode\": \"203\", // The only available mmtype of owner\r
 
     \                    \"validFrom\": \"2026-01-01\",\r
 
+    \                    \"validTo\": \"2026-01-31\",\r
+
     \                    \"activities\": [\r
 
     \                        {\r
 
-    \                            \"typeOfUpdate\": \"N\",\r
+    \                            \"typeOfUpdate\": \"K\",\r
 
     \                            \"activityTypeCode\": \"011100\", //Cereal\r
 
@@ -79,19 +80,7 @@ body:
 
     \                            \"validFrom\": \"2026-01-01\",\r
 
-    \                            \"validTo\":\"2026-02-01\"\r
-
-    \                        },\r
-
-    \                        {\r
-
-    \                            \"typeOfUpdate\": \"N\",\r
-
-    \                            \"activityTypeCode\": \"011100\", //Cereal\r
-
-    \                            \"isMain\": true,\r
-
-    \                            \"validFrom\": \"2026-02-02\"\r
+    \                            \"validTo\": \"2026-01-31\"\r
 
     \                        }\r
 
@@ -109,49 +98,41 @@ body:
 
     \        {\r
 
-    \            \"typeOfUpdate\": \"N\",\r
+    \            \"typeOfUpdate\": \"K\",\r
 
     \            \"isNatural\": true,\r
 
-    \            \"partnerPartyId\": \"fddad0af-6200-4f18-aba7-e738a3d66b9a\", //FA\r
+    \            \"partnerPartyId\": \"be009eb1-6cc8-4609-a53c-d2d07d5e5780\", //FA\r
 
-    \            \"validFrom\": \"2026-02-10\",\r
+    \            \"validFrom\": \"2026-01-01\",\r
+
+    \            \"validTo\": \"2026-01-31\",\r
 
     \            \"mmTypes\": [\r
 
     \                {\r
 
-    \                    \"typeOfUpdate\": \"R\",\r
+    \                    \"typeOfUpdate\": \"K\",\r
 
     \                    \"mmTypeCode\": \"222\", // The only available mmtype of partner\r
 
     \                    \"validFrom\": \"2026-01-01\",\r
 
+    \                    \"validTo\": \"2026-01-31\",\r
+
     \                    \"activities\": [\r
 
     \                        {\r
 
-    \                            \"typeOfUpdate\": \"N\",\r
+    \                            \"typeOfUpdate\": \"K\",\r
 
     \                            \"activityTypeCode\": \"011100\", //Cereal\r
 
     \                            \"isMain\": true,\r
 
-    \                            \"validFrom\": \"2026-02-10\",\r
+    \                            \"validFrom\": \"2026-01-01\",\r
 
-    \                            \"validTo\":\"2026-01-01\"\r
-
-    \                        },\r
-
-    \                        {\r
-
-    \                            \"typeOfUpdate\": \"N\",\r
-
-    \                            \"activityTypeCode\": \"011100\", //Cereal\r
-
-    \                            \"isMain\": true,\r
-
-    \                            \"validFrom\": \"2026-03-10\"\r
+    \                            \"validTo\": \"2026-01-31\"\r
 
     \                        }\r
 
@@ -169,11 +150,23 @@ body:
 
     \        {\r
 
+    \            \"typeOfUpdate\": \"K\",\r
+
     \            \"statusCL\": \"3\", //Registered\r
 
-    \            \"validFrom\": \"2026-04-03\",\r
+    \            \"validFrom\": \"2026-01-01\",\r
 
-    \            \"typeOfUpdate\": \"N\"\r
+    \            \"validTo\": \"2026-01-31\"\r
+
+    \        },\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"statusCL\": \"2\", //\tDeregistered\r
+
+    \            \"validFrom\": \"2026-02-01\"\r
 
     \        }\r
 
@@ -185,18 +178,20 @@ body:
 
     \            \"addressId\": \"11\",\r
 
-    \            \"validFrom\": \"2026-04-03\",\r
-
-    \            \"typeOfUpdate\": \"N\",\r
+    \            \"typeOfUpdate\": \"K\",\r
 
     \            \"addressTypeCode\": \"43\", //Address of place of activity\r
 
-    \            \"addressObjectTypeCode\": \"SAV\" //Municipality,        }\r
+    \            \"addressObjectTypeCode\": \"SAV\", //Municipality\r
+
+    \            \"validFrom\": \"2026-01-01\",\r
+
+    \            \"validTo\": \"2026-01-31\"\r
 
     \        }\r
 
     \    ]\r
 
     }"
-examples: .resources/AGR_REG Form- Validate Gap in Activities 3.resources/examples
-order: 3000
+examples: .resources/Deregistration Happy Path.resources/examples
+order: 7898

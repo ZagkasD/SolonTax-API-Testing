@@ -1,5 +1,5 @@
 $kind: http-request
-name: "Only One Active Owner per Farm"
+name: Owner/Partner validFrom,validTo for FA
 url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/farm-data
 method: POST
 body:
@@ -22,7 +22,7 @@ body:
 
     \            \"contactValue\": \"dzagkas@netcompany.com\",\r
 
-    \            \"validFrom\": \"2026-01-01\"\r
+    \            \"validFrom\": \"1999-01-01\"\r
 
     \        }\r
 
@@ -30,9 +30,9 @@ body:
 
     \    \"identifiers\": {\r
 
-    \        \"validFrom\": \"2026-04-03\",\r
+    \        \"validFrom\": \"1999-01-01\",\r
 
-    \        \"identifierValue\": \"431888857\",\r
+    \        \"identifierValue\": \"9072398729\",\r
 
     \        \"identifierTypeCode\": \"14\" //Farmers\r
 
@@ -46,10 +46,9 @@ body:
 
     \            \"isNatural\": true,\r
 
-    \            \"ownerPartyId\": \"0d5ff964-a200-41b9-8cd4-6fdb4d5e38b8\",
-    //FA\r
+    \            \"ownerPartyId\": \"df748bc2-373f-4a5a-8eb2-4e77a001fc67\",\r
 
-    \            \"validFrom\": \"2026-04-03\",\r
+    \            \"validFrom\": \"1999-01-01\",\r
 
     \            \"mmTypes\": [\r
 
@@ -57,10 +56,9 @@ body:
 
     \                    \"typeOfUpdate\": \"N\",\r
 
-    \                    \"mmTypeCode\": \"203\", // The only available mmtype
-    of owner\r
+    \                    \"mmTypeCode\": \"203\",\r
 
-    \                    \"validFrom\": \"2026-04-03\",\r
+    \                    \"validFrom\": \"1999-01-01\",\r
 
     \                    \"activities\": [\r
 
@@ -72,51 +70,7 @@ body:
 
     \                            \"isMain\": true,\r
 
-    \                            \"validFrom\": \"2026-04-03\"\r
-
-    \                        }\r
-
-    \                    ]\r
-
-    \                }\r
-
-    \            ]\r
-
-    \        },\r
-
-    \        {\r
-
-    \            \"typeOfUpdate\": \"N\",\r
-
-    \            \"isNatural\": true,\r
-
-    \            \"ownerPartyId\": \"0d5ff964-a200-41b9-8cd4-6fdb4d5e38b8\",
-    //FA\r
-
-    \            \"validFrom\": \"2026-04-03\",\r
-
-    \            \"mmTypes\": [\r
-
-    \                {\r
-
-    \                    \"typeOfUpdate\": \"N\",\r
-
-    \                    \"mmTypeCode\": \"203\", // The only available mmtype
-    of owner\r
-
-    \                    \"validFrom\": \"2026-04-03\",\r
-
-    \                    \"activities\": [\r
-
-    \                        {\r
-
-    \                            \"typeOfUpdate\": \"N\",\r
-
-    \                            \"activityTypeCode\": \"011100\", //Cereal\r
-
-    \                            \"isMain\": true,\r
-
-    \                            \"validFrom\": \"2026-04-03\"\r
+    \                            \"validFrom\": \"1999-01-01\"\r
 
     \                        }\r
 
@@ -138,10 +92,10 @@ body:
 
     \            \"isNatural\": true,\r
 
-    \            \"partnerPartyId\": \"fd80cc23-fa75-4255-9d05-84c15ad296ec\",
+    \            \"partnerPartyId\": \"a6696286-2f3e-4a6c-9c9f-7f74b3c0a4a1\",
     //FA\r
 
-    \            \"validFrom\": \"2026-04-03\",\r
+    \            \"validFrom\": \"1999-01-01\",\r
 
     \            \"mmTypes\": [\r
 
@@ -152,7 +106,7 @@ body:
     \                    \"mmTypeCode\": \"222\", // The only available mmtype
     of partner\r
 
-    \                    \"validFrom\": \"2026-04-03\",\r
+    \                    \"validFrom\": \"1999-01-01\",\r
 
     \                    \"activities\": [\r
 
@@ -164,7 +118,7 @@ body:
 
     \                            \"isMain\": true,\r
 
-    \                            \"validFrom\": \"2026-04-03\"\r
+    \                            \"validFrom\": \"1999-01-01\"\r
 
     \                        }\r
 
@@ -184,7 +138,7 @@ body:
 
     \            \"statusCL\": \"3\", //Registered\r
 
-    \            \"validFrom\": \"2026-04-03\",\r
+    \            \"validFrom\": \"1999-01-01\",\r
 
     \            \"typeOfUpdate\": \"N\"\r
 
@@ -198,7 +152,7 @@ body:
 
     \            \"addressId\": \"11\",\r
 
-    \            \"validFrom\": \"2026-04-03\",\r
+    \            \"validFrom\": \"1999-01-01\",\r
 
     \            \"typeOfUpdate\": \"N\",\r
 
@@ -211,4 +165,5 @@ body:
     \    ]\r
 
     }"
-order: 1000
+examples: .resources/Owner validFrom,validTo for FA.resources/examples
+order: 3960234803281351

@@ -1,0 +1,128 @@
+$kind: http-example
+request:
+  url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/farm-data
+  method: POST
+  body:
+    type: json
+    content: "{\r
+
+      \    \"requestId\": \"requestId_Zagkas\",\r
+
+      \    \"dateOfInformation\": \"2026-04-03\",\r
+
+      \    \"sourceOfInformationCode\": \"6005\", //ZUKVR\r
+
+      \    \"contacts\": [\r
+
+      \        {\r
+
+      \            \"typeOfUpdate\": \"N\",\r
+
+      \            \"contactTypeCode\": \"6\",\r
+
+      \            \"contactValue\": \"dzagkas@netcompany.com\",\r
+
+      \            \"validFrom\": \"2026-04-24\"\r
+
+      \        }\r
+
+      \    ],\r
+
+      \    \"identifiers\": {\r
+
+      \        \"validFrom\": \"2026-04-24\",\r
+
+      \        \"identifierValue\": \"98494259872099739\",\r
+
+      \        \"identifierTypeCode\": \"14\" //Farmers\r
+
+      \    }\r
+
+      \    ,\r
+
+      \    \"owners\": [\r
+
+      \        {\r
+
+      \            \"typeOfUpdate\": \"N\",\r
+
+      \            \"isNatural\": false,\r
+
+      \            \"ownerPartyId\": \"df748bc2-373f-4a5a-8eb2-4e77a001fc67\",\r
+
+      \            \"validFrom\": \"2026-04-24\",\r
+
+      \            \"mmTypes\": [\r
+
+      \                {\r
+
+      \                    \"typeOfUpdate\": \"N\",\r
+
+      \                    \"mmTypeCode\": \"248\",\r
+
+      \                    \"validFrom\": \"2026-04-24\"                    \r
+
+      \                }\r
+
+      \            ]\r
+
+      \        }\r
+
+      \    ],\r
+
+      \    \"statuses\": [\r
+
+      \        {\r
+
+      \            \"statusCL\": \"3\", //Registered\r
+
+      \            \"validFrom\": \"2026-04-24\",\r
+
+      \            \"typeOfUpdate\": \"N\"\r
+
+      \        }\r
+
+      \    ],\r
+
+      \    \"addresses\": [\r
+
+      \        {\r
+
+      \            \"addressId\": \"11\",\r
+
+      \            \"validFrom\": \"2026-04-24\",\r
+
+      \            \"typeOfUpdate\": \"N\",\r
+
+      \            \"addressTypeCode\": \"43\", //Address of place of activity\r
+
+      \            \"addressObjectTypeCode\": \"SAV\" //Municipality\r
+
+      \        }\r
+
+      \    ]\r
+
+      }"
+response:
+  statusCode: 200
+  statusText: ""
+  headers:
+    date: Fri, 24 Apr 2026 12:06:29 GMT
+    content-type: application/json
+    transfer-encoding: chunked
+    connection: keep-alive
+    x-content-type-options: nosniff
+    x-xss-protection: "0"
+    cache-control: no-cache, no-store, max-age=0, must-revalidate
+    pragma: no-cache
+    expires: "0"
+    strict-transport-security: max-age=31536000; includeSubDomains
+    x-frame-options: DENY
+  body:
+    type: json
+    content: |-
+      {
+        "requestId": "requestId_Zagkas",
+        "processingId": "09a06b1d-d412-4993-92c2-1ce990cf7408"
+      }
+order: 1777033143327

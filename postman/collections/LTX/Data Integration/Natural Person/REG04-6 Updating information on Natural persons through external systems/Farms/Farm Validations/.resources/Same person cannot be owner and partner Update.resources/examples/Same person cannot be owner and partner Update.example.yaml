@@ -1,0 +1,136 @@
+$kind: http-example
+request:
+  url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/farm-data
+  method: POST
+  body:
+    type: json
+    content: "{\r
+
+      \    \"requestId\": \"requestId_Zagkas\",\r
+
+      \    \"dateOfInformation\": \"2026-04-03\",\r
+
+      \    \"sourceOfInformationCode\": \"44\",\ 
+
+      \r
+
+      \    \"mapId\":\"8b41dea0-75d3-4c4b-9b90-660c48f05f40\",\r
+
+      \    \"partners\": [\r
+
+      \        {\r
+
+      \            \"typeOfUpdate\": \"K\",\r
+
+      \            \"isNatural\": true,\r
+
+      \            \"partnerPartyId\": \"0d5ff964-a200-41b9-8cd4-6fdb4d5e38b8\",\ 
+
+      \            \"validFrom\": \"2026-04-03\",\r
+
+      \            \"validTo\":\"2026-04-04\",\r
+
+      \            \"mmTypes\": [\r
+
+      \                {\r
+
+      \                    \"typeOfUpdate\": \"K\",\r
+
+      \                    \"mmTypeCode\": \"222\",\ 
+
+      \                    \"validFrom\": \"2026-04-03\",\r
+
+      \                    \"validTo\":\"2026-04-04\",\r
+
+      \                    \"activities\": [\r
+
+      \                        {\r
+
+      \                            \"typeOfUpdate\": \"K\",\r
+
+      \                            \"activityTypeCode\": \"011100\",\ 
+
+      \                            \"isMain\": true,\r
+
+      \                            \"validFrom\": \"2026-04-03\",\r
+
+      \                            \"validTo\":\"2026-04-04\"\r
+
+      \                        }\r
+
+      \                    ]\r
+
+      \                }\r
+
+      \            ]\r
+
+      \        },\r
+
+      \        {\r
+
+      \            \"typeOfUpdate\": \"N\",\r
+
+      \            \"isNatural\": true,\r
+
+      \            \"partnerPartyId\": \"0d5ff964-a200-41b9-8cd4-6fdb4d5e38b8\",\ 
+
+      \            \"validFrom\": \"2026-04-05\",\r
+
+      \            \"mmTypes\": [\r
+
+      \                {\r
+
+      \                    \"typeOfUpdate\": \"N\",\r
+
+      \                    \"mmTypeCode\": \"203\",\ 
+
+      \                    \"validFrom\": \"2026-04-05\",\r
+
+      \                    \"activities\": [\r
+
+      \                        {\r
+
+      \                            \"typeOfUpdate\": \"N\",\r
+
+      \                            \"activityTypeCode\": \"011100\",\ 
+
+      \                            \"isMain\": true,\r
+
+      \                            \"validFrom\": \"2026-04-05\"\r
+
+      \                        }\r
+
+      \                    ]\r
+
+      \                }\r
+
+      \            ]\r
+
+      \        }\r
+
+      \    ]\r
+
+      }"
+response:
+  statusCode: 200
+  statusText: ""
+  headers:
+    date: Fri, 24 Apr 2026 09:26:51 GMT
+    content-type: application/json
+    transfer-encoding: chunked
+    connection: keep-alive
+    x-content-type-options: nosniff
+    x-xss-protection: "0"
+    cache-control: no-cache, no-store, max-age=0, must-revalidate
+    pragma: no-cache
+    expires: "0"
+    strict-transport-security: max-age=31536000; includeSubDomains
+    x-frame-options: DENY
+  body:
+    type: json
+    content: |-
+      {
+        "requestId": "requestId_Zagkas",
+        "processingId": "b1e07547-e4bf-463f-a0df-d7f8576d2c72"
+      }
+order: 4201684618400082

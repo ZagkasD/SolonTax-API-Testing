@@ -1,5 +1,5 @@
 $kind: http-request
-name: Owner/Partner validFrom,validTo for FA
+name: FA-Owner-Partner validFrom-validTo
 url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/farm-data
 method: POST
 body:
@@ -46,7 +46,7 @@ body:
 
     \            \"isNatural\": true,\r
 
-    \            \"ownerPartyId\": \"df748bc2-373f-4a5a-8eb2-4e77a001fc67\",\r
+    \            \"ownerPartyId\": \"f92579d4-821b-4c29-863d-86a00a92eed9\",\r
 
     \            \"validFrom\": \"1999-01-01\",\r
 
@@ -92,8 +92,7 @@ body:
 
     \            \"isNatural\": true,\r
 
-    \            \"partnerPartyId\": \"a6696286-2f3e-4a6c-9c9f-7f74b3c0a4a1\",
-    //FA\r
+    \            \"partnerPartyId\": \"a6696286-2f3e-4a6c-9c9f-7f74b3c0a4a1\", //FA\r
 
     \            \"validFrom\": \"1999-01-01\",\r
 
@@ -103,8 +102,7 @@ body:
 
     \                    \"typeOfUpdate\": \"N\",\r
 
-    \                    \"mmTypeCode\": \"222\", // The only available mmtype
-    of partner\r
+    \                    \"mmTypeCode\": \"222\", // The only available mmtype of partner\r
 
     \                    \"validFrom\": \"1999-01-01\",\r
 
@@ -164,6 +162,5 @@ body:
 
     \    ]\r
 
-    }"
-examples: .resources/Owner validFrom,validTo for FA.resources/examples
-order: 3960234803281351
+    } "
+order: 3548684510823035

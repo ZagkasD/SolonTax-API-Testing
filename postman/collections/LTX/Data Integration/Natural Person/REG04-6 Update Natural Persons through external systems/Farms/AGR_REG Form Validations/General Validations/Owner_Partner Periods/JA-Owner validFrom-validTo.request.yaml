@@ -1,4 +1,5 @@
 $kind: http-request
+name: JA-Owner validFrom-validTo
 url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/farm-data
 method: POST
 body:
@@ -21,7 +22,7 @@ body:
 
     \            \"contactValue\": \"dzagkas@netcompany.com\",\r
 
-    \            \"validFrom\": \"2026-04-24\"\r
+    \            \"validFrom\": \"1999-01-01\"\r
 
     \        }\r
 
@@ -29,7 +30,7 @@ body:
 
     \    \"identifiers\": {\r
 
-    \        \"validFrom\": \"2026-04-24\",\r
+    \        \"validFrom\": \"1999-01-01\",\r
 
     \        \"identifierValue\": \"98494259872099739\",\r
 
@@ -49,7 +50,7 @@ body:
 
     \            \"ownerPartyId\": \"df748bc2-373f-4a5a-8eb2-4e77a001fc67\",\r
 
-    \            \"validFrom\": \"2026-04-24\",\r
+    \            \"validFrom\": \"1999-01-01\",\r
 
     \            \"mmTypes\": [\r
 
@@ -59,7 +60,7 @@ body:
 
     \                    \"mmTypeCode\": \"248\",\r
 
-    \                    \"validFrom\": \"2026-04-24\"                    \r
+    \                    \"validFrom\": \"1999-01-01\"                    \r
 
     \                }\r
 
@@ -75,7 +76,7 @@ body:
 
     \            \"statusCL\": \"3\", //Registered\r
 
-    \            \"validFrom\": \"2026-04-24\",\r
+    \            \"validFrom\": \"1999-01-01\",\r
 
     \            \"typeOfUpdate\": \"N\"\r
 
@@ -89,7 +90,7 @@ body:
 
     \            \"addressId\": \"11\",\r
 
-    \            \"validFrom\": \"2026-04-24\",\r
+    \            \"validFrom\": \"1999-01-01\",\r
 
     \            \"typeOfUpdate\": \"N\",\r
 
@@ -103,4 +104,4 @@ body:
 
     }"
 examples: .resources/Owner validFrom,validTo for Legal.resources/examples
-order: 1777034614559
+order: 3000

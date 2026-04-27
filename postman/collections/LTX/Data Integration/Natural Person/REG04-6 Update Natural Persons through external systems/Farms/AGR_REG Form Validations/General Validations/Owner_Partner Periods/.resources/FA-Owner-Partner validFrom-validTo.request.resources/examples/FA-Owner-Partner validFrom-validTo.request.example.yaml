@@ -1,0 +1,188 @@
+$kind: http-example
+request:
+  url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/farm-data
+  method: POST
+  body:
+    type: json
+    content: "{\r
+
+      \    \"requestId\": \"requestId_Zagkas\",\r
+
+      \    \"dateOfInformation\": \"2026-04-03\",\r
+
+      \    \"sourceOfInformationCode\": \"44\",\ 
+
+      \    \"contacts\": [\r
+
+      \        {\r
+
+      \            \"typeOfUpdate\": \"N\",\r
+
+      \            \"contactTypeCode\": \"6\",\r
+
+      \            \"contactValue\": \"dzagkas@netcompany.com\",\r
+
+      \            \"validFrom\": \"1999-01-01\"\r
+
+      \        }\r
+
+      \    ],\r
+
+      \    \"identifiers\": {\r
+
+      \        \"validFrom\": \"1999-01-01\",\r
+
+      \        \"identifierValue\": \"9072398729\",\r
+
+      \        \"identifierTypeCode\": \"14\"\ 
+
+      \    },\r
+
+      \    \"owners\": [\r
+
+      \        {\r
+
+      \            \"typeOfUpdate\": \"N\",\r
+
+      \            \"isNatural\": true,\r
+
+      \            \"ownerPartyId\": \"f92579d4-821b-4c29-863d-86a00a92eed9\",\r
+
+      \            \"validFrom\": \"1999-01-01\",\r
+
+      \            \"mmTypes\": [\r
+
+      \                {\r
+
+      \                    \"typeOfUpdate\": \"N\",\r
+
+      \                    \"mmTypeCode\": \"203\",\r
+
+      \                    \"validFrom\": \"1999-01-01\",\r
+
+      \                    \"activities\": [\r
+
+      \                        {\r
+
+      \                            \"typeOfUpdate\": \"N\",\r
+
+      \                            \"activityTypeCode\": \"011100\",\ 
+
+      \                            \"isMain\": true,\r
+
+      \                            \"validFrom\": \"1999-01-01\"\r
+
+      \                        }\r
+
+      \                    ]\r
+
+      \                }\r
+
+      \            ]\r
+
+      \        }\r
+
+      \    ],\r
+
+      \    \"partners\": [\r
+
+      \        {\r
+
+      \            \"typeOfUpdate\": \"N\",\r
+
+      \            \"isNatural\": true,\r
+
+      \            \"partnerPartyId\": \"a6696286-2f3e-4a6c-9c9f-7f74b3c0a4a1\",\ 
+
+      \            \"validFrom\": \"1999-01-01\",\r
+
+      \            \"mmTypes\": [\r
+
+      \                {\r
+
+      \                    \"typeOfUpdate\": \"N\",\r
+
+      \                    \"mmTypeCode\": \"222\",\ 
+
+      \                    \"validFrom\": \"1999-01-01\",\r
+
+      \                    \"activities\": [\r
+
+      \                        {\r
+
+      \                            \"typeOfUpdate\": \"N\",\r
+
+      \                            \"activityTypeCode\": \"011100\",\ 
+
+      \                            \"isMain\": true,\r
+
+      \                            \"validFrom\": \"1999-01-01\"\r
+
+      \                        }\r
+
+      \                    ]\r
+
+      \                }\r
+
+      \            ]\r
+
+      \        }\r
+
+      \    ],\r
+
+      \    \"statuses\": [\r
+
+      \        {\r
+
+      \            \"statusCL\": \"3\",\ 
+
+      \            \"validFrom\": \"1999-01-01\",\r
+
+      \            \"typeOfUpdate\": \"N\"\r
+
+      \        }\r
+
+      \    ],\r
+
+      \    \"addresses\": [\r
+
+      \        {\r
+
+      \            \"addressId\": \"11\",\r
+
+      \            \"validFrom\": \"1999-01-01\",\r
+
+      \            \"typeOfUpdate\": \"N\",\r
+
+      \            \"addressTypeCode\": \"43\",\ 
+
+      \            \"addressObjectTypeCode\": \"SAV\"\ 
+
+      \        }\r
+
+      \    ]\r
+
+      }"
+response:
+  statusCode: 200
+  statusText: ""
+  headers:
+    date: Mon, 27 Apr 2026 05:48:46 GMT
+    content-type: application/json
+    transfer-encoding: chunked
+    connection: keep-alive
+    x-content-type-options: nosniff
+    x-xss-protection: "0"
+    cache-control: no-cache, no-store, max-age=0, must-revalidate
+    pragma: no-cache
+    expires: "0"
+    strict-transport-security: max-age=31536000; includeSubDomains
+    x-frame-options: DENY
+  body:
+    type: json
+    content: |-
+      {
+        "requestId": "requestId_Zagkas",
+        "processingId": "84e085db-a4f8-490b-b67d-65e5a3335647"
+      }
+order: 1777268961063

@@ -1,5 +1,5 @@
 $kind: http-request
-name: "Register AGR Holding: Non Existing AGR Holding - Owner LJA"
+name: "Register AGR Holding: Non Existing AGR Holding - Owner JA"
 url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/farm-data
 method: POST
 body:
@@ -12,33 +12,17 @@ body:
 
     \    \"sourceOfInformationCode\": \"6005\", //ZUKVR\r
 
-    \    \"contacts\": [\r
-
-    \        {\r
-
-    \            \"typeOfUpdate\": \"N\",\r
-
-    \            \"contactTypeCode\": \"6\",\r
-
-    \            \"contactValue\": \"dzagkas@netcompany.com\",\r
-
-    \            \"validFrom\": \"2026-01-01\"\r
-
-    \        }\r
-
-    \    ],\r
+    \    \"contacts\": [],\r
 
     \    \"identifiers\": {\r
 
     \        \"validFrom\": \"2026-04-03\",\r
 
-    \        \"identifierValue\": \"43188978857\",\r
+    \        \"identifierValue\": \"431888792857\",\r
 
     \        \"identifierTypeCode\": \"14\" //Farmers\r
 
-    \    }\r
-
-    \    ,\r
+    \    },\r
 
     \    \"owners\": [\r
 
@@ -48,7 +32,7 @@ body:
 
     \            \"isNatural\": false,\r
 
-    \            \"ownerPartyId\": \"702f9444-2f90-4f6c-b951-c35223c60aad\",
+    \            \"ownerPartyId\": \"974e98ba-eb38-4917-b131-dcf87130297e\",
     //LJA\r
 
     \            \"validFrom\": \"2026-04-03\",\r
@@ -72,17 +56,13 @@ body:
 
     \    ],\r
 
-    \    \r
-
     \    // ZUKVR Doesn't send partners!!!\r
-
-    \r
 
     \    \"statuses\": [\r
 
     \        {\r
 
-    \            \"statusCL\": \"3\", //Registered\r
+    \            \"statusCL\": \"3\",\r
 
     \            \"validFrom\": \"2026-04-03\",\r
 
@@ -104,7 +84,7 @@ body:
 
     \            \"addressTypeCode\": \"43\", //Address of place of activity\r
 
-    \            \"addressObjectTypeCode\": \"SAV\" //Municipality,        }\r
+    \            \"addressObjectTypeCode\": \"SAV\" //Municipality\r
 
     \        }\r
 
@@ -113,4 +93,4 @@ body:
     }"
 examples: .resources/Add a new AGR Holding - Non Existing AGR Holding - Owner
   JA.resources/examples
-order: 4000
+order: 2000

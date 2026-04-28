@@ -1,0 +1,5 @@
+$kind: http-request
+name: New Request
+url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/natural-persons
+method: POST
+order: 1777292411331

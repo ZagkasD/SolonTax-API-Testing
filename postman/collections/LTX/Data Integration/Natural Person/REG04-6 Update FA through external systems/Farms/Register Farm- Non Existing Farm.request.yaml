@@ -1,0 +1,167 @@
+$kind: http-request
+name: "Register Farm: Non Existing Farm"
+url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/farm-data
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"requestId\": \"requestId_Zagkas\",\r
+
+    \  \"dateOfInformation\": \"2026-04-03\",\r
+
+    \  \"sourceOfInformationCode\": \"44\", //UUR\r
+
+    \  \"contacts\": [\r
+
+    \    {\r
+
+    \      \"typeOfUpdate\": \"N\",\r
+
+    \      \"contactTypeCode\": \"6\",\r
+
+    \      \"contactValue\": \"dzagkas@netcompany.com\",\r
+
+    \      \"validFrom\": \"2026-01-01\"\r
+
+    \    }\r
+
+    \  ],\r
+
+    \  \"identifiers\": {\r
+
+    \    \"identifierValue\": \"0973428\",\r
+
+    \    \"identifierTypeCode\": \"14\", //Farmers\r
+
+    \    \"validFrom\": \"2026-01-01\"\r
+
+    \  },\r
+
+    \  \"owners\": [\r
+
+    \    {\r
+
+    \      \"typeOfUpdate\": \"N\",\r
+
+    \      \"isNatural\": true,\r
+
+    \      \"ownerPartyId\": \"a359e3fb-22ed-4904-aa01-900db7408e9b\", //FA\r
+
+    \      \"validFrom\": \"2026-01-01\",\r
+
+    \      \"mmTypes\": [\r
+
+    \        {\r
+
+    \          \"typeOfUpdate\": \"N\",\r
+
+    \          \"mmTypeCode\": \"203\", // The only available mmtype of owner\r
+
+    \          \"validFrom\": \"2026-01-01\",\r
+
+    \          \"activities\": [\r
+
+    \            {\r
+
+    \              \"typeOfUpdate\": \"N\",\r
+
+    \              \"activityTypeCode\": \"011100\", //Cereal\r
+
+    \              \"isMain\": true,\r
+
+    \              \"validFrom\": \"2026-01-01\"\r
+
+    \            }\r
+
+    \          ]\r
+
+    \        }\r
+
+    \      ]\r
+
+    \    }\r
+
+    \  ],\r
+
+    //   \"partners\": [\r
+
+    //     {\r
+
+    //       \"typeOfUpdate\": \"N\",\r
+
+    //       \"isNatural\": true,\r
+
+    //       \"partnerPartyId\": \"c26eceda-e49d-4526-b948-fca8c5150a54\", //FA\r
+
+    //       \"validFrom\": \"2026-01-01\",\r
+
+    //       \"mmTypes\": [\r
+
+    //         {\r
+
+    //           \"typeOfUpdate\": \"N\",\r
+
+    //           \"mmTypeCode\": \"222\", // The only available mmtype of partner\r
+
+    //           \"validFrom\": \"2026-01-01\",\r
+
+    //           \"activities\": [\r
+
+    //             {\r
+
+    //               \"typeOfUpdate\": \"N\",\r
+
+    //               \"activityTypeCode\": \"011100\", //Cereal\r
+
+    //               \"isMain\": true,\r
+
+    //               \"validFrom\": \"2026-01-01\"\r
+
+    //             }\r
+
+    //           ]\r
+
+    //         }\r
+
+    //       ]\r
+
+    //     }\r
+
+    //   ],\r
+
+    \  \"statuses\": [\r
+
+    \    {\r
+
+    \      \"typeOfUpdate\": \"N\",\r
+
+    \      \"statusCL\": \"3\", //Registered\r
+
+    \      \"validFrom\": \"2026-01-01\"\r
+
+    \    }\r
+
+    \  ],\r
+
+    \  \"addresses\": [\r
+
+    \    {\r
+
+    \      \"addressId\": \"11\",\r
+
+    \      \"typeOfUpdate\": \"N\",\r
+
+    \      \"addressTypeCode\": \"43\", //Address of place of activity\r
+
+    \      \"addressObjectTypeCode\": \"SAV\", //Municipality\r
+
+    \      \"validFrom\": \"2026-01-01\"\r
+
+    \    }\r
+
+    \  ]\r
+
+    }"
+examples: .resources/Register Farm- Non Existing Farm.resources/examples
+order: 1000

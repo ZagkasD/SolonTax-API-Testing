@@ -1,5 +1,4 @@
 $kind: http-request
-name: FA-Owner-Partner validFrom-validTo
 url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/farm-data
 method: POST
 body:
@@ -163,4 +162,5 @@ body:
     \    ]\r
 
     } "
+examples: .resources/FA-Owner-Partner validFrom-validTo.resources/examples
 order: 3548684510823035

@@ -1,5 +1,20 @@
 $kind: http-request
 name: "AGR_REG Form: General Validations 2"
+description: |-
+  The external system UUR sends a farm for registration to the MAP with the following data:
+
+  - Identifier of the agricultural holding
+      
+  - Status of the agricultural holding
+      
+  - Address of the agricultural holding
+      
+  - Owner information 
+      
+  - Partner   
+      **The following data are missing:**
+      
+  - mmTypes
 url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/farm-data
 method: POST
 body:

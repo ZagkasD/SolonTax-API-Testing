@@ -1,0 +1,197 @@
+$kind: http-request
+name: "Farm Deregistration: Happy Path"
+url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/farm-data
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"requestId\": \"requestId_Zagkas\",\r
+
+    \    \"dateOfInformation\": \"2026-01-01\",\r
+
+    \    \"mapId\": \"e4ebebb0-f05d-4b4b-9cdb-4cd46a6e2696\",\r
+
+    \    \"sourceOfInformationCode\": \"44\", //UUR\r
+
+    \    \"contacts\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"K\",\r
+
+    \            \"contactTypeCode\": \"6\",\r
+
+    \            \"contactValue\": \"dzagkas@netcompany.com\",\r
+
+    \            \"validFrom\": \"2026-01-01\",\r
+
+    \            \"validTo\": \"2026-01-31\"\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"identifiers\": {\r
+
+    \        \"identifierValue\": \"0973428\",\r
+
+    \        \"identifierTypeCode\": \"14\", //Farmers\r
+
+    \        \"validFrom\": \"2026-01-01\"\r
+
+    \    },\r
+
+    \    \"owners\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"K\",\r
+
+    \            \"isNatural\": true,\r
+
+    \            \"ownerPartyId\": \"a359e3fb-22ed-4904-aa01-900db7408e9b\", //FA\r
+
+    \            \"validFrom\": \"2026-01-01\",\r
+
+    \            \"validTo\": \"2026-01-31\",\r
+
+    \            \"mmTypes\": [\r
+
+    \                {\r
+
+    \                    \"typeOfUpdate\": \"K\",\r
+
+    \                    \"mmTypeCode\": \"203\", // The only available mmtype of owner\r
+
+    \                    \"validFrom\": \"2026-01-01\",\r
+
+    \                    \"validTo\": \"2026-01-31\",\r
+
+    \                    \"activities\": [\r
+
+    \                        {\r
+
+    \                            \"typeOfUpdate\": \"K\",\r
+
+    \                            \"activityTypeCode\": \"011100\", //Cereal\r
+
+    \                            \"isMain\": true,\r
+
+    \                            \"validFrom\": \"2026-01-01\",\r
+
+    \                            \"validTo\": \"2026-01-31\"\r
+
+    \                        }\r
+
+    \                    ]\r
+
+    \                }\r
+
+    \            ]\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    // \"partners\": [\r
+
+    \    //     {\r
+
+    \    //         \"typeOfUpdate\": \"K\",\r
+
+    \    //         \"isNatural\": true,\r
+
+    \    //         \"partnerPartyId\": \"36442b67-5856-4340-9ee1-d826e8cd71ba\", //FA\r
+
+    \    //         \"validFrom\": \"2026-01-01\",\r
+
+    \    //         \"validTo\": \"2026-01-31\",\r
+
+    \    //         \"mmTypes\": [\r
+
+    \    //             {\r
+
+    \    //                 \"typeOfUpdate\": \"K\",\r
+
+    \    //                 \"mmTypeCode\": \"222\", // The only available mmtype of partner\r
+
+    \    //                 \"validFrom\": \"2026-01-01\",\r
+
+    \    //                 \"validTo\": \"2026-01-31\",\r
+
+    \    //                 \"activities\": [\r
+
+    \    //                     {\r
+
+    \    //                         \"typeOfUpdate\": \"K\",\r
+
+    \    //                         \"activityTypeCode\": \"011100\", //Cereal\r
+
+    \    //                         \"isMain\": true,\r
+
+    \    //                         \"validFrom\": \"2026-01-01\",\r
+
+    \    //                         \"validTo\": \"2026-01-31\"\r
+
+    \    //                     }\r
+
+    \    //                 ]\r
+
+    \    //             }\r
+
+    \    //         ]\r
+
+    \    //     }\r
+
+    \    // ],\r
+
+    \    \"statuses\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"K\",\r
+
+    \            \"statusCL\": \"3\", //Registered\r
+
+    \            \"validFrom\": \"2026-01-01\",\r
+
+    \            \"validTo\": \"2026-01-31\"\r
+
+    \        },\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"statusCL\": \"2\", // Deregistered\r
+
+    \            \"validFrom\": \"2026-02-01\"\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"addresses\": [\r
+
+    \        {\r
+
+    \            \"addressId\": \"11\",\r
+
+    \            \"typeOfUpdate\": \"K\",\r
+
+    \            \"addressTypeCode\": \"43\", //Address of place of activity\r
+
+    \            \"addressObjectTypeCode\": \"SAV\", //Municipality\r
+
+    \            \"validFrom\": \"2026-01-01\",\r
+
+    \            \"validTo\": \"2026-01-31\"\r
+
+    \        }\r
+
+    \    ]\r
+
+    }"
+examples: .resources/Deregistration Happy Path-1.resources/examples
+order: 3000

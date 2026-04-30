@@ -1,0 +1,34 @@
+$kind: http-request
+name: Update a Farm
+url: "{{farm-endpoint}}"
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"requestId\": \"requestId_Zagkas\",\r
+
+    \    \"dateOfInformation\": \"2026-04-03\",\r
+
+    \    \"mapdId\": \"6e23d2cc-0aa8-431b-807f-4284d3eaf803\",\r
+
+    \    \"sourceOfInformationCode\": \"44\", //UUR\r
+
+    \    \"contacts\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"contactTypeCode\": \"6\",\r
+
+    \            \"contactValue\": \"dzagkas@netcompany.com\",\r
+
+    \            \"validFrom\": \"2026-04-01\"\r
+
+    \        }\r
+
+    \    ]\r
+
+    }"
+order: 4502301407604362

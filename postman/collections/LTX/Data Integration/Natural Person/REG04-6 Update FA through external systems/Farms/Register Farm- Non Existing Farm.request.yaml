@@ -30,7 +30,7 @@ body:
 
     \  \"identifiers\": {\r
 
-    \    \"identifierValue\": \"0973428\",\r
+    \    \"identifierValue\": \"508720873290\",\r
 
     \    \"identifierTypeCode\": \"14\", //Farmers\r
 
@@ -46,7 +46,7 @@ body:
 
     \      \"isNatural\": true,\r
 
-    \      \"ownerPartyId\": \"a359e3fb-22ed-4904-aa01-900db7408e9b\", //FA\r
+    \      \"ownerPartyId\": \"de5ec5ae-a875-4ac8-9c76-402287376276\", //FA\r
 
     \      \"validFrom\": \"2026-01-01\",\r
 
@@ -84,51 +84,51 @@ body:
 
     \  ],\r
 
-    //   \"partners\": [\r
+    \  \"partners\": [\r
 
-    //     {\r
+    \    {\r
 
-    //       \"typeOfUpdate\": \"N\",\r
+    \      \"typeOfUpdate\": \"N\",\r
 
-    //       \"isNatural\": true,\r
+    \      \"isNatural\": true,\r
 
-    //       \"partnerPartyId\": \"c26eceda-e49d-4526-b948-fca8c5150a54\", //FA\r
+    \      \"partnerPartyId\": \"7fa3ffa5-a498-420d-85db-9e458c531b8d\", //FA\r
 
-    //       \"validFrom\": \"2026-01-01\",\r
+    \      \"validFrom\": \"2026-01-01\",\r
 
-    //       \"mmTypes\": [\r
+    \      \"mmTypes\": [\r
 
-    //         {\r
+    \        {\r
 
-    //           \"typeOfUpdate\": \"N\",\r
+    \          \"typeOfUpdate\": \"N\",\r
 
-    //           \"mmTypeCode\": \"222\", // The only available mmtype of partner\r
+    \          \"mmTypeCode\": \"222\", // The only available mmtype of partner\r
 
-    //           \"validFrom\": \"2026-01-01\",\r
+    \          \"validFrom\": \"2026-01-01\",\r
 
-    //           \"activities\": [\r
+    \          \"activities\": [\r
 
-    //             {\r
+    \            {\r
 
-    //               \"typeOfUpdate\": \"N\",\r
+    \              \"typeOfUpdate\": \"N\",\r
 
-    //               \"activityTypeCode\": \"011100\", //Cereal\r
+    \              \"activityTypeCode\": \"011100\", //Cereal\r
 
-    //               \"isMain\": true,\r
+    \              \"isMain\": true,\r
 
-    //               \"validFrom\": \"2026-01-01\"\r
+    \              \"validFrom\": \"2026-01-01\"\r
 
-    //             }\r
+    \            }\r
 
-    //           ]\r
+    \          ]\r
 
-    //         }\r
+    \        }\r
 
-    //       ]\r
+    \      ]\r
 
-    //     }\r
+    \    }\r
 
-    //   ],\r
+    \  ],\r
 
     \  \"statuses\": [\r
 

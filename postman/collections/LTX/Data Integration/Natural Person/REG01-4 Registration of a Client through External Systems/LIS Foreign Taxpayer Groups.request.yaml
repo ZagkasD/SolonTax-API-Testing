@@ -6,7 +6,7 @@ body:
   type: json
   content: "{\r
 
-    \    \"requestId\": \"requestId_00002\",\r
+    \    \"requestId\": \"requestId_Zagkas\",\r
 
     \    \"dateOfInformation\": \"2026-01-01\",\r
 
@@ -66,7 +66,7 @@ body:
 
     \            \"orgUnitPartyId\": \"3dd075ff-e291-4975-a511-000010000000\",\r
 
-    \            \"groupTypeCode\": \"19\", // New taxpayer\r
+    \            \"groupTypeCode\": \"119\", // New taxpayer\r
 
     \            \"validFrom\": \"2026-01-01\",\r
 

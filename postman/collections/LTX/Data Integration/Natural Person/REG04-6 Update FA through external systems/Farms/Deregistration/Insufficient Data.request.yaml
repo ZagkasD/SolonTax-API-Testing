@@ -1,0 +1,196 @@
+$kind: http-request
+url: "{{farm-endpoint}}"
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"requestId\": \"requestId_Zagkas\",\r
+
+    \    \"dateOfInformation\": \"2026-01-01\",\r
+
+    \    \"mapId\": \"058d5156-c382-4950-a5a6-b1896316ac9d\",\r
+
+    \    \"sourceOfInformationCode\": \"44\", //UUR\r
+
+    \    \"contacts\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"K\",\r
+
+    \            \"contactTypeCode\": \"6\",\r
+
+    \            \"contactValue\": \"dzagkas@netcompany.com\",\r
+
+    \            \"validFrom\": \"2026-01-01\",\r
+
+    \            \"validTo\": \"2026-05-01\"\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"identifiers\": {\r
+
+    \        \"identifierValue\": \"0973428\",\r
+
+    \        \"identifierTypeCode\": \"14\", //Farmers\r
+
+    \        \"validFrom\": \"2026-01-01\"\r
+
+    \    },\r
+
+    \    \"owners\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"K\",\r
+
+    \            \"isNatural\": true,\r
+
+    \            \"ownerPartyId\": \"de5ec5ae-a875-4ac8-9c76-402287376276\", //FA\r
+
+    \            \"validFrom\": \"2026-01-01\",\r
+
+    \            \"validTo\": \"2026-05-01\",\r
+
+    \            \"mmTypes\": [\r
+
+    \                {\r
+
+    \                    \"typeOfUpdate\": \"K\",\r
+
+    \                    \"mmTypeCode\": \"203\", // The only available mmtype of owner\r
+
+    \                    \"validFrom\": \"2026-01-01\",\r
+
+    \                    \"validTo\": \"2026-05-01\",\r
+
+    \                    \"activities\": [\r
+
+    \                        {\r
+
+    \                            \"typeOfUpdate\": \"K\",\r
+
+    \                            \"activityTypeCode\": \"011100\", //Cereal\r
+
+    \                            \"isMain\": true,\r
+
+    \                            \"validFrom\": \"2026-01-01\",\r
+
+    \                            \"validTo\": \"2026-05-01\"\r
+
+    \                        }\r
+
+    \                    ]\r
+
+    \                }\r
+
+    \            ]\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"partners\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"K\",\r
+
+    \            \"isNatural\": true,\r
+
+    \            \"partnerPartyId\": \"7fa3ffa5-a498-420d-85db-9e458c531b8d\", //FA\r
+
+    \            \"validFrom\": \"2026-01-01\",\r
+
+    \            \"validTo\": \"2026-05-01\",\r
+
+    \            \"mmTypes\": [\r
+
+    \                {\r
+
+    \                    \"typeOfUpdate\": \"K\",\r
+
+    \                    \"mmTypeCode\": \"222\", // The only available mmtype of partner\r
+
+    \                    \"validFrom\": \"2026-01-01\",\r
+
+    \                    \"validTo\": \"2026-05-01\",\r
+
+    \                    \"activities\": [\r
+
+    \                        {\r
+
+    \                            \"typeOfUpdate\": \"K\",\r
+
+    \                            \"activityTypeCode\": \"011100\", //Cereal\r
+
+    \                            \"isMain\": true,\r
+
+    \                            \"validFrom\": \"2026-01-01\",\r
+
+    \                            \"validTo\": \"2026-05-01\"\r
+
+    \                        }\r
+
+    \                    ]\r
+
+    \                }\r
+
+    \            ]\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"statuses\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"K\",\r
+
+    \            \"statusCL\": \"3\", //Registered\r
+
+    \            \"validFrom\": \"2026-01-01\",\r
+
+    \            \"validTo\": \"2026-01-31\"\r
+
+    \        },\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"statusCL\": \"2\", // Deregistered\r
+
+    \            \"validFrom\": \"2026-02-01\"\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"addresses\": [\r
+
+    \        {\r
+
+    \            \"addressId\": \"11\",\r
+
+    \            \"typeOfUpdate\": \"K\",\r
+
+    \            \"addressTypeCode\": \"43\", //Address of place of activity\r
+
+    \            \"addressObjectTypeCode\": \"SAV\", //Municipality\r
+
+    \            \"validFrom\": \"2026-01-01\",\r
+
+    \            \"validTo\": \"2026-05-01\"\r
+
+    \        }\r
+
+    \    ]\r
+
+    }"
+examples: .resources/Insufficient Data.resources/examples
+order: 4177987733815512

@@ -1,6 +1,6 @@
 $kind: http-request
 name: Registration of a Lithuanian Client Received from GR 3
-url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/natural-persons
+url: "{{natural-person-endpoint}}"
 method: POST
 body:
   type: json
@@ -30,7 +30,7 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"firstName\": \"Dimos GR A\",\r
+    \            \"firstName\": \"Dimos GR D\",\r
 
     \            \"lastName\": \"Zagkas\",\r
 
@@ -50,7 +50,7 @@ body:
 
     \            \"identifierTypeCode\": \"2\", //Personal Code\r
 
-    \            \"identifierValue\": \"09328740974283\",\r
+    \            \"identifierValue\": \"90274350987\",\r
 
     \            \"countryCode\": \"LT\",\r
 

@@ -1,0 +1,191 @@
+$kind: http-example
+name: "TypeOfUpdate is K: validTo is mandatory"
+request:
+  url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/farm-data
+  method: POST
+  body:
+    type: json
+    content: "{\r
+
+      \    \"requestId\": \"requestId_Zagkas\",\r
+
+      \    \"dateOfInformation\": \"2026-04-03\",\r
+
+      \    \"sourceOfInformationCode\": \"44\",\ 
+
+      \    \"contacts\": [\r
+
+      \        {\r
+
+      \            \"typeOfUpdate\": \"K\",\r
+
+      \            \"contactTypeCode\": \"6\",\ 
+
+      \            \"contactValue\": \"dzagkas@netcompany.com\",\r
+
+      \            \"validFrom\": \"2026-01-01\"\r
+
+      \        }\r
+
+      \    ],\r
+
+      \    \"identifiers\": {\r
+
+      \        \"typeOfUpdate\": \"K\",\r
+
+      \        \"validFrom\": \"2026-04-03\",\r
+
+      \        \"identifierValue\": \"431888857\",\r
+
+      \        \"identifierTypeCode\": \"14\"\ 
+
+      \    },\r
+
+      \    \"owners\": [\r
+
+      \        {\r
+
+      \            \"typeOfUpdate\": \"K\",\r
+
+      \            \"isNatural\": true,\r
+
+      \            \"ownerPartyId\": \"d16bde53-cdbb-4230-90e4-b3d750bec869\",\ 
+
+      \            \"validFrom\": \"2026-04-03\",\r
+
+      \            \"mmTypes\": [\r
+
+      \                {\r
+
+      \                    \"typeOfUpdate\": \"K\",\r
+
+      \                    \"mmTypeCode\": \"203\",\ 
+
+      \                    \"validFrom\": \"2026-04-03\",\r
+
+      \                    \"activities\": [\r
+
+      \                        {\r
+
+      \                            \"typeOfUpdate\": \"K\",\r
+
+      \                            \"activityTypeCode\": \"011100\",\ 
+
+      \                            \"isMain\": true,\r
+
+      \                            \"validFrom\": \"2026-04-03\"\r
+
+      \                        }\r
+
+      \                    ]\r
+
+      \                }\r
+
+      \            ]\r
+
+      \        }\r
+
+      \    ],\r
+
+      \    \"partners\": [\r
+
+      \        {\r
+
+      \            \"typeOfUpdate\": \"K\",\r
+
+      \            \"isNatural\": true,\r
+
+      \            \"partnerPartyId\": \"986937ce-5689-403c-84f5-428a3333d601\",\ 
+
+      \            \"validFrom\": \"2026-04-03\",\r
+
+      \            \"mmTypes\": [\r
+
+      \                {\r
+
+      \                    \"typeOfUpdate\": \"K\",\r
+
+      \                    \"mmTypeCode\": \"222\",\ 
+
+      \                    \"validFrom\": \"2026-04-03\",\r
+
+      \                    \"activities\": [\r
+
+      \                        {\r
+
+      \                            \"typeOfUpdate\": \"K\",\r
+
+      \                            \"activityTypeCode\": \"011100\",\ 
+
+      \                            \"isMain\": true,\r
+
+      \                            \"validFrom\": \"2026-04-03\"\r
+
+      \                        }\r
+
+      \                    ]\r
+
+      \                }\r
+
+      \            ]\r
+
+      \        }\r
+
+      \    ],\r
+
+      \    \"statuses\": [\r
+
+      \        {\r
+
+      \            \"statusCL\": \"3\",\ 
+
+      \            \"validFrom\": \"2026-04-03\",\r
+
+      \            \"typeOfUpdate\": \"K\"\r
+
+      \        }\r
+
+      \    ],\r
+
+      \    \"addresses\": [\r
+
+      \        {\r
+
+      \            \"addressId\": \"11\",\r
+
+      \            \"validFrom\": \"2026-04-03\",\r
+
+      \            \"typeOfUpdate\": \"K\",\r
+
+      \            \"addressTypeCode\": \"43\",\ 
+
+      \            \"addressObjectTypeCode\": \"SAV\"\ 
+
+      \        }\r
+
+      \    ]\r
+
+      }"
+response:
+  statusCode: 200
+  statusText: ""
+  headers:
+    date: Thu, 30 Apr 2026 07:12:54 GMT
+    content-type: application/json
+    transfer-encoding: chunked
+    connection: keep-alive
+    x-content-type-options: nosniff
+    x-xss-protection: "0"
+    cache-control: no-cache, no-store, max-age=0, must-revalidate
+    pragma: no-cache
+    expires: "0"
+    strict-transport-security: max-age=31536000; includeSubDomains
+    x-frame-options: DENY
+  body:
+    type: json
+    content: |-
+      {
+        "requestId": "requestId_Zagkas",
+        "processingId": "3ad90816-9c3f-469e-a1fc-e01298e326e1"
+      }
+order: 1777533187768

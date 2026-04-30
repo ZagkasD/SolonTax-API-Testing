@@ -1,5 +1,4 @@
 $kind: http-request
-name: Business Rules Validations - Fields and Codelists
 url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/farm-data
 method: POST
 body:
@@ -18,11 +17,13 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"contactTypeCode\": \"6\",\r
+    \            \"contactTypeCode\": \"97845290\", //Does not exist in codelist\r
 
     \            \"contactValue\": \"dzagkas@netcompany.com\",\r
 
-    \            \"validFrom\": \"2026-01-01\"\r
+    \            \"validFrom\": \"2026-01-01\",\r
+
+    \            \"cancelationReasonCode\": \"779834\" //Does not exist in codelist \r
 
     \        }\r
 
@@ -179,5 +180,5 @@ body:
     \    ]\r
 
     }"
-examples: .resources/Business Rules Validations - Fields and Codelists.resources/examples
-order: 2211827540822512
+examples: .resources/Codelist.resources/examples
+order: 4503511319437074

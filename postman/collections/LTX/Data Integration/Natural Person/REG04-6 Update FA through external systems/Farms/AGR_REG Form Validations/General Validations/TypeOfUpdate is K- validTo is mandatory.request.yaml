@@ -12,6 +12,22 @@ body:
 
     \    \"sourceOfInformationCode\": \"44\", //UUR\r
 
+    \    \"contacts\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"K\",\r
+
+    \            \"contactTypeCode\": \"6\", //email\r
+
+    \            \"contactValue\": \"dzagkas@netcompany.com\",\r
+
+    \            \"validFrom\": \"2026-01-01\"\r
+
+    \        }\r
+
+    \    ],\r
+
     \    \"identifiers\": {\r
 
     \        \"typeOfUpdate\": \"K\",\r

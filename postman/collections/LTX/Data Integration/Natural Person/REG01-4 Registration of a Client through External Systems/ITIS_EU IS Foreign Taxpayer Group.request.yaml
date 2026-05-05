@@ -1,6 +1,6 @@
 $kind: http-request
 name: ITIS_EU IS Foreign Taxpayer Group
-url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/natural-persons
+url: ""
 method: POST
 body:
   type: json
@@ -10,8 +10,7 @@ body:
 
     \    \"dateOfInformation\": \"2026-01-01\",\r
 
-    \    \"sourceOfInformationCode\": \"6004\", //ITIS_EU IS (Information
-    Systems)\r
+    \    \"sourceOfInformationCode\": \"6004\", //ITIS_EU IS (Information Systems)\r
 
     \    \"isCreate\": true,\r
 
@@ -33,7 +32,7 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"firstName\": \"Dimos ITIS_EU_02\",\r
+    \            \"firstName\": \"Dimos ITIS Q\",\r
 
     \            \"lastName\": \"Zagkas\",\r
 
@@ -69,7 +68,7 @@ body:
 
     \            \"identifierTypeCode\": \"5\",\r
 
-    \            \"identifierValue\": \"20771989267232\",\r
+    \            \"identifierValue\": \"2077198925874230967232\",\r
 
     \            \"countryCode\": \"GR\",\r
 

@@ -34,7 +34,8 @@ body:
 
     \            \"relationshipTypeCode\": \"I_100\", //Marriage\r
 
-    \            \"relatedPartyMapId\": \"5e76df13-b8b9-4cc0-998b-bbeab81c8a99\",\r
+    \            \"relatedPartyMapId\":
+    \"5e76df13-b8b9-4cc0-998b-bbeab81c8a99\",\r
 
     \            \"validFrom\": \"2016-01-01\",\r
 
@@ -48,7 +49,8 @@ body:
 
     \            \"relationshipTypeCode\": \"I_100\", //Marriage\r
 
-    \            \"relatedPartyMapId\": \"5e76df13-b8b9-4cc0-998b-bbeab81c8a99\",\r
+    \            \"relatedPartyMapId\":
+    \"5e76df13-b8b9-4cc0-998b-bbeab81c8a99\",\r
 
     \            \"maritalStatusCode\": \"I\", //Divorced\r
 
@@ -61,4 +63,4 @@ body:
     \    ]\r
 
     }"
-order: 181964263919358
+order: 6000

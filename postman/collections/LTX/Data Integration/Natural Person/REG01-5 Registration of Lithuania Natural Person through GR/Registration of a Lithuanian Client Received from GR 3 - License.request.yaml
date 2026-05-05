@@ -1,5 +1,5 @@
 $kind: http-request
-name: Registration of a Lithuanian Client Received from GR 3
+name: Registration of a Lithuanian Client Received from GR 3 - Licenses
 url: "{{natural-person-endpoint}}"
 method: POST
 body:
@@ -30,7 +30,7 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"firstName\": \"Dimos GR D\",\r
+    \            \"firstName\": \"Dimos GR G\",\r
 
     \            \"lastName\": \"Zagkas\",\r
 
@@ -40,7 +40,7 @@ body:
 
     \        }\r
 
-    \    ], \r
+    \    ],\r
 
     \    \"identifiers\": [\r
 
@@ -50,7 +50,7 @@ body:
 
     \            \"identifierTypeCode\": \"2\", //Personal Code\r
 
-    \            \"identifierValue\": \"90274350987\",\r
+    \            \"identifierValue\": \"987495287\",\r
 
     \            \"countryCode\": \"LT\",\r
 
@@ -92,7 +92,51 @@ body:
 
     \        }\r
 
+    \    ],\r
+
+    \    \"licenses\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"licenseTypeCode\": \"1000\",\r
+
+    \            \"licenseNumber\": \"9087289076\",\r
+
+    \            \"issueDate\": \"2000-01-01\",\r
+
+    \            \"issuerMapId\": \"c9a52cce-e32f-488d-a68f-f2ba204dd39e\",\r
+
+    \            \"documentTypeCode\": \"25\", //Permit\r
+
+    \            \"statusCode\": \"ISD\", //Issued\r
+
+    \            \"licenseDateFrom\": \"2000-01-01\",\r
+
+    \            \"validFrom\": \"2000-01-01\",\r
+
+    \            \"activities\": [\r
+
+    \                {\r
+
+    \                    \"typeOfUpdate\": \"N\",\r
+
+    \                    \"activityTypeCode\": \"2\",\r
+
+    \                    \"addressObjectTypeCode\": \"SAV\",\r
+
+    \                    \"addressId\": \"11\",\r
+
+    \                    \"validFrom\": \"2000-01-01\"\r
+
+    \                }\r
+
+    \            ]\r
+
+    \        }\r
+
     \    ]\r
 
     }"
-order: 5000
+order: 4282

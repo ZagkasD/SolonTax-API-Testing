@@ -70,7 +70,8 @@ body:
 
     \            \"addressTypeCode\": \"5\",\r
 
-    \            \"address\": \"Grand lake 31 XI5 RT10 LT-1234 , Melissamouth Antakalnis Vilnius city municipality\",\r
+    \            \"address\": \"Grand lake 31 XI5 RT10 LT-1234 , Melissamouth
+    Antakalnis Vilnius city municipality\",\r
 
     \            \"countryCode\": \"LT\",\r
 
@@ -104,7 +105,8 @@ body:
 
     \            \"relationshipTypeCode\": \"I_100\",\r
 
-    \            \"relatedPartyMapId\": \"eeac9e05-3dec-4291-80ac-30399a5fc2f4\",\r
+    \            \"relatedPartyMapId\":
+    \"eeac9e05-3dec-4291-80ac-30399a5fc2f4\",\r
 
     \            \"validFrom\": \"2016-01-01\"\r
 

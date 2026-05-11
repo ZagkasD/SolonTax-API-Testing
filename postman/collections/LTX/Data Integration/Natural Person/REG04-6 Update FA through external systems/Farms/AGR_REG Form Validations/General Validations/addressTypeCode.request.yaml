@@ -1,0 +1,172 @@
+$kind: http-request
+url: "{{farm-endpoint}}"
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"requestId\": \"requestId_Zagkas\",\r
+
+    \    \"dateOfInformation\": \"2026-04-03\",\r
+
+    \    \"sourceOfInformationCode\": \"44\", //UUR\r
+
+    \    \"contacts\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"contactTypeCode\": \"6\",\r
+
+    \            \"contactValue\": \"dzagkas@netcompany.com\",\r
+
+    \            \"validFrom\": \"2026-01-01\"\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"identifiers\": {\r
+
+    \        \"validFrom\": \"2026-04-03\",\r
+
+    \        \"identifierValue\": \"14\",\r
+
+    \        \"identifierTypeCode\": \"2\" //Personal Code\r
+
+    \    }\r
+
+    \    ,\r
+
+    \    \"owners\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"isNatural\": true,\r
+
+    \            \"ownerPartyId\": \"d16bde53-cdbb-4230-90e4-b3d750bec869\", //FA\r
+
+    \            \"validFrom\": \"2026-04-03\",\r
+
+    \            \"mmTypes\": [\r
+
+    \                {\r
+
+    \                    \"typeOfUpdate\": \"N\",\r
+
+    \                    \"mmTypeCode\": \"203\", // The only available mmtype of owner\r
+
+    \                    \"validFrom\": \"2026-04-03\",\r
+
+    \                    \"activities\": [\r
+
+    \                        {\r
+
+    \                            \"typeOfUpdate\": \"N\",\r
+
+    \                            \"activityTypeCode\": \"011100\", //Cereal\r
+
+    \                            \"isMain\": true,\r
+
+    \                            \"validFrom\": \"2026-04-03\"\r
+
+    \                        }\r
+
+    \                    ]\r
+
+    \                }\r
+
+    \            ]\r
+
+    \        }\r
+
+    \    ]\r
+
+    \    ,\r
+
+    \    \"partners\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"isNatural\": true,\r
+
+    \            \"partnerPartyId\": \"986937ce-5689-403c-84f5-428a3333d601\", //FA\r
+
+    \            \"validFrom\": \"2026-04-03\",\r
+
+    \            \"mmTypes\": [\r
+
+    \                {\r
+
+    \                    \"typeOfUpdate\": \"N\",\r
+
+    \                    \"mmTypeCode\": \"222\", // The only available mmtype of partner\r
+
+    \                    \"validFrom\": \"2026-04-03\",\r
+
+    \                    \"activities\": [\r
+
+    \                        {\r
+
+    \                            \"typeOfUpdate\": \"N\",\r
+
+    \                            \"activityTypeCode\": \"011100\", //Cereal\r
+
+    \                            \"isMain\": true,\r
+
+    \                            \"validFrom\": \"2026-04-03\"\r
+
+    \                        }\r
+
+    \                    ]\r
+
+    \                }\r
+
+    \            ]\r
+
+    \        }\r
+
+    \    ]\r
+
+    \    ,\r
+
+    \    \"statuses\": [\r
+
+    \        {\r
+
+    \            \"statusCL\": \"3\", //Registered\r
+
+    \            \"validFrom\": \"2026-04-03\",\r
+
+    \            \"typeOfUpdate\": \"N\"\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"addresses\": [\r
+
+    \        {\r
+
+    \            \"addressId\": \"11\",\r
+
+    \            \"validFrom\": \"2026-04-03\",\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"addressTypeCode\": \"98628976\", //Does not exist in the codelist\r
+
+    \            \"addressObjectTypeCode\": \"SAV\" //Municipality,        }\r
+
+    \        }\r
+
+    \    ]\r
+
+    }"
+examples: .resources/addressTypeCode.resources/examples
+order: 4501610845144828

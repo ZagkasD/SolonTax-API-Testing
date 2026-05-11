@@ -1,6 +1,6 @@
 $kind: http-request
 name: Registration of a Lithuanian Client Received from GR
-url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/natural-persons
+url: "{{natural-person-endpoint}}"
 method: POST
 body:
   type: json
@@ -32,7 +32,7 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"firstName\": \"Dimos GR Diamond\",\r
+    \            \"firstName\": \"Dimos GR H\",\r
 
     \            \"lastName\": \"Zagkas\",\r
 
@@ -52,7 +52,7 @@ body:
 
     \            \"identifierTypeCode\": \"2\", //Personal Code\r
 
-    \            \"identifierValue\": \"4978032093827\",\r
+    \            \"identifierValue\": \"98778634687978\",\r
 
     \            \"countryCode\": \"LT\",\r
 
@@ -62,24 +62,25 @@ body:
 
     \    ],\r
 
-    \    \"addresses\": [\r
+    \    // \"addresses\": [\r
 
-    \        {\r
+    \    //     {\r
 
-    \            \"typeOfUpdate\": \"N\",\r
+    \    //         \"typeOfUpdate\": \"N\",\r
 
-    \            \"addressTypeCode\": \"5\",\r
+    \    //         \"addressId\":\"417310772262\",\r
 
-    \            \"address\": \"Grand lake 31 XI5 RT10 LT-1234 , Melissamouth
-    Antakalnis Vilnius city municipality\",\r
+    \    //         // \"addressObjectType\":\"SEN\",\r
 
-    \            \"countryCode\": \"LT\",\r
+    \    //         \"addressTypeCode\": \"5\",\r
 
-    \            \"validFrom\": \"2026-01-01\"\r
+    \    //         \"countryCode\": \"LT\",\r
 
-    \        }\r
+    \    //         \"validFrom\": \"2026-01-01\"\r
 
-    \    ],\r
+    \    //     }\r
+
+    \    // ],\r
 
     \    \"contacts\": [\r
 
@@ -103,10 +104,9 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"relationshipTypeCode\": \"I_100\",\r
+    \            \"relationshipTypeCode\": \"I_102\",\r
 
-    \            \"relatedPartyMapId\":
-    \"eeac9e05-3dec-4291-80ac-30399a5fc2f4\",\r
+    \            \"relatedPartyMapId\": \"c0f4bd3f-6036-467f-8587-68bce0a35acb\",\r
 
     \            \"validFrom\": \"2016-01-01\"\r
 

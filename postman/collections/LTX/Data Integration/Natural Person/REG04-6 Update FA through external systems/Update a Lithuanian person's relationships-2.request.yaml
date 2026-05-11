@@ -8,42 +8,37 @@ body:
 
     \    \"requestId\": \"requestId_00002\",\r
 
-    \    \"mapId\": \"46d1ea48-ed34-4e2a-a7c2-ee4baa56ebad\", //Dimos Twelve
-    GR\r
+    \    \"mapId\": \"44ecb87d-664c-4ea3-9dd9-68371a1f70bd\", //Dimos Twelve GR\r
 
     \    \"dateOfInformation\": \"2026-01-01\",\r
 
     \    \"sourceOfInformationCode\": \"10\", //GR\r
 
-    \    \"isCreate\": false,\r
-
     \    \"relationships\": [\r
 
-    \        {\r
+    \        // {\r
 
-    \            \"typeOfUpdate\": \"K\",\r
+    \        //     \"typeOfUpdate\": \"K\",\r
 
-    \            \"relationshipTypeCode\": \"I_100\",\r
+    \        //     \"relationshipTypeCode\": \"I_100\",\r
 
-    \            \"relatedPartyMapId\":
-    \"eeac9e05-3dec-4291-80ac-30399a5fc2f4\",\r
+    \        //     \"relatedPartyMapId\": \"eeac9e05-3dec-4291-80ac-30399a5fc2f4\",\r
 
-    \            \"validFrom\": \"2016-01-01\",\r
+    \        //     \"validFrom\": \"2016-01-01\",\r
 
-    \            \"validTo\": \"2026-01-02\"\r
+    \        //     \"validTo\": \"2026-01-02\"\r
 
-    \        },\r
+    \        // },\r
 
     \        {\r
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"relationshipTypeCode\": \"I_100\",\r
+    \            \"relationshipTypeCode\": \"I_101\", //Father\r
 
-    \            \"relatedPartyMapId\":
-    \"4379ea21-f7d3-4dd8-890f-107947d020ed\",\r
+    \            \"relatedPartyMapId\": \"ae1be225-448c-4af3-8454-d4715f6c771d\",\r
 
-    \            \"validFrom\": \"2016-01-03\"\r
+    \            \"validFrom\": \"2016-01-01\"\r
 
     \        }\r
 

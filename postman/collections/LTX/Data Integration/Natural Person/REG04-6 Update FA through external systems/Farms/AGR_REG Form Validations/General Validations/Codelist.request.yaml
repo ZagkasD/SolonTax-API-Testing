@@ -95,13 +95,15 @@ body:
 
     \        {\r
 
-    \            \"typeOfUpdate\": \"N\",\r
+    \            \"typeOfUpdate\": \"C\",\r
 
     \            \"isNatural\": true,\r
 
     \            \"partnerPartyId\": \"986937ce-5689-403c-84f5-428a3333d601\", //FA\r
 
     \            \"validFrom\": \"2026-04-03\",\r
+
+    \            \"cancelationReasonCode\": \"779834\", //Does not exist in codelist \r
 
     \            \"mmTypes\": [\r
 
@@ -165,7 +167,7 @@ body:
 
     \            // \"addressId\": \"11\",\r
 
-    \            \"countryCode\": \"hkjldfa\", //Does not exist in codelist\r
+    \            \"countryCode\": \"LT\",\r
 
     \            \"validFrom\": \"2026-04-03\",\r
 

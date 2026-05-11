@@ -1,6 +1,6 @@
 $kind: http-request
 name: Deregister a Lithuanian natural person through GR
-url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/natural-persons
+url: ""
 method: POST
 body:
   type: json
@@ -8,7 +8,7 @@ body:
 
     \    \"requestId\": \"requestId_Zagkas\",\r
 
-    \    \"mapId\": \"a359e3fb-22ed-4904-aa01-900db7408e9b\",\r
+    \    \"mapId\": \"ae1be225-448c-4af3-8454-d4715f6c771d\",\r
 
     \    \"dateOfInformation\": \"2026-04-27\",\r
 
@@ -24,7 +24,7 @@ body:
 
     \        \"dateOfBirth\": \"2000-01-01\",\r
 
-    \        \"dateOfDeath\": \"2026-04-27\" //This is the only necessary information for deregistration\r
+    \        \"dateOfDeath\": \"2026-03-18\" //This is the only necessary information for deregistration\r
 
     \    }\r
 

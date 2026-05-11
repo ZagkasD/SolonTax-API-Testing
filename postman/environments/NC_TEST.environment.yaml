@@ -1,7 +1,7 @@
-name: DEV
+name: NC_TEST
 values:
   - key: farm-endpoint
     value: ''
   - key: natural-person-endpoint
     value: ''
-color: 0
+color: 240

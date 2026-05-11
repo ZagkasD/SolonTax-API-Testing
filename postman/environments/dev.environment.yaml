@@ -4,4 +4,6 @@ values:
     value: ''
   - key: natural-person-endpoint
     value: ''
+  - key: legal-person-endpoint
+    value: ''
 color: 0

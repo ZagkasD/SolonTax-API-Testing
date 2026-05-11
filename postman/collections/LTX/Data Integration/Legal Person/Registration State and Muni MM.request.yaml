@@ -1,0 +1,108 @@
+$kind: http-request
+name: Registration State and Muni MM
+url: "{{legal-person-endpoint}}"
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"requestId\": \"34324432424\",\r
+
+    \    \"isCreate\": true,\r
+
+    \    \"dateOfInformation\": \"2026-03-13\",\r
+
+    \    \"sourceOfInformationCode\": \"65\",\r
+
+    \    \"legalPersonMain\": {\r
+
+    \        \"typeOfUpdate\": \"N\",\r
+
+    \        \"jarRegistrationDate\": \"2025-03-01\"\r
+
+    \    },\r
+
+    \    \"names\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"name\": \"perse party\",\r
+
+    \            \"validFrom\": \"2025-03-01\"\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"identifiers\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"identifierTypeCode\": \"3\",\r
+
+    \            \"identifierValue\": \"wdiuhd7433\",\r
+
+    \            \"externalIdentifier\": \"267774445\",\r
+
+    \            \"validFrom\": \"2025-03-01\"\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"legalForms\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"legalFormTypeCode\": \"900\",\r
+
+    \            \"validFrom\": \"2025-03-01\",\r
+
+    \            \"validTo\": null,\r
+
+    \            \"cancelationDate\": null,\r
+
+    \            \"cancelationReasonCode\": null\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"representatives\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"relationshipTypeCode\": \"R_1\",\r
+
+    \            \"representativePartyMapId\": \"72ac363b-5b59-4bcc-b212-4e2b85156612\",\r
+
+    \            \"quantitative\": true,\r
+
+    \            \"validFrom\": \"2025-03-01\",\r
+
+    \            \"assignmentDateFrom\": \"2025-03-01\",\r
+
+    \            \"authorizationDateFrom\": \"2025-03-01\",\r
+
+    \            \"validTo\": null,\r
+
+    \            \"cancelationDate\": null,\r
+
+    \            \"cancelationReasonCode\": null,\r
+
+    \            \"representationRestrictions\": []\r
+
+    \        }\r
+
+    \    ]\r
+
+    }"
+order: 4008126619582463

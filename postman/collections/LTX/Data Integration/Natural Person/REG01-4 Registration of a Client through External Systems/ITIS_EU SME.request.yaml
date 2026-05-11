@@ -10,8 +10,7 @@ body:
 
     \    \"dateOfInformation\": \"2026-01-01\",\r
 
-    \    \"sourceOfInformationCode\": \"6004\", //ITIS_EU IS (Information
-    Systems)\r
+    \    \"sourceOfInformationCode\": \"6004\", //ITIS_EU IS (Information Systems)\r
 
     \    \"basicPersonalData\": {\r
 
@@ -31,9 +30,9 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"firstName\": \"Kon Groups\",\r
+    \            \"firstName\": \"Dimos SME Q\",\r
 
-    \            \"lastName\": \"Louk\",\r
+    \            \"lastName\": \"Zagkas\",\r
 
     \            \"avdNumber\": \"63\",\r
 
@@ -67,7 +66,7 @@ body:
 
     \            \"identifierTypeCode\": \"5\",\r
 
-    \            \"identifierValue\": \"207892891982165232\",\r
+    \            \"identifierValue\": \"298u594837991982165232\",\r
 
     \            \"countryCode\": \"LT\",\r
 

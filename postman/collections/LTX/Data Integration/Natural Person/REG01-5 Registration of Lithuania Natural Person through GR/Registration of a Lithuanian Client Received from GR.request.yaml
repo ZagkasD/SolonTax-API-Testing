@@ -32,13 +32,13 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"firstName\": \"Dimos GR Z\",\r
+    \            \"firstName\": \"Dimos GR C\",\r
 
     \            \"lastName\": \"Zagkas\",\r
 
     \            \"avdNumber\": \"63\",\r
 
-    \            \"validFrom\": \"2026-01-01\"\r
+    \            \"validFrom\": \"2000-01-01\"\r
 
     \        }\r
 
@@ -52,11 +52,11 @@ body:
 
     \            \"identifierTypeCode\": \"2\", //Personal Code\r
 
-    \            \"identifierValue\": \"987765987902378\",\r
+    \            \"identifierValue\": \"98776542378\",\r
 
     \            \"countryCode\": \"LT\",\r
 
-    \            \"validFrom\": \"2026-01-01\"\r
+    \            \"validFrom\": \"2000-01-01\"\r
 
     \        }\r
 
@@ -74,7 +74,7 @@ body:
 
     \            \"addressObjectTypeCode\":\"A_KOM\", //This is necessary\r
 
-    \            \"validFrom\": \"2026-01-01\"\r
+    \            \"validFrom\": \"2000-01-01\"\r
 
     \        }\r
 
@@ -90,7 +90,7 @@ body:
 
     \            \"contactValue\": \"dzagkas@netcompany.com\",\r
 
-    \            \"validFrom\": \"2026-01-01\"\r
+    \            \"validFrom\": \"2000-01-01\"\r
 
     \        }\r
 
@@ -104,7 +104,7 @@ body:
 
     \            \"citizenshipCode\": \"LT\",\r
 
-    \            \"validFrom\": \"2026-01-01\"\r
+    \            \"validFrom\": \"2000-01-01\"\r
 
     \        }\r
 

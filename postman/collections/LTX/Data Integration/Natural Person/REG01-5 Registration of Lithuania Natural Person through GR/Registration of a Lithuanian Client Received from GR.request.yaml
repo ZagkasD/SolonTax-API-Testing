@@ -32,7 +32,7 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"firstName\": \"Dimos GR H\",\r
+    \            \"firstName\": \"Dimos GR J\",\r
 
     \            \"lastName\": \"Zagkas\",\r
 
@@ -52,7 +52,7 @@ body:
 
     \            \"identifierTypeCode\": \"2\", //Personal Code\r
 
-    \            \"identifierValue\": \"98778634687978\",\r
+    \            \"identifierValue\": \"98779870234907978\",\r
 
     \            \"countryCode\": \"LT\",\r
 
@@ -62,25 +62,23 @@ body:
 
     \    ],\r
 
-    \    // \"addresses\": [\r
+    \    \"addresses\": [\r
 
-    \    //     {\r
+    \        {\r
 
-    \    //         \"typeOfUpdate\": \"N\",\r
+    \            \"typeOfUpdate\": \"N\",\r
 
-    \    //         \"addressId\":\"417310772262\",\r
+    \            \"addressId\":\"417310772251\",\r
 
-    \    //         // \"addressObjectType\":\"SEN\",\r
+    \            \"addressTypeCode\": \"5\", //Place of residence in GR\r
 
-    \    //         \"addressTypeCode\": \"5\",\r
+    \            \"addressObjectTypeCode\":\"A_KOM\", //This is necessary\r
 
-    \    //         \"countryCode\": \"LT\",\r
+    \            \"validFrom\": \"2026-01-01\"\r
 
-    \    //         \"validFrom\": \"2026-01-01\"\r
+    \        }\r
 
-    \    //     }\r
-
-    \    // ],\r
+    \    ],\r
 
     \    \"contacts\": [\r
 
@@ -96,23 +94,23 @@ body:
 
     \        }\r
 
-    \    ],\r
-
-    \    \"relationships\": [\r
-
-    \        {\r
-
-    \            \"typeOfUpdate\": \"N\",\r
-
-    \            \"relationshipTypeCode\": \"I_102\",\r
-
-    \            \"relatedPartyMapId\": \"c0f4bd3f-6036-467f-8587-68bce0a35acb\",\r
-
-    \            \"validFrom\": \"2016-01-01\"\r
-
-    \        }\r
-
     \    ]\r
+
+    \    // \"relationships\": [\r
+
+    \    //     {\r
+
+    \    //         \"typeOfUpdate\": \"N\",\r
+
+    \    //         \"relationshipTypeCode\": \"I_102\",\r
+
+    \    //         \"relatedPartyMapId\": \"c0f4bd3f-6036-467f-8587-68bce0a35acb\",\r
+
+    \    //         \"validFrom\": \"2016-01-01\"\r
+
+    \    //     }\r
+
+    \    // ]\r
 
     }"
 order: 2000

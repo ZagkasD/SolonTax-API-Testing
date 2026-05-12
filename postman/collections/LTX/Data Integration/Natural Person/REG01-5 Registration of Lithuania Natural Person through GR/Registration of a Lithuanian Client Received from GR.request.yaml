@@ -6,7 +6,7 @@ body:
   type: json
   content: "{\r
 
-    \    \"requestId\": \"requestId_Zagkas \",\r
+    \    \"requestId\": \"requestId_Zagkas\",\r
 
     \    \"dateOfInformation\": \"2026-01-01\",\r
 

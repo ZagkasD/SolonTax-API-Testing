@@ -32,7 +32,7 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"firstName\": \"Dimos GR J\",\r
+    \            \"firstName\": \"Dimos GR Z\",\r
 
     \            \"lastName\": \"Zagkas\",\r
 
@@ -52,7 +52,7 @@ body:
 
     \            \"identifierTypeCode\": \"2\", //Personal Code\r
 
-    \            \"identifierValue\": \"98779870234907978\",\r
+    \            \"identifierValue\": \"987765987902378\",\r
 
     \            \"countryCode\": \"LT\",\r
 
@@ -89,6 +89,20 @@ body:
     \            \"contactTypeCode\": \"6\",\r
 
     \            \"contactValue\": \"dzagkas@netcompany.com\",\r
+
+    \            \"validFrom\": \"2026-01-01\"\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"citizenships\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"citizenshipCode\": \"LT\",\r
 
     \            \"validFrom\": \"2026-01-01\"\r
 

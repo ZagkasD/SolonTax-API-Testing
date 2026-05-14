@@ -1,0 +1,124 @@
+$kind: http-request
+name: Incident 1
+url: "{{farm-endpoint}}"
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"owners\": [\r
+
+    \        {\r
+
+    \            \"mmTypes\": [\r
+
+    \                {\r
+
+    \                    \"validFrom\": \"2026-04-24\",\r
+
+    \                    \"activities\": [\r
+
+    \                        {\r
+
+    \                            \"isMain\": true,\r
+
+    \                            \"validFrom\": \"2026-04-24\",\r
+
+    \                            \"typeOfUpdate\": \"N\",\r
+
+    \                            \"activityTypeCode\": \"011100\"\r
+
+    \                        },\r
+
+    \                        {\r
+
+    \                            \"isMain\": false,\r
+
+    \                            \"validFrom\": \"2026-04-24\",\r
+
+    \                            \"typeOfUpdate\": \"N\",\r
+
+    \                            \"activityTypeCode\": \"011320\"\r
+
+    \                        }\r
+
+    \                    ],\r
+
+    \                    \"mmTypeCode\": \"203\",\r
+
+    \                    \"typeOfUpdate\": \"N\"\r
+
+    \                }\r
+
+    \            ],\r
+
+    \            \"isNatural\": true,\r
+
+    \            \"validFrom\": \"2026-04-24\",\r
+
+    \            \"ownerPartyId\": \"a02da465-58bf-4a7c-a7ac-c899a8b8832a\",\r
+
+    \            \"typeOfUpdate\": \"N\"\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"contacts\": [],\r
+
+    \    \"farmName\": \"farm_5329437\",\r
+
+    \    \"isCreate\": true,\r
+
+    \    \"partners\": [],\r
+
+    \    \"statuses\": [\r
+
+    \        {\r
+
+    \            \"statusCL\": \"3\",\r
+
+    \            \"validFrom\": \"2026-04-24\",\r
+
+    \            \"typeOfUpdate\": \"N\"\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"addresses\": [\r
+
+    \        {\r
+
+    \            \"addressId\": \"11\",\r
+
+    \            \"validFrom\": \"2026-04-24\",\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"addressTypeCode\": \"43\",\r
+
+    \            \"addressObjectTypeCode\": \"SAV\"\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"requestId\": \"MIR_365830\",\r
+
+    \    \"identifiers\": {\r
+
+    \        \"validFrom\": \"2026-04-24\",\r
+
+    \        \"identifierValue\": \"5329437\",\r
+
+    \        \"identifierTypeCode\": \"14\"\r
+
+    \    },\r
+
+    \    \"dateOfInformation\": \"2026-05-13\",\r
+
+    \    \"sourceOfInformationCode\": \"44\"\r
+
+    }"
+order: 1883271900544373

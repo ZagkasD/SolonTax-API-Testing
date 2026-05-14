@@ -32,7 +32,7 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"firstName\": \"Dimos GR C\",\r
+    \            \"firstName\": \"Dimos GR V\",\r
 
     \            \"lastName\": \"Zagkas\",\r
 
@@ -52,7 +52,7 @@ body:
 
     \            \"identifierTypeCode\": \"2\", //Personal Code\r
 
-    \            \"identifierValue\": \"98776542378\",\r
+    \            \"identifierValue\": \"98765342378\",\r
 
     \            \"countryCode\": \"LT\",\r
 
@@ -68,11 +68,11 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"addressId\":\"417310772251\",\r
+    \            \"addressId\": \"417310772251\",\r
 
     \            \"addressTypeCode\": \"5\", //Place of residence in GR\r
 
-    \            \"addressObjectTypeCode\":\"A_KOM\", //This is necessary\r
+    \            \"addressObjectTypeCode\": \"A_KOM\", //This is necessary\r
 
     \            \"validFrom\": \"2000-01-01\"\r
 
@@ -105,6 +105,28 @@ body:
     \            \"citizenshipCode\": \"LT\",\r
 
     \            \"validFrom\": \"2000-01-01\"\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"representatives\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"representativePartyMapId\": \"f2af60d0-8676-4ec6-bb14-3d9031f115ae\",\r
+
+    \            \"representativeTypeCode\": \"29\", //Tenant of the community\r
+
+    \            \"validFrom\": \"2000-01-01\",\r
+
+    \            \"validTo\":\"2026-12-31\",\r
+
+    \            \"assignmentDateFrom\": \"2000-01-01\",\r
+
+    \            \"assignmentDateTo\": \"2026-12-31\"\r
 
     \        }\r
 

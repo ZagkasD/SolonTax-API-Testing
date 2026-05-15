@@ -1,5 +1,6 @@
 $kind: http-request
-name: "TypeOfUpdate is K: validTo is mandatory"
+name: identifierTypeCode UUR id = 51
+description: For source of information 44 (UUR) and 6005 (ZUKVR), the identifierTypeCode is always 14 (Farmer's farm code).
 url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/farm-data
 method: POST
 body:
@@ -16,9 +17,9 @@ body:
 
     \        {\r
 
-    \            \"typeOfUpdate\": \"K\",\r
+    \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"contactTypeCode\": \"6\", //email\r
+    \            \"contactTypeCode\": \"6\",\r
 
     \            \"contactValue\": \"dzagkas@netcompany.com\",\r
 
@@ -30,26 +31,25 @@ body:
 
     \    \"identifiers\": {\r
 
-    \        \"typeOfUpdate\": \"K\",\r
-
     \        \"validFrom\": \"2026-04-03\",\r
 
     \        \"identifierValue\": \"431888857\",\r
 
-    \        \"identifierTypeCode\": \"14\" //Farmers\r
+    \        \"identifierTypeCode\": \"51\" // Agricultural Holding Code\r
 
-    \    },\r
+    \    }\r
+
+    \    ,\r
 
     \    \"owners\": [\r
 
     \        {\r
 
-    \            \"typeOfUpdate\": \"K\",\r
+    \            \"typeOfUpdate\": \"N\",\r
 
     \            \"isNatural\": true,\r
 
-    \            \"ownerPartyId\": \"d16bde53-cdbb-4230-90e4-b3d750bec869\",
-    //FA\r
+    \            \"ownerPartyId\": \"d16bde53-cdbb-4230-90e4-b3d750bec869\", //FA\r
 
     \            \"validFrom\": \"2026-04-03\",\r
 
@@ -57,10 +57,9 @@ body:
 
     \                {\r
 
-    \                    \"typeOfUpdate\": \"K\",\r
+    \                    \"typeOfUpdate\": \"N\",\r
 
-    \                    \"mmTypeCode\": \"203\", // The only available mmtype
-    of owner\r
+    \                    \"mmTypeCode\": \"203\", // The only available mmtype of owner\r
 
     \                    \"validFrom\": \"2026-04-03\",\r
 
@@ -68,7 +67,7 @@ body:
 
     \                        {\r
 
-    \                            \"typeOfUpdate\": \"K\",\r
+    \                            \"typeOfUpdate\": \"N\",\r
 
     \                            \"activityTypeCode\": \"011100\", //Cereal\r
 
@@ -86,18 +85,19 @@ body:
 
     \        }\r
 
-    \    ],\r
+    \    ]\r
+
+    \    ,\r
 
     \    \"partners\": [\r
 
     \        {\r
 
-    \            \"typeOfUpdate\": \"K\",\r
+    \            \"typeOfUpdate\": \"N\",\r
 
     \            \"isNatural\": true,\r
 
-    \            \"partnerPartyId\": \"986937ce-5689-403c-84f5-428a3333d601\",
-    //FA\r
+    \            \"partnerPartyId\": \"986937ce-5689-403c-84f5-428a3333d601\", //FA\r
 
     \            \"validFrom\": \"2026-04-03\",\r
 
@@ -105,10 +105,9 @@ body:
 
     \                {\r
 
-    \                    \"typeOfUpdate\": \"K\",\r
+    \                    \"typeOfUpdate\": \"N\",\r
 
-    \                    \"mmTypeCode\": \"222\", // The only available mmtype
-    of partner\r
+    \                    \"mmTypeCode\": \"222\", // The only available mmtype of partner\r
 
     \                    \"validFrom\": \"2026-04-03\",\r
 
@@ -116,7 +115,7 @@ body:
 
     \                        {\r
 
-    \                            \"typeOfUpdate\": \"K\",\r
+    \                            \"typeOfUpdate\": \"N\",\r
 
     \                            \"activityTypeCode\": \"011100\", //Cereal\r
 
@@ -134,7 +133,9 @@ body:
 
     \        }\r
 
-    \    ],\r
+    \    ]\r
+
+    \    ,\r
 
     \    \"statuses\": [\r
 
@@ -144,7 +145,7 @@ body:
 
     \            \"validFrom\": \"2026-04-03\",\r
 
-    \            \"typeOfUpdate\": \"K\"\r
+    \            \"typeOfUpdate\": \"N\"\r
 
     \        }\r
 
@@ -158,7 +159,7 @@ body:
 
     \            \"validFrom\": \"2026-04-03\",\r
 
-    \            \"typeOfUpdate\": \"K\",\r
+    \            \"typeOfUpdate\": \"N\",\r
 
     \            \"addressTypeCode\": \"43\", //Address of place of activity\r
 
@@ -169,5 +170,5 @@ body:
     \    ]\r
 
     }"
-examples: .resources/TypeOfUpdate is K- validTo is mandatory.resources/examples
-order: 5000
+examples: .resources/identifierTypeCode UUR id = 51.resources/examples
+order: 14986

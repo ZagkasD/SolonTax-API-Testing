@@ -1,6 +1,8 @@
 $kind: http-request
-name: "Register AGR Holding: Non Existing AGR Holding - Owner FA"
-url: "{{farm-endpoint}}"
+name: identifierTypeCode ZUKVR id = 14
+description: For source of information 6005 (ZUKVR) identifierTypeCode is always
+  51 (Farmer's farm code).
+url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/farm-data
 method: POST
 body:
   type: json
@@ -32,7 +34,7 @@ body:
 
     \        \"identifierValue\": \"97852098\",\r
 
-    \        \"identifierTypeCode\": \"51\", //Agricultural Holding Code\r
+    \        \"identifierTypeCode\": \"14\", //Farmers\r
 
     \        \"validFrom\": \"2026-01-01\"\r
 
@@ -46,7 +48,8 @@ body:
 
     \            \"isNatural\": true,\r
 
-    \            \"ownerPartyId\": \"437b86db-91de-4a9f-8281-e667a84cb36b\", //FA\r
+    \            \"ownerPartyId\": \"437b86db-91de-4a9f-8281-e667a84cb36b\",
+    //FA\r
 
     \            \"validFrom\": \"2026-01-01\",\r
 
@@ -56,7 +59,8 @@ body:
 
     \                    \"typeOfUpdate\": \"N\",\r
 
-    \                    \"mmTypeCode\": \"250\", // This mmtype allows activities\r
+    \                    \"mmTypeCode\": \"250\", // This mmtype allows
+    activities\r
 
     \                    \"validFrom\": \"2026-01-01\",\r
 
@@ -125,5 +129,5 @@ body:
     \    ]\r
 
     }"
-examples: .resources/Register AGR Holding- Non Existing AGR Holding - Owner FA.resources/examples
-order: 4000
+examples: .resources/identifierTypeCode ZUKVR id = 14.resources/examples
+order: 19000

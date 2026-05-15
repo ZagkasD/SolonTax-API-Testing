@@ -65,7 +65,8 @@ body:
 
     \            \"isNatural\": true,\r
 
-    \            \"ownerPartyId\": \"c9a52cce-e32f-488d-a68f-f2ba204dd39e\", //FA\r
+    \            \"ownerPartyId\": \"c9a52cce-e32f-488d-a68f-f2ba204dd39e\",
+    //FA\r
 
     \            \"validFrom\": \"2026-04-03\"\r
 
@@ -83,7 +84,8 @@ body:
 
     \            \"isNatural\": true,\r
 
-    \            \"partnerPartyId\": \"d7d33aa8-9c76-426c-b98e-c6740f0b6436\", //FA\r
+    \            \"partnerPartyId\": \"d7d33aa8-9c76-426c-b98e-c6740f0b6436\",
+    //FA\r
 
     \            \"validFrom\": \"2026-04-03\"\r
 

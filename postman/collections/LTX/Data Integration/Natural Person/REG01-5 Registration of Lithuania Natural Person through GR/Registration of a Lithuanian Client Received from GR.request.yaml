@@ -68,7 +68,7 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"addressId\": \"417310772251\",\r
+    \            \"addressId\": \"4173163572251\",\r
 
     \            \"addressTypeCode\": \"5\", //Place of residence in GR\r
 
@@ -108,29 +108,29 @@ body:
 
     \        }\r
 
-    \    ],\r
-
-    \    \"representatives\": [\r
-
-    \        {\r
-
-    \            \"typeOfUpdate\": \"N\",\r
-
-    \            \"representativePartyMapId\": \"f2af60d0-8676-4ec6-bb14-3d9031f115ae\",\r
-
-    \            \"representativeTypeCode\": \"29\", //Tenant of the community\r
-
-    \            \"validFrom\": \"2000-01-01\",\r
-
-    \            \"validTo\":\"2026-12-31\",\r
-
-    \            \"assignmentDateFrom\": \"2000-01-01\",\r
-
-    \            \"assignmentDateTo\": \"2026-12-31\"\r
-
-    \        }\r
-
     \    ]\r
+
+    \    // \"representatives\": [\r
+
+    \    //     {\r
+
+    \    //         \"typeOfUpdate\": \"N\",\r
+
+    \    //         \"representativePartyMapId\": \"f2af60d0-8676-4ec6-bb14-3d9031f115ae\",\r
+
+    \    //         \"representativeTypeCode\": \"29\", //Tenant of the community\r
+
+    \    //         \"validFrom\": \"2000-01-01\",\r
+
+    \    //         \"validTo\":\"2026-12-31\",\r
+
+    \    //         \"assignmentDateFrom\": \"2000-01-01\",\r
+
+    \    //         \"assignmentDateTo\": \"2026-12-31\"\r
+
+    \    //     }\r
+
+    \    // ]\r
 
     \    // \"relationships\": [\r
 

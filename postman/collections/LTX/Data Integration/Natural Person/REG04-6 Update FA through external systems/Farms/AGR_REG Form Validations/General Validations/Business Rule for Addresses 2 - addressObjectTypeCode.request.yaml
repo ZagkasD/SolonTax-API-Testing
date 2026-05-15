@@ -49,7 +49,8 @@ body:
 
     \            \"isNatural\": true,\r
 
-    \            \"ownerPartyId\": \"d16bde53-cdbb-4230-90e4-b3d750bec869\", //FA\r
+    \            \"ownerPartyId\": \"d16bde53-cdbb-4230-90e4-b3d750bec869\",
+    //FA\r
 
     \            \"validFrom\": \"2026-04-03\",\r
 
@@ -59,7 +60,8 @@ body:
 
     \                    \"typeOfUpdate\": \"N\",\r
 
-    \                    \"mmTypeCode\": \"203\", // The only available mmtype of owner\r
+    \                    \"mmTypeCode\": \"203\", // The only available mmtype
+    of owner\r
 
     \                    \"validFrom\": \"2026-04-03\",\r
 
@@ -97,7 +99,8 @@ body:
 
     \            \"isNatural\": true,\r
 
-    \            \"partnerPartyId\": \"986937ce-5689-403c-84f5-428a3333d601\", //FA\r
+    \            \"partnerPartyId\": \"986937ce-5689-403c-84f5-428a3333d601\",
+    //FA\r
 
     \            \"validFrom\": \"2026-04-03\",\r
 
@@ -107,7 +110,8 @@ body:
 
     \                    \"typeOfUpdate\": \"N\",\r
 
-    \                    \"mmTypeCode\": \"222\", // The only available mmtype of partner\r
+    \                    \"mmTypeCode\": \"222\", // The only available mmtype
+    of partner\r
 
     \                    \"validFrom\": \"2026-04-03\",\r
 
@@ -171,4 +175,4 @@ body:
 
     }"
 examples: .resources/Register Farm- Non Existing Farm-1.resources/examples
-order: 4495198775198068
+order: 10000

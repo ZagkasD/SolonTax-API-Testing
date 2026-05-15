@@ -34,7 +34,7 @@ body:
 
     \        \"identifierValue\": \"43188978857\",\r
 
-    \        \"identifierTypeCode\": \"14\" //Farmers\r
+    \        \"identifierTypeCode\": \"51\" //Agricultural Holding Code\r
 
     \    }\r
 
@@ -48,8 +48,7 @@ body:
 
     \            \"isNatural\": false,\r
 
-    \            \"ownerPartyId\": \"702f9444-2f90-4f6c-b951-c35223c60aad\",
-    //LJA\r
+    \            \"ownerPartyId\": \"702f9444-2f90-4f6c-b951-c35223c60aad\", //LJA\r
 
     \            \"validFrom\": \"2026-04-03\",\r
 
@@ -59,8 +58,7 @@ body:
 
     \                    \"typeOfUpdate\": \"N\",\r
 
-    \                    \"mmTypeCode\": \"248\", // This mmtype does not allow
-    activities\r
+    \                    \"mmTypeCode\": \"248\", // This mmtype does not allow activities\r
 
     \                    \"validFrom\": \"2026-04-03\"\r
 
@@ -111,6 +109,5 @@ body:
     \    ]\r
 
     }"
-examples: .resources/Add a new AGR Holding - Non Existing AGR Holding - Owner
-  JA.resources/examples
+examples: .resources/Add a new AGR Holding - Non Existing AGR Holding - Owner JA.resources/examples
 order: 3000

@@ -1,5 +1,6 @@
 $kind: http-request
-name: "TypeOfUpdate is K: validTo is mandatory"
+description: For source of information 6005 (ZUKVR) identifierTypeCode is always
+  51 (Farmer's farm code).
 url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/farm-data
 method: POST
 body:
@@ -10,15 +11,15 @@ body:
 
     \    \"dateOfInformation\": \"2026-04-03\",\r
 
-    \    \"sourceOfInformationCode\": \"44\", //UUR\r
+    \    \"sourceOfInformationCode\": \"6005\", //ZUKVR\r
 
     \    \"contacts\": [\r
 
     \        {\r
 
-    \            \"typeOfUpdate\": \"K\",\r
+    \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"contactTypeCode\": \"6\", //email\r
+    \            \"contactTypeCode\": \"6\",\r
 
     \            \"contactValue\": \"dzagkas@netcompany.com\",\r
 
@@ -30,25 +31,25 @@ body:
 
     \    \"identifiers\": {\r
 
-    \        \"typeOfUpdate\": \"K\",\r
-
     \        \"validFrom\": \"2026-04-03\",\r
 
-    \        \"identifierValue\": \"431888857\",\r
+    \        \"identifierValue\": \"431898793257\",\r
 
-    \        \"identifierTypeCode\": \"14\" //Farmers\r
+    \        \"identifierTypeCode\": \"2\" //Personal Code\r
 
-    \    },\r
+    \    }\r
+
+    \    ,\r
 
     \    \"owners\": [\r
 
     \        {\r
 
-    \            \"typeOfUpdate\": \"K\",\r
+    \            \"typeOfUpdate\": \"N\",\r
 
     \            \"isNatural\": true,\r
 
-    \            \"ownerPartyId\": \"d16bde53-cdbb-4230-90e4-b3d750bec869\",
+    \            \"ownerPartyId\": \"0ff0db67-f172-45e9-84fa-9001b9e1e0df\",
     //FA\r
 
     \            \"validFrom\": \"2026-04-03\",\r
@@ -57,7 +58,7 @@ body:
 
     \                {\r
 
-    \                    \"typeOfUpdate\": \"K\",\r
+    \                    \"typeOfUpdate\": \"N\",\r
 
     \                    \"mmTypeCode\": \"203\", // The only available mmtype
     of owner\r
@@ -68,7 +69,7 @@ body:
 
     \                        {\r
 
-    \                            \"typeOfUpdate\": \"K\",\r
+    \                            \"typeOfUpdate\": \"N\",\r
 
     \                            \"activityTypeCode\": \"011100\", //Cereal\r
 
@@ -86,17 +87,19 @@ body:
 
     \        }\r
 
-    \    ],\r
+    \    ]\r
+
+    \    ,\r
 
     \    \"partners\": [\r
 
     \        {\r
 
-    \            \"typeOfUpdate\": \"K\",\r
+    \            \"typeOfUpdate\": \"N\",\r
 
     \            \"isNatural\": true,\r
 
-    \            \"partnerPartyId\": \"986937ce-5689-403c-84f5-428a3333d601\",
+    \            \"partnerPartyId\": \"c9a52cce-e32f-488d-a68f-f2ba204dd39e\",
     //FA\r
 
     \            \"validFrom\": \"2026-04-03\",\r
@@ -105,7 +108,7 @@ body:
 
     \                {\r
 
-    \                    \"typeOfUpdate\": \"K\",\r
+    \                    \"typeOfUpdate\": \"N\",\r
 
     \                    \"mmTypeCode\": \"222\", // The only available mmtype
     of partner\r
@@ -116,7 +119,7 @@ body:
 
     \                        {\r
 
-    \                            \"typeOfUpdate\": \"K\",\r
+    \                            \"typeOfUpdate\": \"N\",\r
 
     \                            \"activityTypeCode\": \"011100\", //Cereal\r
 
@@ -134,7 +137,9 @@ body:
 
     \        }\r
 
-    \    ],\r
+    \    ]\r
+
+    \    ,\r
 
     \    \"statuses\": [\r
 
@@ -144,7 +149,7 @@ body:
 
     \            \"validFrom\": \"2026-04-03\",\r
 
-    \            \"typeOfUpdate\": \"K\"\r
+    \            \"typeOfUpdate\": \"N\"\r
 
     \        }\r
 
@@ -158,7 +163,7 @@ body:
 
     \            \"validFrom\": \"2026-04-03\",\r
 
-    \            \"typeOfUpdate\": \"K\",\r
+    \            \"typeOfUpdate\": \"N\",\r
 
     \            \"addressTypeCode\": \"43\", //Address of place of activity\r
 
@@ -169,5 +174,5 @@ body:
     \    ]\r
 
     }"
-examples: .resources/TypeOfUpdate is K- validTo is mandatory.resources/examples
-order: 5000
+examples: .resources/identifierTypeCode ZUKVR random ID.resources/examples
+order: 13000

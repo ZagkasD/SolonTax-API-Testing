@@ -1,11 +1,14 @@
 $kind: http-request
-name: "AGR_REG Form: Validate Gap in Activities 5"
+name: "AGR_REG Form: Validate Gap in Activities 10"
 description: |-
-  Gap at the end - MM type has end date, last activity ends earlier.
+  # Scenario: Terminate  activity under mmType that leaves gap.
 
-  Set up for both owner and partner:  
-  MMType: 2026-01-22 - 2026-02-01  
-  Activity 1: 2026-01-22 - 2026-01-30
+  **Set up for both owner and partner:**
+
+  **First Register:**  
+  **MMType: 2026-01-01 - open**  
+  **Activity:** **2026-01-01** **\- open**  
+  **Then terminate the activity and create a new one starting 3 days later**
 url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/farm-data
 method: POST
 body:
@@ -17,8 +20,6 @@ body:
     \    \"dateOfInformation\": \"2026-01-22\",\r
 
     \    \"sourceOfInformationCode\": \"44\", //UUR,\r
-
-    \    \"farmName\":\"Farm_Zagkas\",\r
 
     \    \"contacts\": [\r
 
@@ -40,7 +41,7 @@ body:
 
     \        \"validFrom\": \"2026-01-22\",\r
 
-    \        \"identifierValue\": \"98740958730\",\r
+    \        \"identifierValue\": \"98740987645230\",\r
 
     \        \"identifierTypeCode\": \"14\" //Farmers\r
 
@@ -54,8 +55,7 @@ body:
 
     \            \"isNatural\": true,\r
 
-    \            \"ownerPartyId\": \"7828f05d-187a-47df-ada5-8054f4416915\",
-    //FA\r
+    \            \"ownerPartyId\": \"b0749768-f375-4e7d-858e-f7032c9e2b48\", //FA\r
 
     \            \"validFrom\": \"2026-01-01\",\r
 
@@ -65,12 +65,9 @@ body:
 
     \                    \"typeOfUpdate\": \"N\",\r
 
-    \                    \"mmTypeCode\": \"203\", // The only available mmtype
-    of owner\r
+    \                    \"mmTypeCode\": \"203\", // The only available mmtype of owner\r
 
     \                    \"validFrom\": \"2026-01-01\",\r
-
-    \                    \"validTo\":\"2026-12-31\", \r
 
     \                    \"activities\": [\r
 
@@ -82,9 +79,7 @@ body:
 
     \                            \"isMain\": true,\r
 
-    \                            \"validFrom\": \"2026-01-01\",\r
-
-    \                            \"validTo\":\"2026-12-01\"\r
+    \                            \"validFrom\": \"2026-01-01\"\r
 
     \                        }\r
 
@@ -106,8 +101,7 @@ body:
 
     \            \"isNatural\": true,\r
 
-    \            \"partnerPartyId\": \"e083dd8b-2be2-4e2e-9f8c-21365d68df12\",
-    //FA\r
+    \            \"partnerPartyId\": \"2b17bdfb-23b8-4246-8d1b-d36d60897e2c\", //FA\r
 
     \            \"validFrom\": \"2026-01-01\",\r
 
@@ -117,26 +111,21 @@ body:
 
     \                    \"typeOfUpdate\": \"N\",\r
 
-    \                    \"mmTypeCode\": \"222\", // The only available mmtype
-    of partner\r
+    \                    \"mmTypeCode\": \"222\", // The only available mmtype of partner\r
 
     \                    \"validFrom\": \"2026-01-01\",\r
-
-    \                    \"validTo\":\"2026-12-31\", \r
 
     \                    \"activities\": [\r
 
     \                        {\r
 
-    \                            \"typeOfUpdate\": \"N\",// k here\r
+    \                            \"typeOfUpdate\": \"N\",\r
 
     \                            \"activityTypeCode\": \"011100\", //Cereal\r
 
     \                            \"isMain\": true,\r
 
-    \                            \"validFrom\": \"2026-01-01\",\r
-
-    \                            \"validTo\":\"2026-12-01\"\r
+    \                            \"validFrom\": \"2026-01-01\"\r
 
     \                        }\r
 
@@ -156,7 +145,7 @@ body:
 
     \            \"statusCL\": \"3\", //Registered\r
 
-    \            \"validFrom\": \"2026-01-22\",\r
+    \            \"validFrom\": \"2026-01-01\",\r
 
     \            \"typeOfUpdate\": \"N\"\r
 
@@ -170,7 +159,7 @@ body:
 
     \            \"addressId\": \"11\",\r
 
-    \            \"validFrom\": \"2026-01-22\",\r
+    \            \"validFrom\": \"2026-01-01\",\r
 
     \            \"typeOfUpdate\": \"N\",\r
 
@@ -183,5 +172,5 @@ body:
     \    ]\r
 
     }"
-examples: .resources/AGR_REG Form- Validate Gap in Activities 5.resources/examples
-order: 5000
+examples: .resources/AGR_REG Form- Validate Gap in Activities 10.resources/examples
+order: 9512

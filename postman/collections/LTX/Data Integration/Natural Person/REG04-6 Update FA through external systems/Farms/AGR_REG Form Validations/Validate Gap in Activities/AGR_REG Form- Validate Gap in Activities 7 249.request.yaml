@@ -1,6 +1,14 @@
 $kind: http-request
-name: "Register AGR Holding: Non Existing AGR Holding - Owner LJA"
-url: "{{farm-endpoint}}"
+name: "AGR_REG Form: Validate Gap in Activities 7 249"
+description: |-
+  MMtype not requiring activity (248/249)
+
+  Only for ZUKVR
+
+  Set up for both owner and partner:  
+  MMType: 2026-01-01 - open  
+  No activities
+url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/farm-data
 method: POST
 body:
   type: json
@@ -8,9 +16,9 @@ body:
 
     \    \"requestId\": \"requestId_Zagkas\",\r
 
-    \    \"dateOfInformation\": \"2026-04-03\",\r
+    \    \"dateOfInformation\": \"2026-01-22\",\r
 
-    \    \"sourceOfInformationCode\": \"6005\", //ZUKVR\r
+    \    \"sourceOfInformationCode\": \"6005\", //ZUKVR,\r
 
     \    \"contacts\": [\r
 
@@ -30,15 +38,13 @@ body:
 
     \    \"identifiers\": {\r
 
-    \        \"validFrom\": \"2026-04-03\",\r
+    \        \"identifierValue\": \"98770843245330\",\r
 
-    \        \"identifierValue\": \"4533675687\",\r
+    \        \"identifierTypeCode\": \"51\", //Farmers\r
 
-    \        \"identifierTypeCode\": \"51\" //Agricultural Holding Code\r
+    \        \"validFrom\": \"2026-01-01\"\r
 
-    \    }\r
-
-    \    ,\r
+    \    },\r
 
     \    \"owners\": [\r
 
@@ -46,9 +52,9 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"isNatural\": false,\r
+    \            \"isNatural\": true,\r
 
-    \            \"ownerPartyId\": \"e9a7dbbc-37ac-4ca6-af51-ff9d4a91e617\", //LJA\r
+    \            \"ownerPartyId\": \"63d3cd90-303c-4181-b11b-05b8065cbd4f\", //FA\r
 
     \            \"validFrom\": \"2026-01-01\",\r
 
@@ -58,7 +64,7 @@ body:
 
     \                    \"typeOfUpdate\": \"N\",\r
 
-    \                    \"mmTypeCode\": \"250\", // This mmtype allows activities\r
+    \                    \"mmTypeCode\": \"249\", // The only available mmtype of owner\r
 
     \                    \"validFrom\": \"2026-01-01\"\r
 
@@ -69,12 +75,6 @@ body:
     \        }\r
 
     \    ],\r
-
-    \    \r
-
-    \    // ZUKVR Doesn't send partners!!!\r
-
-    \r
 
     \    \"statuses\": [\r
 
@@ -102,12 +102,12 @@ body:
 
     \            \"addressObjectTypeCode\": \"SAV\", //Municipality,        }\r
 
-    \            \"validFrom\": \"2026-01-01\"\r
+    \            \"validFrom\": \"2026-01-22\"\r
 
     \        }\r
 
     \    ]\r
 
     }"
-examples: .resources/Add a new AGR Holding - Non Existing AGR Holding - Owner JA.resources/examples
-order: 3000
+examples: .resources/AGR_REG Form- Validate Gap in Activities 7 249.resources/examples
+order: 7000

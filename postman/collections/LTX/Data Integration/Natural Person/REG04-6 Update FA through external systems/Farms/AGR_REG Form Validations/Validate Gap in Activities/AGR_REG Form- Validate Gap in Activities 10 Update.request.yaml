@@ -1,0 +1,148 @@
+$kind: http-request
+name: "AGR_REG Form: Validate Gap in Activities 10 Update"
+description: |-
+  # Scenario: Terminate  activity under mmType that leaves gap.
+
+  **Set up for both owner and partner:**
+
+  **First Register:**  
+  **MMType: 2026-01-01 - open**  
+  **Activity:** **2026-01-01** **\- open**  
+  **Then terminate the activity and create a new one starting 3 days later**
+url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/farm-data
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"requestId\": \"requestId_Zagkas\",\r
+
+    \    \"dateOfInformation\": \"2026-01-22\",\r
+
+    \    \"mapId\":\"1bf78819-c325-4e7e-a582-94e9838e7c68\",\r
+
+    \    \"sourceOfInformationCode\": \"44\", //UUR,\r
+
+    \    \"owners\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"R\",\r
+
+    \            \"isNatural\": true,\r
+
+    \            \"ownerPartyId\": \"b0749768-f375-4e7d-858e-f7032c9e2b48\", //FA\r
+
+    \            \"validFrom\": \"2026-01-01\",\r
+
+    \            \"mmTypes\": [\r
+
+    \                {\r
+
+    \                    \"typeOfUpdate\": \"R\",\r
+
+    \                    \"mmTypeCode\": \"203\", // The only available mmtype of owner\r
+
+    \                    \"validFrom\": \"2026-01-01\",\r
+
+    \                    \"activities\": [\r
+
+    \                        {\r
+
+    \                            \"typeOfUpdate\": \"K\",\r
+
+    \                            \"activityTypeCode\": \"011100\", //Cereal\r
+
+    \                            \"isMain\": true,\r
+
+    \                            \"validFrom\": \"2026-01-01\",\r
+
+    \                            \"validTo\":\"2026-02-01\"\r
+
+    \                        },\r
+
+    \                        {\r
+
+    \                            \"typeOfUpdate\": \"N\",\r
+
+    \                            \"activityTypeCode\": \"011100\", //Cereal\r
+
+    \                            \"isMain\": true,\r
+
+    \                            \"validFrom\": \"2026-03-01\" //Leaving gap between this activity and the previous one\r
+
+    \                        }\r
+
+    \                    ]\r
+
+    \                }\r
+
+    \            ]\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"partners\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"R\",\r
+
+    \            \"isNatural\": true,\r
+
+    \            \"partnerPartyId\": \"2b17bdfb-23b8-4246-8d1b-d36d60897e2c\", //FA\r
+
+    \            \"validFrom\": \"2026-01-01\",\r
+
+    \            \"mmTypes\": [\r
+
+    \                {\r
+
+    \                    \"typeOfUpdate\": \"K\",\r
+
+    \                    \"mmTypeCode\": \"222\", // The only available mmtype of partner\r
+
+    \                    \"validFrom\": \"2026-01-01\",\r
+
+    \                    \"activities\": [\r
+
+    \                        {\r
+
+    \                            \"typeOfUpdate\": \"K\",\r
+
+    \                            \"activityTypeCode\": \"011100\", //Cereal\r
+
+    \                            \"isMain\": true,\r
+
+    \                            \"validFrom\": \"2026-01-01\",\r
+
+    \                            \"validTo\":\"2026-02-01\"\r
+
+    \                        },\r
+
+    \                        {\r
+
+    \                            \"typeOfUpdate\": \"N\",\r
+
+    \                            \"activityTypeCode\": \"011100\", //Cereal\r
+
+    \                            \"isMain\": true,\r
+
+    \                            \"validFrom\": \"2026-03-01\" //Leaving gap between this activity and the previous one\r
+
+    \                        }\r
+
+    \                    ]\r
+
+    \                }\r
+
+    \            ]\r
+
+    \        }\r
+
+    \    ]\r
+
+    }"
+examples: .resources/AGR_REG Form- Validate Gap in Activities 10 Update.resources/examples
+order: 2488588823433593

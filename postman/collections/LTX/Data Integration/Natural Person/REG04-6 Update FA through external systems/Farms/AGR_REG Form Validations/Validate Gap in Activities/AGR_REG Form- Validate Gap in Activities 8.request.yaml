@@ -20,8 +20,6 @@ body:
 
     \    \"sourceOfInformationCode\": \"44\", //UUR,\r
 
-    \    \"farmName\":\"Farm_Zagkas\",\r
-
     \    \"contacts\": [\r
 
     \        {\r
@@ -56,7 +54,8 @@ body:
 
     \            \"isNatural\": true,\r
 
-    \            \"ownerPartyId\": \"7828f05d-187a-47df-ada5-8054f4416915\", //FA\r
+    \            \"ownerPartyId\": \"7828f05d-187a-47df-ada5-8054f4416915\",
+    //FA\r
 
     \            \"validFrom\": \"2026-01-01\",\r
 
@@ -66,7 +65,8 @@ body:
 
     \                    \"typeOfUpdate\": \"N\",\r
 
-    \                    \"mmTypeCode\": \"203\", // The only available mmtype of owner\r
+    \                    \"mmTypeCode\": \"203\", // The only available mmtype
+    of owner\r
 
     \                    \"validFrom\": \"2026-01-01\",\r
 
@@ -130,7 +130,8 @@ body:
 
     \            \"isNatural\": true,\r
 
-    \            \"partnerPartyId\": \"e083dd8b-2be2-4e2e-9f8c-21365d68df12\", //FA\r
+    \            \"partnerPartyId\": \"e083dd8b-2be2-4e2e-9f8c-21365d68df12\",
+    //FA\r
 
     \            \"validFrom\": \"2026-01-01\",\r
 
@@ -140,7 +141,8 @@ body:
 
     \                    \"typeOfUpdate\": \"N\",\r
 
-    \                    \"mmTypeCode\": \"222\", // The only available mmtype of partner\r
+    \                    \"mmTypeCode\": \"222\", // The only available mmtype
+    of partner\r
 
     \                    \"validFrom\": \"2026-01-01\",\r
 
@@ -232,4 +234,4 @@ body:
 
     }"
 examples: .resources/AGR_REG Form- Validate Gap in Activities 8.resources/examples
-order: 2392026275384998
+order: 8000

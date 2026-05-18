@@ -1,0 +1,135 @@
+$kind: http-example
+name: "AGR_REG Form: Validate Gap in Activities 7 249"
+description: |-
+  MMtype not requiring activity (248/249)
+
+  Only for ZUKVR
+
+  Set up for both owner and partner:  
+  MMType: 2026-01-01 - open  
+  No activities
+request:
+  url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/farm-data
+  method: POST
+  body:
+    type: json
+    content: "{\r
+
+      \    \"requestId\": \"requestId_Zagkas\",\r
+
+      \    \"dateOfInformation\": \"2026-01-22\",\r
+
+      \    \"sourceOfInformationCode\": \"6005\",\ 
+
+      \    \"contacts\": [\r
+
+      \        {\r
+
+      \            \"typeOfUpdate\": \"N\",\r
+
+      \            \"contactTypeCode\": \"6\",\r
+
+      \            \"contactValue\": \"dzagkas@netcompany.com\",\r
+
+      \            \"validFrom\": \"2026-01-01\"\r
+
+      \        }\r
+
+      \    ],\r
+
+      \    \"identifiers\": {\r
+
+      \        \"identifierValue\": \"98770843245330\",\r
+
+      \        \"identifierTypeCode\": \"51\",\ 
+
+      \        \"validFrom\": \"2026-01-01\"\r
+
+      \    },\r
+
+      \    \"owners\": [\r
+
+      \        {\r
+
+      \            \"typeOfUpdate\": \"N\",\r
+
+      \            \"isNatural\": true,\r
+
+      \            \"ownerPartyId\": \"63d3cd90-303c-4181-b11b-05b8065cbd4f\",\ 
+
+      \            \"validFrom\": \"2026-01-01\",\r
+
+      \            \"mmTypes\": [\r
+
+      \                {\r
+
+      \                    \"typeOfUpdate\": \"N\",\r
+
+      \                    \"mmTypeCode\": \"249\",\ 
+
+      \                    \"validFrom\": \"2026-01-01\"\r
+
+      \                }\r
+
+      \            ]\r
+
+      \        }\r
+
+      \    ],\r
+
+      \    \"statuses\": [\r
+
+      \        {\r
+
+      \            \"typeOfUpdate\": \"N\",\r
+
+      \            \"statusCL\": \"3\",\ 
+
+      \            \"validFrom\": \"2026-01-01\"\r
+
+      \        }\r
+
+      \    ],\r
+
+      \    \"addresses\": [\r
+
+      \        {\r
+
+      \            \"typeOfUpdate\": \"N\",\r
+
+      \            \"addressId\": \"11\",\r
+
+      \            \"addressTypeCode\": \"43\",\ 
+
+      \            \"addressObjectTypeCode\": \"SAV\",\ 
+
+      \            \"validFrom\": \"2026-01-22\"\r
+
+      \        }\r
+
+      \    ]\r
+
+      }"
+response:
+  statusCode: 200
+  statusText: ""
+  headers:
+    date: Mon, 18 May 2026 07:28:20 GMT
+    content-type: application/json
+    transfer-encoding: chunked
+    connection: keep-alive
+    x-content-type-options: nosniff
+    x-xss-protection: "0"
+    cache-control: no-cache, no-store, max-age=0, must-revalidate
+    pragma: no-cache
+    expires: "0"
+    strict-transport-security: max-age=31536000; includeSubDomains
+    x-frame-options: DENY
+  body:
+    type: json
+    content: |-
+      {
+        "requestId": "requestId_Zagkas",
+        "processingId": "d7eb7b55-45c2-4b81-a58b-15a8844fe570"
+      }
+order: 4215296382851941

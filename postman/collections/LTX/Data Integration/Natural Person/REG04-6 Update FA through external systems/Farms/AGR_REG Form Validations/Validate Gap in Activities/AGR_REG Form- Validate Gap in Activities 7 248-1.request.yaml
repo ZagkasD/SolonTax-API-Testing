@@ -1,12 +1,12 @@
 $kind: http-request
-name: "AGR_REG Form: Validate Gap in Activities 7"
+name: "AGR_REG Form: Validate Gap in Activities 7 248"
 description: |-
   MMtype not requiring activity (248/249)
 
   Only for ZUKVR
 
   Set up for both owner and partner:  
-  MMType: 01/01/2026 - open  
+  MMType: 2026-01-01 - open  
   No activities
 url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/farm-data
 method: POST
@@ -19,8 +19,6 @@ body:
     \    \"dateOfInformation\": \"2026-01-22\",\r
 
     \    \"sourceOfInformationCode\": \"6005\", //ZUKVR,\r
-
-    \    \"farmName\":\"Farm_Zagkas\",\r
 
     \    \"contacts\": [\r
 
@@ -40,11 +38,11 @@ body:
 
     \    \"identifiers\": {\r
 
-    \        \"validFrom\": \"2026-01-22\",\r
+    \        \"identifierValue\": \"98770843245330\",\r
 
-    \        \"identifierValue\": \"98776445330\",\r
+    \        \"identifierTypeCode\": \"51\", //Farmers\r
 
-    \        \"identifierTypeCode\": \"14\" //Farmers\r
+    \        \"validFrom\": \"2026-01-01\"\r
 
     \    },\r
 
@@ -56,8 +54,7 @@ body:
 
     \            \"isNatural\": true,\r
 
-    \            \"ownerPartyId\": \"d825a654-ace2-41a1-97ed-398f08fc1bd5\",
-    //FA\r
+    \            \"ownerPartyId\": \"d9fbb0f7-c42c-4a7f-b0d7-45f892bd5e99\", //FA\r
 
     \            \"validFrom\": \"2026-01-01\",\r
 
@@ -67,8 +64,7 @@ body:
 
     \                    \"typeOfUpdate\": \"N\",\r
 
-    \                    \"mmTypeCode\": \"248\", // The only available mmtype
-    of owner\r
+    \                    \"mmTypeCode\": \"248\", // The only available mmtype of owner\r
 
     \                    \"validFrom\": \"2026-01-01\"\r
 
@@ -84,11 +80,11 @@ body:
 
     \        {\r
 
+    \            \"typeOfUpdate\": \"N\",\r
+
     \            \"statusCL\": \"3\", //Registered\r
 
-    \            \"validFrom\": \"2026-01-22\",\r
-
-    \            \"typeOfUpdate\": \"N\"\r
+    \            \"validFrom\": \"2026-01-01\"\r
 
     \        }\r
 
@@ -98,20 +94,20 @@ body:
 
     \        {\r
 
-    \            \"addressId\": \"11\",\r
-
-    \            \"validFrom\": \"2026-01-22\",\r
-
     \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"addressId\": \"11\",\r
 
     \            \"addressTypeCode\": \"43\", //Address of place of activity\r
 
-    \            \"addressObjectTypeCode\": \"SAV\" //Municipality,        }\r
+    \            \"addressObjectTypeCode\": \"SAV\", //Municipality,        }\r
+
+    \            \"validFrom\": \"2026-01-22\"\r
 
     \        }\r
 
     \    ]\r
 
     }"
-examples: .resources/AGR_REG Form- Validate Gap in Activities 7.resources/examples
-order: 8000
+examples: .resources/AGR_REG Form- Validate Gap in Activities 7 248-1.resources/examples
+order: 7000

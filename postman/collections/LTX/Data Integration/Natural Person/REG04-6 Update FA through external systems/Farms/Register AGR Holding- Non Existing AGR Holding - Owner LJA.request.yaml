@@ -1,6 +1,6 @@
 $kind: http-request
 name: "Register AGR Holding: Non Existing AGR Holding - Owner LJA"
-url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/farm-data
+url: "{{farm-endpoint}}"
 method: POST
 body:
   type: json
@@ -32,7 +32,7 @@ body:
 
     \        \"validFrom\": \"2026-04-03\",\r
 
-    \        \"identifierValue\": \"43188978857\",\r
+    \        \"identifierValue\": \"4316543457\",\r
 
     \        \"identifierTypeCode\": \"51\" //Agricultural Holding Code\r
 
@@ -48,9 +48,9 @@ body:
 
     \            \"isNatural\": false,\r
 
-    \            \"ownerPartyId\": \"702f9444-2f90-4f6c-b951-c35223c60aad\", //LJA\r
+    \            \"ownerPartyId\": \"e9a7dbbc-37ac-4ca6-af51-ff9d4a91e617\", //LJA\r
 
-    \            \"validFrom\": \"2026-04-03\",\r
+    \            \"validFrom\": \"2026-01-01\",\r
 
     \            \"mmTypes\": [\r
 
@@ -58,9 +58,9 @@ body:
 
     \                    \"typeOfUpdate\": \"N\",\r
 
-    \                    \"mmTypeCode\": \"248\", // This mmtype does not allow activities\r
+    \                    \"mmTypeCode\": \"250\", // This mmtype allows activities\r
 
-    \                    \"validFrom\": \"2026-04-03\"\r
+    \                    \"validFrom\": \"2026-01-01\"\r
 
     \                }\r
 
@@ -80,11 +80,11 @@ body:
 
     \        {\r
 
+    \            \"typeOfUpdate\": \"N\",\r
+
     \            \"statusCL\": \"3\", //Registered\r
 
-    \            \"validFrom\": \"2026-04-03\",\r
-
-    \            \"typeOfUpdate\": \"N\"\r
+    \            \"validFrom\": \"2026-01-01\"\r
 
     \        }\r
 
@@ -94,11 +94,11 @@ body:
 
     \        {\r
 
+    \            \"typeOfUpdate\": \"N\",\r
+
     \            \"addressId\": \"11\",\r
 
-    \            \"validFrom\": \"2026-04-03\",\r
-
-    \            \"typeOfUpdate\": \"N\",\r
+    \            \"validFrom\": \"2026-01-01\",\r
 
     \            \"addressTypeCode\": \"43\", //Address of place of activity\r
 

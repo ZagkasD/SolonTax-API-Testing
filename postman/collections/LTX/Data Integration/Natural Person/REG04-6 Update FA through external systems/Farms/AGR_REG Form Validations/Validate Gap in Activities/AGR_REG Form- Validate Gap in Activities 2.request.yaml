@@ -4,8 +4,8 @@ description: |-
   Gap at the beginning - activity starts after MM type.
 
   Set up for both owner and partner:  
-  MMType: 2026-02-10 - open  
-  Activity: 2026-03-10 - open
+  MMType: 2026-01-01 - open  
+  Activity: 2026-02-01 - open
 url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/farm-data
 method: POST
 body:
@@ -36,9 +36,9 @@ body:
 
     \    \"identifiers\": {\r
 
-    \        \"validFrom\": \"2026-04-03\",\r
+    \        \"validFrom\": \"2026-01-01\",\r
 
-    \        \"identifierValue\": \"987439873287590-\",\r
+    \        \"identifierValue\": \"9874398775690-\",\r
 
     \        \"identifierTypeCode\": \"14\" //Farmers\r
 
@@ -52,10 +52,10 @@ body:
 
     \            \"isNatural\": true,\r
 
-    \            \"ownerPartyId\": \"3fde2f53-5513-48a6-a8b7-616f979c4b73\",
+    \            \"ownerPartyId\": \"41b03452-2d4d-4e8a-97fd-bbcc854c14e8\",
     //FA\r
 
-    \            \"validFrom\": \"2026-02-10\",\r
+    \            \"validFrom\": \"2026-01-01\",\r
 
     \            \"mmTypes\": [\r
 
@@ -66,7 +66,7 @@ body:
     \                    \"mmTypeCode\": \"203\", // The only available mmtype
     of owner\r
 
-    \                    \"validFrom\": \"2026-02-10\",\r
+    \                    \"validFrom\": \"2026-01-01\",\r
 
     \                    \"activities\": [\r
 
@@ -78,7 +78,7 @@ body:
 
     \                            \"isMain\": true,\r
 
-    \                            \"validFrom\": \"2026-03-10\"\r
+    \                            \"validFrom\": \"2026-02-01\"\r
 
     \                        }\r
 
@@ -100,10 +100,10 @@ body:
 
     \            \"isNatural\": true,\r
 
-    \            \"partnerPartyId\": \"abd0fff7-6868-415d-bf58-0f846843c187\",
+    \            \"partnerPartyId\": \"22adb913-9724-4ec6-bbb7-05f8e17aaa7b\",
     //FA\r
 
-    \            \"validFrom\": \"2026-02-10\",\r
+    \            \"validFrom\": \"2026-01-01\",\r
 
     \            \"mmTypes\": [\r
 
@@ -114,7 +114,7 @@ body:
     \                    \"mmTypeCode\": \"222\", // The only available mmtype
     of partner\r
 
-    \                    \"validFrom\": \"2026-02-10\",\r
+    \                    \"validFrom\": \"2026-01-01\",\r
 
     \                    \"activities\": [\r
 
@@ -126,7 +126,7 @@ body:
 
     \                            \"isMain\": true,\r
 
-    \                            \"validFrom\": \"2026-03-10\"\r
+    \                            \"validFrom\": \"2026-02-01\"\r
 
     \                        }\r
 
@@ -146,7 +146,7 @@ body:
 
     \            \"statusCL\": \"3\", //Registered\r
 
-    \            \"validFrom\": \"2026-04-03\",\r
+    \            \"validFrom\": \"2026-01-01\",\r
 
     \            \"typeOfUpdate\": \"N\"\r
 
@@ -160,7 +160,7 @@ body:
 
     \            \"addressId\": \"11\",\r
 
-    \            \"validFrom\": \"2026-04-03\",\r
+    \            \"validFrom\": \"2026-01-01\",\r
 
     \            \"typeOfUpdate\": \"N\",\r
 

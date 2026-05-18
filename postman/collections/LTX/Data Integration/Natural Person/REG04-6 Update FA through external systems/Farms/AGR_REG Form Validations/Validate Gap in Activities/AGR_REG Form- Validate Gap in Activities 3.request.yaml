@@ -4,10 +4,10 @@ description: |-
   Gap between two consecutive activities.
 
   Set up for both owner and partner:  
-  MMType: 2026-02-10 - open  
-  Activity 1: 2026-02-10 - 2026-02-15  
-  Activity 2: 2026-03-10 - open
-url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/farm-data
+  MMType: 2026-01-01 - open  
+  Activity 1: 2026-01-01 - 2026-02-15  
+  Activity 2: 2026-03-01 - open
+url: "{{farm-endpoint}}"
 method: POST
 body:
   type: json
@@ -53,7 +53,8 @@ body:
 
     \            \"isNatural\": true,\r
 
-    \            \"ownerPartyId\": \"a1f23065-2b90-411c-bae8-44b1b2d1c2b3\", //FA\r
+    \            \"ownerPartyId\": \"7828f05d-187a-47df-ada5-8054f4416915\",
+    //FA\r
 
     \            \"validFrom\": \"2026-01-01\",\r
 
@@ -61,9 +62,10 @@ body:
 
     \                {\r
 
-    \                    \"typeOfUpdate\": \"R\",\r
+    \                    \"typeOfUpdate\": \"N\",\r
 
-    \                    \"mmTypeCode\": \"203\", // The only available mmtype of owner\r
+    \                    \"mmTypeCode\": \"203\", // The only available mmtype
+    of owner\r
 
     \                    \"validFrom\": \"2026-01-01\",\r
 
@@ -79,7 +81,7 @@ body:
 
     \                            \"validFrom\": \"2026-01-01\",\r
 
-    \                            \"validTo\":\"2026-02-01\"\r
+    \                            \"validTo\":\"2026-02-15\"\r
 
     \                        },\r
 
@@ -91,7 +93,7 @@ body:
 
     \                            \"isMain\": true,\r
 
-    \                            \"validFrom\": \"2026-02-02\"\r
+    \                            \"validFrom\": \"2026-03-01\"\r
 
     \                        }\r
 
@@ -113,7 +115,8 @@ body:
 
     \            \"isNatural\": true,\r
 
-    \            \"partnerPartyId\": \"fddad0af-6200-4f18-aba7-e738a3d66b9a\", //FA\r
+    \            \"partnerPartyId\": \"e083dd8b-2be2-4e2e-9f8c-21365d68df12\",
+    //FA\r
 
     \            \"validFrom\": \"2026-02-10\",\r
 
@@ -121,9 +124,10 @@ body:
 
     \                {\r
 
-    \                    \"typeOfUpdate\": \"R\",\r
+    \                    \"typeOfUpdate\": \"N\",\r
 
-    \                    \"mmTypeCode\": \"222\", // The only available mmtype of partner\r
+    \                    \"mmTypeCode\": \"222\", // The only available mmtype
+    of partner\r
 
     \                    \"validFrom\": \"2026-01-01\",\r
 
@@ -137,9 +141,9 @@ body:
 
     \                            \"isMain\": true,\r
 
-    \                            \"validFrom\": \"2026-02-10\",\r
+    \                            \"validFrom\": \"2026-01-01\",\r
 
-    \                            \"validTo\":\"2026-01-01\"\r
+    \                            \"validTo\":\"2026-02-15\"\r
 
     \                        },\r
 
@@ -151,7 +155,7 @@ body:
 
     \                            \"isMain\": true,\r
 
-    \                            \"validFrom\": \"2026-03-10\"\r
+    \                            \"validFrom\": \"2026-03-01\"\r
 
     \                        }\r
 

@@ -1,0 +1,224 @@
+$kind: http-example
+name: "AGR_REG Form: Validate Gap in Activities 3"
+description: |-
+  Gap between two consecutive activities.
+
+  Set up for both owner and partner:  
+  MMType: 2026-01-01 - open  
+  Activity 1: 2026-01-01 - 2026-02-15  
+  Activity 2: 2026-03-01 - open
+request:
+  url: "{{farm-endpoint}}"
+  method: POST
+  body:
+    type: json
+    content: "{\r
+
+      \    \"requestId\": \"requestId_Zagkas\",\r
+
+      \    \"dateOfInformation\": \"2026-04-03\",\r
+
+      \    \"sourceOfInformationCode\": \"44\",\ 
+
+      \    \"contacts\": [\r
+
+      \        {\r
+
+      \            \"typeOfUpdate\": \"N\",\r
+
+      \            \"contactTypeCode\": \"6\",\r
+
+      \            \"contactValue\": \"dzagkas@netcompany.com\",\r
+
+      \            \"validFrom\": \"2026-01-01\"\r
+
+      \        }\r
+
+      \    ],\r
+
+      \    \"identifiers\": {\r
+
+      \        \"validFrom\": \"2026-04-03\",\r
+
+      \        \"identifierValue\": \"98743980975943\",\r
+
+      \        \"identifierTypeCode\": \"14\"\ 
+
+      \    },\r
+
+      \    \"owners\": [\r
+
+      \        {\r
+
+      \            \"typeOfUpdate\": \"N\",\r
+
+      \            \"isNatural\": true,\r
+
+      \            \"ownerPartyId\": \"d57de661-fbc6-443d-b4dd-c460897c82f9\",\ 
+
+      \            \"validFrom\": \"2026-01-01\",\r
+
+      \            \"mmTypes\": [\r
+
+      \                {\r
+
+      \                    \"typeOfUpdate\": \"R\",\r
+
+      \                    \"mmTypeCode\": \"203\",\ 
+
+      \                    \"validFrom\": \"2026-01-01\",\r
+
+      \                    \"activities\": [\r
+
+      \                        {\r
+
+      \                            \"typeOfUpdate\": \"N\",\r
+
+      \                            \"activityTypeCode\": \"011100\",\ 
+
+      \                            \"isMain\": true,\r
+
+      \                            \"validFrom\": \"2026-01-01\",\r
+
+      \                            \"validTo\":\"2026-02-15\"\r
+
+      \                        },\r
+
+      \                        {\r
+
+      \                            \"typeOfUpdate\": \"N\",\r
+
+      \                            \"activityTypeCode\": \"011100\",\ 
+
+      \                            \"isMain\": true,\r
+
+      \                            \"validFrom\": \"2026-03-01\"\r
+
+      \                        }\r
+
+      \                    ]\r
+
+      \                }\r
+
+      \            ]\r
+
+      \        }\r
+
+      \    ],\r
+
+      \    \"partners\": [\r
+
+      \        {\r
+
+      \            \"typeOfUpdate\": \"N\",\r
+
+      \            \"isNatural\": true,\r
+
+      \            \"partnerPartyId\": \"13a78436-5ee1-4cb1-ae86-643a2e902c7a\",\ 
+
+      \            \"validFrom\": \"2026-02-10\",\r
+
+      \            \"mmTypes\": [\r
+
+      \                {\r
+
+      \                    \"typeOfUpdate\": \"R\",\r
+
+      \                    \"mmTypeCode\": \"222\",\ 
+
+      \                    \"validFrom\": \"2026-01-01\",\r
+
+      \                    \"activities\": [\r
+
+      \                        {\r
+
+      \                            \"typeOfUpdate\": \"N\",\r
+
+      \                            \"activityTypeCode\": \"011100\",\ 
+
+      \                            \"isMain\": true,\r
+
+      \                            \"validFrom\": \"2026-01-01\",\r
+
+      \                            \"validTo\":\"2026-02-15\"\r
+
+      \                        },\r
+
+      \                        {\r
+
+      \                            \"typeOfUpdate\": \"N\",\r
+
+      \                            \"activityTypeCode\": \"011100\",\ 
+
+      \                            \"isMain\": true,\r
+
+      \                            \"validFrom\": \"2026-03-01\"\r
+
+      \                        }\r
+
+      \                    ]\r
+
+      \                }\r
+
+      \            ]\r
+
+      \        }\r
+
+      \    ],\r
+
+      \    \"statuses\": [\r
+
+      \        {\r
+
+      \            \"statusCL\": \"3\",\ 
+
+      \            \"validFrom\": \"2026-04-03\",\r
+
+      \            \"typeOfUpdate\": \"N\"\r
+
+      \        }\r
+
+      \    ],\r
+
+      \    \"addresses\": [\r
+
+      \        {\r
+
+      \            \"addressId\": \"11\",\r
+
+      \            \"validFrom\": \"2026-04-03\",\r
+
+      \            \"typeOfUpdate\": \"N\",\r
+
+      \            \"addressTypeCode\": \"43\",\ 
+
+      \            \"addressObjectTypeCode\": \"SAV\"\ 
+
+      \        }\r
+
+      \    ]\r
+
+      }"
+response:
+  statusCode: 200
+  statusText: ""
+  headers:
+    date: Fri, 15 May 2026 11:28:41 GMT
+    content-type: application/json
+    transfer-encoding: chunked
+    connection: keep-alive
+    x-content-type-options: nosniff
+    x-xss-protection: "0"
+    cache-control: no-cache, no-store, max-age=0, must-revalidate
+    pragma: no-cache
+    expires: "0"
+    strict-transport-security: max-age=31536000; includeSubDomains
+    x-frame-options: DENY
+  body:
+    type: json
+    content: |-
+      {
+        "requestId": "requestId_Zagkas",
+        "processingId": "3d0ad475-418f-4b82-8ee0-a56d14d392f4"
+      }
+order: 1778845398861

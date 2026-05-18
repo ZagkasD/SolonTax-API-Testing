@@ -1,5 +1,6 @@
 $kind: http-request
-url: https://solon-lith-test.centraldg6.athens.intrasoft-intl.private/data-integration/legal-persons
+name: Legal Person Registration
+url: "{{legal-person-endpoint}}"
 method: POST
 body:
   type: json
@@ -33,9 +34,9 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"name\": \"Validation Check 2\",\r
+    \            \"name\": \"Awesome Corpo Dude\",\r
 
-    \            \"validFrom\": \"2025-03-01\"\r
+    \            \"validFrom\": \"2026-01-01\"\r
 
     \            //\"validTo\": \"2099-12-31\",\r
 
@@ -55,11 +56,11 @@ body:
 
     \            \"identifierTypeCode\": \"3\",\r
 
-    \            \"identifierValue\": \"30555fdasfgda1234\",\r
+    \            \"identifierValue\": \"35345fdasfgda1234\",\r
 
     \            \"countryCode\": \"LT\",\r
 
-    \            \"validFrom\": \"2025-03-01\"\r
+    \            \"validFrom\": \"2026-01-01\"\r
 
     \            //\"validTo\": \"2099-12-31\",\r
 
@@ -79,9 +80,9 @@ body:
 
     \            \"contactTypeCode\": \"6\",\r
 
-    \            \"contactValue\": \"contact@globalenterpices.com\",\r
+    \            \"contactValue\": \"dzagkas@netcompany.com\",\r
 
-    \            \"validFrom\": \"2025-03-01\"\r
+    \            \"validFrom\": \"2026-01-01\"\r
 
     \            //\"validTo\": \"2099-12-31\",\r
 
@@ -107,49 +108,9 @@ body:
 
     \            //\"address\": \"Saltoniškių g. 2, Vilnius, Lithuania\",\r
 
-    \            //\"countryCode\": \"LT\",\r
+    \            \"countryCode\": \"LT\",\r
 
-    \            \"validFrom\": \"2025-03-01\"\r
-
-    \            //\"validTo\": \"2099-12-31\",\r
-
-    \            //\"cancelationDate\": \"2099-12-31\",\r
-
-    \            //\"cancelationReasonCode\": \"OTHER\"\r
-
-    \        }\r
-
-    \    ],    \r
-
-    \    \"mmTypes\": [\r
-
-    \        {\r
-
-    \            \"typeOfUpdate\": \"N\",\r
-
-    \            \"mmTypeCode\": \"101\",\r
-
-    \            \"validFrom\": \"2025-03-01\"\r
-
-    \            //\"validTo\": \"2025-12-31\",\r
-
-    \            //\"cancelationDate\": \"2025-12-31\",\r
-
-    \            //\"cancelationReasonCode\": \"OTHER\"\r
-
-    \        }\r
-
-    \    ],\r
-
-    \    \"legalForms\": [\r
-
-    \        {\r
-
-    \            \"typeOfUpdate\": \"N\",\r
-
-    \            \"legalFormTypeCode\": \"111\",\r
-
-    \            \"validFrom\": \"2025-03-01\"\r
+    \            \"validFrom\": \"2026-01-01\"\r
 
     \            //\"validTo\": \"2099-12-31\",\r
 
@@ -159,366 +120,401 @@ body:
 
     \        }\r
 
-    \    ],\r
+    \    ]  \r
 
-    \    \"legalStatuses\": [\r
+    \    // \"mmTypes\": [\r
 
-    \        {\r
+    \    //     {\r
 
-    \            \"typeOfUpdate\": \"N\",\r
+    \    //         \"typeOfUpdate\": \"N\",\r
 
-    \            \"legalStatusCode\": \"1\",\r
+    \    //         \"mmTypeCode\": \"101\",\r
 
-    \            \"validFrom\": \"2025-03-01\"\r
+    \    //         \"validFrom\": \"2026-01-01\"\r
 
-    \            //\"validTo\": \"2099-12-31\",\r
+    \    //         //\"validTo\": \"2025-12-31\",\r
 
-    \            //\"cancelationDate\": \"2099-12-31\",\r
+    \    //         //\"cancelationDate\": \"2025-12-31\",\r
 
-    \            //\"cancelationReasonCode\": \"OTHER\"\r
+    \    //         //\"cancelationReasonCode\": \"OTHER\"\r
 
-    \        }\r
+    \    //     }\r
 
-    \    ],\r
+    \    // ],\r
 
-    \    \"activities\": [\r
+    \    // \"legalForms\": [\r
 
-    \        {\r
+    \    //     {\r
 
-    \            \"typeOfUpdate\": \"N\",\r
+    \    //         \"typeOfUpdate\": \"N\",\r
 
-    \            \"EVRK_Code\": \"11100\",\r
+    \    //         \"legalFormTypeCode\": \"111\",\r
 
-    \            \"validFrom\": \"2025-03-01\",\r
+    \    //         \"validFrom\": \"2026-01-01\"\r
 
-    \            //\"validTo\": \"2099-12-31\",\r
+    \    //         //\"validTo\": \"2099-12-31\",\r
 
-    \            \"isMain\": true\r
+    \    //         //\"cancelationDate\": \"2099-12-31\",\r
 
-    \            //\"cancelationDate\": \"2099-12-31\",\r
+    \    //         //\"cancelationReasonCode\": \"OTHER\"\r
 
-    \            //\"cancelationReasonCode\": \"OTHER\"\r
+    \    //     }\r
 
-    \        },\r
+    \    // ],\r
 
-    \        {\r
+    \    // \"legalStatuses\": [\r
 
-    \            \"typeOfUpdate\": \"N\",\r
+    \    //     {\r
 
-    \            \"EVRK_Code\": \"11100\",\r
+    \    //         \"typeOfUpdate\": \"N\",\r
 
-    \            \"validFrom\": \"2025-03-01\",\r
+    \    //         \"legalStatusCode\": \"1\",\r
 
-    \            //\"validTo\": \"2025-11-19\",\r
+    \    //         \"validFrom\": \"2026-01-01\"\r
 
-    \            \"isMain\": false\r
+    \    //         //\"validTo\": \"2099-12-31\",\r
 
-    \            //\"cancelationDate\": \"2025-11-19\",\r
+    \    //         //\"cancelationDate\": \"2099-12-31\",\r
 
-    \            //\"cancelationReasonCode\": \"OTHER\"\r
+    \    //         //\"cancelationReasonCode\": \"OTHER\"\r
 
-    \        }\r
+    \    //     }\r
 
-    \    ],\r
+    \    // ],\r
 
-    \    \"representatives\": [\r
+    \    // \"activities\": [\r
 
-    \        {\r
+    \    //     {\r
 
-    \            \"typeOfUpdate\": \"N\",\r
+    \    //         \"typeOfUpdate\": \"N\",\r
 
-    \            \"relationshipTypeCode\": \"R_1\",\r
+    \    //         \"EVRK_Code\": \"11100\",\r
 
-    \            \"representativePartyMapId\":
-    \"cae4158b-2d53-431b-a1c3-7f86d67e5d0b\",\r
+    \    //         \"validFrom\": \"2025-03-01\",\r
 
-    \            \"quantitative\": true,\r
+    \    //         //\"validTo\": \"2099-12-31\",\r
 
-    \            \"validFrom\": \"2025-03-01\",\r
+    \    //         \"isMain\": true\r
 
-    \            //\"validTo\": \"2099-12-31\",\r
+    \    //         //\"cancelationDate\": \"2099-12-31\",\r
 
-    \            \"assignmentDateFrom\": \"2025-03-02\",\r
+    \    //         //\"cancelationReasonCode\": \"OTHER\"\r
 
-    \            //\"assignmentDateTo\": \"2029-11-19\",\r
+    \    //     },\r
 
-    \            \"authorizationDateFrom\": \"2025-03-03\",\r
+    \    //     {\r
 
-    \            //\"authorizationDateTo\": \"2029-11-19\",\r
+    \    //         \"typeOfUpdate\": \"N\",\r
 
-    \            //\"cancelationDate\": \"2029-11-19\",\r
+    \    //         \"EVRK_Code\": \"11100\",\r
 
-    \            //\"cancelationReasonCode\": \"OTHER\",\r
+    \    //         \"validFrom\": \"2025-03-01\",\r
 
-    \            \"representationRestrictions\": [\r
+    \    //         //\"validTo\": \"2025-11-19\",\r
 
-    \                {\r
+    \    //         \"isMain\": false\r
 
-    \                    \"typeOfUpdate\": \"N\",\r
+    \    //         //\"cancelationDate\": \"2025-11-19\",\r
 
-    \                    \"representationTypeCode\": \"R_1\",\r
+    \    //         //\"cancelationReasonCode\": \"OTHER\"\r
 
-    \                    \"representationRule\": \"Transactions above 10000 EUR
-    require board approval.\",\r
+    \    //     }\r
 
-    \                    \"validFrom\": \"2025-03-04\"\r
+    \    // ],\r
 
-    \                    //\"validTo\": \"2029-11-19\"\r
+    \    // \"representatives\": [\r
 
-    \                }\r
+    \    //     {\r
 
-    \            ]\r
+    \    //         \"typeOfUpdate\": \"N\",\r
 
-    \        }\r
+    \    //         \"relationshipTypeCode\": \"R_1\",\r
 
-    \    ],\r
+    \    //         \"representativePartyMapId\": \"cae4158b-2d53-431b-a1c3-7f86d67e5d0b\",\r
 
-    \    \"units\": [\r
+    \    //         \"quantitative\": true,\r
 
-    \        {\r
+    \    //         \"validFrom\": \"2025-03-01\",\r
 
-    \            \"typeOfUpdate\": \"N\",\r
+    \    //         //\"validTo\": \"2099-12-31\",\r
 
-    \            \"relationshipTypeCode\": \"U_11\",\r
+    \    //         \"assignmentDateFrom\": \"2025-03-02\",\r
 
-    \            \"unitCode\": \"BR-VNO-01\",\r
+    \    //         //\"assignmentDateTo\": \"2029-11-19\",\r
 
-    \            \"eilNumber\": \"EIL-9876\",\r
+    \    //         \"authorizationDateFrom\": \"2025-03-03\",\r
 
-    \            //\"propertyRegNumber\": \"PRN-5432\",\r
+    \    //         //\"authorizationDateTo\": \"2029-11-19\",\r
 
-    \            \"unitPartyMapId\": \"cae4158b-2d53-431b-a1c3-7f86d67e5d0b\",\r
+    \    //         //\"cancelationDate\": \"2029-11-19\",\r
 
-    \            \"validFrom\": \"2025-03-01\"\r
+    \    //         //\"cancelationReasonCode\": \"OTHER\",\r
 
-    \            //\"validTo\": \"2099-12-31\",\r
+    \    //         \"representationRestrictions\": [\r
 
-    \            //\"cancelationDate\": \"2099-12-31\",\r
+    \    //             {\r
 
-    \            //\"cancelationReasonCode\": \"OTHER\"\r
+    \    //                 \"typeOfUpdate\": \"N\",\r
 
-    \        }\r
+    \    //                 \"representationTypeCode\": \"R_1\",\r
 
-    \    ],\r
+    \    //                 \"representationRule\": \"Transactions above 10000 EUR require board approval.\",\r
 
-    \    \"beneficiaries\": [\r
+    \    //                 \"validFrom\": \"2025-03-04\"\r
 
-    \        {\r
+    \    //                 //\"validTo\": \"2029-11-19\"\r
 
-    \            \"typeOfUpdate\": \"N\",\r
+    \    //             }\r
 
-    \            \"beneficiaryPartyMapId\":
-    \"cae4158b-2d53-431b-a1c3-7f86d67e5d0b\",\r
+    \    //         ]\r
 
-    \            \"relationshipTypeCode\": \"B_1\",\r
+    \    //     }\r
 
-    \            \"validFrom\": \"2025-03-01\"\r
+    \    // ],\r
 
-    \            //\"validTo\": \"2099-12-31\",\r
+    \    // \"units\": [\r
 
-    \            //\"cancelationDate\": \"2099-12-31\",\r
+    \    //     {\r
 
-    \            //\"cancelationReasonCode\": \"OTHER\"\r
+    \    //         \"typeOfUpdate\": \"N\",\r
 
-    \        }\r
+    \    //         \"relationshipTypeCode\": \"U_11\",\r
 
-    \    ],\r
+    \    //         \"unitCode\": \"BR-VNO-01\",\r
 
-    \    \"participants\": [\r
+    \    //         \"eilNumber\": \"EIL-9876\",\r
 
-    \        {\r
+    \    //         //\"propertyRegNumber\": \"PRN-5432\",\r
 
-    \            \"typeOfUpdate\": \"N\",\r
+    \    //         \"unitPartyMapId\": \"cae4158b-2d53-431b-a1c3-7f86d67e5d0b\",\r
 
-    \            \"relationshipTypeCode\": \"P_MB\",\r
+    \    //         \"validFrom\": \"2026-01-01\"\r
 
-    \            \"participantPartyMapId\":
-    \"cae4158b-2d53-431b-a1c3-7f86d67e5d0b\",\r
+    \    //         //\"validTo\": \"2099-12-31\",\r
 
-    \            \"validFrom\": \"2025-03-01\"\r
+    \    //         //\"cancelationDate\": \"2099-12-31\",\r
 
-    \            //\"validTo\": \"2099-12-31\",\r
+    \    //         //\"cancelationReasonCode\": \"OTHER\"\r
 
-    \            //\"cancelationDate\": \"2099-12-31\",\r
+    \    //     }\r
 
-    \            //\"cancelationReasonCode\": \"OTHER\"\r
+    \    // ],\r
 
-    \        }\r
+    \    // \"beneficiaries\": [\r
 
-    \    ],\r
+    \    //     {\r
 
-    \    \"cashRegisters\": [\r
+    \    //         \"typeOfUpdate\": \"N\",\r
 
-    \        {\r
+    \    //         \"beneficiaryPartyMapId\": \"cae4158b-2d53-431b-a1c3-7f86d67e5d0b\",\r
 
-    \            \"typeOfUpdate\": \"N\",\r
+    \    //         \"relationshipTypeCode\": \"B_1\",\r
 
-    \            \"VMI_RegistrationNumber\": \"51\",\r
+    \    //         \"validFrom\": \"2026-01-01\"\r
 
-    \            \"EKA_UniqueNumber\": \"EKAUN98765\",\r
+    \    //         //\"validTo\": \"2099-12-31\",\r
 
-    \            \"EKA_Number\": \"EKAN54321\",\r
+    \    //         //\"cancelationDate\": \"2099-12-31\",\r
 
-    \            \"EKA_NR_UniqueNumber\": \"EKANRUN67890\",\r
+    \    //         //\"cancelationReasonCode\": \"OTHER\"\r
 
-    \            \"cashRegisterName\": \"Main POS\",\r
+    \    //     }\r
 
-    \            \"cashRegisterTypeCode\": \"51\",\r
+    \    // ],\r
 
-    \            \"statusCode\": \"9\",\r
+    \    // \"participants\": [\r
 
-    \            \"statusDate\": \"2025-03-02\",\r
+    \    //     {\r
 
-    \            \"addressObjectTypeCode\": \"APS\",\r
+    \    //         \"typeOfUpdate\": \"N\",\r
 
-    \            \"addressId\": \"addr-unit-001\",\r
+    \    //         \"relationshipTypeCode\": \"P_MB\",\r
 
-    \            \"validFrom\": \"2025-03-01\"\r
+    \    //         \"participantPartyMapId\": \"cae4158b-2d53-431b-a1c3-7f86d67e5d0b\",\r
 
-    \            //\"validTo\": \"2099-12-31\",\r
+    \    //         \"validFrom\": \"2026-01-01\"\r
 
-    \            //\"cancelationDate\": \"2099-12-31\",\r
+    \    //         //\"validTo\": \"2099-12-31\",\r
 
-    \            //\"cancelationReasonCode\": \"OTHER\"\r
+    \    //         //\"cancelationDate\": \"2099-12-31\",\r
 
-    \        }\r
+    \    //         //\"cancelationReasonCode\": \"OTHER\"\r
 
-    \    ],\r
+    \    //     }\r
 
-    \    \"rightsTransfers\": [\r
+    \    // ],\r
 
-    \        {\r
+    \    // \"cashRegisters\": [\r
 
-    \            \"typeOfUpdate\": \"N\",\r
+    \    //     {\r
 
-    \            \"relationshipTypeCode\": \"I_101\",\r
+    \    //         \"typeOfUpdate\": \"N\",\r
 
-    \            \"partyMapId\": \"cae4158b-2d53-431b-a1c3-7f86d67e5d0b\",\r
+    \    //         \"VMI_RegistrationNumber\": \"51\",\r
 
-    \            \"jarId\": \"306123456\",\r
+    \    //         \"EKA_UniqueNumber\": \"EKAUN98765\",\r
 
-    \            \"validFrom\": \"2025-03-01\"\r
+    \    //         \"EKA_Number\": \"EKAN54321\",\r
 
-    \            //\"validTo\": \"2099-12-31\",\r
+    \    //         \"EKA_NR_UniqueNumber\": \"EKANRUN67890\",\r
 
-    \            //\"cancelationDate\": \"2099-12-31\",\r
+    \    //         \"cashRegisterName\": \"Main POS\",\r
 
-    \            //\"cancelationReasonCode\": \"OTHER\"\r
+    \    //         \"cashRegisterTypeCode\": \"51\",\r
 
-    \        }\r
+    \    //         \"statusCode\": \"9\",\r
 
-    \    ],\r
+    \    //         \"statusDate\": \"2025-03-02\",\r
 
-    \    \"budgetaryInstitutions\": [\r
+    \    //         \"addressObjectTypeCode\": \"APS\",\r
 
-    \        {\r
+    \    //         \"addressId\": \"addr-unit-001\",\r
 
-    \            \"typeOfUpdate\": \"N\",\r
+    \    //         \"validFrom\": \"2026-01-01\"\r
 
-    \            \"relationshipTypeCode\": \"R_1\",\r
+    \    //         //\"validTo\": \"2099-12-31\",\r
 
-    \            \"institutionPartyMapId\":
-    \"cae4158b-2d53-431b-a1c3-7f86d67e5d0b\",\r
+    \    //         //\"cancelationDate\": \"2099-12-31\",\r
 
-    \            \"validFrom\": \"2025-03-01\"\r
+    \    //         //\"cancelationReasonCode\": \"OTHER\"\r
 
-    \            //\"validTo\": \"2099-12-31\",\r
+    \    //     }\r
 
-    \            //\"cancelationDate\": \"2099-12-31\",\r
+    \    // ],\r
 
-    \            //\"cancelationReasonCode\": \"OTHER\"\r
+    \    // \"rightsTransfers\": [\r
 
-    \        }\r
+    \    //     {\r
 
-    \    ],\r
+    \    //         \"typeOfUpdate\": \"N\",\r
 
-    \    \"licenses\": [\r
+    \    //         \"relationshipTypeCode\": \"I_101\",\r
 
-    \        {\r
+    \    //         \"partyMapId\": \"cae4158b-2d53-431b-a1c3-7f86d67e5d0b\",\r
 
-    \            \"typeOfUpdate\": \"N\",\r
+    \    //         \"jarId\": \"306123456\",\r
 
-    \            \"licenseTypeCode\": \"1188\",\r
+    \    //         \"validFrom\": \"2026-01-01\"\r
 
-    \            \"licenseDateFrom\": \"2025-03-03\",\r
+    \    //         //\"validTo\": \"2099-12-31\",\r
 
-    \            \"licenseNumber\": \"LIC-FS-2025-001\",\r
+    \    //         //\"cancelationDate\": \"2099-12-31\",\r
 
-    \            \"issueDate\": \"2025-03-02\",\r
+    \    //         //\"cancelationReasonCode\": \"OTHER\"\r
 
-    \            \"issuerMapId\": \"cae4158b-2d53-431b-a1c3-7f86d67e5d0b\",\r
+    \    //     }\r
 
-    \            \"documentTypeCode\": \"28\",\r
+    \    // ],\r
 
-    \            \"statusCode\": \"ISD\",\r
+    \    // \"budgetaryInstitutions\": [\r
 
-    \            \"statusDateFrom\": \"2025-03-03\",\r
+    \    //     {\r
 
-    \            \"statusDateTo\": \"2026-10-01\",\r
+    \    //         \"typeOfUpdate\": \"N\",\r
 
-    \            \"validFrom\": \"2025-03-01\",\r
+    \    //         \"relationshipTypeCode\": \"R_1\",\r
 
-    \            //\"validTo\": \"2026-10-01\",\r
+    \    //         \"institutionPartyMapId\": \"cae4158b-2d53-431b-a1c3-7f86d67e5d0b\",\r
 
-    \            //\"cancelationDate\": \"2026-10-01\",\r
+    \    //         \"validFrom\": \"2026-01-01\"\r
 
-    \            //\"cancelationReasonCode\": \"OTHER\",\r
+    \    //         //\"validTo\": \"2099-12-31\",\r
 
-    \            \"activities\": [\r
+    \    //         //\"cancelationDate\": \"2099-12-31\",\r
 
-    \                {\r
+    \    //         //\"cancelationReasonCode\": \"OTHER\"\r
 
-    \                    \"typeOfUpdate\": \"N\",\r
+    \    //     }\r
 
-    \                    \"activityTypeCode\": \"3146\",\r
+    \    // ],\r
 
-    \                    \"addressObjectTypeCode\": \"APS\",\r
+    \    // \"licenses\": [\r
 
-    \                    \"addressId\": \"addr-123456789\",\r
+    \    //     {\r
 
-    \                    \"validFrom\": \"2025-03-03\"\r
+    \    //         \"typeOfUpdate\": \"N\",\r
 
-    \                    //\"cancelationDate\": \"2026-10-01\",\r
+    \    //         \"licenseTypeCode\": \"1188\",\r
 
-    \                    //\"cancelationReasonCode\": \"OTHER\"\r
+    \    //         \"licenseDateFrom\": \"2025-03-03\",\r
 
-    \                }\r
+    \    //         \"licenseNumber\": \"LIC-FS-2025-001\",\r
 
-    \            ]\r
+    \    //         \"issueDate\": \"2025-03-02\",\r
 
-    \        }\r
+    \    //         \"issuerMapId\": \"cae4158b-2d53-431b-a1c3-7f86d67e5d0b\",\r
 
-    \    ],\r
+    \    //         \"documentTypeCode\": \"28\",\r
 
-    \    \"documents\": [\r
+    \    //         \"statusCode\": \"ISD\",\r
 
-    \        {\r
+    \    //         \"statusDateFrom\": \"2025-03-03\",\r
 
-    \            \"typeOfUpdate\": \"N\",\r
+    \    //         \"statusDateTo\": \"2026-10-01\",\r
 
-    \            \"documentTypeCode\": \"7\",\r
+    \    //         \"validFrom\": \"2025-03-01\",\r
 
-    \            \"documentNumber\": \"AOA-2025-11-20\",\r
+    \    //         //\"validTo\": \"2026-10-01\",\r
 
-    \            \"issueCountryCode\": \"LT\",\r
+    \    //         //\"cancelationDate\": \"2026-10-01\",\r
 
-    \            \"issueDate\": \"2025-03-02\",\r
+    \    //         //\"cancelationReasonCode\": \"OTHER\",\r
 
-    \            \"expirationDate\": \"2099-12-31\",\r
+    \    //         \"activities\": [\r
 
-    \            \"deliveryDate\": \"2025-03-03\",\r
+    \    //             {\r
 
-    \            \"validFrom\": \"2025-03-01\"\r
+    \    //                 \"typeOfUpdate\": \"N\",\r
 
-    \            //\"validTo\": \"2099-12-31\",\r
+    \    //                 \"activityTypeCode\": \"3146\",\r
 
-    \            //\"cancelationDate\": \"2099-12-31\",\r
+    \    //                 \"addressObjectTypeCode\": \"APS\",\r
 
-    \            //\"cancelationReasonCode\": \"OTHER\"\r
+    \    //                 \"addressId\": \"addr-123456789\",\r
 
-    \        }\r
+    \    //                 \"validFrom\": \"2025-03-03\"\r
 
-    \    ]\r
+    \    //                 //\"cancelationDate\": \"2026-10-01\",\r
+
+    \    //                 //\"cancelationReasonCode\": \"OTHER\"\r
+
+    \    //             }\r
+
+    \    //         ]\r
+
+    \    //     }\r
+
+    \    // ],\r
+
+    \    // \"documents\": [\r
+
+    \    //     {\r
+
+    \    //         \"typeOfUpdate\": \"N\",\r
+
+    \    //         \"documentTypeCode\": \"7\",\r
+
+    \    //         \"documentNumber\": \"AOA-2025-11-20\",\r
+
+    \    //         \"issueCountryCode\": \"LT\",\r
+
+    \    //         \"issueDate\": \"2025-03-02\",\r
+
+    \    //         \"expirationDate\": \"2099-12-31\",\r
+
+    \    //         \"deliveryDate\": \"2025-03-03\",\r
+
+    \    //         \"validFrom\": \"2026-01-01\"\r
+
+    \    //         //\"validTo\": \"2099-12-31\",\r
+
+    \    //         //\"cancelationDate\": \"2099-12-31\",\r
+
+    \    //         //\"cancelationReasonCode\": \"OTHER\"\r
+
+    \    //     }\r
+
+    \    // ]\r
 
     }"
 order: 2000

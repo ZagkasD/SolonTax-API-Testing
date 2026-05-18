@@ -12,8 +12,6 @@ body:
 
     \    \"sourceOfInformationCode\": \"10\", //GR\r
 
-    \    \"isCreate\": true,\r
-
     \    \"basicPersonalData\": {\r
 
     \        \"typeOfUpdate\": \"N\",\r
@@ -32,7 +30,7 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"firstName\": \"Dimos GR V\",\r
+    \            \"firstName\": \"Dimos GR TRY\",\r
 
     \            \"lastName\": \"Zagkas\",\r
 
@@ -52,7 +50,7 @@ body:
 
     \            \"identifierTypeCode\": \"2\", //Personal Code\r
 
-    \            \"identifierValue\": \"98765342378\",\r
+    \            \"identifierValue\": \"985634490298\",\r
 
     \            \"countryCode\": \"LT\",\r
 
@@ -68,11 +66,11 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"addressId\": \"4173163572251\",\r
+    \            \"addressId\": \"3300772154\",\r
 
     \            \"addressTypeCode\": \"5\", //Place of residence in GR\r
 
-    \            \"addressObjectTypeCode\": \"A_KOM\", //This is necessary\r
+    \            \"addressObjectTypeCode\": \"SEN\", //Eldership\r
 
     \            \"validFrom\": \"2000-01-01\"\r
 

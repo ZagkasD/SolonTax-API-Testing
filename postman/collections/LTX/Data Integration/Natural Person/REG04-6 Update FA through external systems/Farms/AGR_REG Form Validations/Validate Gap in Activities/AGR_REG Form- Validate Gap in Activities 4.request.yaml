@@ -53,7 +53,8 @@ body:
 
     \            \"isNatural\": true,\r
 
-    \            \"ownerPartyId\": \"421669c5-a4f5-4fb5-a2c3-276ec333aa8a\", //FA\r
+    \            \"ownerPartyId\": \"7828f05d-187a-47df-ada5-8054f4416915\",
+    //FA\r
 
     \            \"validFrom\": \"2026-01-01\",\r
 
@@ -63,7 +64,8 @@ body:
 
     \                    \"typeOfUpdate\": \"N\", //Read\r
 
-    \                    \"mmTypeCode\": \"203\", // The only available mmtype of owner\r
+    \                    \"mmTypeCode\": \"203\", // The only available mmtype
+    of owner\r
 
     \                    \"validFrom\": \"2026-01-01\",\r
 
@@ -113,7 +115,8 @@ body:
 
     \            \"isNatural\": true,\r
 
-    \            \"partnerPartyId\": \"07c04082-9093-46e9-8847-a56ec46b1b60\", //FA\r
+    \            \"partnerPartyId\": \"e083dd8b-2be2-4e2e-9f8c-21365d68df12\",
+    //FA\r
 
     \            \"validFrom\": \"2026-01-01\",\r
 
@@ -123,7 +126,8 @@ body:
 
     \                    \"typeOfUpdate\": \"N\",\r
 
-    \                    \"mmTypeCode\": \"222\", // The only available mmtype of partner\r
+    \                    \"mmTypeCode\": \"222\", // The only available mmtype
+    of partner\r
 
     \                    \"validFrom\": \"2026-01-01\",\r
 
@@ -199,4 +203,4 @@ body:
 
     }"
 examples: .resources/AGR_REG Form- Validate Gap in Activities 4.resources/examples
-order: 5000
+order: 4000

@@ -174,4 +174,4 @@ body:
 
     }"
 examples: .resources/addressTypeCode.resources/examples
-order: 16000
+order: 17000

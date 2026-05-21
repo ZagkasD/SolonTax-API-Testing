@@ -54,7 +54,8 @@ body:
 
     \            \"isNatural\": true,\r
 
-    \            \"ownerPartyId\": \"d9fbb0f7-c42c-4a7f-b0d7-45f892bd5e99\", //FA\r
+    \            \"ownerPartyId\": \"d9fbb0f7-c42c-4a7f-b0d7-45f892bd5e99\",
+    //FA\r
 
     \            \"validFrom\": \"2026-01-01\",\r
 
@@ -64,7 +65,8 @@ body:
 
     \                    \"typeOfUpdate\": \"N\",\r
 
-    \                    \"mmTypeCode\": \"248\", // The only available mmtype of owner\r
+    \                    \"mmTypeCode\": \"248\", // The only available mmtype
+    of owner\r
 
     \                    \"validFrom\": \"2026-01-01\"\r
 

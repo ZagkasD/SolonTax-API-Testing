@@ -6,4 +6,6 @@ values:
     value: ''
   - key: legal-person-endpoint
     value: ''
+  - key: residence-certificates
+    value: ''
 color: 0

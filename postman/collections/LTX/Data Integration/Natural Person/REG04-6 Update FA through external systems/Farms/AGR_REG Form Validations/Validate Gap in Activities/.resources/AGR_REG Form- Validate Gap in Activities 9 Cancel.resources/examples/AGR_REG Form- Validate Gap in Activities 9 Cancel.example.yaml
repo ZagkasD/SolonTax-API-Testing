@@ -1,0 +1,208 @@
+$kind: http-example
+name: "AGR_REG Form: Validate Gap in Activities 9 Cancel"
+description: |-
+  # Scenario: Cancel activity under mmType that leaves gap.
+
+  **Set up for both owner and partner:**
+
+  **First Register:**  
+  **MMType: 2026-01-01 - open**  
+  **Activity 1: 2026-01-01- 2026-01-10**  
+  **Activity 2: 2026-01-11 - 2026-05-01**  
+  **Activity 3: 2026-05-02 - open**  
+  **Then cancel activity 2**
+request:
+  url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/farm-data
+  method: POST
+  body:
+    type: json
+    content: "{\r
+
+      \    \"requestId\": \"requestId_Zagkas\",\r
+
+      \    \"dateOfInformation\": \"2026-01-22\",\r
+
+      \    \"mapId\":\"e344174e-a844-4410-9d01-4404107d2ba8\",\r
+
+      \    \"sourceOfInformationCode\": \"44\",\ 
+
+      \    \"owners\": [\r
+
+      \        {\r
+
+      \            \"typeOfUpdate\": \"R\",\r
+
+      \            \"isNatural\": true,\r
+
+      \            \"ownerPartyId\": \"7828f05d-187a-47df-ada5-8054f4416915\",\ 
+
+      \            \"validFrom\": \"2026-01-01\",\r
+
+      \            \"mmTypes\": [\r
+
+      \                {\r
+
+      \                    \"typeOfUpdate\": \"R\",\r
+
+      \                    \"mmTypeCode\": \"203\",\ 
+
+      \                    \"validFrom\": \"2026-01-01\",\r
+
+      \                    \"activities\": [\r
+
+      \                        {\r
+
+      \                            \"typeOfUpdate\": \"R\",\r
+
+      \                            \"activityTypeCode\": \"011100\",\ 
+
+      \                            \"isMain\": true,\r
+
+      \                            \"validFrom\": \"2026-01-01\",\r
+
+      \                            \"validTo\":\"2026-01-10\"\r
+
+      \                        },\r
+
+      \                        {\r
+
+      \                            \"typeOfUpdate\": \"C\",\r
+
+      \                            \"activityTypeCode\": \"011100\",\ 
+
+      \                            \"isMain\": true,\r
+
+      \                            \"validFrom\": \"2026-01-11\",\r
+
+      \                            \"validTo\":\"2026-05-01\",\r
+
+      \                            \"cancelationDate\":\"2026-01-11\",\r
+
+      \                            \"cancelationReasonCode\":\"OTHER\"\r
+
+      \                        },\r
+
+      \                        {\r
+
+      \                            \"typeOfUpdate\": \"R\",\r
+
+      \                            \"activityTypeCode\": \"011100\",\ 
+
+      \                            \"isMain\": true,\r
+
+      \                            \"validFrom\": \"2026-05-02\"\r
+
+      \                        }\r
+
+      \                    ]\r
+
+      \                }\r
+
+      \            ]\r
+
+      \        }\r
+
+      \    ],\r
+
+      \    \"partners\": [\r
+
+      \        {\r
+
+      \            \"typeOfUpdate\": \"R\",\r
+
+      \            \"isNatural\": true,\r
+
+      \            \"partnerPartyId\": \"e083dd8b-2be2-4e2e-9f8c-21365d68df12\",\ 
+
+      \            \"validFrom\": \"2026-01-01\",\r
+
+      \            \"mmTypes\": [\r
+
+      \                {\r
+
+      \                    \"typeOfUpdate\": \"R\",\r
+
+      \                    \"mmTypeCode\": \"222\",\ 
+
+      \                    \"validFrom\": \"2026-01-01\",\r
+
+      \                    \"activities\": [\r
+
+      \                        {\r
+
+      \                            \"typeOfUpdate\": \"R\",\r
+
+      \                            \"activityTypeCode\": \"011100\",\ 
+
+      \                            \"isMain\": true,\r
+
+      \                            \"validFrom\": \"2026-01-01\",\r
+
+      \                            \"validTo\":\"2026-01-10\"\r
+
+      \                        },\r
+
+      \                        {\r
+
+      \                            \"typeOfUpdate\": \"N\",\r
+
+      \                            \"activityTypeCode\": \"011100\",\ 
+
+      \                            \"isMain\": true,\r
+
+      \                            \"validFrom\": \"2026-01-11\",\r
+
+      \                            \"validTo\":\"2026-05-01\",\r
+
+      \                            \"cancelationDate\":\"2026-01-11\",\r
+
+      \                            \"cancelationReasonCode\":\"OTHER\"\r
+
+      \                        },\r
+
+      \                        {\r
+
+      \                            \"typeOfUpdate\": \"R\",\r
+
+      \                            \"activityTypeCode\": \"011100\",\ 
+
+      \                            \"isMain\": true,\r
+
+      \                            \"validFrom\": \"2026-05-02\"\r
+
+      \                        }\r
+
+      \                    ]\r
+
+      \                }\r
+
+      \            ]\r
+
+      \        }\r
+
+      \    ]\r
+
+      }"
+response:
+  statusCode: 200
+  statusText: ""
+  headers:
+    date: Mon, 18 May 2026 10:31:28 GMT
+    content-type: application/json
+    transfer-encoding: chunked
+    connection: keep-alive
+    x-content-type-options: nosniff
+    x-xss-protection: "0"
+    cache-control: no-cache, no-store, max-age=0, must-revalidate
+    pragma: no-cache
+    expires: "0"
+    strict-transport-security: max-age=31536000; includeSubDomains
+    x-frame-options: DENY
+  body:
+    type: json
+    content: |-
+      {
+        "requestId": "requestId_Zagkas",
+        "processingId": "03f1fa5d-f1e2-40dd-92d9-d5f24cd04772"
+      }
+order: 1779100298662

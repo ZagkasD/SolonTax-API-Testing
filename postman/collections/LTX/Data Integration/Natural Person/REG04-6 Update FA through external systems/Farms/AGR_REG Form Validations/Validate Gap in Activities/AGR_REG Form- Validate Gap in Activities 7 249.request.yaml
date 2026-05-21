@@ -54,7 +54,8 @@ body:
 
     \            \"isNatural\": true,\r
 
-    \            \"ownerPartyId\": \"63d3cd90-303c-4181-b11b-05b8065cbd4f\", //FA\r
+    \            \"ownerPartyId\": \"63d3cd90-303c-4181-b11b-05b8065cbd4f\",
+    //FA\r
 
     \            \"validFrom\": \"2026-01-01\",\r
 
@@ -64,7 +65,8 @@ body:
 
     \                    \"typeOfUpdate\": \"N\",\r
 
-    \                    \"mmTypeCode\": \"249\", // The only available mmtype of owner\r
+    \                    \"mmTypeCode\": \"249\", // The only available mmtype
+    of owner\r
 
     \                    \"validFrom\": \"2026-01-01\"\r
 
@@ -110,4 +112,4 @@ body:
 
     }"
 examples: .resources/AGR_REG Form- Validate Gap in Activities 7 249.resources/examples
-order: 7000
+order: 8000

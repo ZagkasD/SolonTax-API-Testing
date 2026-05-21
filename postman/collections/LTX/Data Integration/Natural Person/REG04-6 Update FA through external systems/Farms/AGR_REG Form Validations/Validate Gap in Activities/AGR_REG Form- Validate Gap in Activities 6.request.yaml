@@ -52,7 +52,8 @@ body:
 
     \            \"isNatural\": true,\r
 
-    \            \"ownerPartyId\": \"2d7ac08f-ae24-4f3c-970c-6ead83710eb8\", //FA\r
+    \            \"ownerPartyId\": \"2d7ac08f-ae24-4f3c-970c-6ead83710eb8\",
+    //FA\r
 
     \            \"validFrom\": \"2026-01-01\",\r
 
@@ -62,7 +63,8 @@ body:
 
     \                    \"typeOfUpdate\": \"N\",\r
 
-    \                    \"mmTypeCode\": \"203\", // The only available mmtype of owner\r
+    \                    \"mmTypeCode\": \"203\", // The only available mmtype
+    of owner\r
 
     \                    \"validFrom\": \"2026-01-01\",\r
 
@@ -102,7 +104,8 @@ body:
 
     \            \"isNatural\": true,\r
 
-    \            \"partnerPartyId\": \"927a407b-6695-4ebb-864d-a3ae9e887327\", //FA\r
+    \            \"partnerPartyId\": \"927a407b-6695-4ebb-864d-a3ae9e887327\",
+    //FA\r
 
     \            \"validFrom\": \"2026-01-01\",\r
 
@@ -112,7 +115,8 @@ body:
 
     \                    \"typeOfUpdate\": \"N\",\r
 
-    \                    \"mmTypeCode\": \"222\", // The only available mmtype of partner\r
+    \                    \"mmTypeCode\": \"222\", // The only available mmtype
+    of partner\r
 
     \                    \"validFrom\": \"2026-01-01\",\r
 

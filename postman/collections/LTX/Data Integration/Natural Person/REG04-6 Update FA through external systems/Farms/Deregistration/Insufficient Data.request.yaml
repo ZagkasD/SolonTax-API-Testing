@@ -49,7 +49,8 @@ body:
 
     \            \"isNatural\": true,\r
 
-    \            \"ownerPartyId\": \"de5ec5ae-a875-4ac8-9c76-402287376276\", //FA\r
+    \            \"ownerPartyId\": \"de5ec5ae-a875-4ac8-9c76-402287376276\",
+    //FA\r
 
     \            \"validFrom\": \"2026-01-01\",\r
 
@@ -61,7 +62,8 @@ body:
 
     \                    \"typeOfUpdate\": \"K\",\r
 
-    \                    \"mmTypeCode\": \"203\", // The only available mmtype of owner\r
+    \                    \"mmTypeCode\": \"203\", // The only available mmtype
+    of owner\r
 
     \                    \"validFrom\": \"2026-01-01\",\r
 
@@ -101,7 +103,8 @@ body:
 
     \            \"isNatural\": true,\r
 
-    \            \"partnerPartyId\": \"7fa3ffa5-a498-420d-85db-9e458c531b8d\", //FA\r
+    \            \"partnerPartyId\": \"7fa3ffa5-a498-420d-85db-9e458c531b8d\",
+    //FA\r
 
     \            \"validFrom\": \"2026-01-01\",\r
 
@@ -113,7 +116,8 @@ body:
 
     \                    \"typeOfUpdate\": \"K\",\r
 
-    \                    \"mmTypeCode\": \"222\", // The only available mmtype of partner\r
+    \                    \"mmTypeCode\": \"222\", // The only available mmtype
+    of partner\r
 
     \                    \"validFrom\": \"2026-01-01\",\r
 
@@ -193,4 +197,4 @@ body:
 
     }"
 examples: .resources/Insufficient Data.resources/examples
-order: 4177987733815512
+order: 5000

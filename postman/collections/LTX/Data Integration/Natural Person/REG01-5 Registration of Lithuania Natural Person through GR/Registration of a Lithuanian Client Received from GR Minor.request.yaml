@@ -1,5 +1,5 @@
 $kind: http-request
-name: Registration of a Lithuanian Client Received from GR Test Address
+name: Registration of a Lithuanian Client Received from GR Minor
 url: "{{natural-person-endpoint}}"
 method: POST
 body:
@@ -20,7 +20,7 @@ body:
 
     \        \"gender\": \"V\",\r
 
-    \        \"dateOfBirth\": \"2000-01-01\"\r
+    \        \"dateOfBirth\": \"2013-01-01\"\r
 
     \    },\r
 
@@ -30,7 +30,7 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"firstName\": \"Dimos GR WY\",\r
+    \            \"firstName\": \"Dimos GR WK Minor\",\r
 
     \            \"lastName\": \"Zagkas\",\r
 
@@ -50,7 +50,7 @@ body:
 
     \            \"identifierTypeCode\": \"2\", //Personal Code\r
 
-    \            \"identifierValue\": \"943463576450298\",\r
+    \            \"identifierValue\": \"kljdas9fya8d7sy\",\r
 
     \            \"countryCode\": \"LT\",\r
 
@@ -66,7 +66,7 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"addressId\": \"3300772153\",\r
+    \            \"addressId\": \"3300772154\",\r
 
     \            \"addressTypeCode\": \"5\", //Place of residence in GR\r
 
@@ -114,11 +114,9 @@ body:
 
     \    //         \"typeOfUpdate\": \"N\",\r
 
-    \    //         \"representativePartyMapId\":
-    \"f2af60d0-8676-4ec6-bb14-3d9031f115ae\",\r
+    \    //         \"representativePartyMapId\": \"f2af60d0-8676-4ec6-bb14-3d9031f115ae\",\r
 
-    \    //         \"representativeTypeCode\": \"29\", //Tenant of the
-    community\r
+    \    //         \"representativeTypeCode\": \"29\", //Tenant of the community\r
 
     \    //         \"validFrom\": \"2000-01-01\",\r
 
@@ -140,8 +138,7 @@ body:
 
     \    //         \"relationshipTypeCode\": \"I_102\",\r
 
-    \    //         \"relatedPartyMapId\":
-    \"c0f4bd3f-6036-467f-8587-68bce0a35acb\",\r
+    \    //         \"relatedPartyMapId\": \"c0f4bd3f-6036-467f-8587-68bce0a35acb\",\r
 
     \    //         \"validFrom\": \"2016-01-01\"\r
 
@@ -150,4 +147,4 @@ body:
     \    // ]\r
 
     }"
-order: 2000
+order: 3674

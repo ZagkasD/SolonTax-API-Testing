@@ -12,7 +12,8 @@ body:
 
     \  \"dateOfInformation\": \"2026-04-17\",\r
 
-    \  \"sourceOfInformationCode\": \"6004\", //ITIS_EU IS (Information Systems)\r
+    \  \"sourceOfInformationCode\": \"6004\", //ITIS_EU IS (Information
+    Systems)\r
 
     \  \"accountDetails\": {\r
 
@@ -30,7 +31,8 @@ body:
 
     \    \"validFrom\": \"2026-01-01\",\r
 
-    \    \"ownerPartyId\": \"6cb2a9b2-28bf-41fd-842b-f43a4c646e1a\" //Natural person\r
+    \    \"ownerPartyId\": \"6cb2a9b2-28bf-41fd-842b-f43a4c646e1a\" //Natural
+    person\r
 
     \  },\r
 
@@ -63,4 +65,4 @@ body:
     \  ]\r
 
     }"
-order: 13796
+order: 14000

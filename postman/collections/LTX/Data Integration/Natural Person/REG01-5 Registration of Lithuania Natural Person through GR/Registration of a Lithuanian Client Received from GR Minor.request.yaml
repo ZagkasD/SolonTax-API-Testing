@@ -30,7 +30,7 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"firstName\": \"Dimos GR WK Minor\",\r
+    \            \"firstName\": \"Dimos GR WP Minor\",\r
 
     \            \"lastName\": \"Zagkas\",\r
 
@@ -50,7 +50,7 @@ body:
 
     \            \"identifierTypeCode\": \"2\", //Personal Code\r
 
-    \            \"identifierValue\": \"kljdas9fya8d7sy\",\r
+    \            \"identifierValue\": \"kljjlkfgjhks9fya8d7sy\",\r
 
     \            \"countryCode\": \"LT\",\r
 
@@ -103,6 +103,26 @@ body:
     \            \"citizenshipCode\": \"LT\",\r
 
     \            \"validFrom\": \"2000-01-01\"\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"documents\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"documentTypeCode\": \"2\", //Birth certificate\r
+
+    \            \"documentNumber\": \"3948789\",\r
+
+    \            \"issueCountryCode\": \"LT\",\r
+
+    \            \"avdNumber\":\"987439\",\r
+
+    \            \"validFrom\": \"2026-01-01\"\r
 
     \        }\r
 

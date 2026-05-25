@@ -118,7 +118,8 @@ body:
 
     \            \"relationshipTypeCode\": \"I_100\", //Marriage\r
 
-    \            \"relatedPartyMapId\": \"46d1ea48-ed34-4e2a-a7c2-ee4baa56ebad\",\r
+    \            \"relatedPartyMapId\":
+    \"46d1ea48-ed34-4e2a-a7c2-ee4baa56ebad\",\r
 
     \            \"maritalStatusCode\": \"I\",\r
 
@@ -150,7 +151,8 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"groupTypeCode\": \"5\", // Payer of state social insurance contributions (policyholder)\r
+    \            \"groupTypeCode\": \"5\", // Payer of state social insurance
+    contributions (policyholder)\r
 
     \            \"validFrom\": \"2026-01-01\"\r
 
@@ -164,7 +166,8 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"documentTypeCode\": \"1\", //Passsport of a citizen of the Republic of Lithuania\r
+    \            \"documentTypeCode\": \"1\", //Passsport of a citizen of the
+    Republic of Lithuania\r
 
     \            \"documentNumber\": \"143252143\",\r
 

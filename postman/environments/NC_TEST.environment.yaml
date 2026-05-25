@@ -4,4 +4,8 @@ values:
     value: ''
   - key: natural-person-endpoint
     value: ''
+  - key: legal-person-endpoint
+    value: ''
+  - key: residence-certificates-endpoint
+    value: ''
 color: 240

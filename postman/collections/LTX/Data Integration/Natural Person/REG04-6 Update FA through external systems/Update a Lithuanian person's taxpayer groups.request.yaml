@@ -12,7 +12,8 @@ body:
 
     \    \"dateOfInformation\": \"2026-04-07\",\r
 
-    \    \"sourceOfInformationCode\": \"6004\", //ITIS_EU IS (Information Systems)\r
+    \    \"sourceOfInformationCode\": \"6004\", //ITIS_EU IS (Information
+    Systems)\r
 
     \    \"groups\": [\r
 
@@ -32,7 +33,8 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"groupTypeCode\": \"15\", // A different VAT calculation method is applied\r
+    \            \"groupTypeCode\": \"15\", // A different VAT calculation
+    method is applied\r
 
     \            \"firstYear\":\"2026-06-01\",\r
 
@@ -45,4 +47,4 @@ body:
     \    ]\r
 
     }"
-order: 10000
+order: 12000

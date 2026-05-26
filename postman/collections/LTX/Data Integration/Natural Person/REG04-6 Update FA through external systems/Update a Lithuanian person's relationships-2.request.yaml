@@ -8,7 +8,8 @@ body:
 
     \    \"requestId\": \"requestId_00002\",\r
 
-    \    \"mapId\": \"44ecb87d-664c-4ea3-9dd9-68371a1f70bd\", //Dimos Twelve GR\r
+    \    \"mapId\": \"44ecb87d-664c-4ea3-9dd9-68371a1f70bd\", //Dimos Twelve
+    GR\r
 
     \    \"dateOfInformation\": \"2026-01-01\",\r
 
@@ -22,7 +23,8 @@ body:
 
     \        //     \"relationshipTypeCode\": \"I_100\",\r
 
-    \        //     \"relatedPartyMapId\": \"eeac9e05-3dec-4291-80ac-30399a5fc2f4\",\r
+    \        //     \"relatedPartyMapId\":
+    \"eeac9e05-3dec-4291-80ac-30399a5fc2f4\",\r
 
     \        //     \"validFrom\": \"2016-01-01\",\r
 
@@ -36,7 +38,8 @@ body:
 
     \            \"relationshipTypeCode\": \"I_101\", //Father\r
 
-    \            \"relatedPartyMapId\": \"ae1be225-448c-4af3-8454-d4715f6c771d\",\r
+    \            \"relatedPartyMapId\":
+    \"ae1be225-448c-4af3-8454-d4715f6c771d\",\r
 
     \            \"validFrom\": \"2016-01-01\"\r
 
@@ -45,4 +48,4 @@ body:
     \    ]\r
 
     }"
-order: 9000
+order: 11000

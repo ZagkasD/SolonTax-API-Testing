@@ -1,0 +1,32 @@
+$kind: http-request
+name: Terminate FA without issue date in Docs
+url: "{{natural-person-endpoint}} "
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"requestId\": \"requestId_Zagkas\",\r
+
+    \    \"dateOfInformation\": \"2026-01-01\",\r
+
+    \    \"mapId\": \"aec0481b-6b2b-47c0-b7a3-2598529ebd4e\",\r
+
+    \    \"sourceOfInformationCode\": \"10\", //GR,\r
+
+    \    \"basicPersonalData\": {\r
+
+    \        \"typeOfUpdate\": \"K\",\r
+
+    \        \"placeOfBirth\": \"LT\",\r
+
+    \        \"gender\": \"V\",\r
+
+    \        \"dateOfBirth\": \"2013-01-01\",\r
+
+    \        \"dateOfDeath\": \"2026-01-01\" //This is the only necessary information for deregistration\r
+
+    \    }\r
+
+    }"
+order: 3149870253736236

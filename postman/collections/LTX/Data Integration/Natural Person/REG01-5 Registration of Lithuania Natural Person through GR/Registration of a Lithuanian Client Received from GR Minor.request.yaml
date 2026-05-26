@@ -30,7 +30,7 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"firstName\": \"Dimos GR WP Minor\",\r
+    \            \"firstName\": \"Dimos GR WX Minor\",\r
 
     \            \"lastName\": \"Zagkas\",\r
 
@@ -50,7 +50,7 @@ body:
 
     \            \"identifierTypeCode\": \"2\", //Personal Code\r
 
-    \            \"identifierValue\": \"kljjlkfgjhks9fya8d7sy\",\r
+    \            \"identifierValue\": \"gfsdhdjuytj45534\",\r
 
     \            \"countryCode\": \"LT\",\r
 
@@ -116,13 +116,15 @@ body:
 
     \            \"documentTypeCode\": \"2\", //Birth certificate\r
 
-    \            \"documentNumber\": \"3948789\",\r
+    \            \"documentNumber\": \"grefdsdsfg\",\r
 
     \            \"issueCountryCode\": \"LT\",\r
 
-    \            \"avdNumber\":\"987439\",\r
+    \            // \"issueDate\": \"2000-01-01\",\r
 
-    \            \"validFrom\": \"2026-01-01\"\r
+    \            \"avdNumber\": \"gfdgwre\",\r
+
+    \            \"validFrom\": \"2000-01-01\"\r
 
     \        }\r
 
@@ -167,4 +169,4 @@ body:
     \    // ]\r
 
     }"
-order: 3674
+order: 4000

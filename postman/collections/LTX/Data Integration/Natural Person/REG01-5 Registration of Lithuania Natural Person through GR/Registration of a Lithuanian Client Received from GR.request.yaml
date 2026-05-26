@@ -30,7 +30,7 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"firstName\": \"Dimos GR WOP\",\r
+    \            \"firstName\": \"Dimos GR WOL\",\r
 
     \            \"lastName\": \"Zagkas\",\r
 
@@ -50,7 +50,7 @@ body:
 
     \            \"identifierTypeCode\": \"2\", //Personal Code\r
 
-    \            \"identifierValue\": \"gtrehet\",\r
+    \            \"identifierValue\": \"rfrgwe6543635\",\r
 
     \            \"countryCode\": \"LT\",\r
 
@@ -106,6 +106,28 @@ body:
 
     \        }\r
 
+    \    ],\r
+
+    \    \"documents\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"documentTypeCode\": \"10\", \r
+
+    \            \"documentNumber\": \"grefdsdsfg\",\r
+
+    \            \"issueCountryCode\": \"LT\",\r
+
+    \            // \"issueDate\": \"2000-01-01\",\r
+
+    \            \"avdNumber\": \"gfdgwre\",\r
+
+    \            \"validFrom\": \"2000-01-01\"\r
+
+    \        }\r
+
     \    ]\r
 
     \    // \"representatives\": [\r
@@ -147,4 +169,4 @@ body:
     \    // ]\r
 
     }"
-order: 4000
+order: 5000

@@ -1,0 +1,58 @@
+$kind: http-request
+name: Update Lithuanian Minor from GR
+url: "{{natural-person-endpoint}}"
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"requestId\": \"requestId_Zagkas\",\r
+
+    \    \"dateOfInformation\": \"2026-01-01\",\r
+
+    \    \"mapId\": \"1b68acb8-0916-407b-b6f2-9a50cef56657\",\r
+
+    \    \"sourceOfInformationCode\": \"10\", //GR\r
+
+    \    \"documents\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"documentTypeCode\": \"10\", //Birth certificate\r
+
+    \            \"documentNumber\": \"grefdsdsfg\",\r
+
+    \            \"issueCountryCode\": \"LT\",\r
+
+    \            // \"issueDate\": \"2000-01-01\",\r
+
+    \            \"avdNumber\": \"gfdgwre\",\r
+
+    \            \"validFrom\": \"2000-01-01\"\r
+
+    \        },\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"documentTypeCode\": \"10\", //Birth certificate\r
+
+    \            \"documentNumber\": \"grefdsdsfg\",\r
+
+    \            \"issueCountryCode\": \"LT\",\r
+
+    \            // \"issueDate\": \"2000-01-01\",\r
+
+    \            \"avdNumber\": \"gfdgwre\",\r
+
+    \            \"validFrom\": \"2000-01-01\"\r
+
+    \        }\r
+
+    \    ]\r
+
+    }"
+order: 487

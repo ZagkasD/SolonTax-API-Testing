@@ -32,13 +32,13 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"firstName\": \"Dimos SODRA__Foreign\",\r
+    \            \"firstName\": \"Dimos SODRA Foreign Q\",\r
 
     \            \"lastName\": \"Zagkas\",\r
 
     \            \"avdNumber\": \"63\",\r
 
-    \            \"validFrom\": \"2026-01-01\"\r
+    \            \"validFrom\": \"2000-01-01\"\r
 
     \        }\r
 
@@ -54,7 +54,7 @@ body:
 
     \            \"contactValue\": \"dzagkas@netcompany.com\",\r
 
-    \            \"validFrom\": \"2026-01-01\"\r
+    \            \"validFrom\": \"2000-01-01\"\r
 
     \        }\r
 
@@ -68,11 +68,43 @@ body:
 
     \            \"identifierTypeCode\": \"5\", //Personal Code\r
 
-    \            \"identifierValue\": \"207858459267232\",\r
+    \            \"identifierValue\": \"lkhjdflkhsoiuherd\",\r
 
     \            \"countryCode\": \"GR\",\r
 
-    \            \"validFrom\": \"2026-01-01\"\r
+    \            \"validFrom\": \"2000-01-01\"\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"addresses\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"addressId\": \"3300772154\",\r
+
+    \            \"addressTypeCode\": \"5\", //Place of residence in GR\r
+
+    \            \"addressObjectTypeCode\": \"SEN\", //Eldership\r
+
+    \            \"validFrom\": \"2000-01-01\"\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"citizenships\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"citizenshipCode\": \"GR\",\r
+
+    \            \"validFrom\": \"2000-01-01\"\r
 
     \        }\r
 

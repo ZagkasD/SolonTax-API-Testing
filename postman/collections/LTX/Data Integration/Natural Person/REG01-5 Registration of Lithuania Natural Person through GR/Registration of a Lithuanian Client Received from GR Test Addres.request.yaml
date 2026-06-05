@@ -30,7 +30,7 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"firstName\": \"Dimos GR WY\",\r
+    \            \"firstName\": \"Dimos GR WAP\",\r
 
     \            \"lastName\": \"Zagkas\",\r
 
@@ -50,7 +50,7 @@ body:
 
     \            \"identifierTypeCode\": \"2\", //Personal Code\r
 
-    \            \"identifierValue\": \"943463576450298\",\r
+    \            \"identifierValue\": \"943463fdasga0298\",\r
 
     \            \"countryCode\": \"LT\",\r
 
@@ -92,21 +92,21 @@ body:
 
     \        }\r
 
-    \    ],\r
-
-    \    \"citizenships\": [\r
-
-    \        {\r
-
-    \            \"typeOfUpdate\": \"N\",\r
-
-    \            \"citizenshipCode\": \"LT\",\r
-
-    \            \"validFrom\": \"2000-01-01\"\r
-
-    \        }\r
-
     \    ]\r
+
+    \    // \"citizenships\": [\r
+
+    \    //     {\r
+
+    \    //         \"typeOfUpdate\": \"N\",\r
+
+    \    //         \"citizenshipCode\": \"LT\",\r
+
+    \    //         \"validFrom\": \"2000-01-01\"\r
+
+    \    //     }\r
+
+    \    // ]\r
 
     \    // \"representatives\": [\r
 
@@ -114,11 +114,9 @@ body:
 
     \    //         \"typeOfUpdate\": \"N\",\r
 
-    \    //         \"representativePartyMapId\":
-    \"f2af60d0-8676-4ec6-bb14-3d9031f115ae\",\r
+    \    //         \"representativePartyMapId\": \"f2af60d0-8676-4ec6-bb14-3d9031f115ae\",\r
 
-    \    //         \"representativeTypeCode\": \"29\", //Tenant of the
-    community\r
+    \    //         \"representativeTypeCode\": \"29\", //Tenant of the community\r
 
     \    //         \"validFrom\": \"2000-01-01\",\r
 
@@ -140,8 +138,7 @@ body:
 
     \    //         \"relationshipTypeCode\": \"I_102\",\r
 
-    \    //         \"relatedPartyMapId\":
-    \"c0f4bd3f-6036-467f-8587-68bce0a35acb\",\r
+    \    //         \"relatedPartyMapId\": \"c0f4bd3f-6036-467f-8587-68bce0a35acb\",\r
 
     \    //         \"validFrom\": \"2016-01-01\"\r
 

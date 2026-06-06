@@ -16,7 +16,7 @@ body:
 
     \        \"typeOfUpdate\": \"N\",\r
 
-    \        \"placeOfBirth\": \"LT\",\r
+    \        \"placeOfBirth\": \"GR\",\r
 
     \        \"gender\": \"V\",\r
 
@@ -30,7 +30,7 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"firstName\": \"Dimos GR WIIIIIP\",\r
+    \            \"firstName\": \"Dimos GR WIIIIIIP\",\r
 
     \            \"lastName\": \"Zagkas\",\r
 
@@ -50,7 +50,7 @@ body:
 
     \            \"identifierTypeCode\": \"2\", //Personal Code\r
 
-    \            \"identifierValue\": \"gfgfsdfhsdgfa\",\r
+    \            \"identifierValue\": \"gfgfsfdadfhsdgfa\",\r
 
     \            \"countryCode\": \"LT\",\r
 
@@ -100,7 +100,7 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"citizenshipCode\": \"LT\",\r
+    \            \"citizenshipCode\": \"GR\",\r
 
     \            \"validFrom\": \"2000-01-01\"\r
 

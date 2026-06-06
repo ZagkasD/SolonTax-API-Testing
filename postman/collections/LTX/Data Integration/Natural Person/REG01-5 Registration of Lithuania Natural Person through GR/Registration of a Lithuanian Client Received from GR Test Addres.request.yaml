@@ -30,7 +30,7 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"firstName\": \"Dimos GR WAP\",\r
+    \            \"firstName\": \"Dimos GR WAAP\",\r
 
     \            \"lastName\": \"Zagkas\",\r
 
@@ -50,7 +50,7 @@ body:
 
     \            \"identifierTypeCode\": \"2\", //Personal Code\r
 
-    \            \"identifierValue\": \"943463fdasga0298\",\r
+    \            \"identifierValue\": \"9434gfsdfsd63fdasga0298\",\r
 
     \            \"countryCode\": \"LT\",\r
 
@@ -92,21 +92,21 @@ body:
 
     \        }\r
 
+    \    ],\r
+
+    \    \"citizenships\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"citizenshipCode\": \"GR\",\r
+
+    \            \"validFrom\": \"2000-01-01\"\r
+
+    \        }\r
+
     \    ]\r
-
-    \    // \"citizenships\": [\r
-
-    \    //     {\r
-
-    \    //         \"typeOfUpdate\": \"N\",\r
-
-    \    //         \"citizenshipCode\": \"LT\",\r
-
-    \    //         \"validFrom\": \"2000-01-01\"\r
-
-    \    //     }\r
-
-    \    // ]\r
 
     \    // \"representatives\": [\r
 

@@ -1,5 +1,5 @@
 $kind: http-request
-name: Registration of a Lithuanian Client Received from GR Test Address
+name: Registration of a Lithuanian Client Received from GR Address in Test Env
 url: "{{natural-person-endpoint}}"
 method: POST
 body:
@@ -30,7 +30,7 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"firstName\": \"Dimos GR WAAP\",\r
+    \            \"firstName\": \"Dimos GR WAAAP\",\r
 
     \            \"lastName\": \"Zagkas\",\r
 
@@ -50,7 +50,7 @@ body:
 
     \            \"identifierTypeCode\": \"2\", //Personal Code\r
 
-    \            \"identifierValue\": \"9434gfsdfsd63fdasga0298\",\r
+    \            \"identifierValue\": \"9434gfsddafsd63fdasga0298\",\r
 
     \            \"countryCode\": \"LT\",\r
 

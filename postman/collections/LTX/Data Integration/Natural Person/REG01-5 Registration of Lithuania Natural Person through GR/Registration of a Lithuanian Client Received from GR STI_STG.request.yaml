@@ -1,10 +1,14 @@
 $kind: http-request
-name: Registration of a Lithuanian Client Received from GR Address in Test Env
+name: Registration of a Lithuanian Client Received from GR STI_STG
 url: "{{natural-person-endpoint}}"
 method: POST
 body:
   type: json
-  content: "{\r
+  content: "\r
+
+    \r
+
+    {\r
 
     \    \"requestId\": \"requestId_Zagkas\",\r
 
@@ -16,7 +20,7 @@ body:
 
     \        \"typeOfUpdate\": \"N\",\r
 
-    \        \"placeOfBirth\": \"LT\",\r
+    \        \"placeOfBirth\": \"GR\",\r
 
     \        \"gender\": \"V\",\r
 
@@ -30,7 +34,7 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"firstName\": \"Dimos GR WAAAP\",\r
+    \            \"firstName\": \"Dimos GR WIIOIIIIIP\",\r
 
     \            \"lastName\": \"Zagkas\",\r
 
@@ -50,7 +54,7 @@ body:
 
     \            \"identifierTypeCode\": \"2\", //Personal Code\r
 
-    \            \"identifierValue\": \"9434gfsddafsd63fdasga0298\",\r
+    \            \"identifierValue\": \"gfgfsfdaffddsdfhsdgfa\",\r
 
     \            \"countryCode\": \"LT\",\r
 
@@ -66,11 +70,11 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"addressId\": \"3300772153\",\r
+    \            \"addressId\": \"777777767\",\r
 
     \            \"addressTypeCode\": \"5\", //Place of residence in GR\r
 
-    \            \"addressObjectTypeCode\": \"SEN\", //Eldership\r
+    \            \"addressObjectTypeCode\": \"A_KOM\", //Eldership\r
 
     \            \"validFrom\": \"2000-01-01\"\r
 
@@ -108,17 +112,37 @@ body:
 
     \    ]\r
 
+    \    // \"documents\": [\r
+
+    \    //     {\r
+
+    \    //         \"typeOfUpdate\": \"N\",\r
+
+    \    //         \"documentTypeCode\": \"10\", \r
+
+    \    //         \"documentNumber\": \"grefdsdsfg\",\r
+
+    \    //         \"issueCountryCode\": \"LT\",\r
+
+    \    //         // \"issueDate\": \"2000-01-01\",\r
+
+    \    //         \"avdNumber\": \"gfdgwre\",\r
+
+    \    //         \"validFrom\": \"2000-01-01\"\r
+
+    \    //     }\r
+
+    \    // ]\r
+
     \    // \"representatives\": [\r
 
     \    //     {\r
 
     \    //         \"typeOfUpdate\": \"N\",\r
 
-    \    //         \"representativePartyMapId\":
-    \"f2af60d0-8676-4ec6-bb14-3d9031f115ae\",\r
+    \    //         \"representativePartyMapId\": \"f2af60d0-8676-4ec6-bb14-3d9031f115ae\",\r
 
-    \    //         \"representativeTypeCode\": \"29\", //Tenant of the
-    community\r
+    \    //         \"representativeTypeCode\": \"29\", //Tenant of the community\r
 
     \    //         \"validFrom\": \"2000-01-01\",\r
 
@@ -140,8 +164,7 @@ body:
 
     \    //         \"relationshipTypeCode\": \"I_102\",\r
 
-    \    //         \"relatedPartyMapId\":
-    \"c0f4bd3f-6036-467f-8587-68bce0a35acb\",\r
+    \    //         \"relatedPartyMapId\": \"c0f4bd3f-6036-467f-8587-68bce0a35acb\",\r
 
     \    //         \"validFrom\": \"2016-01-01\"\r
 
@@ -150,4 +173,4 @@ body:
     \    // ]\r
 
     }"
-order: 2000
+order: 4617

@@ -1,6 +1,7 @@
 $kind: http-request
-name: "Register Farm: Non Existing Farm"
-url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/farm-data
+name: statusCL
+description: When isCreate = True, the statusCL must be 3.
+url: "{{farm-endpoint}}"
 method: POST
 body:
   type: json
@@ -30,7 +31,7 @@ body:
 
     \  \"identifiers\": {\r
 
-    \    \"identifierValue\": \"uhjfds98o7y3φδ84\",\r
+    \    \"identifierValue\": \"uhjfds98o7y384\",\r
 
     \    \"identifierTypeCode\": \"14\", //Farmers\r
 
@@ -46,9 +47,9 @@ body:
 
     \      \"isNatural\": true,\r
 
-    \      \"ownerPartyId\": \"3fa1fac0-8f0e-466a-8e5a-1f734ecfa174\", //FA\r
+    \      \"ownerPartyId\": \"d30cc1c9-7a43-44d0-88ed-84c5bf8a473a\", //FA\r
 
-    \      \"validFrom\": \"2026-01-10\",\r
+    \      \"validFrom\": \"2026-01-01\",\r
 
     \      \"mmTypes\": [\r
 
@@ -58,7 +59,7 @@ body:
 
     \          \"mmTypeCode\": \"203\", // The only available mmtype of owner\r
 
-    \          \"validFrom\": \"2026-01-10\",\r
+    \          \"validFrom\": \"2026-01-01\",\r
 
     \          \"activities\": [\r
 
@@ -136,7 +137,7 @@ body:
 
     \      \"typeOfUpdate\": \"N\",\r
 
-    \      \"statusCL\": \"3\", //Registered\r
+    \      \"statusCL\": \"4\", //Registered\r
 
     \      \"validFrom\": \"2026-01-01\"\r
 
@@ -163,5 +164,5 @@ body:
     \  ]\r
 
     }"
-examples: .resources/Register Farm- Non Existing Farm.resources/examples
-order: 1000
+examples: .resources/statusCL.resources/examples
+order: 1228990428756174

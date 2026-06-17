@@ -30,7 +30,7 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"firstName\": \"Dimos GR WAAAP\",\r
+    \            \"firstName\": \"Dimos GR WAAfAP\",\r
 
     \            \"lastName\": \"Zagkas\",\r
 
@@ -50,7 +50,7 @@ body:
 
     \            \"identifierTypeCode\": \"2\", //Personal Code\r
 
-    \            \"identifierValue\": \"9434gfsddafsd63fdasga0298\",\r
+    \            \"identifierValue\": \"9434gfsddafsdf63fdasga0298\",\r
 
     \            \"countryCode\": \"LT\",\r
 
@@ -114,11 +114,9 @@ body:
 
     \    //         \"typeOfUpdate\": \"N\",\r
 
-    \    //         \"representativePartyMapId\":
-    \"f2af60d0-8676-4ec6-bb14-3d9031f115ae\",\r
+    \    //         \"representativePartyMapId\": \"f2af60d0-8676-4ec6-bb14-3d9031f115ae\",\r
 
-    \    //         \"representativeTypeCode\": \"29\", //Tenant of the
-    community\r
+    \    //         \"representativeTypeCode\": \"29\", //Tenant of the community\r
 
     \    //         \"validFrom\": \"2000-01-01\",\r
 
@@ -140,8 +138,7 @@ body:
 
     \    //         \"relationshipTypeCode\": \"I_102\",\r
 
-    \    //         \"relatedPartyMapId\":
-    \"c0f4bd3f-6036-467f-8587-68bce0a35acb\",\r
+    \    //         \"relatedPartyMapId\": \"c0f4bd3f-6036-467f-8587-68bce0a35acb\",\r
 
     \    //         \"validFrom\": \"2016-01-01\"\r
 

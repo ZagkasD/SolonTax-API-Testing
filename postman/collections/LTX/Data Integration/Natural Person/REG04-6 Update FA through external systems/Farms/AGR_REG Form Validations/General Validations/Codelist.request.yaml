@@ -17,15 +17,13 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"contactTypeCode\": \"97845290\", //Does not exist in
-    codelist\r
+    \            \"contactTypeCode\": \"97845290\", //Does not exist in codelist\r
 
     \            \"contactValue\": \"dzagkas@netcompany.com\",\r
 
     \            \"validFrom\": \"2026-01-01\",\r
 
-    \            \"cancelationReasonCode\": \"779834\" //Does not exist in
-    codelist \r
+    \            \"cancelationReasonCode\": \"779834\" //Does not exist in codelist \r
 
     \        }\r
 
@@ -49,13 +47,11 @@ body:
 
     \            \"isNatural\": true,\r
 
-    \            \"ownerPartyId\": \"d16bde53-cdbb-4230-90e4-b3d750bec869\",
-    //FA\r
+    \            \"ownerPartyId\": \"d16bde53-cdbb-4230-90e4-b3d750bec869\", //FA\r
 
     \            \"validFrom\": \"2026-04-03\",\r
 
-    \            \"cancelationReasonCode\": \"779834\", //Does not exist in
-    codelist \r
+    \            \"cancelationReasonCode\": \"779834\", //Does not exist in codelist \r
 
     \            \"mmTypes\": [\r
 
@@ -63,13 +59,11 @@ body:
 
     \                    \"typeOfUpdate\": \"C\",\r
 
-    \                    \"mmTypeCode\": \"967854293\", //Does not exist in
-    codelist \r
+    \                    \"mmTypeCode\": \"967854293\", //Does not exist in codelist \r
 
     \                    \"validFrom\": \"2026-04-03\",\r
 
-    \                    \"cancelationReasonCode\": \"779834\", //Does not exist
-    in codelist \r
+    \                    \"cancelationReasonCode\": \"779834\", //Does not exist in codelist \r
 
     \                    \"activities\": [\r
 
@@ -77,15 +71,13 @@ body:
 
     \                            \"typeOfUpdate\": \"C\",\r
 
-    \                            \"activityTypeCode\": \"974293782\", //Does not
-    exist in codelist\r
+    \                            \"activityTypeCode\": \"974293782\", //Does not exist in codelist\r
 
     \                            \"isMain\": true,\r
 
     \                            \"validFrom\": \"2026-04-03\",\r
 
-    \                            \"cancelationReasonCode\": \"779834\" //Does
-    not exist in codelist \r
+    \                            \"cancelationReasonCode\": \"779834\" //Does not exist in codelist \r
 
     \                        }\r
 
@@ -107,13 +99,11 @@ body:
 
     \            \"isNatural\": true,\r
 
-    \            \"partnerPartyId\": \"986937ce-5689-403c-84f5-428a3333d601\",
-    //FA\r
+    \            \"partnerPartyId\": \"986937ce-5689-403c-84f5-428a3333d601\", //FA\r
 
     \            \"validFrom\": \"2026-04-03\",\r
 
-    \            \"cancelationReasonCode\": \"779834\", //Does not exist in
-    codelist \r
+    \            \"cancelationReasonCode\": \"779834\", //Does not exist in codelist \r
 
     \            \"mmTypes\": [\r
 
@@ -121,13 +111,11 @@ body:
 
     \                    \"typeOfUpdate\": \"C\",\r
 
-    \                    \"mmTypeCode\": \"967854293\", //Does not exist in
-    codelist \r
+    \                    \"mmTypeCode\": \"967854293\", //Does not exist in codelist \r
 
     \                    \"validFrom\": \"2026-04-03\",\r
 
-    \                    \"cancelationReasonCode\": \"779834\", //Does not exist
-    in codelist \r
+    \                    \"cancelationReasonCode\": \"779834\", //Does not exist in codelist \r
 
     \                    \"activities\": [\r
 
@@ -135,15 +123,13 @@ body:
 
     \                            \"typeOfUpdate\": \"C\",\r
 
-    \                            \"activityTypeCode\": \"974293782\", //Does not
-    exist in codelist\r
+    \                            \"activityTypeCode\": \"974293782\", //Does not exist in codelist\r
 
     \                            \"isMain\": true,\r
 
     \                            \"validFrom\": \"2026-04-03\",\r
 
-    \                            \"cancelationReasonCode\": \"779834\" //Does
-    not exist in codelist \r
+    \                            \"cancelationReasonCode\": \"779834\" //Does not exist in codelist \r
 
     \                        }\r
 
@@ -167,8 +153,7 @@ body:
 
     \            \"typeOfUpdate\": \"C\",\r
 
-    \            \"cancelationReasonCode\": \"779834\" //Does not exist in
-    codelist \r
+    \            \"cancelationReasonCode\": \"779834\" //Does not exist in codelist \r
 
     \        }\r
 
@@ -186,14 +171,11 @@ body:
 
     \            \"validFrom\": \"2026-04-03\",\r
 
-    \            \"addressTypeCode\": \"6543426254\", //Does not exist in
-    codelist\r
+    \            \"addressTypeCode\": \"6543426254\", //Does not exist in codelist\r
 
-    \            \"addressObjectTypeCode\": \"gfldkjh\", //Does not exist in
-    codelist\r
+    \            \"addressObjectTypeCode\": \"gfldkjh\", //Does not exist in codelist\r
 
-    \            \"cancelationReasonCode\": \"779834\" //Does not exist in
-    codelist \r
+    \            \"cancelationReasonCode\": \"779834\" //Does not exist in codelist \r
 
     \        }\r
 

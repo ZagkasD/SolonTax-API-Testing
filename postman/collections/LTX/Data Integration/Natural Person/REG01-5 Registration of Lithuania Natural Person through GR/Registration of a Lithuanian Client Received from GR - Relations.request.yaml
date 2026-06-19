@@ -1,6 +1,6 @@
 $kind: http-request
 name: Registration of a Lithuanian Client Received from GR - Relationships
-url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/natural-persons
+url: "{{natural-person-endpoint}}"
 method: POST
 body:
   type: json
@@ -104,8 +104,7 @@ body:
 
     \            \"relationshipTypeCode\": \"I_100\", //Marriage\r
 
-    \            \"relatedPartyMapId\":
-    \"5e76df13-b8b9-4cc0-998b-bbeab81c8a99\",\r
+    \            \"relatedPartyMapId\": \"5e76df13-b8b9-4cc0-998b-bbeab81c8a99\",\r
 
     \            \"validFrom\": \"2016-01-01\"\r
 
@@ -117,8 +116,7 @@ body:
 
     \            \"relationshipTypeCode\": \"I_102\", //Mother\r
 
-    \            \"relatedPartyMapId\":
-    \"d7d33aa8-9c76-426c-b98e-c6740f0b6436\",\r
+    \            \"relatedPartyMapId\": \"d7d33aa8-9c76-426c-b98e-c6740f0b6436\",\r
 
     \            \"validFrom\": \"2016-01-01\"\r
 
@@ -130,8 +128,7 @@ body:
 
     \            \"relationshipTypeCode\": \"I_101\", //Father\r
 
-    \            \"relatedPartyMapId\":
-    \"4379ea21-f7d3-4dd8-890f-107947d020ed\",\r
+    \            \"relatedPartyMapId\": \"4379ea21-f7d3-4dd8-890f-107947d020ed\",\r
 
     \            \"validFrom\": \"2016-01-01\"\r
 

@@ -1,6 +1,6 @@
 $kind: http-request
 name: New Cash Register Request for Non-Existing Cash Register
-url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/natural-persons
+url: "{{natural-person-endpoint}}"
 method: POST
 body:
   type: json

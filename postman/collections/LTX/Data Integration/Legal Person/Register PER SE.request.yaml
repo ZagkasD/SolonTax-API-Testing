@@ -1,0 +1,202 @@
+$kind: http-request
+name: Register PER SE
+url: l{{legal-person-endpoint}}
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"requestId\": \"34324432424\",\r
+
+    \    //\"mapId\": \"2205cec9-35b2-4008-b04a-8122b37cc99f\",\r
+
+    \    \"isCreate\": true,\r
+
+    \    \"dateOfInformation\": \"2026-03-13\",\r
+
+    \    \"sourceOfInformationCode\": \"65\",\r
+
+    \    \"legalPersonMain\": {\r
+
+    \        \"typeOfUpdate\": \"K\",\r
+
+    \        \"jarRegistrationDate\": \"2026-06-10\"\r
+
+    \        // \"jarDeregistrationDate\": \"2026-06-10\",\r
+
+    \        // \"jarDeregistrationReasonCode\": \"6\"\r
+
+    \    },\r
+
+    \    \"names\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"name\": \"Client to Taxpayerrrr\",\r
+
+    \            \"validFrom\": \"2026-06-10\"\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"identifiers\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"identifierTypeCode\": \"3\",\r
+
+    \            \"identifierValue\": \"updateforeignlegalCLIENT4\",\r
+
+    \            \"externalIdentifier\": \"267774445\",\r
+
+    \            \"validFrom\": \"2026-06-10\"\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"contacts\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"contactTypeCode\": \"19\",\r
+
+    \            \"contactValue\": \"00693748264856\",\r
+
+    \            \"validFrom\": \"2026-06-10\",\r
+
+    \            \"validTo\": null,\r
+
+    \            \"cancelationDate\": null,\r
+
+    \            \"cancelationReasonCode\": null\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"mmTypes\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"mmTypeCode\": \"101\",\r
+
+    \            \"validFrom\": \"2026-06-10\",\r
+
+    \            \"validTo\": null,\r
+
+    \            \"cancelationDate\": null,\r
+
+    \            \"cancelationReasonCode\": null\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"addresses\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"addressTypeCode\": \"49\",\r
+
+    \            \"addressObjectTypeCode\": \"APS\",\r
+
+    \            \"addressId\": \"4300772141\",\r
+
+    \            \"countryCode\": \"LT\",\r
+
+    \            \"validFrom\": \"2026-06-10\",\r
+
+    \            \"validTo\": null,\r
+
+    \            \"cancelationDate\": null,\r
+
+    \            \"cancelationReasonCode\": null\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"representatives\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"relationshipTypeCode\": \"R_1\",\r
+
+    \            \"representativePartyMapId\": \"0a8bf108-ed07-454b-b0a4-9af0b0fdd44d\",\r
+
+    \            \"quantitative\": true,\r
+
+    \            \"validFrom\": \"2025-03-01\",\r
+
+    \            \"assignmentDateFrom\": \"2025-03-01\",\r
+
+    \            \"authorizationDateFrom\": \"2025-03-01\",\r
+
+    \   \"validTo\": null,\r
+
+    \   \"cancelationDate\": null,\r
+
+    \   \"cancelationReasonCode\": null,\r
+
+    \            \"representationRestrictions\": [\r
+
+    \                {\r
+
+    \                    \"typeOfUpdate\": \"N\",\r
+
+    \                    \"representationTypeCode\": \"R_1\",\r
+
+    \                    \"representationRule\": \"Transactions above 10000 EUR require board approval.\",\r
+
+    \                    \"validFrom\": \"2025-03-01\",\r
+
+    \     \"validTo\": null,\r
+
+    \     \"cancelationDate\": null,\r
+
+    \     \"cancelationReasonCode\": null\r
+
+    \                }\r
+
+    \            ]\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"legalForms\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"legalFormTypeCode\": \"900\",\r
+
+    \            \"validFrom\": \"2025-03-01\",\r
+
+    \   \"validTo\": null,\r
+
+    \   \"cancelationDate\": null,\r
+
+    \   \"cancelationReasonCode\": null\r
+
+    \        }\r
+
+    \    ]\r
+
+    }"
+order: 4444358603431048

@@ -6,19 +6,17 @@ body:
   type: json
   content: "{\r
 
-    \    \"requestId\": \"34324432424\",\r
+    \    \"requestId\": \"Zagkas_ID\",\r
 
     \    //\"mapId\": \"2205cec9-35b2-4008-b04a-8122b37cc99f\",\r
 
-    \    \"isCreate\": true,\r
-
     \    \"dateOfInformation\": \"2026-03-13\",\r
 
-    \    \"sourceOfInformationCode\": \"65\",\r
+    \    \"sourceOfInformationCode\": \"65\", // Legal Person Registry (JAR)\r
 
     \    \"legalPersonMain\": {\r
 
-    \        \"typeOfUpdate\": \"K\",\r
+    \        \"typeOfUpdate\": \"N\",\r
 
     \        \"jarRegistrationDate\": \"2026-06-10\"\r
 
@@ -34,9 +32,9 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"name\": \"Client to Taxpayerrrr\",\r
+    \            \"name\": \"Municipality \",\r
 
-    \            \"validFrom\": \"2026-06-10\"\r
+    \            \"validFrom\": \"2026-01-01\"\r
 
     \        }\r
 

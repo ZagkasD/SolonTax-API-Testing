@@ -1,7 +1,9 @@
 $kind: collection
+name: LTX
 variables:
   oauth-client-id: revenue-management-be-admin
   oauth-client-secret: d435bba0-c9dc-4281-8377-31552f4bdc0b
+  validFrom: ""
 auth:
   - id: 59c91cbe-b421-4ec8-bf19-570813db0075
     type: oauth2

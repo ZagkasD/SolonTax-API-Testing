@@ -1,6 +1,6 @@
 $kind: http-request
 name: Register PER SE
-url: l{{legal-person-endpoint}}
+url: "{{legal-person-endpoint}}"
 method: POST
 body:
   type: json
@@ -8,21 +8,15 @@ body:
 
     \    \"requestId\": \"Zagkas_ID\",\r
 
-    \    //\"mapId\": \"2205cec9-35b2-4008-b04a-8122b37cc99f\",\r
-
     \    \"dateOfInformation\": \"2026-03-13\",\r
 
-    \    \"sourceOfInformationCode\": \"65\", // Legal Person Registry (JAR)\r
+    \    \"sourceOfInformationCode\": \"65\",\r
 
     \    \"legalPersonMain\": {\r
 
     \        \"typeOfUpdate\": \"N\",\r
 
-    \        \"jarRegistrationDate\": \"2026-06-10\"\r
-
-    \        // \"jarDeregistrationDate\": \"2026-06-10\",\r
-
-    \        // \"jarDeregistrationReasonCode\": \"6\"\r
+    \        \"jarRegistrationDate\": \"{{validFrom}}\"\r
 
     \    },\r
 
@@ -32,9 +26,9 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"name\": \"Municipality \",\r
+    \            \"name\": \"Municipality \", \r
 
-    \            \"validFrom\": \"2026-01-01\"\r
+    \            \"validFrom\": \"{{validFrom}}\"\r
 
     \        }\r
 
@@ -48,11 +42,11 @@ body:
 
     \            \"identifierTypeCode\": \"3\",\r
 
-    \            \"identifierValue\": \"updateforeignlegalCLIENT4\",\r
+    \            \"identifierValue\": \"{{$randomInt}}\",\r
 
-    \            \"externalIdentifier\": \"267774445\",\r
+    \            \"externalIdentifier\": \"{{$randomInt}\",\r
 
-    \            \"validFrom\": \"2026-06-10\"\r
+    \            \"validFrom\": \"{{validFrom}}\"\r
 
     \        }\r
 
@@ -64,37 +58,11 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"contactTypeCode\": \"19\",\r
+    \            \"contactTypeCode\": \"6\",\r
 
-    \            \"contactValue\": \"00693748264856\",\r
+    \            \"contactValue\": \"dzagkas@netcompany.com\",\r
 
-    \            \"validFrom\": \"2026-06-10\",\r
-
-    \            \"validTo\": null,\r
-
-    \            \"cancelationDate\": null,\r
-
-    \            \"cancelationReasonCode\": null\r
-
-    \        }\r
-
-    \    ],\r
-
-    \    \"mmTypes\": [\r
-
-    \        {\r
-
-    \            \"typeOfUpdate\": \"N\",\r
-
-    \            \"mmTypeCode\": \"101\",\r
-
-    \            \"validFrom\": \"2026-06-10\",\r
-
-    \            \"validTo\": null,\r
-
-    \            \"cancelationDate\": null,\r
-
-    \            \"cancelationReasonCode\": null\r
+    \            \"validFrom\": \"{{validFrom}}\"\r
 
     \        }\r
 
@@ -106,75 +74,67 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"addressTypeCode\": \"49\",\r
+    \            \"addressId\": \"3300772154\",\r
 
-    \            \"addressObjectTypeCode\": \"APS\",\r
+    \            \"addressTypeCode\": \"5\",\r
 
-    \            \"addressId\": \"4300772141\",\r
+    \            \"addressObjectTypeCode\": \"SEN\",\r
 
-    \            \"countryCode\": \"LT\",\r
-
-    \            \"validFrom\": \"2026-06-10\",\r
-
-    \            \"validTo\": null,\r
-
-    \            \"cancelationDate\": null,\r
-
-    \            \"cancelationReasonCode\": null\r
+    \            \"validFrom\": \"{{validFrom}}\"\r
 
     \        }\r
 
     \    ],\r
 
-    \    \"representatives\": [\r
+    \    // \"representatives\": [\r
 
-    \        {\r
+    \    //     {\r
 
-    \            \"typeOfUpdate\": \"N\",\r
+    \    //         \"typeOfUpdate\": \"N\",\r
 
-    \            \"relationshipTypeCode\": \"R_1\",\r
+    \    //         \"relationshipTypeCode\": \"R_1\",\r
 
-    \            \"representativePartyMapId\": \"0a8bf108-ed07-454b-b0a4-9af0b0fdd44d\",\r
+    \    //         \"representativePartyMapId\": \"0a8bf108-ed07-454b-b0a4-9af0b0fdd44d\",\r
 
-    \            \"quantitative\": true,\r
+    \    //         \"quantitative\": true,\r
 
-    \            \"validFrom\": \"2025-03-01\",\r
+    \    //         \"validFrom\": \"{{validFrom}}\",\r
 
-    \            \"assignmentDateFrom\": \"2025-03-01\",\r
+    \    //         \"assignmentDateFrom\": \"{{validFrom}}\",\r
 
-    \            \"authorizationDateFrom\": \"2025-03-01\",\r
+    \    //         \"authorizationDateFrom\": \"{{validFrom}}\",\r
 
-    \   \"validTo\": null,\r
+    \    //         \"validTo\": null,\r
 
-    \   \"cancelationDate\": null,\r
+    \    //         \"cancelationDate\": null,\r
 
-    \   \"cancelationReasonCode\": null,\r
+    \    //         \"cancelationReasonCode\": null,\r
 
-    \            \"representationRestrictions\": [\r
+    \    //         \"representationRestrictions\": [\r
 
-    \                {\r
+    \    //             {\r
 
-    \                    \"typeOfUpdate\": \"N\",\r
+    \    //                 \"typeOfUpdate\": \"N\",\r
 
-    \                    \"representationTypeCode\": \"R_1\",\r
+    \    //                 \"representationTypeCode\": \"R_1\",\r
 
-    \                    \"representationRule\": \"Transactions above 10000 EUR require board approval.\",\r
+    \    //                 \"representationRule\": \"Transactions above 10000 EUR require board approval.\",\r
 
-    \                    \"validFrom\": \"2025-03-01\",\r
+    \    //                 \"validFrom\": \"{{validFrom}}\",\r
 
-    \     \"validTo\": null,\r
+    \    //                 \"validTo\": null,\r
 
-    \     \"cancelationDate\": null,\r
+    \    //                 \"cancelationDate\": null,\r
 
-    \     \"cancelationReasonCode\": null\r
+    \    //                 \"cancelationReasonCode\": null\r
 
-    \                }\r
+    \    //             }\r
 
-    \            ]\r
+    \    //         ]\r
 
-    \        }\r
+    \    //     }\r
 
-    \    ],\r
+    \    // ],\r
 
     \    \"legalForms\": [\r
 
@@ -184,13 +144,7 @@ body:
 
     \            \"legalFormTypeCode\": \"900\",\r
 
-    \            \"validFrom\": \"2025-03-01\",\r
-
-    \   \"validTo\": null,\r
-
-    \   \"cancelationDate\": null,\r
-
-    \   \"cancelationReasonCode\": null\r
+    \            \"validFrom\": \"{{validFrom}}\"\r
 
     \        }\r
 

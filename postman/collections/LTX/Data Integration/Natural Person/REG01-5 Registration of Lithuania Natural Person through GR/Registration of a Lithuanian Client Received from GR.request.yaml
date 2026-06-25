@@ -6,11 +6,11 @@ body:
   type: json
   content: "{\r
 
-    \    \"requestId\": \"requestId_Zagkas\",\r
+    \    \"requestId\": \"Zagkas_ID\",\r
 
     \    \"dateOfInformation\": \"2026-01-01\",\r
 
-    \    \"sourceOfInformationCode\": \"10\", //GR\r
+    \    \"sourceOfInformationCode\": \"10\",\r
 
     \    \"basicPersonalData\": {\r
 
@@ -36,7 +36,7 @@ body:
 
     \            \"avdNumber\": \"63\",\r
 
-    \            \"validFrom\": \"2000-01-01\"\r
+    \            \"validFrom\": \"{{validFrom}}\"\r
 
     \        }\r
 
@@ -48,13 +48,13 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"identifierTypeCode\": \"2\", //Personal Code\r
+    \            \"identifierTypeCode\": \"2\",\r
 
-    \            \"identifierValue\": \"{{$randomInt}}\",\r
+    \            \"identifierValue\": \"CLIENT_{{$randomInt}}\",\r
 
     \            \"countryCode\": \"LT\",\r
 
-    \            \"validFrom\": \"2000-01-01\"\r
+    \            \"validFrom\": \"{{validFrom}}\"\r
 
     \        }\r
 
@@ -68,11 +68,11 @@ body:
 
     \            \"addressId\": \"3300772154\",\r
 
-    \            \"addressTypeCode\": \"5\", //Place of residence in GR\r
+    \            \"addressTypeCode\": \"5\",\r
 
-    \            \"addressObjectTypeCode\": \"SEN\", //Eldership\r
+    \            \"addressObjectTypeCode\": \"SEN\",\r
 
-    \            \"validFrom\": \"2000-01-01\"\r
+    \            \"validFrom\": \"{{validFrom}}\"\r
 
     \        }\r
 
@@ -88,7 +88,7 @@ body:
 
     \            \"contactValue\": \"dzagkas@netcompany.com\",\r
 
-    \            \"validFrom\": \"2000-01-01\"\r
+    \            \"validFrom\": \"{{validFrom}}\"\r
 
     \        }\r
 
@@ -102,71 +102,11 @@ body:
 
     \            \"citizenshipCode\": \"GR\",\r
 
-    \            \"validFrom\": \"2000-01-01\"\r
+    \            \"validFrom\": \"{{validFrom}}\"\r
 
     \        }\r
 
     \    ]\r
-
-    \    // \"documents\": [\r
-
-    \    //     {\r
-
-    \    //         \"typeOfUpdate\": \"N\",\r
-
-    \    //         \"documentTypeCode\": \"10\", \r
-
-    \    //         \"documentNumber\": \"grefdsdsfg\",\r
-
-    \    //         \"issueCountryCode\": \"LT\",\r
-
-    \    //         // \"issueDate\": \"2000-01-01\",\r
-
-    \    //         \"avdNumber\": \"gfdgwre\",\r
-
-    \    //         \"validFrom\": \"2000-01-01\"\r
-
-    \    //     }\r
-
-    \    // ]\r
-
-    \    // \"representatives\": [\r
-
-    \    //     {\r
-
-    \    //         \"typeOfUpdate\": \"N\",\r
-
-    \    //         \"representativePartyMapId\": \"f2af60d0-8676-4ec6-bb14-3d9031f115ae\",\r
-
-    \    //         \"representativeTypeCode\": \"29\", //Tenant of the community\r
-
-    \    //         \"validFrom\": \"2000-01-01\",\r
-
-    \    //         \"validTo\":\"2026-12-31\",\r
-
-    \    //         \"assignmentDateFrom\": \"2000-01-01\",\r
-
-    \    //         \"assignmentDateTo\": \"2026-12-31\"\r
-
-    \    //     }\r
-
-    \    // ]\r
-
-    \    // \"relationships\": [\r
-
-    \    //     {\r
-
-    \    //         \"typeOfUpdate\": \"N\",\r
-
-    \    //         \"relationshipTypeCode\": \"I_102\",\r
-
-    \    //         \"relatedPartyMapId\": \"c0f4bd3f-6036-467f-8587-68bce0a35acb\",\r
-
-    \    //         \"validFrom\": \"2016-01-01\"\r
-
-    \    //     }\r
-
-    \    // ]\r
 
     }"
 order: 5000

@@ -1,5 +1,4 @@
 $kind: http-request
-name: Registration of a Lithuanian Client Received from GR
 url: "{{natural-person-endpoint}}"
 method: POST
 body:
@@ -10,7 +9,7 @@ body:
 
     \    \"dateOfInformation\": \"2026-01-01\",\r
 
-    \    \"sourceOfInformationCode\": \"10\",\r
+    \    \"sourceOfInformationCode\": \"5002\",\r
 
     \    \"basicPersonalData\": {\r
 
@@ -53,6 +52,20 @@ body:
     \            \"identifierValue\": \"CLIENT_{{$randomInt}}\",\r
 
     \            \"countryCode\": \"LT\",\r
+
+    \            \"validFrom\": \"{{validFrom}}\"\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"mmTypes\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"mmTypeCode\": \"215\",\r
 
     \            \"validFrom\": \"{{validFrom}}\"\r
 
@@ -109,4 +122,4 @@ body:
     \    ]\r
 
     }"
-order: 6000
+order: 4106187358340836

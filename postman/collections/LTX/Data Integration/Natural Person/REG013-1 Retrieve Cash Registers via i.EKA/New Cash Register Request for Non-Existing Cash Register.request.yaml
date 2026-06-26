@@ -4,57 +4,15 @@ url: "{{natural-person-endpoint}}"
 method: POST
 body:
   type: json
-  content: "// {\r
+  content: "{\r
 
-    //     \"requestId\": \"requestId_Zagkas\",\r
+    \    \"requestId\": \"requestId_Zagkas\",\r
 
-    //     \"dateOfInformation\": \"2026-01-01\",\r
+    \    \"dateOfInformation\": \"2026-01-01\",\r
 
-    //     \"mapId\": \"6fc625e7-9ba3-43ba-a503-f6c350c4f2ff\",\r
+    \    \"mapId\": \"6a80d1f8-2121-40b0-83d2-be6b8b0316a7\",\r
 
-    //     \"sourceOfInformationCode\": \"200\", //IMAS iEKA\r
-
-    //     \"cashRegisters\": [\r
-
-    //         {\r
-
-    //             \"typeOfUpdate\": \"N\",\r
-
-    //             \"VMI_RegistrationNumber\": \"12345397183\",\r
-
-    //             // \"EKA_Number\": \"5049839987312\",\r
-
-    //             \"cashRegisterName\": \"MyCashRegister\",\r
-
-    //             \"cashRegisterTypeCode\": \"50\", //Cash register\r
-
-    //             \"statusCode\": \"15\", //Registered\r
-
-    //             \"statusDate\": \"{{validFrom}}\",\r
-
-    //             \"validFrom\": \"{{validFrom}}\",\r
-
-    //             \"addressId\": \"3300772154\",\r
-
-    //             \"addressObjectTypeCode\": \"SEN\",\r
-
-    //             \"registrationDate\": \"{{validFrom}}T12:00:00Z\"\r
-
-    //         }\r
-
-    //     ]\r
-
-    // } \r
-
-    {\r
-
-    \    \"requestId\": \"REQ-20250917-001\",\r
-
-    \    \"mapId\": \"6fc625e7-9ba3-43ba-a503-f6c350c4f2ff\",\r
-
-    \    \"dateOfInformation\": \"2025-11-24\",\r
-
-    \    \"sourceOfInformationCode\": \"10\",\r
+    \    \"sourceOfInformationCode\": \"200\", //IMAS iEKA\r
 
     \    \"cashRegisters\": [\r
 
@@ -62,29 +20,27 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"VMI_RegistrationNumber\": \"R-000000140\",\r
+    \            \"VMI_RegistrationNumber\": \"12345397183\",\r
 
-    \            \"EKA_UniqueNumber\": \"CR-000000099\",\r
+    \            // \"EKA_Number\": \"5049839987312\",\r
 
-    \            \"cashRegisterName\": \"Test cash register\",\r
+    \            // \"EKA_UniqueNumber\": \"CR-000000099\", //Required and its written this way. Swagger is incorrect\r
 
-    \            \"cashRegisterTypeCode\": \"51\",\r
+    \            \"cashRegisterName\": \"MyCashRegister\",\r
 
-    \            \"statusCode\": \"15\",\r
+    \            \"cashRegisterTypeCode\": \"50\", //Cash register\r
 
-    \            \"statusDate\": \"2023-06-07\",\r
+    \            \"statusCode\": \"15\", //Registered\r
 
-    \            \"addressObjectTypeCode\": \"A_KOM\",\r
+    \            \"statusDate\": \"{{validFrom}}\",\r
 
-    \            \"addressId\": \"417310774166\",\r
+    \            \"validFrom\": \"{{validFrom}}\",\r
 
-    \            \"validFrom\": \"2023-06-07\",\r
+    \            \"addressId\": \"3300772154\",\r
 
-    \            \"registrationDate\": \"2026-06-25T08:51:35.263Z\",\r
+    \            \"addressObjectTypeCode\": \"SEN\",\r
 
-    \            \"cancelationDate\": null,\r
-
-    \            \"cancelationReasonCode\": null\r
+    \            \"registrationDate\": \"{{validFrom}}T12:00:00Z\"\r
 
     \        }\r
 

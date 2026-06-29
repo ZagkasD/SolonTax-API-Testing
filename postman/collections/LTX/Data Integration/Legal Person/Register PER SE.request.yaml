@@ -8,9 +8,9 @@ body:
 
     \    \"requestId\": \"Zagkas_ID\",\r
 
-    \    \"dateOfInformation\": \"2026-03-13\",\r
+    \    \"dateOfInformation\": \"2000-01-01\",\r
 
-    \    \"sourceOfInformationCode\": \"65\",\r
+    \    \"sourceOfInformationCode\": \"65\", //Legal Person Registry (JAR)\r
 
     \    \"legalPersonMain\": {\r
 
@@ -26,7 +26,7 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"name\": \"Municipality \", \r
+    \            \"name\": \"Municipality-Zagkas-{{$randomName}}\",\r
 
     \            \"validFrom\": \"{{validFrom}}\"\r
 
@@ -80,61 +80,51 @@ body:
 
     \            \"addressObjectTypeCode\": \"SEN\",\r
 
+    \            \"countryCode\": \"LT\",\r
+
     \            \"validFrom\": \"{{validFrom}}\"\r
 
     \        }\r
 
     \    ],\r
 
-    \    // \"representatives\": [\r
+    \    \"representatives\": [\r
 
-    \    //     {\r
+    \        {\r
 
-    \    //         \"typeOfUpdate\": \"N\",\r
+    \            \"typeOfUpdate\": \"N\",\r
 
-    \    //         \"relationshipTypeCode\": \"R_1\",\r
+    \            \"relationshipTypeCode\": \"R_1\",\r
 
-    \    //         \"representativePartyMapId\": \"0a8bf108-ed07-454b-b0a4-9af0b0fdd44d\",\r
+    \            \"representativePartyMapId\": \"ff2ec114-0e2b-48e0-bec2-e873e4de61d1\",\r
 
-    \    //         \"quantitative\": true,\r
+    \            \"quantitative\": true,\r
 
-    \    //         \"validFrom\": \"{{validFrom}}\",\r
+    \            \"validFrom\": \"{{validFrom}}\",\r
 
-    \    //         \"assignmentDateFrom\": \"{{validFrom}}\",\r
+    \            \"assignmentDateFrom\": \"{{validFrom}}\",\r
 
-    \    //         \"authorizationDateFrom\": \"{{validFrom}}\",\r
+    \            \"authorizationDateFrom\": \"{{validFrom}}\",\r
 
-    \    //         \"validTo\": null,\r
+    \            \"representationRestrictions\": [\r
 
-    \    //         \"cancelationDate\": null,\r
+    \                {\r
 
-    \    //         \"cancelationReasonCode\": null,\r
+    \                    \"typeOfUpdate\": \"N\",\r
 
-    \    //         \"representationRestrictions\": [\r
+    \                    \"representationTypeCode\": \"R_1\",\r
 
-    \    //             {\r
+    \                    \"representationRule\": \"Transactions above 10000 EUR require board approval.\",\r
 
-    \    //                 \"typeOfUpdate\": \"N\",\r
+    \                    \"validFrom\": \"{{validFrom}}\"\r
 
-    \    //                 \"representationTypeCode\": \"R_1\",\r
+    \                }\r
 
-    \    //                 \"representationRule\": \"Transactions above 10000 EUR require board approval.\",\r
+    \            ]\r
 
-    \    //                 \"validFrom\": \"{{validFrom}}\",\r
+    \        }\r
 
-    \    //                 \"validTo\": null,\r
-
-    \    //                 \"cancelationDate\": null,\r
-
-    \    //                 \"cancelationReasonCode\": null\r
-
-    \    //             }\r
-
-    \    //         ]\r
-
-    \    //     }\r
-
-    \    // ],\r
+    \    ],\r
 
     \    \"legalForms\": [\r
 
@@ -142,7 +132,7 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"legalFormTypeCode\": \"900\",\r
+    \            \"legalFormTypeCode\": \"900\", //Municipal enterpraise\r
 
     \            \"validFrom\": \"{{validFrom}}\"\r
 

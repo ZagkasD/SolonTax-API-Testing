@@ -1,0 +1,121 @@
+$kind: http-request
+url: "{{farm-endpoint}}"
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"requestId\": \"requestId_Zagkas\",\r
+
+    \    \"dateOfInformation\": \"2026-04-03\",\r
+
+    \    \"mapId\": \"8dffdec8-e67c-48d1-b119-06d0c67c4c37\", //The farm\r
+
+    \    \"sourceOfInformationCode\": \"44\", //UUR\r
+
+    \    \"owners\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"C\",\r
+
+    \            \"isNatural\": true,\r
+
+    \            \"ownerPartyId\": \"f3ce2a74-3480-43ef-a7cf-5b89d11d49c1\",
+    //FA\r
+
+    \            \"validFrom\": \"{{validFrom}}\",\r
+
+    \            \"cancelationDate\": \"2026-07-01\",\r
+
+    \            \"cancelationReasonCode\": \"OTHER\",\r
+
+    \            \"mmTypes\": [\r
+
+    \                {\r
+
+    \                    \"typeOfUpdate\": \"C\",\r
+
+    \                    \"mmTypeCode\": \"203\", // The only available mmtype
+    of owner\r
+
+    \                    \"validFrom\": \"{{validFrom}}\",\r
+
+    \                    \"cancelationDate\": \"2026-07-01\",\r
+
+    \                    \"cancelationReasonCode\": \"OTHER\",\r
+
+    \                    \"activities\": [\r
+
+    \                        {\r
+
+    \                            \"typeOfUpdate\": \"C\",\r
+
+    \                            \"activityTypeCode\": \"011100\", //Cereal\r
+
+    \                            \"isMain\": true,\r
+
+    \                            \"validFrom\": \"{{validFrom}}\",\r
+
+    \                            \"cancelationDate\": \"2026-07-01\",\r
+
+    \                            \"cancelationReasonCode\": \"OTHER\"\r
+
+    \                        }\r
+
+    \                    ]\r
+
+    \                }\r
+
+    \            ]\r
+
+    \        },\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"isNatural\": true,\r
+
+    \            \"ownerPartyId\": \"5515a508-e8ee-4a7e-a0cb-743ca63cd2f3\",
+    //FA\r
+
+    \            \"validFrom\": \"2026-07-02\",\r
+
+    \            \"mmTypes\": [\r
+
+    \                {\r
+
+    \                    \"typeOfUpdate\": \"N\",\r
+
+    \                    \"mmTypeCode\": \"203\", // The only available mmtype
+    of owner\r
+
+    \                    \"validFrom\": \"2026-07-02\",\r
+
+    \                    \"activities\": [\r
+
+    \                        {\r
+
+    \                            \"typeOfUpdate\": \"N\",\r
+
+    \                            \"activityTypeCode\": \"011100\", //Cereal\r
+
+    \                            \"isMain\": true,\r
+
+    \                            \"validFrom\": \"2026-07-02\"\r
+
+    \                        }\r
+
+    \                    ]\r
+
+    \                }\r
+
+    \            ]\r
+
+    \        }\r
+
+    \    ]\r
+
+    }\r\n"
+order: 15000

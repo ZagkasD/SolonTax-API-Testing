@@ -1,0 +1,64 @@
+$kind: http-request
+name: Agr Holding Cancel MMType
+url: "{{farm-endpoint}}"
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"requestId\": \"requestId_Zagkas\",\r
+
+    \    \"dateOfInformation\": \"2026-04-03\",\r
+
+    \    \"mapId\": \"f01f39a7-1e66-4237-b6df-7ab3ff6185fb\", //The agr
+    holding\r
+
+    \    \"sourceOfInformationCode\": \"6005\", //ZUKVR\r
+
+    \    \"owners\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"R\",\r
+
+    \            \"isNatural\": true,\r
+
+    \            \"ownerPartyId\": \"b6cf5c5c-a8b4-46e4-a84f-cd9b8d54477a\",
+    //FA\r
+
+    \            \"validFrom\": \"{{validFrom}}\",\r
+
+    \            \"mmTypes\": [\r
+
+    \                {\r
+
+    \                    \"typeOfUpdate\": \"C\",\r
+
+    \                    \"mmTypeCode\": \"248\",\r
+
+    \                    \"validFrom\": \"{{validFrom}}\",\r
+
+    \                    \"cancelationDate\": \"2026-07-01\",\r
+
+    \                    \"cancelationReasonCode\": \"OTHER\"\r
+
+    \                },\r
+
+    \                {\r
+
+    \                    \"typeOfUpdate\": \"N\",\r
+
+    \                    \"mmTypeCode\": \"249\",\r
+
+    \                    \"validFrom\": \"{{validFrom}}\"\r
+
+    \                }\r
+
+    \            ]\r
+
+    \        }\r
+
+    \    ]\r
+
+    }"
+order: 13678

@@ -1,166 +1,170 @@
 $kind: http-request
 name: "Register Farm: Non Existing Farm"
-url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/farm-data
+url: "{{farm-endpoint}}"
 method: POST
 body:
   type: json
   content: "{\r
 
-    \  \"requestId\": \"requestId_Zagkas\",\r
+    \    \"requestId\": \"requestId_Zagkas\",\r
 
-    \  \"dateOfInformation\": \"2026-04-03\",\r
+    \    \"dateOfInformation\": \"2026-04-03\",\r
 
-    \  \"sourceOfInformationCode\": \"44\", //UUR\r
+    \    \"sourceOfInformationCode\": \"44\", //UUR\r
 
-    \  \"contacts\": [\r
-
-    \    {\r
-
-    \      \"typeOfUpdate\": \"N\",\r
-
-    \      \"contactTypeCode\": \"6\",\r
-
-    \      \"contactValue\": \"dzagkas@netcompany.com\",\r
-
-    \      \"validFrom\": \"2026-01-01\"\r
-
-    \    }\r
-
-    \  ],\r
-
-    \  \"identifiers\": {\r
-
-    \    \"identifierValue\": \"uhjfdsf98o7yfd384\",\r
-
-    \    \"identifierTypeCode\": \"14\", //Farmers\r
-
-    \    \"validFrom\": \"2026-01-01\"\r
-
-    \  },\r
-
-    \  \"owners\": [\r
-
-    \    {\r
-
-    \      \"typeOfUpdate\": \"N\",\r
-
-    \      \"isNatural\": true,\r
-
-    \      \"ownerPartyId\": \"4171843c-8dbc-4342-91eb-003f830475a3\", //FA\r
-
-    \      \"validFrom\": \"2026-01-10\",\r
-
-    \      \"mmTypes\": [\r
+    \    \"contacts\": [\r
 
     \        {\r
 
-    \          \"typeOfUpdate\": \"N\",\r
+    \            \"typeOfUpdate\": \"N\",\r
 
-    \          \"mmTypeCode\": \"203\", // The only available mmtype of owner\r
+    \            \"contactTypeCode\": \"6\",\r
 
-    \          \"validFrom\": \"2026-01-10\",\r
+    \            \"contactValue\": \"dzagkas@netcompany.com\",\r
 
-    \          \"activities\": [\r
-
-    \            {\r
-
-    \              \"typeOfUpdate\": \"N\",\r
-
-    \              \"activityTypeCode\": \"011100\", //Cereal\r
-
-    \              \"isMain\": true,\r
-
-    \              \"validFrom\": \"2026-01-10\"\r
-
-    \            }\r
-
-    \          ]\r
+    \            \"validFrom\": \"{{validFrom}}\"\r
 
     \        }\r
 
-    \      ]\r
+    \    ],\r
 
-    \    }\r
+    \    \"identifiers\": {\r
 
-    \  ],\r
+    \        \"identifierValue\": \"Farm-{{$randomInt}}\",\r
 
-    //   \"partners\": [\r
+    \        \"identifierTypeCode\": \"14\", //Farmers\r
 
-    //     {\r
+    \        \"validFrom\": \"{{validFrom}}\"\r
 
-    //       \"typeOfUpdate\": \"N\",\r
+    \    },\r
 
-    //       \"isNatural\": true,\r
+    \    \"owners\": [\r
 
-    //       \"partnerPartyId\": \"e48372a0-e6d2-47d0-8297-40efba29196a\", //FA\r
+    \        {\r
 
-    //       \"validFrom\": \"2026-01-01\",\r
+    \            \"typeOfUpdate\": \"N\",\r
 
-    //       \"mmTypes\": [\r
+    \            \"isNatural\": true,\r
 
-    //         {\r
+    \            \"ownerPartyId\": \"53aa5b30-eff1-4947-bd9f-03a602037b6d\",
+    //FA\r
 
-    //           \"typeOfUpdate\": \"N\",\r
+    \            \"validFrom\": \"{{validFrom}}\",\r
 
-    //           \"mmTypeCode\": \"222\", // The only available mmtype of partner\r
+    \            \"mmTypes\": [\r
 
-    //           \"validFrom\": \"2026-01-01\",\r
+    \                {\r
 
-    //           \"activities\": [\r
+    \                    \"typeOfUpdate\": \"N\",\r
 
-    //             {\r
+    \                    \"mmTypeCode\": \"203\", // The only available mmtype
+    of owner\r
 
-    //               \"typeOfUpdate\": \"N\",\r
+    \                    \"validFrom\": \"{{validFrom}}\",\r
 
-    //               \"activityTypeCode\": \"011100\", //Cereal\r
+    \                    \"activities\": [\r
 
-    //               \"isMain\": true,\r
+    \                        {\r
 
-    //               \"validFrom\": \"2026-01-01\"\r
+    \                            \"typeOfUpdate\": \"N\",\r
 
-    //             }\r
+    \                            \"activityTypeCode\": \"011100\", //Cereal\r
 
-    //           ]\r
+    \                            \"isMain\": true,\r
 
-    //         }\r
+    \                            \"validFrom\": \"{{validFrom}}\"\r
 
-    //       ]\r
+    \                        }\r
 
-    //     }\r
+    \                    ]\r
 
-    //   ],\r
+    \                }\r
 
-    \  \"statuses\": [\r
+    \            ]\r
 
-    \    {\r
+    \        }\r
 
-    \      \"typeOfUpdate\": \"N\",\r
+    \    ],\r
 
-    \      \"statusCL\": \"3\", //Registered\r
+    \    //   \"partners\": [\r
 
-    \      \"validFrom\": \"2026-01-01\"\r
+    \    //     {\r
 
-    \    }\r
+    \    //       \"typeOfUpdate\": \"N\",\r
 
-    \  ],\r
+    \    //       \"isNatural\": true,\r
 
-    \  \"addresses\": [\r
+    \    //       \"partnerPartyId\": \"e48372a0-e6d2-47d0-8297-40efba29196a\",
+    //FA\r
 
-    \    {\r
+    \    //       \"validFrom\": \"{{validFrom}}\",\r
 
-    \      \"addressId\": \"11\",\r
+    \    //       \"mmTypes\": [\r
 
-    \      \"typeOfUpdate\": \"N\",\r
+    \    //         {\r
 
-    \      \"addressTypeCode\": \"43\", //Address of place of activity\r
+    \    //           \"typeOfUpdate\": \"N\",\r
 
-    \      \"addressObjectTypeCode\": \"SAV\", //Municipality\r
+    \    //           \"mmTypeCode\": \"222\", // The only available mmtype of
+    partner\r
 
-    \      \"validFrom\": \"2026-01-01\"\r
+    \    //           \"validFrom\": \"{{validFrom}}\",\r
 
-    \    }\r
+    \    //           \"activities\": [\r
 
-    \  ]\r
+    \    //             {\r
+
+    \    //               \"typeOfUpdate\": \"N\",\r
+
+    \    //               \"activityTypeCode\": \"011100\", //Cereal\r
+
+    \    //               \"isMain\": true,\r
+
+    \    //               \"validFrom\": \"{{validFrom}}\"\r
+
+    \    //             }\r
+
+    \    //           ]\r
+
+    \    //         }\r
+
+    \    //       ]\r
+
+    \    //     }\r
+
+    \    //   ],\r
+
+    \    \"statuses\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"statusCL\": \"3\", //Registered\r
+
+    \            \"validFrom\": \"{{validFrom}}\"\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"addresses\": [\r
+
+    \        {\r
+
+    \            \"addressId\": \"11\",\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"addressTypeCode\": \"43\", //Address of place of activity\r
+
+    \            \"addressObjectTypeCode\": \"SAV\", //Municipality\r
+
+    \            \"validFrom\": \"{{validFrom}}\"\r
+
+    \        }\r
+
+    \    ]\r
 
     }"
 examples: .resources/Register Farm- Non Existing Farm.resources/examples

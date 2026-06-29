@@ -48,7 +48,8 @@ body:
 
     \            \"isNatural\": false,\r
 
-    \            \"ownerPartyId\": \"21cfb503-57b2-4190-b57b-d27c1b002615\", //LJA\r
+    \            \"ownerPartyId\": \"21cfb503-57b2-4190-b57b-d27c1b002615\",
+    //LJA\r
 
     \            \"validFrom\": \"2026-01-01\",\r
 
@@ -58,7 +59,8 @@ body:
 
     \                    \"typeOfUpdate\": \"N\",\r
 
-    \                    \"mmTypeCode\": \"250\", // This mmtype allows activities\r
+    \                    \"mmTypeCode\": \"250\", // This mmtype allows
+    activities\r
 
     \                    \"validFrom\": \"2026-01-01\"\r
 
@@ -109,5 +111,6 @@ body:
     \    ]\r
 
     }"
-examples: .resources/Add a new AGR Holding - Non Existing AGR Holding - Owner JA.resources/examples
-order: 3000
+examples: .resources/Add a new AGR Holding - Non Existing AGR Holding - Owner
+  JA.resources/examples
+order: 2000

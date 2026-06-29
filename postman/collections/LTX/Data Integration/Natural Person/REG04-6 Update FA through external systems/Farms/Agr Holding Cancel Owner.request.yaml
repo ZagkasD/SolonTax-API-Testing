@@ -1,0 +1,85 @@
+$kind: http-request
+url: "{{farm-endpoint}}"
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"requestId\": \"requestId_Zagkas\",\r
+
+    \    \"dateOfInformation\": \"2026-04-03\",\r
+
+    \    \"mapId\": \"4cd13d45-32df-4e00-8f1a-dbadbf0c62e4\", //The agr
+    holding\r
+
+    \    \"sourceOfInformationCode\": \"6005\", //ZUKVR\r
+
+    \    \"owners\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"C\",\r
+
+    \            \"isNatural\": true,\r
+
+    \            \"ownerPartyId\": \"86d43621-629b-46a5-91cc-fdc336ced291\",
+    //FA\r
+
+    \            \"validFrom\": \"{{validFrom}}\",\r
+
+    \            \"cancelationDate\": \"2026-07-01\",\r
+
+    \            \"cancelationReasonCode\": \"OTHER\",\r
+
+    \            \"mmTypes\": [\r
+
+    \                {\r
+
+    \                    \"typeOfUpdate\": \"C\",\r
+
+    \                    \"mmTypeCode\": \"248\",\r
+
+    \                    \"validFrom\": \"{{validFrom}}\",\r
+
+    \                    \"cancelationDate\": \"2026-07-01\",\r
+
+    \                    \"cancelationReasonCode\": \"OTHER\"\r
+
+    \                }\r
+
+    \            ]\r
+
+    \        },\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"isNatural\": true,\r
+
+    \            \"ownerPartyId\": \"960430b4-82bb-415d-9315-c77bb06ad346\",
+    //FA\r
+
+    \            \"validFrom\": \"2026-07-02\",\r
+
+    \            \"mmTypes\": [\r
+
+    \                {\r
+
+    \                    \"typeOfUpdate\": \"N\",\r
+
+    \                    \"mmTypeCode\": \"249\", // The only available mmtype
+    of owner\r
+
+    \                    \"validFrom\": \"2026-07-02\"\r
+
+    \                }\r
+
+    \            ]\r
+
+    \        }\r
+
+    \    ]\r
+
+    }"
+order: 13000

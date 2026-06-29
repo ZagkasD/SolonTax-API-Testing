@@ -1,0 +1,80 @@
+$kind: http-request
+name: Agr Holding Cancel Activity
+url: "{{farm-endpoint}}"
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"requestId\": \"requestId_Zagkas\",\r
+
+    \    \"dateOfInformation\": \"2026-04-03\",\r
+
+    \    \"mapId\": \"edaaf1ea-fa6c-4fe1-ab7d-6291f6d4c1f2\", //The agr holding\r
+
+    \    \"sourceOfInformationCode\": \"6005\", //ZUKVR\r
+
+    \    \"owners\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"R\",\r
+
+    \            \"isNatural\": true,\r
+
+    \            \"ownerPartyId\": \"d853a20e-eadd-44f8-9fa3-2dff8c3b364b\", //FA\r
+
+    \            \"validFrom\": \"{{validFrom}}\",\r
+
+    \            \"mmTypes\": [\r
+
+    \                {\r
+
+    \                    \"typeOfUpdate\": \"R\",\r
+
+    \                    \"mmTypeCode\": \"232\",\r
+
+    \                    \"validFrom\": \"{{validFrom}}\",\r
+
+    \                    \"activities\": [\r
+
+    \                        {\r
+
+    \                            \"typeOfUpdate\": \"C\",\r
+
+    \                            \"activityTypeCode\": \"011100\", //Cereal\r
+
+    \                            \"isMain\": true,\r
+
+    \                            \"validFrom\": \"{{validFrom}}\",\r
+
+    \                            \"cancelationDate\": \"2026-07-01\",\r
+
+    \                            \"cancelationReasonCode\": \"OTHER\"\r
+
+    \                        },\r
+
+    \                        {\r
+
+    \                            \"typeOfUpdate\": \"N\",\r
+
+    \                            \"activityTypeCode\": \"104100\", //Cereal\r
+
+    \                            \"isMain\": true,\r
+
+    \                            \"validFrom\": \"{{validFrom}}\"\r
+
+    \                        }\r
+
+    \                    ]\r
+
+    \                }\r
+
+    \            ]\r
+
+    \        }\r
+
+    \    ]\r
+
+    }"
+order: 11435

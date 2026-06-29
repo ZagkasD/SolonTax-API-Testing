@@ -22,7 +22,7 @@ body:
 
     \            \"contactValue\": \"dzagkas@netcompany.com\",\r
 
-    \            \"validFrom\": \"2026-01-01\"\r
+    \            \"validFrom\": \"{{validFrom}}\"\r
 
     \        }\r
 
@@ -30,13 +30,13 @@ body:
 
     \    \"identifiers\": {\r
 
-    \        \"identifierValue\": \"97852098\",\r
+    \        \"identifierValue\": \"AGR_Holding-{{$randomInt}}\",\r
 
     \        \"identifierTypeCode\": \"51\", //Agricultural Holding Code\r
 
-    \        \"validFrom\": \"2026-01-01\"\r
+    \        \"validFrom\": \"{{validFrom}}\"\r
 
-    \    },    \r
+    \    },\r
 
     \    \"owners\": [\r
 
@@ -46,9 +46,10 @@ body:
 
     \            \"isNatural\": true,\r
 
-    \            \"ownerPartyId\": \"a6696286-2f3e-4a6c-9c9f-7f74b3c0a4a1\", //FA\r
+    \            \"ownerPartyId\": \"d853a20e-eadd-44f8-9fa3-2dff8c3b364b\",
+    //FA\r
 
-    \            \"validFrom\": \"2026-01-01\",\r
+    \            \"validFrom\": \"{{validFrom}}\",\r
 
     \            \"mmTypes\": [\r
 
@@ -56,9 +57,10 @@ body:
 
     \                    \"typeOfUpdate\": \"N\",\r
 
-    \                    \"mmTypeCode\": \"250\", // This mmtype allows activities\r
+    \                    \"mmTypeCode\": \"232\", // This mmtype does allow
+    activities\r
 
-    \                    \"validFrom\": \"2026-01-01\",\r
+    \                    \"validFrom\": \"{{validFrom}}\",\r
 
     \                    \"activities\": [\r
 
@@ -70,7 +72,7 @@ body:
 
     \                            \"isMain\": true,\r
 
-    \                            \"validFrom\": \"2026-01-01\"\r
+    \                            \"validFrom\": \"{{validFrom}}\"\r
 
     \                        }\r
 
@@ -84,11 +86,7 @@ body:
 
     \    ],\r
 
-    \    \r
-
     \    // ZUKVR Doesn't send partners!!!\r
-
-    \r
 
     \    \"statuses\": [\r
 
@@ -98,7 +96,7 @@ body:
 
     \            \"statusCL\": \"3\", //Registered\r
 
-    \            \"validFrom\": \"2026-01-01\"\r
+    \            \"validFrom\": \"{{validFrom}}\"\r
 
     \        }\r
 
@@ -116,12 +114,13 @@ body:
 
     \            \"addressObjectTypeCode\": \"SAV\", //Municipality,        }\r
 
-    \            \"validFrom\": \"2026-01-01\"\r
+    \            \"validFrom\": \"{{validFrom}}\"\r
 
     \        }\r
 
     \    ]\r
 
     }"
-examples: .resources/Register AGR Holding- Non Existing AGR Holding - Owner FA.resources/examples
-order: 4000
+examples: .resources/Register AGR Holding- Non Existing AGR Holding - Owner
+  FA.resources/examples
+order: 3000

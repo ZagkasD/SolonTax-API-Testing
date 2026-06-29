@@ -1,0 +1,82 @@
+$kind: http-request
+name: Farm Cancel Activity
+url: "{{farm-endpoint}}"
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"requestId\": \"requestId_Zagkas\",\r
+
+    \    \"dateOfInformation\": \"2026-04-03\",\r
+
+    \    \"mapId\": \"45382ff0-25ba-44c1-a577-130fb49daa92\", //The farm\r
+
+    \    \"sourceOfInformationCode\": \"44\", //UUR\r
+
+    \    \"owners\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"R\",\r
+
+    \            \"isNatural\": true,\r
+
+    \            \"ownerPartyId\": \"53aa5b30-eff1-4947-bd9f-03a602037b6d\",
+    //FA\r
+
+    \            \"validFrom\": \"{{validFrom}}\",\r
+
+    \            \"mmTypes\": [\r
+
+    \                {\r
+
+    \                    \"typeOfUpdate\": \"R\",\r
+
+    \                    \"mmTypeCode\": \"203\", // The only available mmtype
+    of owner\r
+
+    \                    \"validFrom\": \"{{validFrom}}\",\r
+
+    \                    \"activities\": [\r
+
+    \                        {\r
+
+    \                            \"typeOfUpdate\": \"C\",\r
+
+    \                            \"activityTypeCode\": \"011100\", //Cereal\r
+
+    \                            \"isMain\": true,\r
+
+    \                            \"validFrom\": \"{{validFrom}}\",\r
+
+    \                            \"cancelationDate\": \"2026-07-01\",\r
+
+    \                            \"cancelationReasonCode\": \"OTHER\"\r
+
+    \                        },\r
+
+    \                        {\r
+
+    \                            \"typeOfUpdate\": \"N\",\r
+
+    \                            \"activityTypeCode\": \"103100\",\r
+
+    \                            \"isMain\": true,\r
+
+    \                            \"validFrom\": \"{{validFrom}}\"\r
+
+    \                        }\r
+
+    \                    ]\r
+
+    \                }\r
+
+    \            ]\r
+
+    \        }\r
+
+    \    ]\r
+
+    }"
+order: 14000

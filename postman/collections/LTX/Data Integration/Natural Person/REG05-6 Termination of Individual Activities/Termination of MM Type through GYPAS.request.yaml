@@ -1,6 +1,6 @@
 $kind: http-request
 name: Termination of MM Type through GYPAS
-url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/natural-persons
+url: "{{natural-person-endpoint}}"
 method: POST
 body:
   type: json
@@ -8,13 +8,11 @@ body:
 
     \    \"requestId\": \"requestId_Zagkas\",\r
 
-    \    \"mapId\": \"b5b2d953-5eb6-442c-b703-dec0e3fa789c\", \r
+    \    \"mapId\": \"1ea50994-2d54-41ad-9934-7ef4f2356255\",\r
 
     \    \"dateOfInformation\": \"2026-01-01\",\r
 
     \    \"sourceOfInformationCode\": \"5002\", //GYPAS\r
-
-    \    \"isCreate\": false,\r
 
     \    \"mmTypes\": [\r
 
@@ -24,9 +22,9 @@ body:
 
     \            \"mmTypeCode\": \"215\",\r
 
-    \            \"validFrom\": \"2026-03-21\",\r
+    \            \"validFrom\": \"{{validFrom}}\",\r
 
-    \            \"validTo\": \"2026-03-22\"\r
+    \            \"validTo\": \"2026-06-27\"\r
 
     \        }\r
 

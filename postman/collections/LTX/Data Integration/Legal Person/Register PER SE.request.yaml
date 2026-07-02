@@ -74,11 +74,11 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"addressId\": \"3300772154\",\r
+    \            \"addressId\": \"417310773823\",\r
 
-    \            \"addressTypeCode\": \"5\",\r
+    \            \"addressTypeCode\": \"49\",//Office address of the legal entity\r
 
-    \            \"addressObjectTypeCode\": \"SEN\",\r
+    \            \"addressObjectTypeCode\": \"A_KOM\",\r
 
     \            \"countryCode\": \"LT\",\r
 

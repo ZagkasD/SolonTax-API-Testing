@@ -1,4 +1,6 @@
 $kind: http-request
+name: Registration of a Lithuanian Client Received from GYPAS MMType
+description: Does not work due to [https://jira.intrasoft-intl.com/browse/LTX-17141](https://jira.intrasoft-intl.com/browse/LTX-17141)
 url: "{{natural-person-endpoint}}"
 method: POST
 body:

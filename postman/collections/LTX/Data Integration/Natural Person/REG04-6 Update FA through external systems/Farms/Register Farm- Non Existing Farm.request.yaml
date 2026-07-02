@@ -46,8 +46,7 @@ body:
 
     \            \"isNatural\": true,\r
 
-    \            \"ownerPartyId\": \"53aa5b30-eff1-4947-bd9f-03a602037b6d\",
-    //FA\r
+    \            \"ownerPartyId\": \"c9da37ae-b266-4ba0-9ef3-e09d6f00ebf3\", //FA\r
 
     \            \"validFrom\": \"{{validFrom}}\",\r
 
@@ -57,8 +56,7 @@ body:
 
     \                    \"typeOfUpdate\": \"N\",\r
 
-    \                    \"mmTypeCode\": \"203\", // The only available mmtype
-    of owner\r
+    \                    \"mmTypeCode\": \"203\", // The only available mmtype of owner\r
 
     \                    \"validFrom\": \"{{validFrom}}\",\r
 
@@ -94,8 +92,7 @@ body:
 
     \    //       \"isNatural\": true,\r
 
-    \    //       \"partnerPartyId\": \"e48372a0-e6d2-47d0-8297-40efba29196a\",
-    //FA\r
+    \    //       \"partnerPartyId\": \"e48372a0-e6d2-47d0-8297-40efba29196a\", //FA\r
 
     \    //       \"validFrom\": \"{{validFrom}}\",\r
 
@@ -105,8 +102,7 @@ body:
 
     \    //           \"typeOfUpdate\": \"N\",\r
 
-    \    //           \"mmTypeCode\": \"222\", // The only available mmtype of
-    partner\r
+    \    //           \"mmTypeCode\": \"222\", // The only available mmtype of partner\r
 
     \    //           \"validFrom\": \"{{validFrom}}\",\r
 
@@ -160,7 +156,7 @@ body:
 
     \            \"addressObjectTypeCode\": \"SAV\", //Municipality\r
 
-    \            \"validFrom\": \"{{validFrom}}\"\r
+    \            \"validFrom\": \"2027-01-01\"\r
 
     \        }\r
 

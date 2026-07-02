@@ -1,4 +1,5 @@
 $kind: http-request
+name: Farm Cancel Owner with MMType and Activity
 url: "{{farm-endpoint}}"
 method: POST
 body:
@@ -9,7 +10,7 @@ body:
 
     \    \"dateOfInformation\": \"2026-04-03\",\r
 
-    \    \"mapId\": \"8dffdec8-e67c-48d1-b119-06d0c67c4c37\", //The farm\r
+    \    \"mapId\": \"cbbd3c5f-c3f5-418a-a67f-b810850762d4\", //The farm\r
 
     \    \"sourceOfInformationCode\": \"44\", //UUR\r
 
@@ -21,12 +22,11 @@ body:
 
     \            \"isNatural\": true,\r
 
-    \            \"ownerPartyId\": \"f3ce2a74-3480-43ef-a7cf-5b89d11d49c1\",
-    //FA\r
+    \            \"ownerPartyId\": \"c9da37ae-b266-4ba0-9ef3-e09d6f00ebf3\", //FA\r
 
     \            \"validFrom\": \"{{validFrom}}\",\r
 
-    \            \"cancelationDate\": \"2026-07-01\",\r
+    \            \"cancelationDate\": \"2026-08-01\",\r
 
     \            \"cancelationReasonCode\": \"OTHER\",\r
 
@@ -36,12 +36,11 @@ body:
 
     \                    \"typeOfUpdate\": \"C\",\r
 
-    \                    \"mmTypeCode\": \"203\", // The only available mmtype
-    of owner\r
+    \                    \"mmTypeCode\": \"203\", // The only available mmtype of owner\r
 
     \                    \"validFrom\": \"{{validFrom}}\",\r
 
-    \                    \"cancelationDate\": \"2026-07-01\",\r
+    \                    \"cancelationDate\": \"2026-08-01\",\r
 
     \                    \"cancelationReasonCode\": \"OTHER\",\r
 
@@ -57,7 +56,7 @@ body:
 
     \                            \"validFrom\": \"{{validFrom}}\",\r
 
-    \                            \"cancelationDate\": \"2026-07-01\",\r
+    \                            \"cancelationDate\": \"2026-08-01\",\r
 
     \                            \"cancelationReasonCode\": \"OTHER\"\r
 
@@ -77,10 +76,9 @@ body:
 
     \            \"isNatural\": true,\r
 
-    \            \"ownerPartyId\": \"5515a508-e8ee-4a7e-a0cb-743ca63cd2f3\",
-    //FA\r
+    \            \"ownerPartyId\": \"e01e1996-cf65-45bc-9c9c-ddbffcb0d21d\", //FA\r
 
-    \            \"validFrom\": \"2026-07-02\",\r
+    \            \"validFrom\": \"2026-08-02\",\r
 
     \            \"mmTypes\": [\r
 
@@ -88,10 +86,9 @@ body:
 
     \                    \"typeOfUpdate\": \"N\",\r
 
-    \                    \"mmTypeCode\": \"203\", // The only available mmtype
-    of owner\r
+    \                    \"mmTypeCode\": \"203\", // The only available mmtype of owner\r
 
-    \                    \"validFrom\": \"2026-07-02\",\r
+    \                    \"validFrom\": \"2026-08-02\",\r
 
     \                    \"activities\": [\r
 
@@ -103,7 +100,7 @@ body:
 
     \                            \"isMain\": true,\r
 
-    \                            \"validFrom\": \"2026-07-02\"\r
+    \                            \"validFrom\": \"2026-08-02\"\r
 
     \                        }\r
 

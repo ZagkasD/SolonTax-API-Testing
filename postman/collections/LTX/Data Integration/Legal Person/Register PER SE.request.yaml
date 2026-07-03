@@ -30,7 +30,7 @@ body:
 
     \            \"validFrom\": \"{{validFrom}}\"\r
 
-    \        }\r
+    \        } \r
 
     \    ],\r
 

@@ -10,7 +10,7 @@ body:
 
     \    \"dateOfInformation\": \"2000-01-01\",\r
 
-    \    \"sourceOfInformationCode\": \"65\", //Legal Person Registry (JAR) \r
+    \    \"sourceOfInformationCode\": \"65\", //Legal Person  Registry (JAR) \r
 
     \    \"legalPersonMain\": {\r
 

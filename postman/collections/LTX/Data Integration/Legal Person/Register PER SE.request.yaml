@@ -8,7 +8,7 @@ body:
 
     \    \"requestId\": \"Zagkas_ID\",\r
 
-    \    \"dateOfInformation\": \"2000-01-01\",\r
+    \    \"dateOfInformation\": \"2000-01-01\", \r
 
     \    \"sourceOfInformationCode\": \"65\", //Legal Person  Registry (JAR) \r
 

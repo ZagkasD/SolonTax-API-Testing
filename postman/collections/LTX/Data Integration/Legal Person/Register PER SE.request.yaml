@@ -76,7 +76,7 @@ body:
 
     \            \"addressId\": \"417310773823\",\r
 
-    \            \"addressTypeCode\": \"49\",//Office address of the legal entity\r
+    \            \"addressTypeCode\": \"2\",//Address of the legal entity's registered office. This is the only address type that automatically sets the municipality equal to the municipality of the address.\r
 
     \            \"addressObjectTypeCode\": \"A_KOM\",\r
 

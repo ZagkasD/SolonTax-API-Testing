@@ -6,159 +6,159 @@ body:
   type: json
   content: "{\r
 
-    \  \"party\": {\r
+    \    \"party\": {\r
 
-    \    \"id\": \"982d383e-bb26-44df-aed1-137fab656b5e\"\r
-
-    \  },\r
-
-    \  \"formTypeCode\": \"ACT_REG\",\r
-
-    \  \"sourceCL\": \"3\",\r
-
-    \  \"receiveDate\": \"2026-06-04\",\r
-
-    \  \"filingTypeCL\": \"ORIGINAL\",\r
-
-    \  \"defaultAdjustReasonCL\": \"0\",\r
-
-    \  \"mainActivity\": [\r
-
-    \    {\r
-
-    \      \"mainActivityType\": \"011100\"\r
-
-    \    }\r
-
-    \  ],\r
-
-    \  \"formData\": {\r
-
-    \    \"isCreate\": true,\r
-
-    \    \"isMinor\": false,\r
-
-    \    \"registrationReasonCodeCL\": \"2\",\r
-
-    \    \"partyId\": \"982d383e-bb26-44df-aed1-137fab656b5e\",\r
-
-    \    \"taxPayerType\": \"215\",\r
-
-    \    \"naturalPersonData\": {\r
-
-    \      \"identificationCode\": \"Taxpayer identification number: 9000049975\",\r
-
-    \      \"fullName\": \"Self Service User\"\r
+    \        \"id\": \"c6555816-61ad-4f96-a1ff-a321b28601cc\"\r
 
     \    },\r
 
-    \    \"mainActivityData\": [\r
+    \    \"formTypeCode\": \"ACT_REG\",\r
 
-    \      {\r
+    \    //   \"sourceCL\": \"3\",\r
 
-    \        \"confirmCompliance\": false,\r
+    \    \"receiveDate\": \"2026-06-04\",\r
 
-    \        \"startDate\": \"2026-06-04\",\r
+    \    \"filingTypeCL\": \"ORIGINAL\",\r
 
-    \        \"activityCategoryCL\": 7134,\r
+    \    \"defaultAdjustReasonCL\": \"0\",\r
 
-    \        \"mainActivitySelection\": {\r
+    \    \"mainActivity\": [\r
 
-    \          \"id\": \"9dd06158-abe2-446f-b331-3c9be3501fd6\",\r
+    \        {\r
 
-    \          \"codeListItemCode\": \"011100\",\r
-
-    \          \"codeListItemDescription\": \"Growing of cereals (except rice), leguminous crops and oil seeds\"\r
-
-    \        },\r
-
-    \        \"mainActivityType\": \"011100\"\r
-
-    \      }\r
-
-    \    ],\r
-
-    \    \"placeOfActivityData\": [\r
-
-    \      {\r
-
-    \        \"coincides\": false,\r
-
-    \        \"startDate\": \"2026-06-19\",\r
-
-    \        \"typeOfPlace\": \"16\",\r
-
-    \        \"internetAddress\": \"www.test.com\",\r
-
-    \        \"address\": {\r
-
-    \          \"countryCodeCL\": \"LT\",\r
-
-    \          \"addressOptionCL\": \"STRUCTURED\",\r
-
-    \          \"addressTypeCL\": \"43\",\r
-
-    \          \"houseNumberStatus\": \"ENABLED\",\r
-
-    \          \"creationDttm\": \"2026-06-19\",\r
-
-    \          \"sourceCL\": \"3\",\r
-
-    \          \"location\": {\r
-
-    \            \"locationCode\": \"LOC0\",\r
-
-    \            \"locationDescription\": \"Melissamouth,Antakalnis,Vilnius city municipality,C10\"\r
-
-    \          },\r
-
-    \          \"municipalityCL\": \"13\",\r
-
-    \          \"eldership\": {\r
-
-    \            \"eldershipCode\": \"13E1\"\r
-
-    \          },\r
-
-    \          \"countyCode\": \"C10\",\r
-
-    \          \"street\": {\r
-
-    \            \"streetCode\": \"LOC0-LOC0-S0\",\r
-
-    \            \"streetDescription\": \"Grand lake\"\r
-
-    \          },\r
-
-    \          \"house\": {\r
-
-    \            \"id\": 1,\r
-
-    \            \"houseNumber\": \"88\"\r
-
-    \          },\r
-
-    \          \"apartment\": {\r
-
-    \            \"apartmentNumber\": \"BO11\"\r
-
-    \          },\r
-
-    \          \"postalCode\": \"LT-1234\",\r
-
-    \          \"placeOfActivityAddress\": {\r
-
-    \            \"id\": \"687f2a15-e055-4b7c-94ca-6987ce3b0571\"\r
-
-    \          }\r
+    \            \"mainActivityType\": \"691000\"\r
 
     \        }\r
 
-    \      }\r
+    \    ],\r
 
-    \    ]\r
+    \    \"formData\": {\r
 
-    \  }\r
+    \        \"isCreate\": true,\r
+
+    \        \"isMinor\": false,\r
+
+    \        \"registrationReasonCodeCL\": \"2\",\r
+
+    \        \"partyId\": \"c6555816-61ad-4f96-a1ff-a321b28601cc\",\r
+
+    \        \"taxPayerType\": \"215\",\r
+
+    \        \"naturalPersonData\": {\r
+
+    \            \"identificationCode\": \"Taxpayer identification number: 9000049975\",\r
+
+    \            \"fullName\": \"Self Service User\"\r
+
+    \        },\r
+
+    \        \"mainActivityData\": [\r
+
+    \            {\r
+
+    \                \"confirmCompliance\": false,\r
+
+    \                \"startDate\": \"2026-06-04\",\r
+
+    \                \"activityCategoryCL\": 7134,\r
+
+    \                \"mainActivitySelection\": {\r
+
+    \                    \"id\": \"9dd06158-abe2-446f-b331-3c9be3501fd6\",\r
+
+    \                    \"codeListItemCode\": \"011100\",\r
+
+    \                    \"codeListItemDescription\": \"Growing of cereals (except rice), leguminous crops and oil seeds\"\r
+
+    \                },\r
+
+    \                \"mainActivityType\": \"011100\"\r
+
+    \            }\r
+
+    \        ],\r
+
+    \        \"placeOfActivityData\": [\r
+
+    \            {\r
+
+    \                \"coincides\": false,\r
+
+    \                \"startDate\": \"2026-06-19\",\r
+
+    \                \"typeOfPlace\": \"16\",\r
+
+    \                \"internetAddress\": \"www.test.com\",\r
+
+    \                \"address\": {\r
+
+    \                    \"countryCodeCL\": \"LT\",\r
+
+    \                    \"addressOptionCL\": \"STRUCTURED\",\r
+
+    \                    \"addressTypeCL\": \"43\",\r
+
+    \                    \"houseNumberStatus\": \"ENABLED\",\r
+
+    \                    \"creationDttm\": \"2026-06-19\",\r
+
+    \                    \"sourceCL\": \"3\",\r
+
+    \                    \"location\": {\r
+
+    \                        \"locationCode\": \"LOC0\",\r
+
+    \                        \"locationDescription\": \"Melissamouth,Antakalnis,Vilnius city municipality,C10\"\r
+
+    \                    },\r
+
+    \                    \"municipalityCL\": \"13\",\r
+
+    \                    \"eldership\": {\r
+
+    \                        \"eldershipCode\": \"13E1\"\r
+
+    \                    },\r
+
+    \                    \"countyCode\": \"C10\",\r
+
+    \                    \"street\": {\r
+
+    \                        \"streetCode\": \"LOC0-LOC0-S0\",\r
+
+    \                        \"streetDescription\": \"Grand lake\"\r
+
+    \                    },\r
+
+    \                    \"house\": {\r
+
+    \                        \"id\": 1,\r
+
+    \                        \"houseNumber\": \"88\"\r
+
+    \                    },\r
+
+    \                    \"apartment\": {\r
+
+    \                        \"apartmentNumber\": \"BO11\"\r
+
+    \                    },\r
+
+    \                    \"postalCode\": \"LT-1234\",\r
+
+    \                    \"placeOfActivityAddress\": {\r
+
+    \                        \"id\": \"687f2a15-e055-4b7c-94ca-6987ce3b0571\"\r
+
+    \                    }\r
+
+    \                }\r
+
+    \            }\r
+
+    \        ]\r
+
+    \    }\r
 
     }"
 order: 1782456853121

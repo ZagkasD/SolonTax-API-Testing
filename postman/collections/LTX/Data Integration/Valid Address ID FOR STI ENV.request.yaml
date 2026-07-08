@@ -1,23 +1,26 @@
 $kind: http-request
+name: Valid Address ID FOR STI ENV
 url: ""
 method: POST
 body:
   type: json
-  content: "  \"addresses\": [\r
+  content: "\"addresses\": [\r
 
     \    {\r
 
-    \      \"typeOfUpdate\": \"N\",\r
+    \        \"typeOfUpdate\": \"N\",\r
 
-    \      \"addressTypeCode\": \"5\",\r
+    \        \"addressTypeCode\": \"5\",\r
 
-    \      \"addressObjectTypeCode\": \"A_KOM\",\r
+    \        \"addressObjectTypeCode\": \"A_KOM\",\r
 
-    \      \"addressId\": \"12580639\",\r
+    \        \"addressId\": \"12580639\",\r
 
-    \      \"countryCode\": \"LT\",\r
+    \        \"countryCode\": \"LT\",\r
 
-    \      \"validFrom\": \"2024-03-11\"\r
+    \        \"validFrom\": \"2024-03-11\"\r
 
-    \    }"
-order: 3000 
+    \    }\r
+
+    ]"
+order: 3000

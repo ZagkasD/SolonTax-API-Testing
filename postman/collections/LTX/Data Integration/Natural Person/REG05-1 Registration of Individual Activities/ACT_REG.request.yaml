@@ -1,6 +1,6 @@
 $kind: http-request
 name: ACT_REG
-url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/ui-configuration/forms
+url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/api-gateway/ui-configuration/forms
 method: POST
 body:
   type: json
@@ -8,13 +8,13 @@ body:
 
     \    \"party\": {\r
 
-    \        \"id\": \"c6555816-61ad-4f96-a1ff-a321b28601cc\"\r
+    \        \"id\": \"1006a218-3a9c-47e2-9d1a-6c6cc202437e\"\r
 
     \    },\r
 
     \    \"formTypeCode\": \"ACT_REG\",\r
 
-    \    //   \"sourceCL\": \"3\",\r
+    \    \"sourceCL\": \"3\",\r
 
     \    \"receiveDate\": \"2026-06-04\",\r
 
@@ -26,139 +26,22 @@ body:
 
     \        {\r
 
-    \            \"mainActivityType\": \"691000\"\r
+    \            \"mainActivityType\": \"011100\"\r
 
     \        }\r
 
     \    ],\r
 
-    \    \"formData\": {\r
-
-    \        \"isCreate\": true,\r
-
-    \        \"isMinor\": false,\r
-
-    \        \"registrationReasonCodeCL\": \"2\",\r
-
-    \        \"partyId\": \"c6555816-61ad-4f96-a1ff-a321b28601cc\",\r
-
-    \        \"taxPayerType\": \"215\",\r
-
-    \        \"naturalPersonData\": {\r
-
-    \            \"identificationCode\": \"Taxpayer identification number: 9000049975\",\r
-
-    \            \"fullName\": \"Self Service User\"\r
-
-    \        },\r
-
-    \        \"mainActivityData\": [\r
-
-    \            {\r
-
-    \                \"confirmCompliance\": false,\r
-
-    \                \"startDate\": \"2026-06-04\",\r
-
-    \                \"activityCategoryCL\": 7134,\r
-
-    \                \"mainActivitySelection\": {\r
-
-    \                    \"id\": \"9dd06158-abe2-446f-b331-3c9be3501fd6\",\r
-
-    \                    \"codeListItemCode\": \"011100\",\r
-
-    \                    \"codeListItemDescription\": \"Growing of cereals (except rice), leguminous crops and oil seeds\"\r
-
-    \                },\r
-
-    \                \"mainActivityType\": \"011100\"\r
-
-    \            }\r
-
-    \        ],\r
-
-    \        \"placeOfActivityData\": [\r
-
-    \            {\r
-
-    \                \"coincides\": false,\r
-
-    \                \"startDate\": \"2026-06-19\",\r
-
-    \                \"typeOfPlace\": \"16\",\r
-
-    \                \"internetAddress\": \"www.test.com\",\r
-
-    \                \"address\": {\r
-
-    \                    \"countryCodeCL\": \"LT\",\r
-
-    \                    \"addressOptionCL\": \"STRUCTURED\",\r
-
-    \                    \"addressTypeCL\": \"43\",\r
-
-    \                    \"houseNumberStatus\": \"ENABLED\",\r
-
-    \                    \"creationDttm\": \"2026-06-19\",\r
-
-    \                    \"sourceCL\": \"3\",\r
-
-    \                    \"location\": {\r
-
-    \                        \"locationCode\": \"LOC0\",\r
-
-    \                        \"locationDescription\": \"Melissamouth,Antakalnis,Vilnius city municipality,C10\"\r
-
-    \                    },\r
-
-    \                    \"municipalityCL\": \"13\",\r
-
-    \                    \"eldership\": {\r
-
-    \                        \"eldershipCode\": \"13E1\"\r
-
-    \                    },\r
-
-    \                    \"countyCode\": \"C10\",\r
-
-    \                    \"street\": {\r
-
-    \                        \"streetCode\": \"LOC0-LOC0-S0\",\r
-
-    \                        \"streetDescription\": \"Grand lake\"\r
-
-    \                    },\r
-
-    \                    \"house\": {\r
-
-    \                        \"id\": 1,\r
-
-    \                        \"houseNumber\": \"88\"\r
-
-    \                    },\r
-
-    \                    \"apartment\": {\r
-
-    \                        \"apartmentNumber\": \"BO11\"\r
-
-    \                    },\r
-
-    \                    \"postalCode\": \"LT-1234\",\r
-
-    \                    \"placeOfActivityAddress\": {\r
-
-    \                        \"id\": \"687f2a15-e055-4b7c-94ca-6987ce3b0571\"\r
-
-    \                    }\r
-
-    \                }\r
-
-    \            }\r
-
-    \        ]\r
-
-    \    }\r
+    \    \"formData\": \"{\\\"isMinor\\\":false,\\\"registrationReasonCodeCL\\\":\\\"2\\\",\\\"partyId\\\":\\\"1006a218-3a9c-47e2-9d1a-6c6cc202437e\\\",\\\"taxPayerType\\\":\\\"215\\\",\\\"naturalPersonData\\\":{\\\"identificationCode\\\":\\\"Taxpayer identification number: LT-908\\\",\\\"fullName\\\":\\\"Dimos GR connect Zagkas\\\"},\\\"mainActivityData\\\":[{\\\"confirmCompliance\\\":false,\\\"startDate\\\":\\\"2026-07-10\\\",\\\"activityCategoryCL\\\":7134,\\\"mainActivitySelection\\\":{\\\"id\\\":\\\"9dd06158-abe2-446f-b331-3c9be3501fd6\\\",\\\"codeListItemCode\\\":\\\"011100\\\",\\\"codeListItemDescription\\\":\\\"Growing of cereals (except rice), leguminous crops and oil seeds\\\"},\\\"mainActivityType\\\":\\\"011100\\\"}],\\\"placeOfActivityData\\\":[{\\\"coincides\\\":true,\\\"startDate\\\":\\\"2026-07-10\\\",\\\"typeOfPlace\\\":\\\"99\\\"}]}\"\r
 
     }"
+auth:
+  type: oauth2
+  credentials:
+    addTokenTo: header
+    grant_type: password_credentials
+    accessTokenUrl: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/auth/realms/solontax-rm-dev/protocol/openid-connect/token
+    clientId: revenue-management-be
+    password: icarus01
+    username: user
 order: 1782456853121

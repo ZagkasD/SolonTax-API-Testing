@@ -8,7 +8,7 @@ body:
 
     \    \"party\": {\r
 
-    \        \"id\": \"1006a218-3a9c-47e2-9d1a-6c6cc202437e\"\r
+    \        \"id\": \"55fa98d3-18e2-4eff-aad9-57345d19dc92\"\r
 
     \    },\r
 
@@ -16,7 +16,7 @@ body:
 
     \    \"sourceCL\": \"3\",\r
 
-    \    \"receiveDate\": \"2026-06-04\",\r
+    \    \"receiveDate\": \"2026-07-10\",\r
 
     \    \"filingTypeCL\": \"ORIGINAL\",\r
 
@@ -32,7 +32,7 @@ body:
 
     \    ],\r
 
-    \    \"formData\": \"{\\\"isMinor\\\":false,\\\"registrationReasonCodeCL\\\":\\\"2\\\",\\\"partyId\\\":\\\"1006a218-3a9c-47e2-9d1a-6c6cc202437e\\\",\\\"taxPayerType\\\":\\\"215\\\",\\\"naturalPersonData\\\":{\\\"identificationCode\\\":\\\"Taxpayer identification number: LT-908\\\",\\\"fullName\\\":\\\"Dimos GR connect Zagkas\\\"},\\\"mainActivityData\\\":[{\\\"confirmCompliance\\\":false,\\\"startDate\\\":\\\"2026-07-10\\\",\\\"activityCategoryCL\\\":7134,\\\"mainActivitySelection\\\":{\\\"id\\\":\\\"9dd06158-abe2-446f-b331-3c9be3501fd6\\\",\\\"codeListItemCode\\\":\\\"011100\\\",\\\"codeListItemDescription\\\":\\\"Growing of cereals (except rice), leguminous crops and oil seeds\\\"},\\\"mainActivityType\\\":\\\"011100\\\"}],\\\"placeOfActivityData\\\":[{\\\"coincides\\\":true,\\\"startDate\\\":\\\"2026-07-10\\\",\\\"typeOfPlace\\\":\\\"99\\\"}]}\"\r
+    \    \"formData\": \"{\\\"isMinor\\\":false,\\\"registrationReasonCodeCL\\\":\\\"2\\\",\\\"partyId\\\":\\\"55fa98d3-18e2-4eff-aad9-57345d19dc92\\\",\\\"taxPayerType\\\":\\\"215\\\",\\\"naturalPersonData\\\":{\\\"identificationCode\\\":\\\"Taxpayer identification number: LT-908\\\",\\\"fullName\\\":\\\"Dimos GR connect Zagkas\\\"},\\\"mainActivityData\\\":[{\\\"confirmCompliance\\\":false,\\\"startDate\\\":\\\"2026-07-10\\\",\\\"activityCategoryCL\\\":7134,\\\"mainActivitySelection\\\":{\\\"id\\\":\\\"9dd06158-abe2-446f-b331-3c9be3501fd6\\\",\\\"codeListItemCode\\\":\\\"011100\\\",\\\"codeListItemDescription\\\":\\\"Growing of cereals (except rice), leguminous crops and oil seeds\\\"},\\\"mainActivityType\\\":\\\"011100\\\"}],\\\"placeOfActivityData\\\":[{\\\"coincides\\\":true,\\\"startDate\\\":\\\"2026-07-10\\\",\\\"typeOfPlace\\\":\\\"99\\\"}]}\"\r
 
     }"
 auth:

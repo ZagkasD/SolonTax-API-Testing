@@ -8,4 +8,6 @@ values:
     value: ''
   - key: residence-certificates-endpoint
     value: ''
+  - key: ui-config/forms/submit-endpoint
+    value: ''
 color: 0

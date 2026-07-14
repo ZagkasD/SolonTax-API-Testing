@@ -1,47 +1,74 @@
 $kind: http-request
 name: ACT_REG
-url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/api-gateway/ui-configuration/forms
+url: "{{ui-config/forms/submit-endpoint}}"
 method: POST
 body:
   type: json
   content: "{\r
 
+    \    \"id\": null,\r
+
     \    \"party\": {\r
 
-    \        \"id\": \"75a1863c-b183-4531-9da1-32c7fb851bef\"\r
+    \        \"id\": \"{{partyId}}\",\r
+
+    \        \"identificationLabel\": null\r
 
     \    },\r
 
     \    \"formTypeCode\": \"ACT_REG\",\r
 
+    \    \"formTypeDescription\": null,\r
+
+    \    \"referenceNumber\": null,\r
+
     \    \"sourceCL\": \"3\",\r
 
-    \    \"receiveDate\": \"2026-07-13\",\r
+    \    \"sourceCLDescription\": \"MAP\",\r
+
+    \    \"receiveDate\": \"2026-07-14\",\r
 
     \    \"filingTypeCL\": \"ORIGINAL\",\r
 
-    \    \"defaultAdjustReasonCL\": \"0\",\r
+    \    \"filingTypeCLDescription\": \"Original\",\r
 
-    \    \"mainActivity\": [\r
+    \    \"creationTimestamp\": null,\r
 
-    \        {\r
+    \    \"statusCL\": null,\r
 
-    \            \"mainActivityType\": \"011100\"\r
+    \    \"statusCLDescription\": null,\r
 
-    \        }\r
+    \    \"changeReasonCL\": null,\r
 
-    \    ],\r
+    \    \"changeReasonCLDescription\": null,\r
 
-    \    \"formData\": \"{\\\"isMinor\\\":false,\\\"registrationReasonCodeCL\\\":\\\"2\\\",\\\"partyId\\\":\\\"75a1863c-b183-4531-9da1-32c7fb851bef\\\",\\\"taxPayerType\\\":\\\"215\\\",\\\"naturalPersonData\\\":{\\\"identificationCode\\\":\\\"Taxpayer identification number: LT-383\\\",\\\"fullName\\\":\\\"Dimos GR Electronics Zagkas\\\"},\\\"mainActivityData\\\":[{\\\"confirmCompliance\\\":false,\\\"startDate\\\":\\\"2026-07-13\\\",\\\"activityCategoryCL\\\":7134,\\\"mainActivitySelection\\\":{\\\"id\\\":\\\"9dd06158-abe2-446f-b331-3c9be3501fd6\\\",\\\"codeListItemCode\\\":\\\"011100\\\",\\\"codeListItemDescription\\\":\\\"Growing of cereals (except rice), leguminous crops and oil seeds\\\"},\\\"mainActivityType\\\":\\\"011100\\\"}],\\\"placeOfActivityData\\\":[{\\\"coincides\\\":true,\\\"startDate\\\":\\\"2026-07-13\\\",\\\"typeOfPlace\\\":\\\"99\\\"}]}\"\r
+    \    \"formChangeComment\": null,\r
+
+    \    \"adjustReasonCL\": null,\r
+
+    \    \"adjustReasonCLDescription\": null,\r
+
+    \    \"adjustComment\": null,\r
+
+    \    \"lastUpdateTimestamp\": null,\r
+
+    \    \"violationsData\": [],\r
+
+    \    \"formData\": \"{\\\"isCreate\\\":true,\\\"isMinor\\\":false,\\\"partyId\\\":\\\"{{partyId}}\\\",\\\"taxPayerType\\\":\\\"{{mmType}}\\\",\\\"naturalPersonData\\\":{\\\"identificationCode\\\":\\\"Taxpayer identification number: {{TIN}}\\\",\\\"fullName\\\":\\\"{{fullName}}\\\",\\\"address\\\":{\\\"id\\\":\\\"6f19c64d-5629-4084-a562-1c556fee137e\\\",\\\"identificationLabel\\\":\\\"Karoliniškės, Vilnius city municipality\\\"}},\\\"mainActivityData\\\":[{\\\"confirmCompliance\\\":false,\\\"startDate\\\":\\\"{{startDate}}\\\",\\\"activityCategoryCL\\\":7110,\\\"mainActivitySelection\\\":{\\\"id\\\":\\\"9dd06158-abe2-446f-b331-3c9be3501fd6\\\",\\\"codeListItemCode\\\":\\\"{{activity}}\\\",\\\"codeListItemDescription\\\":\\\"Growing of cereals (except rice), leguminous crops and oil seeds\\\"},\\\"mainActivityType\\\":\\\"011100\\\",\\\"taxPayerTypeSelection\\\":\\\"215\\\"}],\\\"placeOfActivityData\\\":[{\\\"coincides\\\":true,\\\"address\\\":{\\\"countryCodeCL\\\":\\\"LT\\\",\\\"addressOptionCL\\\":\\\"STRUCTURED\\\",\\\"addressTypeCL\\\":\\\"43\\\",\\\"houseNumberStatus\\\":\\\"DISABLED\\\",\\\"creationDttm\\\":\\\"{{startDate}}\\\",\\\"sourceCL\\\":\\\"3\\\"},\\\"startDate\\\":\\\"{{startDate}}\\\",\\\"typeOfPlace\\\":\\\"13\\\",\\\"residenceAddress\\\":{\\\"id\\\":\\\"6f19c64d-5629-4084-a562-1c556fee137e\\\",\\\"identificationLabel\\\":\\\"Karoliniškės, Vilnius city municipality\\\"}}]}\",\r
+
+    \    \"reportedFormData\": null,\r
+
+    \    \"processInstanceId\": null,\r
+
+    \    \"relatedEntities\": null,\r
+
+    \    \"attachmentDetails\": [],\r
+
+    \    \"formCorrections\": {},\r
+
+    \    \"formCorrectionFields\": [],\r
+
+    \    \"selfServiceReferenceNumber\": null\r
 
     }"
-auth:
-  type: oauth2
-  credentials:
-    addTokenTo: header
-    grant_type: password_credentials
-    accessTokenUrl: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/auth/realms/solontax-rm-dev/protocol/openid-connect/token
-    clientId: revenue-management-be
-    password: icarus01
-    username: user
-order: 1782456853121
+order: 1784023025462

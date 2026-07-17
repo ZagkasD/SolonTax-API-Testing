@@ -1,5 +1,5 @@
 $kind: http-request
-name: Cancel a Lithuanian person's identifier type 2
+name: Cancel a Lithuanian person's identifier type 6
 url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/natural-persons
 method: POST
 body:
@@ -20,7 +20,7 @@ body:
 
     \            \"typeOfUpdate\": \"C\",\r
 
-    \            \"identifierTypeCode\": \"2\", // Personal Code\r
+    \            \"identifierTypeCode\": \"6\",\r
 
     \            \"identifierValue\": \"{{sharedRandomString}}\",\r
 
@@ -37,4 +37,4 @@ body:
     \    ]\r
 
     }"
-order: 14000
+order: 15339

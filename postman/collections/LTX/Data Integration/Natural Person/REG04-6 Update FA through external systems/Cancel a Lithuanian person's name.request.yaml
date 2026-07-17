@@ -1,4 +1,5 @@
 $kind: http-request
+name: Cancel a Lithuanian person's name
 url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/natural-persons
 method: POST
 body:
@@ -25,15 +26,29 @@ body:
 
     \            \"countryCode\": \"LT\",\r
 
-    \            \"validFrom\": \"{{validFrom}}\",   \r
+    \            \"validFrom\": \"{{validFrom}}\",\r
 
     \            \"cancelationDate\": \"{{cancelationDate}}\",\r
 
     \            \"cancelationReasonCode\": \"{{cancelationReasonCode}}\"\r
+
+    \        },\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"identifierTypeCode\": \"6\",\r
+
+    \            \"identifierValue\": \"{{newCode}}\",\r
+
+    \            \"countryCode\": \"LT\",\r
+
+    \            \"validFrom\": \"{{newValidFrom}}\"\r
 
     \        }\r
 
     \    ]\r
 
     }"
-order: 15000
+order: 16000

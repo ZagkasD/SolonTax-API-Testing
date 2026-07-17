@@ -1,5 +1,4 @@
 $kind: http-request
-name: Cancel a Lithuanian person's Education records
 url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/natural-persons
 method: POST
 body:
@@ -12,23 +11,21 @@ body:
 
     \    \"dateOfInformation\": \"{{validFrom}}\",\r
 
-    \    \"sourceOfInformationCode\": \"10\", //GR,\r
+    \    \"sourceOfInformationCode\": \"3\", //GR,\r
 
-    \    \"educationRecords\": [\r
+    \    \"identifiers\": [\r
 
     \        {\r
 
     \            \"typeOfUpdate\": \"C\",\r
 
-    \            \"educationTypeCode\": \"HIGHER\",\r
+    \            \"identifierTypeCode\": \"6\",\r
 
-    \            \"educationRegisterLearnerId\": \"{{sharedRandomString}}\",\r
+    \            \"identifierValue\": \"{{sharedRandomString}}\",\r
 
-    \            \"isSuccessfullyCompleted\": true,\r
+    \            \"countryCode\": \"LT\",\r
 
-    \            \"validFrom\": \"{{validFrom}}\",\r
-
-    \            \"validTo\": null,\r
+    \            \"validFrom\": \"{{validFrom}}\",   \r
 
     \            \"cancelationDate\": \"{{cancelationDate}}\",\r
 
@@ -39,4 +36,4 @@ body:
     \    ]\r
 
     }"
-order: 13000
+order: 15000

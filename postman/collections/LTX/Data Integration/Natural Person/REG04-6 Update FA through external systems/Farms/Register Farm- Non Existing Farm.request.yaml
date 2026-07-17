@@ -8,7 +8,7 @@ body:
 
     \    \"requestId\": \"requestId_Zagkas\",\r
 
-    \    \"dateOfInformation\": \"2026-04-03\",\r
+    \    \"dateOfInformation\": \"{{validFrom}}\",\r
 
     \    \"sourceOfInformationCode\": \"44\", //UUR\r
 
@@ -56,7 +56,8 @@ body:
 
     \                    \"typeOfUpdate\": \"N\",\r
 
-    \                    \"mmTypeCode\": \"203\", // The only available mmtype of owner\r
+    \                    \"mmTypeCode\": \"203\", // The only available mmtype
+    of owner\r
 
     \                    \"validFrom\": \"{{validFrom}}\",\r
 
@@ -102,7 +103,8 @@ body:
 
     \              \"typeOfUpdate\": \"N\",\r
 
-    \              \"mmTypeCode\": \"222\", // The only available mmtype of partner\r
+    \              \"mmTypeCode\": \"222\", // The only available mmtype of
+    partner\r
 
     \              \"validFrom\": \"{{validFrom}}\",\r
 

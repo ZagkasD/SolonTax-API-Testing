@@ -1,0 +1,40 @@
+$kind: http-request
+name: Cancel a Lithuanian person's identifier
+url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/natural-persons
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"requestId\": \"Zagkas_ID\",\r
+
+    \    \"mapId\": \"{{partyId}}\",\r
+
+    \    \"dateOfInformation\": \"{{validFrom}}\",\r
+
+    \    \"sourceOfInformationCode\": \"3\", //GR,\r
+
+    \    \"identifiers\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"C\",\r
+
+    \            \"identifierTypeCode\": \"6\",\r
+
+    \            \"identifierValue\": \"{{sharedRandomString}}\",\r
+
+    \            \"countryCode\": \"LT\",\r
+
+    \            \"validFrom\": \"{{validFrom}}\",   \r
+
+    \            \"cancelationDate\": \"{{cancelationDate}}\",\r
+
+    \            \"cancelationReasonCode\": \"{{cancelationReasonCode}}\"\r
+
+    \        }\r
+
+    \    ]\r
+
+    }"
+order: 14000

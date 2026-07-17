@@ -1,0 +1,42 @@
+$kind: http-request
+name: Cancel a Lithuanian person's Education records
+url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/natural-persons
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"requestId\": \"Zagkas_ID\",\r
+
+    \    \"mapId\": \"{{partyId}}\",\r
+
+    \    \"dateOfInformation\": \"{{validFrom}}\",\r
+
+    \    \"sourceOfInformationCode\": \"10\", //GR,\r
+
+    \    \"educationRecords\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"C\",\r
+
+    \            \"educationTypeCode\": \"HIGHER\",\r
+
+    \            \"educationRegisterLearnerId\": \"{{sharedRandomString}}\",\r
+
+    \            \"isSuccessfullyCompleted\": true,\r
+
+    \            \"validFrom\": \"{{validFrom}}\",\r
+
+    \            \"validTo\": null,\r
+
+    \            \"cancelationDate\": \"{{cancelationDate}}\",\r
+
+    \            \"cancelationReasonCode\": \"{{cancelationReasonCode}}\"\r
+
+    \        }\r
+
+    \    ]\r
+
+    }"
+order: 13580

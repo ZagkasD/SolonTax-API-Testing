@@ -8,7 +8,7 @@ body:
 
     \    \"requestId\": \"Zagkas_ID\",\r
 
-    \    \"dateOfInformation\": \"2026-01-01\",\r
+    \    \"dateOfInformation\": \"{{validFrom}}\",\r
 
     \    \"sourceOfInformationCode\": \"10\",\r
 
@@ -20,17 +20,17 @@ body:
 
     \        \"gender\": \"V\",\r
 
-    \        \"dateOfBirth\": \"2000-01-01\"\r
+    \        \"dateOfBirth\": \"{{validFrom}}\"\r
 
-    \    },\r
+    \    },  \r
 
     \    \"names\": [\r
 
-    \        {\r
+    \        {   \r
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"firstName\": \"Dimos GR {{$randomWord}}\",\r
+    \            \"firstName\": \"Dimos GR {{sharedRandomString}}\",\r
 
     \            \"lastName\": \"Zagkas\",\r
 
@@ -50,7 +50,7 @@ body:
 
     \            \"identifierTypeCode\": \"2\",\r
 
-    \            \"identifierValue\": \"{{$randomInt}}\",\r
+    \            \"identifierValue\": \"{{sharedRandomString}}\",\r
 
     \            \"countryCode\": \"LT\",\r
 
@@ -60,23 +60,23 @@ body:
 
     \    ],\r
 
-    \    \"addresses\": [\r
+    \    // \"addresses\": [\r
 
-    \        {\r
+    \    //     {\r
 
-    \            \"typeOfUpdate\": \"N\",\r
+    \    //         \"typeOfUpdate\": \"N\",\r
 
-    \            \"addressId\": \"3300772154\",\r
+    \    //         \"addressId\": \"3300772154\",\r
 
-    \            \"addressTypeCode\": \"5\",\r
+    \    //         \"addressTypeCode\": \"5\",\r
 
-    \            \"addressObjectTypeCode\": \"SEN\",\r
+    \    //         \"addressObjectTypeCode\": \"SEN\",\r
 
-    \            \"validFrom\": \"{{validFrom}}\"\r
+    \    //         \"validFrom\": \"{{validFrom}}\"\r
 
-    \        }\r
+    \    //     }\r
 
-    \    ],\r
+    \    // ],\r
 
     \    \"contacts\": [\r
 
@@ -106,7 +106,47 @@ body:
 
     \        }\r
 
-    \    ]\r
+    \    ],\r
+
+    \    \"educationRecords\": [\r
+
+    \    {\r
+
+    \      \"typeOfUpdate\": \"N\",\r
+
+    \      \"educationTypeCode\": \"HIGHER\",\r
+
+    \      \"educationRegisterLearnerId\": \"{{sharedRandomString}}\",\r
+
+    \      \"isSuccessfullyCompleted\": true,\r
+
+    \      \"validFrom\": \"{{validFrom}}\",\r
+
+    \      \"validTo\": null,\r
+
+    \      \"cancelationDate\": \"2026-07-16\",\r
+
+    \      \"cancelationReasonCode\": \"1\"\r
+
+    \    }\r
+
+    \  ]\r
 
     }"
+scripts:
+  - type: beforeRequest
+    code: "// Generates an 8-character random string of letters only\r
+
+      const randomLetters = Array.from({ length: 8 }, () => \r
+
+      \    \"abcdefghijklmnopqrstuvwxyz\"[Math.floor(Math.random() * 26)]\r
+
+      ).join('');\r
+
+      \r
+
+      // Save it for your JSON body to use as {{sharedRandomString}}\r
+
+      pm.variables.set(\"sharedRandomString\", randomLetters);"
+    language: text/javascript
 order: 6000

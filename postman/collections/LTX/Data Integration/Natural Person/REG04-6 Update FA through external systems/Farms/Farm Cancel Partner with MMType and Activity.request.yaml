@@ -1,5 +1,5 @@
 $kind: http-request
-name: Agr Holding Cancel Activity
+name: Farm Cancel Partner with MMType and Activity
 url: "{{farm-endpoint}}"
 method: POST
 body:
@@ -8,35 +8,41 @@ body:
 
     \    \"requestId\": \"requestId_Zagkas\",\r
 
-    \    \"dateOfInformation\": \"2026-04-03\",\r
+    \    \"dateOfInformation\": \"{{validFrom}}\",\r
 
-    \    \"mapId\": \"edaaf1ea-fa6c-4fe1-ab7d-6291f6d4c1f2\", //The agr
-    holding\r
+    \    \"mapId\": \"{{farmId}}\", //The farm\r
 
-    \    \"sourceOfInformationCode\": \"6005\", //ZUKVR\r
+    \    \"sourceOfInformationCode\": \"44\", //UUR\r
 
-    \    \"owners\": [\r
+    \    \"partners\": [\r
 
     \        {\r
 
-    \            \"typeOfUpdate\": \"R\",\r
+    \            \"typeOfUpdate\": \"C\",\r
 
     \            \"isNatural\": true,\r
 
-    \            \"ownerPartyId\": \"d853a20e-eadd-44f8-9fa3-2dff8c3b364b\",
-    //FA\r
+    \            \"partnerPartyId\": \"{{partnerId}}\", //FA\r
 
     \            \"validFrom\": \"{{validFrom}}\",\r
+
+    \            \"cancelationDate\": \"{{cancelationDate}}\",\r
+
+    \            \"cancelationReasonCode\": \"OTHER\",\r
 
     \            \"mmTypes\": [\r
 
     \                {\r
 
-    \                    \"typeOfUpdate\": \"R\",\r
+    \                    \"typeOfUpdate\": \"C\",\r
 
-    \                    \"mmTypeCode\": \"232\",\r
+    \                    \"mmTypeCode\": \"222\", // The only available mmtype of owner\r
 
     \                    \"validFrom\": \"{{validFrom}}\",\r
+
+    \                    \"cancelationDate\": \"{{cancelationDate}}\",\r
+
+    \                    \"cancelationReasonCode\": \"OTHER\",\r
 
     \                    \"activities\": [\r
 
@@ -50,21 +56,9 @@ body:
 
     \                            \"validFrom\": \"{{validFrom}}\",\r
 
-    \                            \"cancelationDate\": \"2026-07-01\",\r
+    \                            \"cancelationDate\": \"{{cancelationDate}}\",\r
 
     \                            \"cancelationReasonCode\": \"OTHER\"\r
-
-    \                        },\r
-
-    \                        {\r
-
-    \                            \"typeOfUpdate\": \"N\",\r
-
-    \                            \"activityTypeCode\": \"104100\", //Cereal\r
-
-    \                            \"isMain\": true,\r
-
-    \                            \"validFrom\": \"{{validFrom}}\"\r
 
     \                        }\r
 
@@ -78,5 +72,5 @@ body:
 
     \    ]\r
 
-    }"
-order: 11000
+    }\r\n"
+order: 16461

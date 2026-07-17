@@ -1,0 +1,38 @@
+$kind: http-request
+name: Cancel a Lithuanian person's relationships
+url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/natural-persons
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"requestId\": \"Zagkas_ID\",\r
+
+    \    \"mapId\": \"{{partyId}}\",\r
+
+    \    \"dateOfInformation\": \"{{validFrom}}\",\r
+
+    \    \"sourceOfInformationCode\": \"10\", //GR\r
+
+    \    \"relationships\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"C\",\r
+
+    \            \"relationshipTypeCode\": \"I_102\",\r
+
+    \            \"relatedPartyMapId\": \"{{relatedPartyId}}\",\r
+
+    \            \"validFrom\": \"{{validFrom}}\",\r
+
+    \            \"cancelationDate\": \"{{cancelationDate}}\",\r
+
+    \            \"cancelationReasonCode\": \"1\"\r
+
+    \        }\r
+
+    \    ]\r
+
+    }"
+order: 12000

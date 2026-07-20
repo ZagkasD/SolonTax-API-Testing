@@ -1,4 +1,5 @@
 $kind: http-request
+name: Cancel a Lithuanian person's cash register
 url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/natural-persons
 method: POST
 body:
@@ -12,42 +13,6 @@ body:
     \    \"dateOfInformation\": \"{{validFrom}}\",\r
 
     \    \"sourceOfInformationCode\": \"10\", //GR,\r
-
-    \    \"names\": [\r
-
-    \        {\r
-
-    \            \"typeOfUpdate\": \"C\",\r
-
-    \            \"firstName\": \"{{originalFirstName}}\",\r
-
-    \            \"lastName\": \"{{originalLastName}}\",\r
-
-    \            \"avdNumber\": \"63\",\r
-
-    \            \"validFrom\": \"{{validFrom}}\",\r
-
-    \            \"cancelationDate\": \"{{cancelationDate}}\",\r
-
-    \            \"cancelationReasonCode\": \"{{cancelationReasonCode}}\"\r
-
-    \        },\r
-
-    \        {   \r
-
-    \            \"typeOfUpdate\": \"N\",\r
-
-    \            \"firstName\": \"{{newFirstName}}\",\r
-
-    \            \"lastName\": \"{{NewLastName}}\",\r
-
-    \            \"avdNumber\": \"63\",\r
-
-    \            \"validFrom\": \"{{newValidFrom}}\"\r
-
-    \        }\r
-
-    \    ]\r
 
     }"
 order: 17000

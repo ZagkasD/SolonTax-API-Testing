@@ -8,9 +8,9 @@ body:
 
     \    \"requestId\": \"requestId_Zagkas\",\r
 
-    \    \"dateOfInformation\": \"2026-01-01\",\r
+    \    \"dateOfInformation\": \"{{validFrom}}\",\r
 
-    \    \"mapId\": \"6a80d1f8-2121-40b0-83d2-be6b8b0316a7\",\r
+    \    \"mapId\": \"{{partyId}}\",\r
 
     \    \"sourceOfInformationCode\": \"200\", //IMAS iEKA\r
 

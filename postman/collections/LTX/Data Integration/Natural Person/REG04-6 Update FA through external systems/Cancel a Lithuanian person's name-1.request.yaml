@@ -1,5 +1,5 @@
 $kind: http-request
-name: Cancel a Lithuanian person's identifier type 6
+name: Cancel a Lithuanian person's name
 url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/natural-persons
 method: POST
 body:
@@ -12,19 +12,19 @@ body:
 
     \    \"dateOfInformation\": \"{{validFrom}}\",\r
 
-    \    \"sourceOfInformationCode\": \"3\", //GR,\r
+    \    \"sourceOfInformationCode\": \"10\", //GR,\r
 
-    \    \"identifiers\": [\r
+    \    \"names\": [\r
 
     \        {\r
 
     \            \"typeOfUpdate\": \"C\",\r
 
-    \            \"identifierTypeCode\": \"6\",\r
+    \            \"firstName\": \"{{originalFirstName}}\",\r
 
-    \            \"identifierValue\": \"{{originalIdentifier}}\",\r
+    \            \"lastName\": \"{{originalLastName}}\",\r
 
-    \            \"countryCode\": \"LT\",\r
+    \            \"avdNumber\": \"63\",\r
 
     \            \"validFrom\": \"{{validFrom}}\",\r
 
@@ -34,15 +34,15 @@ body:
 
     \        },\r
 
-    \        {\r
+    \        {   \r
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"identifierTypeCode\": \"6\",\r
+    \            \"firstName\": \"{{newFirstName}}\",\r
 
-    \            \"identifierValue\": \"{{newIdentifier}}\",\r
+    \            \"lastName\": \"{{NewLastName}}\",\r
 
-    \            \"countryCode\": \"LT\",\r
+    \            \"avdNumber\": \"63\",\r
 
     \            \"validFrom\": \"{{newValidFrom}}\"\r
 
@@ -51,4 +51,4 @@ body:
     \    ]\r
 
     }"
-order: 15000
+order: 16441

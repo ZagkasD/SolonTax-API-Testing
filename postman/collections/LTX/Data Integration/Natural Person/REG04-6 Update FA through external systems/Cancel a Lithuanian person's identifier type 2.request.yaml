@@ -22,7 +22,7 @@ body:
 
     \            \"identifierTypeCode\": \"2\", // Personal Code\r
 
-    \            \"identifierValue\": \"{{sharedRandomString}}\",\r
+    \            \"identifierValue\": \"{{originalIdentifier}}\",\r
 
     \            \"countryCode\": \"LT\",\r
 

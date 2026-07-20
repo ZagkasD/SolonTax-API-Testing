@@ -22,11 +22,11 @@ body:
 
     \        \"dateOfBirth\": \"{{validFrom}}\"\r
 
-    \    },  \r
+    \    },\r
 
     \    \"names\": [\r
 
-    \        {   \r
+    \        {\r
 
     \            \"typeOfUpdate\": \"N\",\r
 
@@ -34,7 +34,7 @@ body:
 
     \            \"lastName\": \"Zagkas\",\r
 
-    \            \"avdNumber\": \"63\",\r
+    \            \"avdNumber\": \"1\",\r
 
     \            \"validFrom\": \"{{validFrom}}\"\r
 
@@ -60,23 +60,23 @@ body:
 
     \    ],\r
 
-    \    // \"addresses\": [\r
+    \    \"addresses\": [\r
 
-    \    //     {\r
+    \        {\r
 
-    \    //         \"typeOfUpdate\": \"N\",\r
+    \            \"typeOfUpdate\": \"N\",\r
 
-    \    //         \"addressId\": \"3300772154\",\r
+    \            \"addressId\": \"3300772154\",\r
 
-    \    //         \"addressTypeCode\": \"5\",\r
+    \            \"addressTypeCode\": \"5\",\r
 
-    \    //         \"addressObjectTypeCode\": \"SEN\",\r
+    \            \"addressObjectTypeCode\": \"SEN\",\r
 
-    \    //         \"validFrom\": \"{{validFrom}}\"\r
+    \            \"validFrom\": \"{{validFrom}}\"\r
 
-    \    //     }\r
+    \        }\r
 
-    \    // ],\r
+    \    ],\r
 
     \    \"contacts\": [\r
 
@@ -110,27 +110,55 @@ body:
 
     \    \"educationRecords\": [\r
 
-    \    {\r
+    \        {\r
 
-    \      \"typeOfUpdate\": \"N\",\r
+    \            \"typeOfUpdate\": \"N\",\r
 
-    \      \"educationTypeCode\": \"HIGHER\",\r
+    \            \"educationTypeCode\": \"HIGHER\",\r
 
-    \      \"educationRegisterLearnerId\": \"{{sharedRandomString}}\",\r
+    \            \"educationRegisterLearnerId\": \"{{sharedRandomString}}\",\r
 
-    \      \"isSuccessfullyCompleted\": true,\r
+    \            \"isSuccessfullyCompleted\": true,\r
 
-    \      \"validFrom\": \"{{validFrom}}\",\r
+    \            \"validFrom\": \"{{validFrom}}\",\r
 
-    \      \"validTo\": null,\r
+    \            \"validTo\": null\r
 
-    \      \"cancelationDate\": \"2026-07-16\",\r
+    \        }\r
 
-    \      \"cancelationReasonCode\": \"1\"\r
+    \    ]\r
 
-    \    }\r
+    \    // \"cashRegisters\": [\r
 
-    \  ]\r
+    \    //     {\r
+
+    \    //         \"typeOfUpdate\": \"N\",\r
+
+    \    //         \"VMI_RegistrationNumber\": \"{{sharedRandomString}}\",\r
+
+    \    //         // \"EKA_Number\": \"5049839987312\",\r
+
+    \    //         \"EKA_UniqueNumber\": \"CR-000000099\", //Required and its written this way. Swagger is incorrect\r
+
+    \    //         \"cashRegisterName\": \"{{sharedRandomString}}\",\r
+
+    \    //         \"cashRegisterTypeCode\": \"50\", //Cash register\r
+
+    \    //         \"statusCode\": \"15\", //Registered\r
+
+    \    //         \"statusDate\": \"{{validFrom}}\",\r
+
+    \    //         \"validFrom\": \"{{validFrom}}\",\r
+
+    \    //         \"addressId\": \"3300772154\",\r
+
+    \    //         \"addressObjectTypeCode\": \"SEN\",\r
+
+    \    //         \"registrationDate\": \"{{validFrom}}T12:00:00Z\"\r
+
+    \    //     }\r
+
+    \    // ]\r
 
     }"
 scripts:

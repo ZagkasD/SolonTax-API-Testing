@@ -20,7 +20,7 @@ body:
 
     \            \"typeOfUpdate\": \"C\",\r
 
-    \            \"relationshipTypeCode\": \"{{relTypeCode}}\",\r
+    \            \"relationshipTypeCode\": \"{{relationshipTypeCode}}\",\r
 
     \            \"relatedPartyMapId\": \"{{relatedPartyId}}\",\r
 

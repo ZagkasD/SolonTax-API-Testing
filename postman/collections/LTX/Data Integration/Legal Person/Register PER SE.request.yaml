@@ -26,7 +26,7 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"name\": \"Municipality-Zagkas-{{$randomWord}}\",\r
+    \            \"name\": \"{{fullName}}\",\r
 
     \            \"validFrom\": \"{{validFrom}}\"\r
 
@@ -132,7 +132,7 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"legalFormTypeCode\": \"900\", //Municipal enterpraise\r
+    \            \"legalFormTypeCode\": \"130\", //Municipal enterpraise\r
 
     \            \"validFrom\": \"{{validFrom}}\"\r
 

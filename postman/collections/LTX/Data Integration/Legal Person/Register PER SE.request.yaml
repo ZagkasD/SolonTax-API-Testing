@@ -44,8 +44,6 @@ body:
 
     \            \"identifierValue\": \"{{$randomInt}}\",\r
 
-    \            \"externalIdentifier\": \"{{$randomInt}\",\r
-
     \            \"validFrom\": \"{{validFrom}}\"\r
 
     \        }\r

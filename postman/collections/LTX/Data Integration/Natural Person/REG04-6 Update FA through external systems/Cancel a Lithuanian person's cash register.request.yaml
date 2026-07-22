@@ -1,18 +1,54 @@
 $kind: http-request
 name: Cancel a Lithuanian person's cash register
-url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/natural-persons
+url: "{{natural-person-endpoint}}"
 method: POST
 body:
   type: json
   content: "{\r
 
-    \    \"requestId\": \"Zagkas_ID\",\r
-
-    \    \"mapId\": \"{{partyId}}\",\r
+    \    \"requestId\": \"requestId_Zagkas\",\r
 
     \    \"dateOfInformation\": \"{{validFrom}}\",\r
 
-    \    \"sourceOfInformationCode\": \"10\", //GR,\r
+    \    \"mapId\": \"{{partyId}}\",\r
+
+    \    \"sourceOfInformationCode\": \"200\", //IMAS iEKA\r
+
+    \    \"cashRegisters\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"C\",\r
+
+    \            \"VMI_RegistrationNumber\": \"12345397183\",\r
+
+    \            // \"EKA_Number\": \"5049839987312\",\r
+
+    \            \"EKA_UniqueNumber\": \"CR-000000099\", //Required and its written this way. Swagger is incorrect\r
+
+    \            \"cashRegisterName\": \"MyCashRegister\",\r
+
+    \            \"cashRegisterTypeCode\": \"50\", //Cash register\r
+
+    \            \"statusCode\": \"15\", //Registered\r
+
+    \            \"statusDate\": \"{{validFrom}}\",\r
+
+    \            \"validFrom\": \"{{validFrom}}\",\r
+
+    \            \"addressId\": \"3300772154\",\r
+
+    \            \"addressObjectTypeCode\": \"SEN\",\r
+
+    \            \"registrationDate\": \"{{validFrom}}T12:00:00Z\",\r
+
+    \            \"cancelationDate\": \"{{cancelationDate}}\",\r
+
+    \            \"cancelationReasonCode\": \"{{cancelationReasonCode}}\"\r
+
+    \        }\r
+
+    \    ]\r
 
     }"
 order: 17000

@@ -86,7 +86,7 @@ body:
 
     \            \"contactTypeCode\": \"6\",\r
 
-    \            \"contactValue\": \"dzagkas@netcompany.com\",\r
+    \            \"contactValue\": \"dzagkas@netcompany.com\"    ,\r
 
     \            \"validFrom\": \"{{validFrom}}\"\r
 

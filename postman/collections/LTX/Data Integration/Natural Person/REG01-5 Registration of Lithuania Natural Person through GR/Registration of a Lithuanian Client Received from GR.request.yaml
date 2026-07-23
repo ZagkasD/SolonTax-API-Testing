@@ -86,7 +86,7 @@ body:
 
     \            \"contactTypeCode\": \"6\",\r
 
-    \            \"contactValue\": \"dzagkas@netcompany.com\"    ,\r
+    \            \"contactValue\": \"dzagkas@netcompany.com\",\r
 
     \            \"validFrom\": \"{{validFrom}}\"\r
 
@@ -127,38 +127,6 @@ body:
     \        }\r
 
     \    ]\r
-
-    \    // \"cashRegisters\": [\r
-
-    \    //     {\r
-
-    \    //         \"typeOfUpdate\": \"N\",\r
-
-    \    //         \"VMI_RegistrationNumber\": \"{{sharedRandomString}}\",\r
-
-    \    //         // \"EKA_Number\": \"5049839987312\",\r
-
-    \    //         \"EKA_UniqueNumber\": \"CR-000000099\", //Required and its written this way. Swagger is incorrect\r
-
-    \    //         \"cashRegisterName\": \"{{sharedRandomString}}\",\r
-
-    \    //         \"cashRegisterTypeCode\": \"50\", //Cash register\r
-
-    \    //         \"statusCode\": \"15\", //Registered\r
-
-    \    //         \"statusDate\": \"{{validFrom}}\",\r
-
-    \    //         \"validFrom\": \"{{validFrom}}\",\r
-
-    \    //         \"addressId\": \"3300772154\",\r
-
-    \    //         \"addressObjectTypeCode\": \"SEN\",\r
-
-    \    //         \"registrationDate\": \"{{validFrom}}T12:00:00Z\"\r
-
-    \    //     }\r
-
-    \    // ]\r
 
     }"
 scripts:

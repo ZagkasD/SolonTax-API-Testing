@@ -102,16 +102,6 @@ body:
 
     \            \"citizenshipCode\": \"LT\"\r
 
-    \        },\r
-
-    \        {\r
-
-    \            \"typeOfUpdate\": \"N\",\r
-
-    \            \"citizenshipCode\": \"LT\",\r
-
-    \            \"validFrom\":\"{{validFrom}}\"\r
-
     \        }\r
 
     \    ],\r

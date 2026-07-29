@@ -24,7 +24,8 @@ body:
 
     \            // \"EKA_Number\": \"5049839987312\",\r
 
-    \            \"EKA_UniqueNumber\": \"CR-000000099\", //Required and its written this way. Swagger is incorrect\r
+    \            \"EKA_UniqueNumber\": \"CR-000000099\", //Required and its
+    written this way. Swagger is incorrect\r
 
     \            \"cashRegisterName\": \"MyCashRegister\",\r
 
@@ -51,4 +52,4 @@ body:
     \    ]\r
 
     }"
-order: 17000
+order: 18000

@@ -1,0 +1,44 @@
+$kind: http-request
+name: Update Lithuanian Citizenship
+url: "{{natural-person-endpoint}}"
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"requestId\": \"requestId_Zagkas\",\r
+
+    \    \"mapId\": \"{{partyId}}\",\r
+
+    \    \"dateOfInformation\": \"{{validFrom}}\",\r
+
+    \    \"sourceOfInformationCode\": \"10\", //GR\r
+
+    \    \"basicPersonalData\": {\r
+
+    \        \"typeOfUpdate\": \"N\",\r
+
+    \        \"placeOfBirth\": \"LT\",\r
+
+    \        \"gender\": \"M\",\r
+
+    \        \"dateOfBirth\": \"{{validFrom}}\"\r
+
+    \    },\r
+
+    \    \"citizenships\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"citizenshipCode\": \"LT\",\r
+
+    \            \"validFrom\":\"{{validFrom}}\"\r
+
+    \        }\r
+
+    \    ]\r
+
+    }"
+order: 7913

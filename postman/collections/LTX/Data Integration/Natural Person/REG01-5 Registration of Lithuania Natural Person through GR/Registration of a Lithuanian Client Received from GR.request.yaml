@@ -100,9 +100,7 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"citizenshipCode\": \"LT\",\r
-
-    \            \"validFrom\":\"{{validFrom}}\"\r
+    \            \"citizenshipCode\": \"LT\"\r
 
     \        }\r
 

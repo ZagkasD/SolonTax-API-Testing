@@ -8,7 +8,7 @@ body:
 
     \    \"requestId\": \"requestId_Zagkas\",\r
 
-    \    \"mapId\": \"1ea50994-2d54-41ad-9934-7ef4f2356255\",\r
+    \    \"mapId\": \"{{partyId}}\",\r
 
     \    \"dateOfInformation\": \"2026-01-01\",\r
 
@@ -24,7 +24,7 @@ body:
 
     \            \"validFrom\": \"{{validFrom}}\",\r
 
-    \            \"validTo\": \"2026-06-27\"\r
+    \            \"validTo\": \"{{validTo}}\"\r
 
     \        }\r
 

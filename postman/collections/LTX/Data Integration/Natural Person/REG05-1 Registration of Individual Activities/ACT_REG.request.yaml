@@ -26,7 +26,7 @@ body:
 
     \    \"sourceCLDescription\": \"MAP\",\r
 
-    \    \"receiveDate\": \"2026-07-14\",\r
+    \    \"receiveDate\": \"{{receiveDate}}\",\r
 
     \    \"filingTypeCL\": \"ORIGINAL\",\r
 
@@ -71,4 +71,4 @@ body:
     \    \"selfServiceReferenceNumber\": null\r
 
     }"
-order: 1784023025462
+order: 2000

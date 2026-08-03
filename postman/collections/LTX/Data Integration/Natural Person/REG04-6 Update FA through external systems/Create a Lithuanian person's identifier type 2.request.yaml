@@ -1,5 +1,5 @@
 $kind: http-request
-name: Cancel a Lithuanian person's identifier type 2
+name: Create a Lithuanian person's identifier type 2
 url: "{{natural-person-endpoint}}"
 method: POST
 body:
@@ -18,23 +18,19 @@ body:
 
     \        {\r
 
-    \            \"typeOfUpdate\": \"C\",\r
+    \            \"typeOfUpdate\": \"N\",\r
 
     \            \"identifierTypeCode\": \"2\", // Personal Code\r
 
-    \            \"identifierValue\": \"{{originalIdentifier}}\",\r
+    \            \"identifierValue\": \"{{newIdentifier}}\",\r
 
     \            \"countryCode\": \"LT\",\r
 
-    \            \"validFrom\": \"{{validFrom}}\",   \r
-
-    \            \"cancelationDate\": \"{{cancelationDate}}\",\r
-
-    \            \"cancelationReasonCode\": \"{{cancelationReasonCode}}\"\r
+    \            \"validFrom\": \"{{validFrom}}\"\r
 
     \        }\r
 
     \    ]\r
 
     }"
-order: 16000
+order: 15783

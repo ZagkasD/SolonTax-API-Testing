@@ -36,9 +36,9 @@ body:
 
     \            \"validFrom\": \"{{validFrom}}\",\r
 
-    \            \"addressId\": \"3300772154\",\r
+    \            \"addressId\": \"c0dac0a3-311a-4a9a-b151-071d6f50f608\",\r
 
-    \            \"addressObjectTypeCode\": \"SEN\",\r
+    \            \"addressObjectTypeCode\": \"A_KOM\",\r
 
     \            \"registrationDate\": \"{{validFrom}}T12:00:00Z\"\r
 

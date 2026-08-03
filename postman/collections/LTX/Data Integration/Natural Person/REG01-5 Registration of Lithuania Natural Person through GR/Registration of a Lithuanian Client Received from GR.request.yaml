@@ -106,21 +106,15 @@ body:
 
     \    ],\r
 
-    \    \"educationRecords\": [\r
+    \    \"employments\": [\r
 
     \        {\r
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"educationTypeCode\": \"HIGHER\",\r
+    \            \"employmentTypeCode\": \"132\", //Dwarf\r
 
-    \            \"educationRegisterLearnerId\": \"{{sharedRandomString}}\",\r
-
-    \            \"isSuccessfullyCompleted\": true,\r
-
-    \            \"validFrom\": \"{{validFrom}}\",\r
-
-    \            \"validTo\": null\r
+    \            \"validFrom\": \"{{validFrom}}\"\r
 
     \        }\r
 

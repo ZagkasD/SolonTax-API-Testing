@@ -32,15 +32,15 @@ body:
 
     \            \"statusCode\": \"15\", //Registered\r
 
-    \            \"statusDate\": \"{{validFrom}}\",\r
+    \            \"statusDate\": \"2026-03-01\",\r
 
-    \            \"validFrom\": \"{{validFrom}}\",\r
+    \            \"validFrom\": \"2026-02-01\",\r
+
+    \            \"validTo\":\"2025-01-01\",\r
 
     \            \"addressId\": \"c0dac0a3-311a-4a9a-b151-071d6f50f608\",\r
 
-    \            \"addressObjectTypeCode\": \"A_KOM\",\r
-
-    \            \"registrationDate\": \"{{validFrom}}T12:00:00Z\"\r
+    \            \"registrationDate\": \"2026-01-01T12:00:00Z\"\r
 
     \        }\r
 

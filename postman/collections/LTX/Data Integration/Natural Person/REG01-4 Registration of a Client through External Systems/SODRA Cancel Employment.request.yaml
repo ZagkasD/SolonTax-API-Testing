@@ -1,0 +1,51 @@
+$kind: http-request
+url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/natural-persons
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"requestId\": \"Zagkas_ID\",\r
+
+    \    \"mapId\":\"{{partyId}}\",\r
+
+    \    \"dateOfInformation\": \"{{validFrom}}\",\r
+
+    \    \"sourceOfInformationCode\": \"6012\",\r
+
+    \    \"employments\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"C\",\r
+
+    \            \"employmentTypeCode\": \"132\", //Dwarf,\r
+
+    \            \"validFrom\": \"{{validFrom}}\",\r
+
+    \            \"cancelationDate\":\"2010-01-01\",\r
+
+    \            \"cancelationReasonCode\":\"1\"\r
+
+    \        }\r
+
+    \    ]\r
+
+    }"
+scripts:
+  - type: beforeRequest
+    code: "// Generates an 8-character random string of letters only\r
+
+      const randomLetters = Array.from({ length: 8 }, () => \r
+
+      \    \"abcdefghijklmnopqrstuvwxyz\"[Math.floor(Math.random() * 26)]\r
+
+      ).join('');\r
+
+      \r
+
+      // Save it for your JSON body to use as {{sharedRandomString}}\r
+
+      pm.variables.set(\"sharedRandomString\", randomLetters);"
+    language: text/javascript
+order: 5000

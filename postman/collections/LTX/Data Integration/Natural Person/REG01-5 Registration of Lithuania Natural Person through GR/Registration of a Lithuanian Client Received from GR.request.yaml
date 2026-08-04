@@ -104,20 +104,6 @@ body:
 
     \        }\r
 
-    \    ],\r
-
-    \    \"employments\": [\r
-
-    \        {\r
-
-    \            \"typeOfUpdate\": \"N\",\r
-
-    \            \"employmentTypeCode\": \"132\", //Dwarf\r
-
-    \            \"validFrom\": \"{{validFrom}}\"\r
-
-    \        }\r
-
     \    ]\r
 
     }"

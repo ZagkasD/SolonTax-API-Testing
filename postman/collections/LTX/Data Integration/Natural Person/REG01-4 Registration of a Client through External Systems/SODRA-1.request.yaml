@@ -1,8 +1,6 @@
 $kind: http-request
-name: Registration of a Lithuanian Client Received from GYPAS MMType
-description: Does not work due to
-  [https://jira.intrasoft-intl.com/browse/LTX-17141](https://jira.intrasoft-intl.com/browse/LTX-17141)
-url: "{{natural-person-endpoint}}"
+name: SODRA
+url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/natural-persons
 method: POST
 body:
   type: json
@@ -12,7 +10,7 @@ body:
 
     \    \"dateOfInformation\": \"{{validFrom}}\",\r
 
-    \    \"sourceOfInformationCode\": \"5002\",\r
+    \    \"sourceOfInformationCode\": \"6012\",\r
 
     \    \"basicPersonalData\": {\r
 
@@ -32,11 +30,11 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"firstName\": \"Dimos GYPAS {{sharedRandomString}}\",\r
+    \            \"firstName\": \"Dimos GR {{sharedRandomString}}\",\r
 
     \            \"lastName\": \"Zagkas\",\r
 
-    \            \"avdNumber\": \"63\",\r
+    \            \"avdNumber\": \"1\",\r
 
     \            \"validFrom\": \"{{validFrom}}\"\r
 
@@ -62,31 +60,17 @@ body:
 
     \    ],\r
 
-    \    \"mmTypes\": [\r
-
-    \        {\r
-
-    \            \"typeOfUpdate\": \"N\",\r
-
-    \            \"mmTypeCode\": \"215\",\r
-
-    \            \"validFrom\": \"{{validFrom}}\"\r
-
-    \        }\r
-
-    \    ],\r
-
     \    \"addresses\": [\r
 
     \        {\r
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"addressId\": \"3300772154\",\r
+    \            \"addressId\": \"417310774167\",\r
 
     \            \"addressTypeCode\": \"5\",\r
 
-    \            \"addressObjectTypeCode\": \"SEN\",\r
+    \            \"addressObjectTypeCode\": \"A_KOM\",\r
 
     \            \"validFrom\": \"{{validFrom}}\"\r
 
@@ -120,6 +104,20 @@ body:
 
     \        }\r
 
+    \    ],\r
+
+    \    \"employments\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"employmentTypeCode\": \"11132\", //Dwarf\r
+
+    \            \"validFrom\": \"{{validFrom}}\"\r
+
+    \        }\r
+
     \    ]\r
 
     }"
@@ -139,4 +137,4 @@ scripts:
 
       pm.variables.set(\"sharedRandomString\", randomLetters);"
     language: text/javascript
-order: 23000
+order: 2000

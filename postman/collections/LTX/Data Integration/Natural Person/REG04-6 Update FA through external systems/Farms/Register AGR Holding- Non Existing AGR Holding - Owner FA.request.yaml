@@ -56,25 +56,25 @@ body:
 
     \                    \"typeOfUpdate\": \"N\",\r
 
-    \                    \"mmTypeCode\": \"232\", // This mmtype does allow activities\r
+    \                    \"mmTypeCode\": \"248\", // This mmtype does allow activities\r
 
-    \                    \"validFrom\": \"{{validFrom}}\",\r
+    \                    \"validFrom\": \"{{validFrom}}\"\r
 
-    \                    \"activities\": [\r
+    \                //     \"activities\": [\r
 
-    \                        {\r
+    \                //         {\r
 
-    \                            \"typeOfUpdate\": \"N\",\r
+    \                //             \"typeOfUpdate\": \"N\",\r
 
-    \                            \"activityTypeCode\": \"011100\", //Cereal\r
+    \                //             \"activityTypeCode\": \"011100\", //Cereal\r
 
-    \                            \"isMain\": true,\r
+    \                //             \"isMain\": true,\r
 
-    \                            \"validFrom\": \"{{validFrom}}\"\r
+    \                //             \"validFrom\": \"{{validFrom}}\"\r
 
-    \                        }\r
+    \                //         }\r
 
-    \                    ]\r
+    \                //     ]\r
 
     \                }\r
 

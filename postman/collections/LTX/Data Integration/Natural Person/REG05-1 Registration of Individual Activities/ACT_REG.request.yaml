@@ -26,7 +26,7 @@ body:
 
     \    \"sourceCLDescription\": \"MAP\",\r
 
-    \    \"receiveDate\": \"{{receiveDate}}\",\r
+    \    \"receiveDate\": \"{{receive/StartDate}}\",   \r
 
     \    \"filingTypeCL\": \"ORIGINAL\",\r
 
@@ -54,28 +54,7 @@ body:
 
     \    \"violationsData\": [],\r
 
-    \    \"formData\":
-    \"{\\\"isCreate\\\":true,\\\"isMinor\\\":false,\\\"partyId\\\":\\\"{{partyI\
-    d}}\\\",\\\"taxPayerType\\\":\\\"{{mmType}}\\\",\\\"naturalPersonData\\\":{\
-    \\\"identificationCode\\\":\\\"Taxpayer identification number:
-    {{TIN}}\\\",\\\"fullName\\\":\\\"{{fullName}}\\\",\\\"address\\\":{\\\"id\\\
-    \":\\\"6f19c64d-5629-4084-a562-1c556fee137e\\\",\\\"identificationLabel\\\":\
-    \\\"Karoliniškės, Vilnius city
-    municipality\\\"}},\\\"mainActivityData\\\":[{\\\"confirmCompliance\\\":fal\
-    se,\\\"startDate\\\":\\\"{{startDate}}\\\",\\\"activityCategoryCL\\\":7110,\
-    \\\"mainActivitySelection\\\":{\\\"id\\\":\\\"9dd06158-abe2-446f-b331-3c9be\
-    3501fd6\\\",\\\"codeListItemCode\\\":\\\"{{activityCode}}\\\",\\\"codeListI\
-    temDescription\\\":\\\"Growing of cereals (except rice), leguminous crops
-    and oil
-    seeds\\\"},\\\"mainActivityType\\\":\\\"011100\\\",\\\"taxPayerTypeSelection\
-    \\\":\\\"{{mmType}}\\\"}],\\\"placeOfActivityData\\\":[{\\\"coincides\\\":t\
-    rue,\\\"address\\\":{\\\"countryCodeCL\\\":\\\"LT\\\",\\\"addressOptionCL\\\
-    \":\\\"STRUCTURED\\\",\\\"addressTypeCL\\\":\\\"43\\\",\\\"houseNumberStatus\
-    \\\":\\\"DISABLED\\\",\\\"creationDttm\\\":\\\"{{startDate}}\\\",\\\"source\
-    CL\\\":\\\"3\\\"},\\\"startDate\\\":\\\"{{startDate}}\\\",\\\"typeOfPlace\\\
-    \":\\\"99\\\",\\\"residenceAddress\\\":{\\\"id\\\":\\\"c0dac0a3-311a-4a9a-b\
-    151-071d6f50f608\\\",\\\"identificationLabel\\\":\\\"Karoliniškės, Vilnius
-    city municipality\\\"}}]}\",\r
+    \    \"formData\": \"{\\\"isCreate\\\":true,\\\"isMinor\\\":false,\\\"partyId\\\":\\\"{{partyId}}\\\",\\\"taxPayerType\\\":\\\"{{mmType}}\\\",\\\"naturalPersonData\\\":{\\\"identificationCode\\\":\\\"Taxpayer identification number: {{TIN}}\\\",\\\"fullName\\\":\\\"{{fullName}}\\\",\\\"address\\\":{\\\"id\\\":\\\"6f19c64d-5629-4084-a562-1c556fee137e\\\",\\\"identificationLabel\\\":\\\"Karoliniškės, Vilnius city municipality\\\"}},\\\"mainActivityData\\\":[{\\\"confirmCompliance\\\":false,\\\"startDate\\\":\\\"{{receive/StartDate}}\\\",\\\"activityCategoryCL\\\":7110,\\\"mainActivitySelection\\\":{\\\"id\\\":\\\"9dd06158-abe2-446f-b331-3c9be3501fd6\\\",\\\"codeListItemCode\\\":\\\"{{activityCode}}\\\",\\\"codeListItemDescription\\\":\\\"Growing of cereals (except rice), leguminous crops and oil seeds\\\"},\\\"mainActivityType\\\":\\\"011100\\\",\\\"taxPayerTypeSelection\\\":\\\"{{mmType}}\\\"}],\\\"placeOfActivityData\\\":[{\\\"coincides\\\":true,\\\"address\\\":{\\\"countryCodeCL\\\":\\\"LT\\\",\\\"addressOptionCL\\\":\\\"STRUCTURED\\\",\\\"addressTypeCL\\\":\\\"43\\\",\\\"houseNumberStatus\\\":\\\"DISABLED\\\",\\\"creationDttm\\\":\\\"{{receive/StartDate}}\\\",\\\"sourceCL\\\":\\\"3\\\"},\\\"startDate\\\":\\\"{{receive/StartDate}}\\\",\\\"typeOfPlace\\\":\\\"99\\\",\\\"residenceAddress\\\":{\\\"id\\\":\\\"c0dac0a3-311a-4a9a-b151-071d6f50f608\\\",\\\"identificationLabel\\\":\\\"Karoliniškės, Vilnius city municipality\\\"}}]}\",\r
 
     \    \"reportedFormData\": null,\r
 

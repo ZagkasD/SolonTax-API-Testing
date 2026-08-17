@@ -10,4 +10,10 @@ values:
     value: ''
   - key: ui-config/forms/submit-endpoint
     value: ''
+  - key: addressId
+    value: ''
+  - key: addressObjectTypeCode
+    value: ''
+  - key: residenceAddress
+    value: ''
 color: 240

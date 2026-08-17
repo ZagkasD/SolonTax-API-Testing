@@ -66,11 +66,11 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"addressId\": \"417310774167\",\r
+    \            \"addressId\": \"{{addressId}}\",\r
 
     \            \"addressTypeCode\": \"5\",\r
 
-    \            \"addressObjectTypeCode\": \"A_KOM\",\r
+    \            \"addressObjectTypeCode\": \"{{addressObjectTypeCode}}\",\r
 
     \            \"validFrom\": \"{{validFrom}}\"\r
 

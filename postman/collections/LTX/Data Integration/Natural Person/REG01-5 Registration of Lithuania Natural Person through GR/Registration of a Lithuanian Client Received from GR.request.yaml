@@ -54,7 +54,9 @@ body:
 
     \            \"countryCode\": \"LT\",\r
 
-    \            \"validFrom\": \"{{validFrom}}\"\r
+    \            \"validFrom\": \"{{validFrom}}\",\r
+
+    \            \"validTo\":\"2026-01-01\"\r
 
     \        }\r
 

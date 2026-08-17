@@ -10,7 +10,7 @@ body:
 
     \    \"mapId\": \"{{partyId}}\",\r
 
-    \    \"dateOfInformation\": \"2026-07-31\",\r
+    \    \"dateOfInformation\": \"{{dateOfInformation}}\",\r
 
     \    \"sourceOfInformationCode\": \"10\", //GR,\r
 
@@ -33,4 +33,4 @@ body:
     \    ]\r
 
     }"
-order: 15783
+order: 15000

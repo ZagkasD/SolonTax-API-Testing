@@ -4,7 +4,9 @@ url: "{{ui-config/forms/submit-endpoint}}"
 method: POST
 body:
   type: json
-  content: "{\r
+  content: "\r
+
+    {\r
 
     \    \"id\": null,\r
 

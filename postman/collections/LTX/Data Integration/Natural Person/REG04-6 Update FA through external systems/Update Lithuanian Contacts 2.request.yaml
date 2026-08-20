@@ -1,0 +1,46 @@
+$kind: http-request
+name: Update Lithuanian Contacts 2
+url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/natural-persons
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"requestId\": \"requestId_Zagkas\",\r
+
+    \    \"mapId\": \"{{partyId}}\",\r
+
+    \    \"dateOfInformation\": \"{{newValidFrom}}\",\r
+
+    \    \"sourceOfInformationCode\": \"10\", //GR\r
+
+    \    \"contacts\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"contactTypeCode\": \"6\",\r
+
+    \            \"contactValue\": \"Newdzagkas@netcompany.com\",\r
+
+    \            \"validFrom\": \"{{newValidFrom}}\"\r
+
+    \        },\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"contactTypeCode\": \"1\",\r
+
+    \            \"contactValue\": \"37060715437\",\r
+
+    \            \"validFrom\": \"{{newValidFrom}}\"\r
+
+    \        }\r
+
+    \    ]\r
+
+    }"
+order: 6000

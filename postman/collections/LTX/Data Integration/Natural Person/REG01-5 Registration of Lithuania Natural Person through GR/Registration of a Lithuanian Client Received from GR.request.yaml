@@ -88,23 +88,7 @@ body:
 
     \            \"contactValue\": \"dzagkas@netcompany.com\",\r
 
-    \            \"validFrom\": \"{{validFrom}}\",\r
-
-    \            \"validTo\":\"{{validTo}}\"\r
-
-    \        },\r
-
-    \        {\r
-
-    \            \"typeOfUpdate\": \"N\",\r
-
-    \            \"contactTypeCode\": \"8\",\r
-
-    \            \"contactValue\": \"+37063706071\",\r
-
-    \            \"validFrom\": \"{{validFrom}}\",\r
-
-    \            \"validTo\":\"{{validTo}}\"\r
+    \            \"validFrom\": \"{{validFrom}}\"\r
 
     \        }\r
 

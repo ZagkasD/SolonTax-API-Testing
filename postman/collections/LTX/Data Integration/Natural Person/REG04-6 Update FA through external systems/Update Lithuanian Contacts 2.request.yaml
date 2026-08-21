@@ -22,7 +22,7 @@ body:
 
     \            \"contactTypeCode\": \"6\",\r
 
-    \            \"contactValue\": \"Newdzagkas@netcompany.com\",\r
+    \            \"contactValue\": \"NewNewdzagkas@netcompany.com\",\r
 
     \            \"validFrom\": \"{{newValidFrom}}\"\r
 
@@ -34,7 +34,7 @@ body:
 
     \            \"contactTypeCode\": \"1\",\r
 
-    \            \"contactValue\": \"37060715437\",\r
+    \            \"contactValue\": \"+37063706073\",\r
 
     \            \"validFrom\": \"{{newValidFrom}}\"\r
 

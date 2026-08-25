@@ -36,6 +36,8 @@ body:
 
     \            \"relatedPartyMapId\": \"{{relatedPartyId}}\",\r
 
+    \            \"maritalStatusCode\":\"{{maritalStatusCode}}\",\r
+
     \            \"maritalStatusDate\": \"{{maritalStatusDate}}\",\r
 
     \            \"validFrom\": \"{{maritalStatusDate}}\"\r

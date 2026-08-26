@@ -8,9 +8,9 @@ body:
 
     \    \"requestId\": \"requestId_00002\",\r
 
-    \    \"mapId\": \"71e70e00-a525-4240-af2e-fa2d7d5c12ba\", \r
+    \    \"mapId\": \"{{partyId}}\", \r
 
-    \    \"dateOfInformation\": \"2026-01-01\",\r
+    \    \"dateOfInformation\": \"{{validFrom}}\",\r
 
     \    \"sourceOfInformationCode\": \"10\", //GR\r
 
@@ -18,16 +18,15 @@ body:
 
     \        {\r
 
-    \            \"typeOfUpdate\": \"K\",\r
+    \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"relationshipTypeCode\": \"I_100\",\r
+    \            \"relationshipTypeCode\": \"I_100\", //married\r
 
-    \            \"relatedPartyMapId\":
-    \"eeac9e05-3dec-4291-80ac-30399a5fc2f4\",\r
+    \            \"relatedPartyMapId\": \"{{relatedPartyId}}\",\r
 
-    \            \"validFrom\": \"2016-01-01\",\r
+    \            \"validFrom\": \"{{validFrom}}\",\r
 
-    \            \"validTo\": \"2026-04-02\"\r
+    \            \"validTo\": \"{{validTo}}\"\r
 
     \        }\r
 
@@ -37,8 +36,7 @@ body:
 
     \        //     \"relationshipTypeCode\": \"I_100\",\r
 
-    \        //     \"relatedPartyMapId\":
-    \"4379ea21-f7d3-4dd8-890f-107947d020ed\",\r
+    \        //     \"relatedPartyMapId\": \"4379ea21-f7d3-4dd8-890f-107947d020ed\",\r
 
     \        //     \"validFrom\": \"2016-01-03\"\r
 

@@ -1,6 +1,6 @@
 $kind: http-request
 name: Registration of a Lithuanian Client Received from GR - Relationships Divorce
-url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/natural-persons
+url: "{{natural-person-endpoint}}"
 method: POST
 body:
   type: json
@@ -40,7 +40,9 @@ body:
 
     \            \"maritalStatusDate\": \"{{maritalStatusDate}}\",\r
 
-    \            \"validFrom\": \"{{maritalStatusDate}}\"\r
+    \            \"validFrom\": \"{{maritalStatusDate}}\",\r
+
+    \            \"validTo\":\"{{validTo}}\"\r
 
     \        }\r
 

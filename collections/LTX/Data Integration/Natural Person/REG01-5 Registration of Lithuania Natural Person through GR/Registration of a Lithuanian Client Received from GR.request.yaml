@@ -34,7 +34,7 @@ body:
 
     \            \"lastName\": \"Zagkas\",\r
 
-    \            \"avdNumber\": \"1\", \r
+    \            \"avdNumber\": \"1\",\r
 
     \            \"validFrom\": \"{{validFrom}}\"\r
 

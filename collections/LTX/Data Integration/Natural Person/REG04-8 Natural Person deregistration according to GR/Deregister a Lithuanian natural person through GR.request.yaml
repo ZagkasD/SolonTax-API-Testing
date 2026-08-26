@@ -1,6 +1,6 @@
 $kind: http-request
 name: Deregister a Lithuanian natural person through GR
-url: ""
+url: "{{natural-person-endpoint}}"
 method: POST
 body:
   type: json
@@ -8,9 +8,9 @@ body:
 
     \    \"requestId\": \"requestId_Zagkas\",\r
 
-    \    \"mapId\": \"ae1be225-448c-4af3-8454-d4715f6c771d\",\r
+    \    \"mapId\": \"{{partyId}}\",\r
 
-    \    \"dateOfInformation\": \"2026-04-27\",\r
+    \    \"dateOfInformation\": \"{{validFrom}}\",\r
 
     \    \"sourceOfInformationCode\": \"10\", //GR\r
 
@@ -18,13 +18,15 @@ body:
 
     \        \"typeOfUpdate\": \"K\",\r
 
-    \        \"placeOfBirth\": \"LT\",\r
+    \        // \"placeOfBirth\": \"LT\",\r
 
     \        \"gender\": \"V\",\r
 
-    \        \"dateOfBirth\": \"2000-01-01\",\r
+    \        // \"dateOfBirth\": \"{{validFrom}}\",\r
 
-    \        \"dateOfDeath\": \"2026-03-18\" //This is the only necessary information for deregistration\r
+    \        \"placeOfBirth\": \"LT\",\r
+
+    \        \"dateOfDeath\": \"{{dateOfDeath}}\" //This is the only necessary information for deregistration\r
 
     \    }\r
 

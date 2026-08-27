@@ -8,7 +8,7 @@ body:
 
     \    \"requestId\": \"requestId_Zagkas\",\r
 
-    \    \"dateOfInformation\": \"{{validFrom}}\",\r
+    \    \"dateOfInformation\": \"2026-01-01\",\r
 
     \    \"sourceOfInformationCode\": \"44\", //UUR\r
 

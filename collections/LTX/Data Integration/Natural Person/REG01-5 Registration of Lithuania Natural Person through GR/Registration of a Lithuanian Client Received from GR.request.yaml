@@ -74,7 +74,23 @@ body:
 
     \            \"validFrom\": \"{{validFrom}}\"\r
 
+    \            // ,\"validTo\":\"{{valiTo}}\"\r
+
     \        }\r
+
+    \        // ,{\r
+
+    \        //     \"typeOfUpdate\": \"N\",\r
+
+    \        //     \"addressId\": \"{{addressId2}}\",\r
+
+    \        //     \"addressTypeCode\": \"5\",\r
+
+    \        //     \"addressObjectTypeCode\": \"{{addressObjectTypeCode2}}\",\r
+
+    \        //     \"validFrom\": \"{{validFrom2}}\"\r
+
+    \        // }\r
 
     \    ],\r
 

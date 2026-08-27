@@ -1,6 +1,6 @@
 $kind: http-request
 name: Update Lithuanian Address Structured
-url: https://solon-lith-test.centraldg6.athens.intrasoft-intl.private/data-integration/natural-persons
+url: "{{natural-person-endpoint}}"
 method: POST
 body:
   type: json
@@ -8,7 +8,7 @@ body:
 
     \    \"requestId\": \"requestId_00002\",\r
 
-    \    \"mapId\": \"ac8ec842-b761-49e9-9d7c-a9e9484279b6\",\r
+    \    \"mapId\": \"{{partyId}}\",\r
 
     \    \"dateOfInformation\": \"2026-01-01\",\r
 
@@ -32,30 +32,15 @@ body:
 
     \            \"typeOfUpdate\": \"K\",\r
 
-    \            \"addressTypeCode\": \"5\",\r
-
-    \            \"address\": \"test address\",\r
-
-    \            \"countryCode\": \"GR\",\r
-
-    \            \"validFrom\": \"2026-01-01\",\r
-
-    \            \"validTo\": \"2026-03-31\"\r
-
-    \        },\r
-
-    \        {\r
-
-    \            \"typeOfUpdate\": \"N\",\r
+    \            \"addressId\": \"{{addressId}}\",\r
 
     \            \"addressTypeCode\": \"5\",\r
 
-    \            \"address\": \"Villanueva Neck 40 TL1 PX7 LT-1234 ,
-    Melissamouth Antakalnis Vilnius city municipality\",\r
+    \            \"addressObjectTypeCode\": \"{{addressObjectTypeCode}}\",\r
 
-    \            \"countryCode\": \"LT\",\r
+    \            \"validFrom\": \"{{validFrom}}\",\r
 
-    \            \"validFrom\": \"2026-04-01\"\r
+    \            \"validTo\":\"{{validTo}}\"\r
 
     \        }\r
 

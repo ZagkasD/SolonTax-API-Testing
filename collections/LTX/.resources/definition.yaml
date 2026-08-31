@@ -3,16 +3,38 @@ name: LTX
 variables:
   oauth-client-id: revenue-management-be-admin
   oauth-client-secret: d435bba0-c9dc-4281-8377-31552f4bdc0b
-  validFrom: ""
 auth:
   type: oauth2
   credentials:
-    accessTokenUrl: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/auth/realms/solontax-rm-dev/protocol/openid-connect/token
-    clientSecret: ""
-    clientId: revenue-management-be
-    grant_type: password_credentials
-    tokenName: token
-    addTokenTo: header
-    client_authentication: body
-    username: user
-    password: icarus01
+    - key: tokenType
+      value: Bearer
+    - key: token_id
+      value: 5a2d4310-c81e-4b76-a802-79e74b43859c
+    - key: accessToken
+      value: eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI2Y0luTFN2ekdrcy0zTGoyX3gzVU1MZEpTTW55ajJ6NEtZMThPRXp1YmpjIn0.eyJleHAiOjE3ODc4Mjg5OTksImlhdCI6MTc4NzgxNDU5OSwianRpIjoib25ydHJvOmZmMDZjYzI0LWYzOWMtZDNkNi1hNWI0LTAxNjk3MThhZGFjNSIsImlzcyI6Imh0dHBzOi8vc29sb24tbGl0aC1kZXYuY2VudHJhbGRnNi5hdGhlbnMuaW50cmFzb2Z0LWludGwucHJpdmF0ZS9hdXRoL3JlYWxtcy9zb2xvbnRheC1ybS1kZXYiLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiYmU0MTcyNDItODQ4My00NTE0LWFlOTYtZTYyM2NkOWRlNDI5IiwidHlwIjoiQmVhcmVyIiwiYXpwIjoicmV2ZW51ZS1tYW5hZ2VtZW50LWJlIiwic2lkIjoiYzQ1YTlmYjgtN2IwNC00MDZiLTk4NzctODY3ZmQwMmUzMjhiIiwiYWxsb3dlZC1vcmlnaW5zIjpbImh0dHBzOi8vc29sb24tbGl0aC1kZXYuY2VudHJhbGRnNi5hdGhlbnMuaW50cmFzb2Z0LWludGwucHJpdmF0ZS9hcGktZ2F0ZXdheSJdLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsib2ZmbGluZV9hY2Nlc3MiLCJ1bWFfYXV0aG9yaXphdGlvbiJdfSwicmVzb3VyY2VfYWNjZXNzIjp7ImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoicHJvZmlsZSBlbWFpbCIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwicGFydHlSb2xlSWQiOiJ1c2VyLXVzZXItdXNlci0taXJtLXBhcnR5LXJvbGUtMzZjaGEiLCJuYW1lIjoiVVNFUiBVU0VSIiwicHJlZmVycmVkX3VzZXJuYW1lIjoidXNlciIsImdpdmVuX25hbWUiOiJVU0VSIiwic29sb25UYXhVc2VyUm9sZXMiOlsiQkFTSUMiLCJJTlQtMDAzIiwiU1VQRVJVU0VSIiwiVEFTS19BRE1JTiJdLCJsb2NhbGUiOiJlbiIsImZhbWlseV9uYW1lIjoiVVNFUiIsImVtYWlsIjoidXNlckB1c2VyLmdyIn0.LhP_TvgllrHbsoiruBDLuEWZQb89ZKnJd4q8HC43F1YM8L2kGKDJvpiEy8QmkMcYjRi-sRb1LUodOi4FPB_AN18HFMWrETWf7jRBMV-kIkb7raCuPUofgqYKt68onFDl2GVFyiU9EXK_saA__clCoXG__LWYlt9igiLWRMeZZeHzHUbVwSLwTYEZJLe2Lxwn9GVAawBSa1g4dwuAhLeILDdJ3n0A9jUoi6pMM33j-Oje4qvjsrNne3QwBcy72zVzJ91kWrf5T0q-LcYCtvHE-LEDEqLX_rpIPE0aEzBDFQ3NhJ-kBpnEWdcEwTCZY0E6nv29jbqAm0a3ebGsg2qoMw
+    - key: expires_in
+      value: 14400
+    - key: timestamp
+      value: 1787814602620
+    - key: accessTokenUrl
+      value: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/auth/realms/solontax-rm-dev/protocol/openid-connect/token
+    - key: clientSecret
+      value: ""
+    - key: clientId
+      value: revenue-management-be
+    - key: grant_type
+      value: password_credentials
+    - key: tokenName
+      value: token
+    - key: addTokenTo
+      value: header
+    - key: client_authentication
+      value: body
+    - key: username
+      value: user
+    - key: password
+      value: icarus01
+    - key: id
+      value: collection/875fF1Beee5C9dC0AB6A2aEF/18de981f-6e07-4ef3-866a-bcc1b636f30d/filesystem
+    - key: id
+      value: collection/875fF1Beee5C9dC0AB6A2aEF/18de981f-6e07-4ef3-866a-bcc1b636f30d/filesystem

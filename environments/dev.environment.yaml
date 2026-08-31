@@ -12,4 +12,8 @@ values:
     value: ''
   - key: residenceAddress
     value: ''
+  - key: addressId
+    value: ''
+  - key: addressObjectTypeCode
+    value: ''
 color: 0

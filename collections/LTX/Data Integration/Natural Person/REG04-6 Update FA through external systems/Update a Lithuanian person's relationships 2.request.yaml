@@ -20,13 +20,15 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"relationshipTypeCode\": \"I_100\", //married\r
+    \            \"relationshipTypeCode\": \"R_1\", //manager\r
 
     \            \"relatedPartyMapId\": \"{{relatedPartyId}}\",\r
 
-    \            \"validFrom\": \"{{validFrom}}\",\r
+    \            \"managementBody\":\"true\",\r
 
-    \            \"validTo\": \"{{validTo}}\"\r
+    \            \"validFrom\": \"{{validFrom}}\"\r
+
+    \            // \"validTo\": \"{{validTo}}\"\r
 
     \        }\r
 

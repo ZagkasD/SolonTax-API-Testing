@@ -1,5 +1,4 @@
 $kind: http-request
-name: Registration of a Lithuanian Client Received from GR
 url: "{{natural-person-endpoint}}"
 method: POST
 body:
@@ -52,7 +51,7 @@ body:
 
     \            \"identifierValue\": \"{{sharedRandomString}}\",\r
 
-    \            \"countryCode\": \"LT\",\r
+    \            // \"countryCode\": \"LT\",\r
 
     \            \"validFrom\": \"{{validFrom}}\"\r
 

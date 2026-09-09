@@ -1,5 +1,5 @@
 $kind: http-request
-name: "Mandatory Activity for Owner and Partner"
+name: Mandatory Activity for Owner and Partner
 url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/farm-data
 method: POST
 body:

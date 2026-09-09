@@ -15,15 +15,19 @@ body:
 
     \    \"basicPersonalData\": {\r
 
-    \        \"typeOfUpdate\": \"K\",\r
+    \        \"typeOfUpdate\": \"C\",\r
 
     \        \"gender\": \"V\",\r
 
     \        \"placeOfBirth\": \"LT\",\r
 
-    \        \"dateOfDeath\": \"{{dateOfDeath}}\" //This is the only necessary information for deregistration\r
+    \        \"dateOfBirth\":\"{{dateOfBirth}}\",\r
+
+    \        \"dateOfDeath\": \"{{dateOfDeath}}\",\r
+
+    \        \"dateOfDeathCancelDate\":\"{{dateOfDeathCancelDate}}\"\r
 
     \    }\r
 
     }"
-order: 1000
+order: 3850756739165530

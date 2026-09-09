@@ -4,7 +4,7 @@ url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integr
 method: POST
 body:
   type: json
-  content: |-
+  content: >-
     {
         "requestId": "requestId_00002",
         "mapId": "0e629902-5d55-42c6-8f2b-ada8266cf860",

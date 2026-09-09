@@ -91,7 +91,8 @@ body:
 
     \            \"isNatural\": true,\r
 
-    \            \"partnerPartyId\": \"a6696286-2f3e-4a6c-9c9f-7f74b3c0a4a1\", //FA\r
+    \            \"partnerPartyId\": \"a6696286-2f3e-4a6c-9c9f-7f74b3c0a4a1\",
+    //FA\r
 
     \            \"validFrom\": \"1999-01-01\",\r
 
@@ -101,7 +102,8 @@ body:
 
     \                    \"typeOfUpdate\": \"N\",\r
 
-    \                    \"mmTypeCode\": \"222\", // The only available mmtype of partner\r
+    \                    \"mmTypeCode\": \"222\", // The only available mmtype
+    of partner\r
 
     \                    \"validFrom\": \"1999-01-01\",\r
 

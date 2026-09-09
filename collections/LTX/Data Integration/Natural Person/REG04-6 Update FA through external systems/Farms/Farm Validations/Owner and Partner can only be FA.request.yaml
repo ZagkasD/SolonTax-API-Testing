@@ -1,5 +1,5 @@
 $kind: http-request
-name: "Owner and Partner can only be FA"
+name: Owner and Partner can only be FA
 url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/farm-data
 method: POST
 body:

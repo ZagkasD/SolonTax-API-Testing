@@ -1,5 +1,5 @@
 $kind: http-request
-name: "Allowed Taxpayer Types"
+name: Allowed Taxpayer Types
 url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/farm-data
 method: POST
 body:

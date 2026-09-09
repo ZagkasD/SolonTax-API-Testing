@@ -1,5 +1,5 @@
 $kind: http-request
-name: "Only One Active Owner per Agr Holding"
+name: Only One Active Owner per Agr Holding
 url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/farm-data
 method: POST
 body:

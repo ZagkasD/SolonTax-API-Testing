@@ -22,7 +22,8 @@ body:
 
     \            \"isNatural\": true,\r
 
-    \            \"partnerPartyId\": \"be009eb1-6cc8-4609-a53c-d2d07d5e5780\", //FA\r
+    \            \"partnerPartyId\": \"be009eb1-6cc8-4609-a53c-d2d07d5e5780\",
+    //FA\r
 
     \            \"validFrom\": \"2026-04-05\",\r
 
@@ -32,7 +33,8 @@ body:
 
     \                    \"typeOfUpdate\": \"N\",\r
 
-    \                    \"mmTypeCode\": \"222\", // The only available mmtype of owner\r
+    \                    \"mmTypeCode\": \"222\", // The only available mmtype
+    of owner\r
 
     \                    \"validFrom\": \"2026-04-05\",\r
 

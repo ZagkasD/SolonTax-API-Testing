@@ -48,7 +48,8 @@ body:
 
     \            \"isNatural\": true,\r
 
-    \            \"ownerPartyId\": \"67542166-2eb7-4cfe-a1cd-0c0ffce3375a\", //FA\r
+    \            \"ownerPartyId\": \"67542166-2eb7-4cfe-a1cd-0c0ffce3375a\",
+    //FA\r
 
     \            \"validFrom\": \"2026-04-03\",\r
 
@@ -58,7 +59,8 @@ body:
 
     \                    \"typeOfUpdate\": \"N\",\r
 
-    \                    \"mmTypeCode\": \"249\", // This mmtype allows activities\r
+    \                    \"mmTypeCode\": \"249\", // This mmtype allows
+    activities\r
 
     \                    \"validFrom\": \"2026-04-03\"\r
 

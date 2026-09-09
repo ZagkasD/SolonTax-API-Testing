@@ -1,5 +1,4 @@
 $kind: http-request
-name: Update Lithuanian Contacts 2
 url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/natural-persons
 method: POST
 body:
@@ -26,21 +25,23 @@ body:
 
     \            \"validFrom\": \"{{newValidFrom}}\"\r
 
-    \        },\r
-
-    \        {\r
-
-    \            \"typeOfUpdate\": \"N\",\r
-
-    \            \"contactTypeCode\": \"1\",\r
-
-    \            \"contactValue\": \"+37063706073\",\r
-
-    \            \"validFrom\": \"{{newValidFrom}}\"\r
-
     \        }\r
 
     \    ]\r
+
+    \    //     {\r
+
+    \    //         \"typeOfUpdate\": \"N\",\r
+
+    \    //         \"contactTypeCode\": \"1\",\r
+
+    \    //         \"contactValue\": \"+37063706073\",\r
+
+    \    //         \"validFrom\": \"{{newValidFrom}}\"\r
+
+    \    //     }\r
+
+    \    // ]\r
 
     }"
 order: 6000

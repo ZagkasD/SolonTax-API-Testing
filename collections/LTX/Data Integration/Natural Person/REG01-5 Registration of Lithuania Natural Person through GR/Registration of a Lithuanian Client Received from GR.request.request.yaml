@@ -1,0 +1,128 @@
+$kind: http-request
+description: ""
+url: "{{natural-person-endpoint}}"
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"requestId\": \"Zagkas_ID\",\r
+
+    \  \"dateOfInformation\": \"{{validFrom}}\",\r
+
+    \  \"sourceOfInformationCode\": \"10\",\r
+
+    \  \"basicPersonalData\": {\r
+
+    \    \"typeOfUpdate\": \"N\",\r
+
+    \    \"placeOfBirth\": \"LT\",\r
+
+    \    \"gender\": \"V\",\r
+
+    \    \"dateOfBirth\": \"{{validFrom}}\"\r
+
+    \  },\r
+
+    \  \"names\": [\r
+
+    \    {\r
+
+    \      \"typeOfUpdate\": \"N\",\r
+
+    \      \"firstName\": \"Dimos GR {{sharedRandomString}}\",\r
+
+    \      \"lastName\": \"Zagkas\",\r
+
+    \      \"avdNumber\": \"1\",\r
+
+    \      \"validFrom\": \"{{validFrom}}\"\r
+
+    \    }\r
+
+    \  ],\r
+
+    \  \"identifiers\": [\r
+
+    \    {\r
+
+    \      \"typeOfUpdate\": \"N\",\r
+
+    \      \"identifierTypeCode\": \"2\",\r
+
+    \      \"identifierValue\": \"{{sharedRandomString}}\",\r
+
+    \      // \"countryCode\": \"LT\",\r
+
+    \      \"validFrom\": \"{{validFrom}}\"\r
+
+    \    }\r
+
+    \  ],\r
+
+    \  \"addresses\": [\r
+
+    \    {\r
+
+    \      \"typeOfUpdate\": \"N\",\r
+
+    \      \"addressId\": \"{{addressId}}\",\r
+
+    \      \"addressTypeCode\": \"5\",\r
+
+    \      \"addressObjectTypeCode\": \"{{addressObjectTypeCode}}\",\r
+
+    \      \"validFrom\": \"{{validFrom}}\"\r
+
+    \    }\r
+
+    \  ],\r
+
+    \  \"contacts\": [\r
+
+    \    {\r
+
+    \      \"typeOfUpdate\": \"N\",\r
+
+    \      \"contactTypeCode\": \"6\",\r
+
+    \      \"contactValue\": \"dzagkas@netcompany.com\",\r
+
+    \      \"validFrom\": \"{{validFrom}}\"\r
+
+    \    }\r
+
+    \  ],\r
+
+    \  \"citizenships\": [\r
+
+    \    {\r
+
+    \      \"typeOfUpdate\": \"N\",\r
+
+    \      \"citizenshipCode\": \"LT\"\r
+
+    \    }\r
+
+    \  ]\r
+
+    }"
+scripts:
+  - type: afterResponse
+    code: ""
+    language: text/javascript
+  - type: beforeRequest
+    code: "// Generates an 8-character random string of letters only\\r\r
+
+      \r
+
+      \      const randomLetters = Array.from({ length: 8 }, () =>\r
+
+      \      \"abcdefghijklmnopqrstuvwxyz\"[Math.floor(Math.random() *
+      26)]).join('');\r
+
+      \      // Save it for your JSON body to use as {{sharedRandomString}}\\r\r
+
+      \      pm.variables.set(\"sharedRandomString\", randomLetters);"
+    language: text/javascript
+order: 1966264645850625

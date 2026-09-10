@@ -1,16 +1,5 @@
 $kind: http-example
 name: "AGR_REG Form: Validate Gap in Activities 9 Cancel"
-description: |-
-  # Scenario: Cancel activity under mmType that leaves gap.
-
-  **Set up for both owner and partner:**
-
-  **First Register:**  
-  **MMType: 2026-01-01 - open**  
-  **Activity 1: 2026-01-01- 2026-01-10**  
-  **Activity 2: 2026-01-11 - 2026-05-01**  
-  **Activity 3: 2026-05-02 - open**  
-  **Then cancel activity 2**
 request:
   url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/farm-data
   method: POST
@@ -185,7 +174,7 @@ request:
       }"
 response:
   statusCode: 200
-  statusText: ""
+  statusText: OK
   headers:
     date: Mon, 18 May 2026 10:31:28 GMT
     content-type: application/json
@@ -205,4 +194,4 @@ response:
         "requestId": "requestId_Zagkas",
         "processingId": "03f1fa5d-f1e2-40dd-92d9-d5f24cd04772"
       }
-order: 1779100298662
+order: 1000

@@ -178,8 +178,8 @@ request:
 
       }"
 response:
-  statusCode: 400
-  statusText: ""
+  statusCode: 200
+  statusText: OK
   headers:
     date: Thu, 23 Apr 2026 06:27:58 GMT
     content-type: application/json
@@ -275,4 +275,4 @@ response:
           }
         ]
       }
-order: 1776926056773
+order: 1000

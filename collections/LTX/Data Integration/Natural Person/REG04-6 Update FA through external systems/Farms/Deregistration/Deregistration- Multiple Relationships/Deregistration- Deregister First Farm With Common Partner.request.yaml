@@ -50,8 +50,7 @@ body:
 
     \            \"isNatural\": true,\r
 
-    \            \"ownerPartyId\": \"ae507d8b-02e6-41a6-837d-a88b2dd155b7\",
-    //FA\r
+    \            \"ownerPartyId\": \"ae507d8b-02e6-41a6-837d-a88b2dd155b7\", //FA\r
 
     \            \"validFrom\": \"2026-01-01\",\r
 
@@ -63,8 +62,7 @@ body:
 
     \                    \"typeOfUpdate\": \"K\",\r
 
-    \                    \"mmTypeCode\": \"203\", // The only available mmtype
-    of owner\r
+    \                    \"mmTypeCode\": \"203\", // The only available mmtype of owner\r
 
     \                    \"validFrom\": \"2026-01-01\",\r
 
@@ -104,8 +102,7 @@ body:
 
     \            \"isNatural\": true,\r
 
-    \            \"partnerPartyId\": \"c26eceda-e49d-4526-b948-fca8c5150a54\",
-    //FA\r
+    \            \"partnerPartyId\": \"c26eceda-e49d-4526-b948-fca8c5150a54\", //FA\r
 
     \            \"validFrom\": \"2026-01-01\",\r
 
@@ -117,8 +114,7 @@ body:
 
     \                    \"typeOfUpdate\": \"K\",\r
 
-    \                    \"mmTypeCode\": \"222\", // The only available mmtype
-    of partner\r
+    \                    \"mmTypeCode\": \"222\", // The only available mmtype of partner\r
 
     \                    \"validFrom\": \"2026-01-01\",\r
 
@@ -197,5 +193,4 @@ body:
     \    ]\r
 
     }"
-examples: .resources/Deregistration Happy Path-1.resources/examples
-order: 1777286349941
+order: 1000

@@ -103,5 +103,5 @@ body:
     \    ]\r
 
     }"
-examples: .resources/Owner validFrom,validTo for Legal.resources/examples
-order: 3000
+examples: ./.resources/JA-Owner validFrom-validTo.resources/examples
+order: 1000

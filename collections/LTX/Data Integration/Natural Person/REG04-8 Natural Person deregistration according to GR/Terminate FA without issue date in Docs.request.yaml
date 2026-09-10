@@ -24,8 +24,7 @@ body:
 
     \        \"dateOfBirth\": \"2013-01-01\",\r
 
-    \        \"dateOfDeath\": \"2026-01-01\" //This is the only necessary
-    information for deregistration\r
+    \        \"dateOfDeath\": \"2026-01-01\" //This is the only necessary information for deregistration\r
 
     \    }\r
 

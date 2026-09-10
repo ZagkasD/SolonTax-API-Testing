@@ -45,4 +45,4 @@ scripts:
 
       pm.variables.set(\"sharedRandomString\", randomLetters);"
     language: text/javascript
-order: 3000
+order: 2000

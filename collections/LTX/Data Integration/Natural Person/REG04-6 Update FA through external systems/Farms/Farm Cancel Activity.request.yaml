@@ -22,8 +22,7 @@ body:
 
     \            \"isNatural\": true,\r
 
-    \            \"ownerPartyId\": \"53aa5b30-eff1-4947-bd9f-03a602037b6d\",
-    //FA\r
+    \            \"ownerPartyId\": \"53aa5b30-eff1-4947-bd9f-03a602037b6d\", //FA\r
 
     \            \"validFrom\": \"{{validFrom}}\",\r
 
@@ -33,8 +32,7 @@ body:
 
     \                    \"typeOfUpdate\": \"R\",\r
 
-    \                    \"mmTypeCode\": \"203\", // The only available mmtype
-    of owner\r
+    \                    \"mmTypeCode\": \"203\", // The only available mmtype of owner\r
 
     \                    \"validFrom\": \"{{validFrom}}\",\r
 

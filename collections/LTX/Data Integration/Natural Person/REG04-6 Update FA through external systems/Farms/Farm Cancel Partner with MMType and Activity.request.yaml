@@ -36,8 +36,7 @@ body:
 
     \                    \"typeOfUpdate\": \"C\",\r
 
-    \                    \"mmTypeCode\": \"222\", // The only available mmtype
-    of owner\r
+    \                    \"mmTypeCode\": \"222\", // The only available mmtype of owner\r
 
     \                    \"validFrom\": \"{{validFrom}}\",\r
 
@@ -74,4 +73,4 @@ body:
     \    ]\r
 
     }\r\n"
-order: 16461
+order: 16000

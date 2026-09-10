@@ -179,8 +179,7 @@ body:
 
     \            \"relationshipTypeCode\": \"Mother\",\r
 
-    \            \"relatedPartyMapId\":
-    \"6e7e902c-057a-4c37-8669-ad9778945bbd\",\r
+    \            \"relatedPartyMapId\": \"6e7e902c-057a-4c37-8669-ad9778945bbd\",\r
 
     \            \"validFrom\": \"2016-01-01\"\r
 
@@ -490,8 +489,7 @@ body:
 
     //       \"typeOfUpdate\": \"s\",\r
 
-    //       \"representativePartyMapId\":
-    \"stringstringstringstringstringstring\",\r
+    //       \"representativePartyMapId\": \"stringstringstringstringstringstring\",\r
 
     //       \"representativeTypeCode\": \"string\",\r
 

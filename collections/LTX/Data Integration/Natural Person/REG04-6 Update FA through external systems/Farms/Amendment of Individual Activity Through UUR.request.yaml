@@ -17,13 +17,11 @@ body:
 
     \        {\r
 
-    \            \"typeOfUpdate\": \"R\",// Read only, (licences), keep the
-    entry, no valid to\r
+    \            \"typeOfUpdate\": \"R\",// Read only, (licences), keep the entry, no valid to\r
 
     \            \"isNatural\": true,\r
 
-    \            \"ownerPartyId\": \"8a00d8c2-a65c-48a2-a1a9-aa39c52490f3\",
-    //FA\r
+    \            \"ownerPartyId\": \"8a00d8c2-a65c-48a2-a1a9-aa39c52490f3\", //FA\r
 
     \            \"validFrom\": \"2026-04-03\",\r
 
@@ -33,8 +31,7 @@ body:
 
     \                    \"typeOfUpdate\": \"R\",\r
 
-    \                    \"mmTypeCode\": \"203\", // The only available mmtype
-    of owner\r
+    \                    \"mmTypeCode\": \"203\", // The only available mmtype of owner\r
 
     \                    \"validFrom\": \"2026-04-03\",\r
 
@@ -44,8 +41,7 @@ body:
 
     \                        {\r
 
-    \                            \"typeOfUpdate\": \"K\",//Need type of update
-    R\r
+    \                            \"typeOfUpdate\": \"K\",//Need type of update R\r
 
     \                            \"activityTypeCode\": \"011100\", //Cereal\r
 
@@ -59,8 +55,7 @@ body:
 
     \                        {\r
 
-    \                            \"typeOfUpdate\": \"N\",//Need type of update
-    R\r
+    \                            \"typeOfUpdate\": \"N\",//Need type of update R\r
 
     \                            \"activityTypeCode\": \"011100\", //Cereal\r
 
@@ -83,5 +78,4 @@ body:
     \    ]\r
 
     }"
-examples: .resources/Amendment of Individual Activity Through UUR.resources/examples
-order: 4000
+order: 8000

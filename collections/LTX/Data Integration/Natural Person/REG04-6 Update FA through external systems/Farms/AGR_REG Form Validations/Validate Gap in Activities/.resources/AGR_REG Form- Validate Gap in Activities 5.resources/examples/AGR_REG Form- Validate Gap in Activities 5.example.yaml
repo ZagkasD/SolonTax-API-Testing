@@ -1,11 +1,5 @@
 $kind: http-example
 name: "AGR_REG Form: Validate Gap in Activities 5"
-description: |-
-  Gap at the end - MM type has end date, last activity ends earlier.
-
-  Set up for both owner and partner:  
-  MMType: 2026-01-22 - 2026-02-01  
-  Activity 1: 2026-01-22 - 2026-01-30
 request:
   url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/farm-data
   method: POST
@@ -182,7 +176,7 @@ request:
       }"
 response:
   statusCode: 200
-  statusText: ""
+  statusText: OK
   headers:
     date: Fri, 15 May 2026 13:16:59 GMT
     content-type: application/json
@@ -202,4 +196,4 @@ response:
         "requestId": "requestId_Zagkas",
         "processingId": "04334836-f750-42f5-bbd6-08eb3d280829"
       }
-order: 1778851076983
+order: 1000

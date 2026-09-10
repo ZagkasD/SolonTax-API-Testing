@@ -140,11 +140,9 @@ body:
 
     \    //         \"typeOfUpdate\": \"N\",\r
 
-    \    //         \"representativePartyMapId\":
-    \"f2af60d0-8676-4ec6-bb14-3d9031f115ae\",\r
+    \    //         \"representativePartyMapId\": \"f2af60d0-8676-4ec6-bb14-3d9031f115ae\",\r
 
-    \    //         \"representativeTypeCode\": \"29\", //Tenant of the
-    community\r
+    \    //         \"representativeTypeCode\": \"29\", //Tenant of the community\r
 
     \    //         \"validFrom\": \"2000-01-01\",\r
 
@@ -166,8 +164,7 @@ body:
 
     \    //         \"relationshipTypeCode\": \"I_102\",\r
 
-    \    //         \"relatedPartyMapId\":
-    \"c0f4bd3f-6036-467f-8587-68bce0a35acb\",\r
+    \    //         \"relatedPartyMapId\": \"c0f4bd3f-6036-467f-8587-68bce0a35acb\",\r
 
     \    //         \"validFrom\": \"2016-01-01\"\r
 
@@ -176,4 +173,4 @@ body:
     \    // ]\r
 
     }"
-order: 2140
+order: 3000

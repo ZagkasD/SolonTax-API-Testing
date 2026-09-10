@@ -1,9 +1,7 @@
 $kind: http-request
 name: "AGR_REG Form: General Validations 3"
-description: >-
-  The external system UUR sends a farm for registration to the MAP with the
-  following data:
-
+description: |-
+  The external system UUR sends a farm for registration to the MAP with the following data:
 
   - Identifier of the agricultural holding
       
@@ -17,6 +15,70 @@ description: >-
       
   - mmTypes  
       **The following data are missing:**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -131,8 +193,7 @@ body:
 
     \            \"isNatural\": true,\r
 
-    \            \"ownerPartyId\": \"c9a52cce-e32f-488d-a68f-f2ba204dd39e\",
-    //FA\r
+    \            \"ownerPartyId\": \"c9a52cce-e32f-488d-a68f-f2ba204dd39e\", //FA\r
 
     \            \"validFrom\": \"2026-04-03\"\r
 
@@ -150,8 +211,7 @@ body:
 
     \            \"isNatural\": true,\r
 
-    \            \"partnerPartyId\": \"d7d33aa8-9c76-426c-b98e-c6740f0b6436\",
-    //FA\r
+    \            \"partnerPartyId\": \"d7d33aa8-9c76-426c-b98e-c6740f0b6436\", //FA\r
 
     \            \"validFrom\": \"2026-04-03\"\r
 
@@ -194,5 +254,4 @@ body:
     \    ]\r
 
     }"
-examples: .resources/AGR_REG Form- General Validations 3.resources/examples
-order: 3000
+order: 4000

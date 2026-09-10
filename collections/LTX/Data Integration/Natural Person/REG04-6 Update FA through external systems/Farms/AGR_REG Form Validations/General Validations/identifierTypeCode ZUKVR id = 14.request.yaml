@@ -1,7 +1,6 @@
 $kind: http-request
 name: identifierTypeCode ZUKVR id = 14
-description: For source of information 6005 (ZUKVR) identifierTypeCode is always
-  51 (Farmer's farm code).
+description: For source of information 6005 (ZUKVR) identifierTypeCode is always 51 (Farmer's farm code).
 url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/farm-data
 method: POST
 body:
@@ -48,8 +47,7 @@ body:
 
     \            \"isNatural\": true,\r
 
-    \            \"ownerPartyId\": \"437b86db-91de-4a9f-8281-e667a84cb36b\",
-    //FA\r
+    \            \"ownerPartyId\": \"437b86db-91de-4a9f-8281-e667a84cb36b\", //FA\r
 
     \            \"validFrom\": \"2026-01-01\",\r
 
@@ -59,8 +57,7 @@ body:
 
     \                    \"typeOfUpdate\": \"N\",\r
 
-    \                    \"mmTypeCode\": \"250\", // This mmtype allows
-    activities\r
+    \                    \"mmTypeCode\": \"250\", // This mmtype allows activities\r
 
     \                    \"validFrom\": \"2026-01-01\",\r
 
@@ -129,5 +126,4 @@ body:
     \    ]\r
 
     }"
-examples: .resources/identifierTypeCode ZUKVR id = 14.resources/examples
 order: 14000

@@ -86,8 +86,7 @@ body:
 
     \            \"relationshipTypeCode\": \"C_8\", //Policyholder\r
 
-    \            \"relatedPartyMapId\":
-    \"be7f176e-6b9b-43c6-aea1-34c878df396c\",\r
+    \            \"relatedPartyMapId\": \"be7f176e-6b9b-43c6-aea1-34c878df396c\",\r
 
     \            \"validFrom\": \"2026-01-01\"\r
 
@@ -96,4 +95,4 @@ body:
     \    ]\r
 
     }"
-order: 20000
+order: 18000

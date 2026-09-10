@@ -38,8 +38,7 @@ body:
 
     \        //     \"relationshipTypeCode\": \"I_100\",\r
 
-    \        //     \"relatedPartyMapId\":
-    \"4379ea21-f7d3-4dd8-890f-107947d020ed\",\r
+    \        //     \"relatedPartyMapId\": \"4379ea21-f7d3-4dd8-890f-107947d020ed\",\r
 
     \        //     \"validFrom\": \"2016-01-03\"\r
 
@@ -48,4 +47,4 @@ body:
     \    ]\r
 
     }"
-order: 11000
+order: 14000

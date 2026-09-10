@@ -96,8 +96,7 @@ request:
 
       \            \"isNatural\": true,\r
 
-      \            \"partnerPartyId\":
-      \"986937ce-5689-403c-84f5-428a3333d601\",\ 
+      \            \"partnerPartyId\": \"986937ce-5689-403c-84f5-428a3333d601\",\ 
 
       \            \"validFrom\": \"2026-04-03\",\r
 
@@ -172,30 +171,19 @@ request:
       }"
 response:
   statusCode: 200
-  statusText: ""
+  statusText: OK
   headers:
-    - key: date
-      value: Fri, 08 May 2026 06:38:28 GMT
-    - key: content-type
-      value: application/json
-    - key: transfer-encoding
-      value: chunked
-    - key: connection
-      value: keep-alive
-    - key: x-content-type-options
-      value: nosniff
-    - key: x-xss-protection
-      value: "0"
-    - key: cache-control
-      value: no-cache, no-store, max-age=0, must-revalidate
-    - key: pragma
-      value: no-cache
-    - key: expires
-      value: "0"
-    - key: strict-transport-security
-      value: max-age=31536000; includeSubDomains
-    - key: x-frame-options
-      value: DENY
+    date: Fri, 08 May 2026 06:38:28 GMT
+    content-type: application/json
+    transfer-encoding: chunked
+    connection: keep-alive
+    x-content-type-options: nosniff
+    x-xss-protection: "0"
+    cache-control: no-cache, no-store, max-age=0, must-revalidate
+    pragma: no-cache
+    expires: "0"
+    strict-transport-security: max-age=31536000; includeSubDomains
+    x-frame-options: DENY
   body:
     type: json
     content: |-
@@ -203,5 +191,5 @@ response:
         "requestId": "requestId_Zagkas",
         "processingId": "bb260d3e-d267-495c-a064-5e0fcc276b58"
       }
-order: 1778222355651
+order: 1000
 name: Response - Validation in the form

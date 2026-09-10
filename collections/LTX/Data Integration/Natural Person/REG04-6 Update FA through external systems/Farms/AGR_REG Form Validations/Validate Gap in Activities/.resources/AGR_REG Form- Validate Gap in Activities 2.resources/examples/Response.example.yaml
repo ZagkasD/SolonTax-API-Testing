@@ -1,10 +1,4 @@
 $kind: http-example
-description: |-
-  Gap at the beginning - activity starts after MM type.
-
-  Set up for both owner and partner:  
-  MMType: 2026-01-01 - open  
-  Activity: 2026-02-01 - open
 request:
   url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/farm-data
   method: POST
@@ -171,7 +165,7 @@ request:
       }"
 response:
   statusCode: 200
-  statusText: ""
+  statusText: OK
   headers:
     date: Fri, 15 May 2026 11:07:02 GMT
     content-type: application/json
@@ -191,4 +185,4 @@ response:
         "requestId": "requestId_Zagkas",
         "processingId": "f7b09aa0-457c-4262-9f0f-ba3f2583ef7a"
       }
-order: 1778844310355
+order: 1000

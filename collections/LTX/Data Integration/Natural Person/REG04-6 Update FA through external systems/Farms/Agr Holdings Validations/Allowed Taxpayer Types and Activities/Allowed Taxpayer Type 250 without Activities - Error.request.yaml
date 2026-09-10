@@ -48,8 +48,7 @@ body:
 
     \            \"isNatural\": true,\r
 
-    \            \"ownerPartyId\": \"986937ce-5689-403c-84f5-428a3333d601\",
-    //FA\r
+    \            \"ownerPartyId\": \"986937ce-5689-403c-84f5-428a3333d601\", //FA\r
 
     \            \"validFrom\": \"2026-04-03\",\r
 
@@ -59,8 +58,7 @@ body:
 
     \                    \"typeOfUpdate\": \"N\",\r
 
-    \                    \"mmTypeCode\": \"250\", // This mmtype allows
-    activities\r
+    \                    \"mmTypeCode\": \"250\", // This mmtype allows activities\r
 
     \                    \"validFrom\": \"2026-04-03\"\r
 
@@ -123,4 +121,4 @@ body:
     \    ]\r
 
     }"
-order: 4503430570494860
+order: 9000

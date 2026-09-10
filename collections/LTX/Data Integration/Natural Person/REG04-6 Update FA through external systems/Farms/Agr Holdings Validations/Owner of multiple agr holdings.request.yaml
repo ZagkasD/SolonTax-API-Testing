@@ -48,8 +48,7 @@ body:
 
     \            \"isNatural\": true,\r
 
-    \            \"ownerPartyId\": \"14997650-997d-4528-b76a-8cb1237b3b02\",
-    //FA\r
+    \            \"ownerPartyId\": \"14997650-997d-4528-b76a-8cb1237b3b02\", //FA\r
 
     \            \"validFrom\": \"2026-04-03\",\r
 
@@ -59,8 +58,7 @@ body:
 
     \                    \"typeOfUpdate\": \"N\",\r
 
-    \                    \"mmTypeCode\": \"250\", // This mmtype allows
-    activities\r
+    \                    \"mmTypeCode\": \"250\", // This mmtype allows activities\r
 
     \                    \"validFrom\": \"2026-04-03\",\r
 
@@ -123,5 +121,4 @@ body:
     \    ]\r
 
     }"
-examples: .resources/Register Farm - Non Existing Farm-1.resources/examples
-order: 1285
+order: 2000

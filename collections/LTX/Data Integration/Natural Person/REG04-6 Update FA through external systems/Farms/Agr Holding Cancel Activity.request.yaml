@@ -10,8 +10,7 @@ body:
 
     \    \"dateOfInformation\": \"2026-04-03\",\r
 
-    \    \"mapId\": \"edaaf1ea-fa6c-4fe1-ab7d-6291f6d4c1f2\", //The agr
-    holding\r
+    \    \"mapId\": \"edaaf1ea-fa6c-4fe1-ab7d-6291f6d4c1f2\", //The agr holding\r
 
     \    \"sourceOfInformationCode\": \"6005\", //ZUKVR\r
 
@@ -23,8 +22,7 @@ body:
 
     \            \"isNatural\": true,\r
 
-    \            \"ownerPartyId\": \"d853a20e-eadd-44f8-9fa3-2dff8c3b364b\",
-    //FA\r
+    \            \"ownerPartyId\": \"d853a20e-eadd-44f8-9fa3-2dff8c3b364b\", //FA\r
 
     \            \"validFrom\": \"{{validFrom}}\",\r
 

@@ -120,8 +120,7 @@ body:
 
     //       \"isNatural\": true,\r
 
-    //       \"partnerPartyId\": \"e48372a0-e6d2-47d0-8297-40efba29196a\",
-    //FA\r
+    //       \"partnerPartyId\": \"e48372a0-e6d2-47d0-8297-40efba29196a\", //FA\r
 
     //       \"validFrom\": \"2026-01-01\",\r
 
@@ -131,8 +130,7 @@ body:
 
     //           \"typeOfUpdate\": \"R\",\r
 
-    //           \"mmTypeCode\": \"222\", // The only available mmtype of
-    partner\r
+    //           \"mmTypeCode\": \"222\", // The only available mmtype of partner\r
 
     //           \"validFrom\": \"2026-01-01\",\r
 
@@ -179,4 +177,4 @@ body:
     \  ]\r
 
     }"
-order: 18870
+order: 18000

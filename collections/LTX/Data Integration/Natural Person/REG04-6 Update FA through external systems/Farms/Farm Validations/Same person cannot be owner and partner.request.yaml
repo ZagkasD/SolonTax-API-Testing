@@ -45,8 +45,7 @@ body:
 
     \            \"isNatural\": true,\r
 
-    \            \"ownerPartyId\": \"0d5ff964-a200-41b9-8cd4-6fdb4d5e38b8\",
-    //FA\r
+    \            \"ownerPartyId\": \"0d5ff964-a200-41b9-8cd4-6fdb4d5e38b8\", //FA\r
 
     \            \"validFrom\": \"2026-04-03\",\r
 
@@ -56,8 +55,7 @@ body:
 
     \                    \"typeOfUpdate\": \"N\",\r
 
-    \                    \"mmTypeCode\": \"203\", // The only available mmtype
-    of owner\r
+    \                    \"mmTypeCode\": \"203\", // The only available mmtype of owner\r
 
     \                    \"validFrom\": \"2026-04-03\",\r
 
@@ -93,8 +91,7 @@ body:
 
     \            \"isNatural\": true,\r
 
-    \            \"partnerPartyId\": \"0d5ff964-a200-41b9-8cd4-6fdb4d5e38b8\",
-    //FA\r
+    \            \"partnerPartyId\": \"0d5ff964-a200-41b9-8cd4-6fdb4d5e38b8\", //FA\r
 
     \            \"validFrom\": \"2026-04-03\",\r
 
@@ -104,8 +101,7 @@ body:
 
     \                    \"typeOfUpdate\": \"N\",\r
 
-    \                    \"mmTypeCode\": \"222\", // The only available mmtype
-    of partner\r
+    \                    \"mmTypeCode\": \"222\", // The only available mmtype of partner\r
 
     \                    \"validFrom\": \"2026-04-03\",\r
 
@@ -166,5 +162,5 @@ body:
     \    ]\r
 
     }"
-examples: .resources/Same person cannot be owner and partner.resources/examples
+examples: ./.resources/Same person cannot be owner and partner.resources/examples
 order: 6000

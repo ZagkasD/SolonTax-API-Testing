@@ -56,8 +56,7 @@ body:
 
     \                    \"typeOfUpdate\": \"N\",\r
 
-    \                    \"mmTypeCode\": \"248\", // This mmtype does allow
-    activities\r
+    \                    \"mmTypeCode\": \"248\", // This mmtype does allow activities\r
 
     \                    \"validFrom\": \"{{validFrom}}\"\r
 
@@ -120,6 +119,4 @@ body:
     \    ]\r
 
     }"
-examples: .resources/Register AGR Holding- Non Existing AGR Holding - Owner
-  FA.resources/examples
-order: 3000
+order: 7000

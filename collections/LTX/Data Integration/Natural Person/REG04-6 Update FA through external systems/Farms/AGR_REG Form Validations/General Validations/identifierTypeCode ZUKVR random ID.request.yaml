@@ -1,6 +1,5 @@
 $kind: http-request
-description: For source of information 6005 (ZUKVR) identifierTypeCode is always
-  51 (Farmer's farm code).
+description: For source of information 6005 (ZUKVR) identifierTypeCode is always 51 (Farmer's farm code).
 url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/farm-data
 method: POST
 body:
@@ -49,8 +48,7 @@ body:
 
     \            \"isNatural\": true,\r
 
-    \            \"ownerPartyId\": \"0ff0db67-f172-45e9-84fa-9001b9e1e0df\",
-    //FA\r
+    \            \"ownerPartyId\": \"0ff0db67-f172-45e9-84fa-9001b9e1e0df\", //FA\r
 
     \            \"validFrom\": \"2026-04-03\",\r
 
@@ -60,8 +58,7 @@ body:
 
     \                    \"typeOfUpdate\": \"N\",\r
 
-    \                    \"mmTypeCode\": \"203\", // The only available mmtype
-    of owner\r
+    \                    \"mmTypeCode\": \"203\", // The only available mmtype of owner\r
 
     \                    \"validFrom\": \"2026-04-03\",\r
 
@@ -99,8 +96,7 @@ body:
 
     \            \"isNatural\": true,\r
 
-    \            \"partnerPartyId\": \"c9a52cce-e32f-488d-a68f-f2ba204dd39e\",
-    //FA\r
+    \            \"partnerPartyId\": \"c9a52cce-e32f-488d-a68f-f2ba204dd39e\", //FA\r
 
     \            \"validFrom\": \"2026-04-03\",\r
 
@@ -110,8 +106,7 @@ body:
 
     \                    \"typeOfUpdate\": \"N\",\r
 
-    \                    \"mmTypeCode\": \"222\", // The only available mmtype
-    of partner\r
+    \                    \"mmTypeCode\": \"222\", // The only available mmtype of partner\r
 
     \                    \"validFrom\": \"2026-04-03\",\r
 
@@ -174,5 +169,4 @@ body:
     \    ]\r
 
     }"
-examples: .resources/identifierTypeCode ZUKVR random ID.resources/examples
 order: 13000

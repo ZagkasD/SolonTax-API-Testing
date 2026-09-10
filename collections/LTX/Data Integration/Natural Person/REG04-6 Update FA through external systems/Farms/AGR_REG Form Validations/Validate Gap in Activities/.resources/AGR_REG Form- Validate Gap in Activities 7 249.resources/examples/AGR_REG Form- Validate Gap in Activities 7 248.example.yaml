@@ -1,13 +1,5 @@
 $kind: http-example
 name: "AGR_REG Form: Validate Gap in Activities 7 248"
-description: |-
-  MMtype not requiring activity (248/249)
-
-  Only for ZUKVR
-
-  Set up for both owner and partner:  
-  MMType: 2026-01-01 - open  
-  No activities
 request:
   url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/farm-data
   method: POST
@@ -112,7 +104,7 @@ request:
       }"
 response:
   statusCode: 200
-  statusText: ""
+  statusText: OK
   headers:
     date: Mon, 18 May 2026 07:23:38 GMT
     content-type: application/json
@@ -132,4 +124,4 @@ response:
         "requestId": "requestId_Zagkas",
         "processingId": "17f9f73c-002a-41aa-95b0-368b2decd981"
       }
-order: 1779089246948
+order: 1000

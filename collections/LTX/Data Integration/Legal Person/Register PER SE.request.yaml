@@ -74,9 +74,7 @@ body:
 
     \            \"addressId\": \"417310773823\",\r
 
-    \            \"addressTypeCode\": \"2\",//Address of the legal entity's
-    registered office. This is the only address type that automatically sets the
-    municipality equal to the municipality of the address.\r
+    \            \"addressTypeCode\": \"2\",//Address of the legal entity's registered office. This is the only address type that automatically sets the municipality equal to the municipality of the address.\r
 
     \            \"addressObjectTypeCode\": \"A_KOM\",\r
 
@@ -96,8 +94,7 @@ body:
 
     \            \"relationshipTypeCode\": \"R_1\",\r
 
-    \            \"representativePartyMapId\":
-    \"ff2ec114-0e2b-48e0-bec2-e873e4de61d1\",\r
+    \            \"representativePartyMapId\": \"ff2ec114-0e2b-48e0-bec2-e873e4de61d1\",\r
 
     \            \"quantitative\": true,\r
 
@@ -115,8 +112,7 @@ body:
 
     \                    \"representationTypeCode\": \"R_1\",\r
 
-    \                    \"representationRule\": \"Transactions above 10000 EUR
-    require board approval.\",\r
+    \                    \"representationRule\": \"Transactions above 10000 EUR require board approval.\",\r
 
     \                    \"validFrom\": \"{{validFrom}}\"\r
 
@@ -143,4 +139,4 @@ body:
     \    ]\r
 
     }"
-order: 4444358603431048
+order: 4000

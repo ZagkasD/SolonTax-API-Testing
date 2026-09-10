@@ -21,13 +21,13 @@ body:
 
     \        \"placeOfBirth\": \"LT\",\r
 
-    \        \"dateOfBirth\":\"{{dateOfBirth}}\",\r
+    \        // \"dateOfBirth\":\"{{dateOfBirth}}\",\r
 
     \        // \"dateOfDeath\": \"{{dateOfDeath}}\",\r
 
-    \        \"dateOfDeathCancelDate\":\"{{dateOfDeathCancelDate}}\"\r
+    \        \"dateOfDeathAmendDate\":\"{{dateOfDeathAmendDate}}\"\r
 
     \    }\r
 
     }"
-order: 3000
+order: 2113

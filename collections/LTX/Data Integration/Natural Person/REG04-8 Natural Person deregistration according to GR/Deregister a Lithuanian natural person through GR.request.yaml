@@ -21,6 +21,8 @@ body:
 
     \        \"placeOfBirth\": \"LT\",\r
 
+    \        \"dateOfBirth\":\"2000-01-01\",\r
+
     \        \"dateOfDeath\": \"{{dateOfDeath}}\" //This is the only necessary information for deregistration\r
 
     \    }\r

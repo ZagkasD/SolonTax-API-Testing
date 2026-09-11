@@ -51,7 +51,7 @@ body:
 
     \      \"identifierValue\": \"{{sharedRandomString}}\",\r
 
-    \      // \"countryCode\": \"LT\",\r
+    \      \"countryCode\": \"LT\",\r
 
     \      \"validFrom\": \"{{validFrom}}\"\r
 

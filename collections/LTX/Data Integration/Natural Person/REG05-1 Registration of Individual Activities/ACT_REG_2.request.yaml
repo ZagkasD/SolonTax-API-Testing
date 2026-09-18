@@ -26,10 +26,11 @@ scripts:
 
       \      const randomLetters = Array.from({ length: 8 }, () =>\r
 
-      \      \"abcdefghijklmnopqrstuvwxyz\"[Math.floor(Math.random() * 26)]).join('');\r
+      \      \"abcdefghijklmnopqrstuvwxyz\"[Math.floor(Math.random() *
+      26)]).join('');\r
 
       \      // Save it for your JSON body to use as {{sharedRandomString}}\\r\r
 
       \      pm.variables.set(\"sharedRandomString\", randomLetters);"
     language: text/javascript
-order: 1000
+order: 3102392050247140

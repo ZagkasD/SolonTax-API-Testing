@@ -1,0 +1,35 @@
+$kind: http-request
+name: ACT_REG AMENDMENT
+description: ""
+url: "{{ui-config/forms/submit-endpoint}}"
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \        \"id\": null,\r
+
+    \        \"party\": {\r
+
+    \            \"id\": \"{{partyId}}\"\r
+
+    \        },\r
+
+    \        \"formTypeCode\": \"ACT_REG\",\r
+
+    \        \"sourceCL\": \"3\",\r
+
+    \        \"sourceCLDescription\": \"MAP\",\r
+
+    \        \"receiveDate\": \"{{receiveDate}}\",   \r
+
+    \        \"filingTypeCL\": \"AMENDED\",\r
+
+    \        \"filingTypeCLDescription\": \"Original\",\r
+
+    \        \"adjustReasonCL\":\"0\",\r
+
+    \        \"formData\": \"{\\\"mapId\\\":\\\"265c53d2-4294-49f0-a40d-2a68678f798d\\\",\\\"isMinor\\\":false,\\\"partyId\\\":\\\"0344b3ad-a39d-47a5-9a1f-b4dc11a40ba7\\\",\\\"isCreate\\\":false,\\\"orderedBy\\\":{\\\"id\\\":\\\"user-user-user--irm-party-role-36cha\\\",\\\"identificationLabel\\\":\\\"Icarus User, Icarususer, Active\\\"},\\\"taxPayerType\\\":\\\"215\\\",\\\"documentProvider\\\":{\\\"isOther\\\":false},\\\"mainActivityData\\\":[{\\\"id\\\":\\\"cf1988bf-62d7-44bb-8837-98a1aa654e10\\\",\\\"startDate\\\":\\\"2026-09-17\\\",\\\"mainActivityType\\\":\\\"011310\\\",\\\"confirmCompliance\\\":false}],\\\"naturalPersonData\\\":{\\\"address\\\":{\\\"id\\\":\\\"6f19c64d-5629-4084-a562-1c556fee137e\\\",\\\"identificationLabel\\\":\\\"Karoliniškės, Vilnius city municipality\\\"},\\\"fullName\\\":\\\"Dimos GR xwokbrpr Zagkas\\\",\\\"identificationCode\\\":\\\"Taxpayer identification number: LT-xwokbrpr\\\"},\\\"otherActivityData\\\":[{\\\"id\\\":\\\"8889ad33-7d6e-49c8-a5d9-44fe1c2b8ea3\\\",\\\"endDate\\\":\\\"2026-09-17\\\",\\\"startDate\\\":\\\"2026-09-17\\\",\\\"typeOfUpdate\\\":\\\"K\\\",\\\"cancellationDate\\\":\\\"2026-09-17\\\",\\\"confirmCompliance\\\":false,\\\"otherActivityType\\\":\\\"581900\\\",\\\"otherActivityDescription\\\":\\\"Other publishing activities, excluding software publishing\\\",\\\"defaultStartDatePopulatedIRM\\\":\\\"UNPOPULATED\\\"}],\\\"registrationNumber\\\":\\\"(17.47) GMAP-10525\\\",\\\"placeOfActivityData\\\":[{\\\"id\\\":\\\"49d7dd42-5a95-42cd-9b47-2d552db6524a\\\",\\\"address\\\":{\\\"eldership\\\":{\\\"eldershipCode\\\":\\\"13E6\\\"},\\\"countyCode\\\":\\\"C10\\\",\\\"addressTypeCL\\\":\\\"43\\\",\\\"municipalityCL\\\":\\\"13\\\",\\\"addressOptionCL\\\":\\\"STRUCTURED\\\"},\\\"coincides\\\":true,\\\"startDate\\\":\\\"2026-09-17\\\",\\\"typeOfPlace\\\":\\\"13\\\",\\\"residenceAddress\\\":{\\\"id\\\":\\\"6f19c64d-5629-4084-a562-1c556fee137e\\\",\\\"identificationLabel\\\":\\\"Karoliniškės, Vilnius city municipality\\\"}}]}\"\r
+
+    \    }"
+order: 2027664086926411

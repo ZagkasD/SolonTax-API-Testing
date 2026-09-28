@@ -5,103 +5,125 @@ body:
   type: json
   content: "{\r
 
-    \  \"requestId\": \"Zagkas_ID\",\r
+    \    \"requestId\": \"Zagkas_ID\",\r
 
-    \  \"dateOfInformation\": \"{{validFrom}}\",\r
+    \    \"dateOfInformation\": \"{{validFrom}}\",\r
 
-    \  \"sourceOfInformationCode\": \"10\",\r
+    \    \"sourceOfInformationCode\": \"10\",\r
 
-    \  \"basicPersonalData\": {\r
+    \    \"basicPersonalData\": {\r
 
-    \    \"typeOfUpdate\": \"N\",\r
+    \        \"typeOfUpdate\": \"N\",\r
 
-    \    \"placeOfBirth\": \"LT\",\r
+    \        \"placeOfBirth\": \"LT\",\r
 
-    \    \"gender\": \"V\",\r
+    \        \"gender\": \"V\",\r
 
-    \    \"dateOfBirth\": \"{{validFrom}}\"\r
+    \        \"dateOfBirth\": \"{{validFrom}}\"\r
 
-    \  },\r
+    \    },\r
 
-    \  \"names\": [\r
+    \    \"names\": [\r
 
-    \    {\r
+    \        {\r
 
-    \      \"typeOfUpdate\": \"N\",\r
+    \            \"typeOfUpdate\": \"N\",\r
 
-    \      \"firstName\": \"Dimos GR {{sharedRandomString}}\",\r
+    \            \"firstName\": \"Dimos GR {{sharedRandomString}}\",\r
 
-    \      \"lastName\": \"Zagkas\",\r
+    \            \"lastName\": \"Zagkas\",\r
 
-    \      \"avdNumber\": \"1\",\r
+    \            \"avdNumber\": \"1\",\r
 
-    \      \"validFrom\": \"{{validFrom}}\"\r
+    \            \"validFrom\": \"{{validFrom}}\"\r
 
-    \    }\r
+    \        }\r
 
-    \  ],\r
+    \    ],\r
 
-    \  \"identifiers\": [\r
+    \    \"identifiers\": [\r
 
-    \    {\r
+    \        {\r
 
-    \      \"typeOfUpdate\": \"N\",\r
+    \            \"typeOfUpdate\": \"N\",\r
 
-    \      \"identifierTypeCode\": \"2\",\r
+    \            \"identifierTypeCode\": \"2\",\r
 
-    \      \"identifierValue\": \"{{sharedRandomString}}\",\r
+    \            \"identifierValue\": \"{{sharedRandomString}}\",\r
 
-    \      \"validFrom\": \"{{validFrom}}\"\r
+    \            \"validFrom\": \"{{validFrom}}\"\r
 
-    \    }\r
+    \        }\r
 
-    \  ],\r
+    \    ],\r
 
-    \  \"addresses\": [\r
+    \    \"addresses\": [\r
 
-    \    {\r
+    \        {\r
 
-    \      \"typeOfUpdate\": \"N\",\r
+    \            \"typeOfUpdate\": \"N\",\r
 
-    \      \"addressId\": \"{{addressId}}\",\r
+    \            \"addressId\": \"{{addressId}}\",\r
 
-    \      \"addressTypeCode\": \"5\",\r
+    \            \"addressTypeCode\": \"5\",\r
 
-    \      \"addressObjectTypeCode\": \"{{addressObjectTypeCode}}\",\r
+    \            \"addressObjectTypeCode\": \"{{addressObjectTypeCode}}\",\r
 
-    \      \"validFrom\": \"{{validFrom}}\"\r
+    \            \"validFrom\": \"{{validFrom}}\"\r
 
-    \    }\r
+    \        }\r
 
-    \  ],\r
+    \    ],\r
 
-    \  \"contacts\": [\r
+    \    \"contacts\": [\r
 
-    \    {\r
+    \        {\r
 
-    \      \"typeOfUpdate\": \"N\",\r
+    \            \"typeOfUpdate\": \"N\",\r
 
-    \      \"contactTypeCode\": \"6\",\r
+    \            \"contactTypeCode\": \"6\",\r
 
-    \      \"contactValue\": \"dzagkas@netcompany.com\",\r
+    \            \"contactValue\": \"dzagkas@netcompany.com\",\r
 
-    \      \"validFrom\": \"{{validFrom}}\"\r
+    \            \"validFrom\": \"{{validFrom}}\"\r
 
-    \    }\r
+    \        }\r
 
-    \  ],\r
+    \    ],\r
 
-    \  \"citizenships\": [\r
+    \    \"citizenships\": [\r
 
-    \    {\r
+    \        {\r
 
-    \      \"typeOfUpdate\": \"N\",\r
+    \            \"typeOfUpdate\": \"N\",\r
 
-    \      \"citizenshipCode\": \"LT\"\r
+    \            \"citizenshipCode\": \"LT\",\r
 
-    \    }\r
+    \            \"validFrom\": \"{{validFrom}}\"\r
 
-    \  ]\r
+    \        }\r
+
+    \    ]\r
+
+    \    // ,\"documents\": [\r
+
+    \    //     {\r
+
+    \    //         \"typeOfUpdate\": \"N\",\r
+
+    \    //         \"documentTypeCode\": \"24\", //License\r
+
+    \    //         \"documentNumber\": \"1234\",\r
+
+    \    //         \"avdNumber\":\"1111\",\r
+
+    \    //         \"issueCountryCode\": \"LT\",\r
+
+    \    //         \"validFrom\": \"{{validFrom}}\"\r
+
+    \    //     }\r
+
+    \    // ]\r
 
     }"
 scripts:

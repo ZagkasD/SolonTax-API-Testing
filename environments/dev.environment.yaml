@@ -10,6 +10,8 @@ values:
     value: ''
   - key: ui-config/forms/submit-endpoint
     value: ''
+  - key: contacts-endpoint
+    value: ''
   - key: residenceAddress
     value: ''
   - key: addressId
@@ -18,4 +20,6 @@ values:
   - key: addressObjectTypeCode
     value: ''
     description: address13
+  - key: contacts-endpoint
+    value: ''
 color: 0

@@ -88,7 +88,7 @@ body:
 
     \                            \"validFrom\": \"{{validFrom}}\",\r
 
-    \                            \"validTo\":\"2024-12-31\"\r
+    \                            \"validTo\":\"2025-01-01\"\r
 
     \                        },\r
 
@@ -100,7 +100,7 @@ body:
 
     \                            \"isMain\": false,\r
 
-    \                            \"validFrom\": \"2025-01-01\"\r
+    \                            \"validFrom\": \"2025-01-03\"\r
 
     \                        }\r
 

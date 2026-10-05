@@ -31,6 +31,8 @@ body:
 
     \            \"firstName\": \"Dimos GR {{sharedRandomString}}\",\r
 
+    \            // \"firstName\": \"Dimos GR kadkhcyk\",\r
+
     \            \"lastName\": \"Zagkas\",\r
 
     \            \"avdNumber\": \"1\",\r
@@ -89,9 +91,9 @@ body:
 
     \        }\r
 
-    \    ],\r
+    \    ]\r
 
-    \    \"citizenships\": [\r
+    \    ,\"citizenships\": [\r
 
     \        {\r
 

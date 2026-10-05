@@ -82,11 +82,25 @@ body:
 
     \                            \"typeOfUpdate\": \"N\",\r
 
-    \                            \"activityTypeCode\": \"011100\", //Cereal\r
+    \                            \"activityTypeCode\": \"0122\", //Cereal\r
 
-    \                            \"isMain\": true,\r
+    \                            \"isMain\": false,\r
 
-    \                            \"validFrom\": \"{{validFrom}}\"\r
+    \                            \"validFrom\": \"{{validFrom}}\",\r
+
+    \                            \"validTo\":\"2024-12-31\"\r
+
+    \                        },\r
+
+    \                        {\r
+
+    \                            \"typeOfUpdate\": \"N\",\r
+
+    \                            \"activityTypeCode\": \"101200\", //Cereal\r
+
+    \                            \"isMain\": false,\r
+
+    \                            \"validFrom\": \"2025-01-01\"\r
 
     \                        }\r
 

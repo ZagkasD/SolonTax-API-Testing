@@ -10,6 +10,8 @@ values:
     value: ''
   - key: ui-config/forms/submit-endpoint
     value: ''
+  - key: contacts-endpoint
+    value: ''
   - key: addressId
     value: ''
     description: address14

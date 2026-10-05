@@ -20,6 +20,4 @@ values:
   - key: addressObjectTypeCode
     value: ''
     description: address13
-  - key: contacts-endpoint
-    value: ''
 color: 0

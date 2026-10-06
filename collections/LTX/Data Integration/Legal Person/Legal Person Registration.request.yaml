@@ -1,12 +1,11 @@
 $kind: http-request
-name: Legal Person Registration
 url: "{{legal-person-endpoint}}"
 method: POST
 body:
   type: json
   content: "{\r
 
-    \    \"requestId\": \"requestId_Zagkas\",\r
+    \    \"requestId\": \"requestId_10011\",\r
 
     \    \"dateOfInformation\": \"{{validFrom}}\",\r
 
@@ -18,15 +17,7 @@ body:
 
     \        \"jarRegistrationDate\": \"{{validFrom}}\",\r
 
-    \        \"registrationDate\": \"{{validFrom}}\",\r
-
     \        \"countryOfOriginCode\": \"LT\"\r
-
-    \    },\r
-
-    \    \"partyTypeRoleType\": {\r
-
-    \        \"partyType\": \"LJA\"\r
 
     \    },\r
 
@@ -36,7 +27,7 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"name\": \"{{name}}\",\r
+    \            \"name\": \"'UJA' Department 2\",\r
 
     \            \"validFrom\": \"{{validFrom}}\"\r
 
@@ -52,11 +43,27 @@ body:
 
     \            \"identifierTypeCode\": \"3\",\r
 
-    \            \"identifierValue\": \"{{$randomInt}}\",\r
+    \            \"identifierValue\": \"ujapad1234\",\r
 
-    \            \"countryCode\": \"LT\",\r
+    \            //\"countryCode\": \"LT\",\r
+
+    \            \"externalIdentifier\": \"3527354812\",\r
 
     \            \"validFrom\": \"{{validFrom}}\"\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"mmTypes\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"mmTypeCode\": \"112\",\r
+
+    \            \"validFrom\": \"2025-03-01\"\r
 
     \        }\r
 
@@ -70,9 +77,59 @@ body:
 
     \            \"contactTypeCode\": \"6\",\r
 
-    \            \"contactValue\": \"dzagkas@netcompany.com\",\r
+    \            \"contactValue\": \"ujapad@contactemail.com\",\r
 
     \            \"validFrom\": \"{{validFrom}}\"\r
+
+    \        },\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"contactTypeCode\": \"19\",\r
+
+    \            \"contactValue\": \"00693748267983\",\r
+
+    \            \"validFrom\": \"{{validFrom}}\"\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"representatives\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"relationshipTypeCode\": \"R_1\",\r
+
+    \            \"representativePartyMapId\": \"157d0b7f-7b28-4398-9c4b-ba7d385a4930\",\r
+
+    \            \"quantitative\": false,\r
+
+    \            \"validFrom\": \"2025-03-01\",\r
+
+    \            \"assignmentDateFrom\": \"2025-03-01\",\r
+
+    \            \"authorizationDateFrom\": \"2025-03-01\",\r
+
+    \            \"representationRestrictions\": [\r
+
+    \                {\r
+
+    \                    \"typeOfUpdate\": \"N\",\r
+
+    \                    \"representationTypeCode\": \"R_1\",\r
+
+    \                    \"representationRule\": \"Transactions above 10000 EUR require board approval.\",\r
+
+    \                    \"validFrom\": \"{{validFrom}}\"\r
+
+    \                }\r
+
+    \            ]\r
 
     \        }\r
 
@@ -84,13 +141,13 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"addressId\": \"417310773823\",\r
+    \            \"addressTypeCode\": \"49\",\r
 
-    \            \"addressTypeCode\": \"2\", //Address of the legal entity's registered office. This is the only address type that automatically sets the municipality equal to the municipality of the address.\r
+    \            \"addressObjectTypeCode\": \"APS\",\r
 
-    \            \"addressObjectTypeCode\": \"A_KOM\",\r
+    \            \"addressId\": \"4300772141\",\r
 
-    \            \"countryCode\": \"LT\",\r
+    \   \"countryCode\": \"LT\",\r
 
     \            \"validFrom\": \"{{validFrom}}\"\r
 
@@ -98,15 +155,59 @@ body:
 
     \    ],\r
 
-    \    \"groups\": [\r
+    \    \"legalForms\": [\r
 
     \        {\r
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"groupTypeCode\": \"117\", //Required for municipalities\r
+    \            \"legalFormTypeCode\": \"490\",\r
+
+    \            \"validFrom\": \"2025-03-01\",\r
+
+    \   \"validTo\": null,\r
+
+    \   \"cancelationDate\": null,\r
+
+    \   \"cancelationReasonCode\": null\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"legalStatuses\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"legalStatusCode\": \"0\",\r
 
     \            \"validFrom\": \"{{validFrom}}\"\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"documents\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"documentTypeCode\": \"7\",\r
+
+    \            \"documentNumber\": \"AOA-2025-11-28\",\r
+
+    \            \"issueCountryCode\": \"LT\",\r
+
+    \            \"issueDate\": \"2025-03-01\",\r
+
+    \            \"expirationDate\": \"2025-03-01\",\r
+
+    \            \"deliveryDate\": \"2025-03-01\",\r
+
+    \            \"validFrom\": \"2025-03-01\"\r
 
     \        }\r
 

@@ -55,9 +55,9 @@ body:
 
     \        }\r
 
-    \    ],\r
+    \    ]\r
 
-    \    \"addresses\": [\r
+    \    ,\"addresses\": [\r
 
     \        {\r
 
@@ -73,9 +73,9 @@ body:
 
     \        }\r
 
-    \    ],\r
+    \    ]\r
 
-    \    \"contacts\": [\r
+    \    ,\"contacts\": [\r
 
     \        {\r
 
@@ -105,25 +105,25 @@ body:
 
     \    ]\r
 
-    \    // ,\"documents\": [\r
+    \    ,\"documents\": [\r
 
-    \    //     {\r
+    \        {\r
 
-    \    //         \"typeOfUpdate\": \"N\",\r
+    \            \"typeOfUpdate\": \"N\",\r
 
-    \    //         \"documentTypeCode\": \"24\", //License\r
+    \            \"documentTypeCode\": \"24\", //License\r
 
-    \    //         \"documentNumber\": \"1234\",\r
+    \            \"documentNumber\": \"1234\",\r
 
-    \    //         \"avdNumber\":\"1111\",\r
+    \            \"avdNumber\":\"1111\",\r
 
-    \    //         \"issueCountryCode\": \"LT\",\r
+    \            \"issueCountryCode\": \"LT\",\r
 
-    \    //         \"validFrom\": \"{{validFrom}}\"\r
+    \            \"validFrom\": \"{{validFrom}}\"\r
 
-    \    //     }\r
+    \        }\r
 
-    \    // ]\r
+    \    ]\r
 
     }"
 scripts:

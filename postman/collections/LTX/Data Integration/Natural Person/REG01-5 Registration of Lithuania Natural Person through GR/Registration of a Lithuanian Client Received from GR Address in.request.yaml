@@ -1,4 +1,5 @@
 $kind: http-request
+name: Registration of a Lithuanian Client Received from GR Address in Test Env
 url: "{{natural-person-endpoint}}"
 method: POST
 body:
@@ -51,31 +52,33 @@ body:
 
     \            \"identifierValue\": \"{{sharedRandomString}}\",\r
 
+    \            \"countryCode\": \"LT\",\r
+
     \            \"validFrom\": \"{{validFrom}}\"\r
 
     \        }\r
 
-    \    ]\r
+    \    ],\r
 
-    \    ,\"addresses\": [\r
+    \    \"addresses\": [\r
 
     \        {\r
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"addressId\": \"{{addressId}}\",\r
+    \            \"addressId\": \"3300772153\",\r
 
     \            \"addressTypeCode\": \"5\",\r
 
-    \            \"addressObjectTypeCode\": \"{{addressObjectTypeCode}}\",\r
+    \            \"addressObjectTypeCode\": \"SEN\",\r
 
     \            \"validFrom\": \"{{validFrom}}\"\r
 
     \        }\r
 
-    \    ]\r
+    \    ],\r
 
-    \    ,\"contacts\": [\r
+    \    \"contacts\": [\r
 
     \        {\r
 
@@ -83,43 +86,43 @@ body:
 
     \            \"contactTypeCode\": \"6\",\r
 
-    \            \"contactValue\": \"dzagkas@netcompany.com\",\r
+    \            \"contactValue\": \"dzagkas@netcompany.com\"    ,\r
 
     \            \"validFrom\": \"{{validFrom}}\"\r
 
     \        }\r
 
-    \    ]\r
+    \    ],\r
 
-    \    // ,\"citizenships\": [\r
-
-    \    //     {\r
-
-    \    //         \"typeOfUpdate\": \"N\",\r
-
-    \    //         \"citizenshipCode\": \"LT\",\r
-
-    \    //         \"validFrom\": \"{{validFrom}}\"\r
-
-    \    //     }\r
-
-    \    // ]\r
-
-    \    ,\"documents\": [\r
+    \    \"citizenships\": [\r
 
     \        {\r
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"documentTypeCode\": \"83\", //License\r
-
-    \            \"documentNumber\": \"1234\",\r
-
-    \            \"avdNumber\":\"1111\",\r
-
-    \            \"issueCountryCode\": \"AD\",\r
+    \            \"citizenshipCode\": \"LT\",\r
 
     \            \"validFrom\": \"{{validFrom}}\"\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"educationRecords\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"educationTypeCode\": \"HIGHER\",\r
+
+    \            \"educationRegisterLearnerId\": \"{{sharedRandomString}}\",\r
+
+    \            \"isSuccessfullyCompleted\": true,\r
+
+    \            \"validFrom\": \"{{validFrom}}\",\r
+
+    \            \"validTo\": null\r
 
     \        }\r
 
@@ -128,14 +131,18 @@ body:
     }"
 scripts:
   - type: beforeRequest
-    code: "// Generates an 8 character random string of lowercase letters\r
+    code: "// Generates an 8-character random string of letters only\r
+
+      const randomLetters = Array.from({ length: 8 }, () => \r
+
+      \    \"abcdefghijklmnopqrstuvwxyz\"[Math.floor(Math.random() * 26)]\r
+
+      ).join('');\r
 
       \r
 
-      \      const randomLetters = Array.from({ length: 8 }, () =>\r
+      // Save it for your JSON body to use as {{sharedRandomString}}\r
 
-      \      \"abcdefghijklmnopqrstuvwxyz\"[Math.floor(Math.random() * 26)]).join('');\r
-
-      \      pm.variables.set(\"sharedRandomString\", randomLetters);"
+      pm.variables.set(\"sharedRandomString\", randomLetters);"
     language: text/javascript
-order: 7000
+order: 2000

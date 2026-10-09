@@ -1,0 +1,34 @@
+$kind: http-request
+name: Termination of MM Type through GYPAS
+url: "{{natural-person-endpoint}}"
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"requestId\": \"requestId_Zagkas\",\r
+
+    \    \"mapId\": \"{{partyId}}\",\r
+
+    \    \"dateOfInformation\": \"2026-01-01\",\r
+
+    \    \"sourceOfInformationCode\": \"5002\", //GYPAS\r
+
+    \    \"mmTypes\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"K\",\r
+
+    \            \"mmTypeCode\": \"215\",\r
+
+    \            \"validFrom\": \"{{validFrom}}\",\r
+
+    \            \"validTo\": \"{{validTo}}\"\r
+
+    \        }\r
+
+    \    ]\r
+
+    }"
+order: 1000

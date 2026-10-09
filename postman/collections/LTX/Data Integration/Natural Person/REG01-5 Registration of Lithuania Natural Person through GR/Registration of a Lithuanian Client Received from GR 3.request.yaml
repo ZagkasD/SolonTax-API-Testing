@@ -1,0 +1,98 @@
+$kind: http-request
+name: Registration of a Lithuanian Client Received from GR 3
+url: "{{natural-person-endpoint}}"
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"requestId\": \"requestId_Zagkas\",\r
+
+    \    \"dateOfInformation\": \"2000-01-01\",\r
+
+    \    \"sourceOfInformationCode\": \"10\", //GR\r
+
+    \    \"basicPersonalData\": {\r
+
+    \        \"typeOfUpdate\": \"N\",\r
+
+    \        \"placeOfBirth\": \"LT\",\r
+
+    \        \"gender\": \"V\",\r
+
+    \        \"dateOfBirth\": \"2000-01-01\"\r
+
+    \    },\r
+
+    \    \"names\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"firstName\": \"Dimos GR D\",\r
+
+    \            \"lastName\": \"Zagkas\",\r
+
+    \            \"avdNumber\": \"63\",\r
+
+    \            \"validFrom\": \"2000-01-01\"\r
+
+    \        }\r
+
+    \    ], \r
+
+    \    \"identifiers\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"identifierTypeCode\": \"2\", //Personal Code\r
+
+    \            \"identifierValue\": \"90274350987\",\r
+
+    \            \"countryCode\": \"LT\",\r
+
+    \            \"validFrom\": \"2000-01-01\"\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"contacts\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"contactTypeCode\": \"6\",\r
+
+    \            \"contactValue\": \"dzagkas@netcompany.com\",\r
+
+    \            \"validFrom\": \"2000-01-01\"\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"addresses\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"addressTypeCode\": \"5\",\r
+
+    \            \"address\": \"test address\",\r
+
+    \            \"countryCode\": \"GR\",\r
+
+    \            \"validFrom\": \"2000-01-01\"\r
+
+    \        }\r
+
+    \    ]\r
+
+    }"
+order: 6000

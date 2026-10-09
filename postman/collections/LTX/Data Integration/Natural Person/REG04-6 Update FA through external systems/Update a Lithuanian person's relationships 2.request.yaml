@@ -1,0 +1,50 @@
+$kind: http-request
+name: Update a Lithuanian person's relationships 2
+url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/natural-persons
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"requestId\": \"requestId_00002\",\r
+
+    \    \"mapId\": \"{{partyId}}\", \r
+
+    \    \"dateOfInformation\": \"{{validFrom}}\",\r
+
+    \    \"sourceOfInformationCode\": \"10\", //GR\r
+
+    \    \"relationships\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"relationshipTypeCode\": \"R_1\", //manager\r
+
+    \            \"relatedPartyMapId\": \"{{relatedPartyId}}\",\r
+
+    \            \"managementBody\":\"true\",\r
+
+    \            \"validFrom\": \"{{validFrom}}\"\r
+
+    \            // \"validTo\": \"{{validTo}}\"\r
+
+    \        }\r
+
+    \        // {\r
+
+    \        //     \"typeOfUpdate\": \"N\",\r
+
+    \        //     \"relationshipTypeCode\": \"I_100\",\r
+
+    \        //     \"relatedPartyMapId\": \"4379ea21-f7d3-4dd8-890f-107947d020ed\",\r
+
+    \        //     \"validFrom\": \"2016-01-03\"\r
+
+    \        // }\r
+
+    \    ]\r
+
+    }"
+order: 14000

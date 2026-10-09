@@ -1,0 +1,11 @@
+name: NC_STG
+values:
+  - key: natural-person-endpoint
+    value: ''
+  - key: addressId
+    value: ''
+    description: address14
+  - key: addressObjectTypeCode
+    value: ''
+    description: address13
+color: 120

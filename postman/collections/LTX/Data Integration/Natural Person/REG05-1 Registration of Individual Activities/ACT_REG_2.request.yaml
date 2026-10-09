@@ -1,0 +1,36 @@
+$kind: http-request
+url: "{{ui-config/forms/submit-endpoint}}"
+method: POST
+body:
+  type: json
+  content: |
+    {
+        "id": null,
+        "party": {
+            "id": "{{partyId}}"
+        },
+        "formTypeCode": "ACT_REG_2",
+        "sourceCL": "3",
+        "sourceCLDescription": "MAP",
+        "receiveDate": "{{receiveDate}}",   
+        "filingTypeCL": "ORIGINAL",
+        "filingTypeCLDescription": "Original",
+        "formData":"{\"isCreate\":true,\"isMinor\":false,\"partyId\":\"{{partyId}}\",\"taxPayerType\":\"{{mmType}}\",\"naturalPersonData\":{\"identificationCode\":\"Taxpayer identification number: {{TIN}}\",\"fullName\":\"{{fullName}}\",\"address\":{\"id\":\"6f19c64d-5629-4084-a562-1c556fee137e\",\"identificationLabel\":\"Karoliniškės, Vilnius city municipality\"}},\"mainActivityData\":[{\"confirmCompliance\":false,\"startDate\":\"{{StartDate}}\",\"endDate\":\"{{endDate}}\",\"activityCategoryCL\":7110,\"mainActivitySelection\":{\"id\":\"e24e3ea0-331c-449c-8dd3-0508f73fe64c\",\"codeListItemCode\":\"{{codeListItemCode}}\",\"codeListItemDescription\":\"{{mainActivityDescription/codeListItemDescription}}\"},\"mainActivityType\":\"{{mainActivityType}}\",\"mainActivityDescription\":\"{{mainActivityDescription/codeListItemDescription}}\",\"taxPayerTypeSelection\":\"{{mmType}}\"}],\"otherActivityData\":[{\"startDate\":\"{{StartDate}}\",\"endDate\":\"{{endDate}}\",\"confirmCompliance\":false,\"otherActivityType\":\"011200\",\"activityCategoryCL\":7110,\"otherActivitySelection\":{\"id\":\"91517285-3f33-438f-934d-d4dcb9212c3d\",\"codeListItemCode\":\"011200\",\"codeListItemDescription\":\"Growing of rice\"},\"otherActivityDescription\":\"Growing of rice\"}],\"placeOfActivityData\":[{\"coincides\":true,\"address\":{\"countryCodeCL\":\"LT\",\"addressOptionCL\":\"STRUCTURED\",\"addressTypeCL\":\"43\",\"houseNumberStatus\":\"DISABLED\",\"creationDttm\":\"{{StartDate}}\",\"sourceCL\":\"3\"},\"startDate\":\"{{StartDate}}\",\"endDate\":\"{{endDate}}\",\"typeOfPlace\":\"99\",\"residenceAddress\":{\"id\":\"{{residenceAddress}}\",\"identificationLabel\":\"Karoliniškės, Vilnius city municipality\"}}]}"
+
+    }
+scripts:
+  - type: beforeRequest
+    code: "// Generates an 8-character random string of letters only\\r\r
+
+      \r
+
+      \      const randomLetters = Array.from({ length: 8 }, () =>\r
+
+      \      \"abcdefghijklmnopqrstuvwxyz\"[Math.floor(Math.random() *
+      26)]).join('');\r
+
+      \      // Save it for your JSON body to use as {{sharedRandomString}}\\r\r
+
+      \      pm.variables.set(\"sharedRandomString\", randomLetters);"
+    language: text/javascript
+order: 4000

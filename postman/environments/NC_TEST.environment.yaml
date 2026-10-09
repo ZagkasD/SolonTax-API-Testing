@@ -1,9 +1,9 @@
-name: DEV
+name: NC_TEST
 values:
   - key: farm-endpoint
     value: ''
   - key: natural-person-endpoint
-    value: 'https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/natural-persons'
+    value: ''
   - key: legal-person-endpoint
     value: ''
   - key: residence-certificates-endpoint
@@ -12,12 +12,12 @@ values:
     value: ''
   - key: contacts-endpoint
     value: ''
-  - key: residenceAddress
-    value: ''
   - key: addressId
     value: ''
     description: address14
   - key: addressObjectTypeCode
     value: ''
     description: address13
-color: 0
+  - key: residenceAddress
+    value: ''
+color: 240

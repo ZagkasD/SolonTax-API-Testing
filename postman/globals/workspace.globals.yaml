@@ -1,0 +1,5 @@
+name: Globals
+values:
+  - key: $randomName
+    value: ''
+    enabled: true

@@ -1,0 +1,142 @@
+$kind: http-request
+name: Registration of a Lithuanian Client Received from GR 3 - Licenses
+url: "{{natural-person-endpoint}}"
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"requestId\": \"requestId_Zagkas\",\r
+
+    \    \"dateOfInformation\": \"2000-01-01\",\r
+
+    \    \"sourceOfInformationCode\": \"10\", //GR\r
+
+    \    \"basicPersonalData\": {\r
+
+    \        \"typeOfUpdate\": \"N\",\r
+
+    \        \"placeOfBirth\": \"LT\",\r
+
+    \        \"gender\": \"V\",\r
+
+    \        \"dateOfBirth\": \"2000-01-01\"\r
+
+    \    },\r
+
+    \    \"names\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"firstName\": \"Dimos GR G\",\r
+
+    \            \"lastName\": \"Zagkas\",\r
+
+    \            \"avdNumber\": \"63\",\r
+
+    \            \"validFrom\": \"2000-01-01\"\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"identifiers\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"identifierTypeCode\": \"2\", //Personal Code\r
+
+    \            \"identifierValue\": \"987495287\",\r
+
+    \            \"countryCode\": \"LT\",\r
+
+    \            \"validFrom\": \"2000-01-01\"\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"contacts\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"contactTypeCode\": \"6\",\r
+
+    \            \"contactValue\": \"dzagkas@netcompany.com\",\r
+
+    \            \"validFrom\": \"2000-01-01\"\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"addresses\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"addressTypeCode\": \"5\",\r
+
+    \            \"address\": \"test address\",\r
+
+    \            \"countryCode\": \"GR\",\r
+
+    \            \"validFrom\": \"2000-01-01\"\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"licenses\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"licenseTypeCode\": \"1000\",\r
+
+    \            \"licenseNumber\": \"9087289076\",\r
+
+    \            \"issueDate\": \"2000-01-01\",\r
+
+    \            \"issuerMapId\": \"c9a52cce-e32f-488d-a68f-f2ba204dd39e\",\r
+
+    \            \"documentTypeCode\": \"25\", //Permit\r
+
+    \            \"statusCode\": \"ISD\", //Issued\r
+
+    \            \"licenseDateFrom\": \"2000-01-01\",\r
+
+    \            \"validFrom\": \"2000-01-01\",\r
+
+    \            \"activities\": [\r
+
+    \                {\r
+
+    \                    \"typeOfUpdate\": \"N\",\r
+
+    \                    \"activityTypeCode\": \"2\",\r
+
+    \                    \"addressObjectTypeCode\": \"SAV\",\r
+
+    \                    \"addressId\": \"11\",\r
+
+    \                    \"validFrom\": \"2000-01-01\"\r
+
+    \                }\r
+
+    \            ]\r
+
+    \        }\r
+
+    \    ]\r
+
+    }"
+order: 5000

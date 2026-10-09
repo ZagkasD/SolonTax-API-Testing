@@ -1,0 +1,196 @@
+$kind: http-request
+name: "Register Farm: Non Existing Farm"
+url: "{{farm-endpoint}}"
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"requestId\": \"requestId_Zagkas\",\r
+
+    \    \"dateOfInformation\": \"2026-01-01\",\r
+
+    \    \"sourceOfInformationCode\": \"44\", //UUR\r
+
+    \    \"contacts\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"contactTypeCode\": \"6\",\r
+
+    \            \"contactValue\": \"dzagkas@netcompany.com\",\r
+
+    \            \"validFrom\": \"{{validFrom}}\"\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"identifiers\": {\r
+
+    \        \"identifierValue\": \"Farm-{{$randomInt}}\",\r
+
+    \        \"identifierTypeCode\": \"14\", //Farmers\r
+
+    \        \"validFrom\": \"{{validFrom}}\"\r
+
+    \    },\r
+
+    \    \"owners\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"isNatural\": true,\r
+
+    \            \"ownerPartyId\": \"{{ownerId}}\", //FA\r
+
+    \            \"validFrom\": \"{{validFrom}}\",\r
+
+    \            \"contacts\": [\r
+
+    \                {\r
+
+    \                    \"typeOfUpdate\": \"N\",\r
+
+    \                    \"contactTypeCode\": \"6\",\r
+
+    \                    \"contactValue\": \"dzagkas@netcompany.com\",\r
+
+    \                    \"validFrom\": \"{{validFrom}}\"\r
+
+    \                }\r
+
+    \            ],\r
+
+    \            \"mmTypes\": [\r
+
+    \                {\r
+
+    \                    \"typeOfUpdate\": \"N\",\r
+
+    \                    \"mmTypeCode\": \"203\", // The only available mmtype of owner\r
+
+    \                    \"validFrom\": \"{{validFrom}}\",\r
+
+    \                    \"activities\": [\r
+
+    \                        {\r
+
+    \                            \"typeOfUpdate\": \"N\",\r
+
+    \                            \"activityTypeCode\": \"0122\", //Cereal\r
+
+    \                            \"isMain\": false,\r
+
+    \                            \"validFrom\": \"{{validFrom}}\",\r
+
+    \                            \"validTo\":\"2025-01-01\"\r
+
+    \                        },\r
+
+    \                        {\r
+
+    \                            \"typeOfUpdate\": \"N\",\r
+
+    \                            \"activityTypeCode\": \"101200\", //Cereal\r
+
+    \                            \"isMain\": false,\r
+
+    \                            \"validFrom\": \"2025-01-03\"\r
+
+    \                        }\r
+
+    \                    ]\r
+
+    \                }\r
+
+    \            ]\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    //   \"partners\": [\r
+
+    \    //     {\r
+
+    \    //       \"typeOfUpdate\": \"N\",\r
+
+    \    //       \"isNatural\": true,\r
+
+    \    //       \"partnerPartyId\": \"{{partnerId}}\", //FA\r
+
+    \    //       \"validFrom\": \"{{validFrom}}\",\r
+
+    \    //       \"mmTypes\": [\r
+
+    \    //         {\r
+
+    \    //           \"typeOfUpdate\": \"N\",\r
+
+    \    //           \"mmTypeCode\": \"222\", // The only available mmtype of partner\r
+
+    \    //           \"validFrom\": \"{{validFrom}}\",\r
+
+    \    //           \"activities\": [\r
+
+    \    //             {\r
+
+    \    //               \"typeOfUpdate\": \"N\",\r
+
+    \    //               \"activityTypeCode\": \"011100\", //Cereal\r
+
+    \    //               \"isMain\": true,\r
+
+    \    //               \"validFrom\": \"{{validFrom}}\"\r
+
+    \    //             }\r
+
+    \    //           ]\r
+
+    \    //         }\r
+
+    \    //       ]\r
+
+    \    //     }\r
+
+    \    //   ],\r
+
+    \    \"statuses\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"statusCL\": \"3\", //Registered\r
+
+    \            \"validFrom\": \"{{validFrom}}\"\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"addresses\": [\r
+
+    \        {\r
+
+    \            \"addressId\": \"{{addressId}}\", //address14\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"addressTypeCode\": \"43\", //Address of place of activity\r
+
+    \            \"addressObjectTypeCode\": \"{{addressObjectTypeCode}}\", //Municipality\r
+
+    \            \"validFrom\": \"{{validFrom}}\"\r
+
+    \        }\r
+
+    \    ]\r
+
+    }"
+order: 5000

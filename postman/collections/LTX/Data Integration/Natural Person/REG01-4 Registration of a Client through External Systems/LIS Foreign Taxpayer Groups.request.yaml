@@ -1,0 +1,80 @@
+$kind: http-request
+name: LIS Foreign Taxpayer Groups
+url: https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/natural-persons
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"requestId\": \"requestId_Zagkas\",\r
+
+    \    \"dateOfInformation\": \"2026-01-01\",\r
+
+    \    \"sourceOfInformationCode\": \"116\", //LIS\r
+
+    \    \"basicPersonalData\": {\r
+
+    \        \"typeOfUpdate\": \"N\",\r
+
+    \        \"placeOfBirth\": \"GR\",\r
+
+    \        \"gender\": \"V\",\r
+
+    \        \"dateOfBirth\": \"2000-01-01\"\r
+
+    \    },\r
+
+    \    \"names\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"firstName\": \"Dimos LIS A\",\r
+
+    \            \"lastName\": \"Zagkas\",\r
+
+    \            \"avdNumber\": \"63\",\r
+
+    \            \"validFrom\": \"2026-01-01\"\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"contacts\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"contactTypeCode\": \"6\",\r
+
+    \            \"contactValue\": \"dzagkas@netcompany.com\",\r
+
+    \            \"validFrom\": \"2026-01-01\"\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"groups\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"orgUnitPartyId\": \"3dd075ff-e291-4975-a511-000010000000\",\r
+
+    \            \"groupTypeCode\": \"119\", // New taxpayer\r
+
+    \            \"validFrom\": \"2026-01-01\",\r
+
+    \            \"validTo\":\"2026-02-01\"\r
+
+    \        }\r
+
+    \    ]\r
+
+    }"
+order: 19000

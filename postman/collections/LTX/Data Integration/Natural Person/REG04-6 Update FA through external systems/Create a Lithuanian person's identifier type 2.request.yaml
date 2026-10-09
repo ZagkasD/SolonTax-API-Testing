@@ -1,0 +1,36 @@
+$kind: http-request
+name: Create a Lithuanian person's identifier type 2
+url: "{{natural-person-endpoint}}"
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"requestId\": \"Zagkas_ID\",\r
+
+    \    \"mapId\": \"{{partyId}}\",\r
+
+    \    \"dateOfInformation\": \"{{dateOfInformation}}\",\r
+
+    \    \"sourceOfInformationCode\": \"10\", //GR,\r
+
+    \    \"identifiers\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"identifierTypeCode\": \"2\", // Personal Code\r
+
+    \            \"identifierValue\": \"{{newIdentifier}}\",\r
+
+    \            \"countryCode\": \"LT\",\r
+
+    \            \"validFrom\": \"{{validFrom}}\"\r
+
+    \        }\r
+
+    \    ]\r
+
+    }"
+order: 18000

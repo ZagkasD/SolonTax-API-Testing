@@ -1,15 +1,15 @@
 name: DEV
 values:
   - key: farm-endpoint
-    value: ''
+    value: 'https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/farm-data'
   - key: natural-person-endpoint
     value: 'https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/natural-persons'
   - key: legal-person-endpoint
-    value: ''
+    value: 'https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/legal-persons'
   - key: residence-certificates-endpoint
     value: ''
   - key: ui-config/forms/submit-endpoint
-    value: ''
+    value: 'https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/api-gateway/ui-configuration/forms/submit'
   - key: contacts-endpoint
     value: ''
   - key: residenceAddress

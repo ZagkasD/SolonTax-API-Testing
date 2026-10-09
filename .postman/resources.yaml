@@ -1,0 +1,20 @@
+workspace:
+  id: 5ffd9cbd-aaf1-4f44-9b9f-3f7a0f56897b
+
+# Each entry here maps a local resource to one or more corresponding objects in Postman Cloud
+
+cloudResources:
+  collections:
+    ../postman/collections/LTX: 50369564-6a328ab0-a4a0-4631-840b-5c21eeb4b365
+  environments:
+    ../postman/environments/dev.environment.yaml: 50369564-d09452a8-277a-46d8-b755-bf081bb81da3
+    ../postman/environments/NC_STG.environment.yaml: 50369564-30c90bc6-766a-45b1-99a3-1bb9cf0a53f4
+    ../postman/environments/NC_TEST.environment.yaml: 50369564-5f0d9562-e54a-4f2d-81f3-afda5e8eecea
+  globals:
+    ../postman/globals/workspace.globals.yaml: e2af2d65-601b-4797-834d-ce700d72b389
+
+localResources:
+  environments:
+    - ../postman/environments/dev.environment.yaml
+    - ../postman/environments/NC_STG.environment.yaml
+    - ../postman/environments/NC_TEST.environment.yaml

@@ -91,19 +91,19 @@ body:
 
     \    ]\r
 
-    \    // ,\"citizenships\": [\r
+    \    ,\"citizenships\": [\r
 
-    \    //     {\r
+    \        {\r
 
-    \    //         \"typeOfUpdate\": \"N\",\r
+    \            \"typeOfUpdate\": \"N\",\r
 
-    \    //         \"citizenshipCode\": \"LT\",\r
+    \            \"citizenshipCode\": \"LT\",\r
 
-    \    //         \"validFrom\": \"{{validFrom}}\"\r
+    \            \"validFrom\": \"{{validFrom}}\"\r
 
-    \    //     }\r
+    \        }\r
 
-    \    // ]\r
+    \    ]\r
 
     \    ,\"documents\": [\r
 

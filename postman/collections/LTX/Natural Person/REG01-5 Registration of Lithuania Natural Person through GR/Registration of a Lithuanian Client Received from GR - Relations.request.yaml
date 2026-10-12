@@ -14,7 +14,7 @@ body:
 
     \    \"basicPersonalData\": {\r
 
-    \        \"typeOfUpdate\": \"N\",    \r
+    \        \"typeOfUpdate\": \"N\",\r
 
     \        \"placeOfBirth\": \"LT\",\r
 
@@ -22,11 +22,11 @@ body:
 
     \        \"dateOfBirth\": \"{{validFrom}}\"\r
 
-    \    },  \r
+    \    },\r
 
     \    \"names\": [\r
 
-    \        {   \r
+    \        {\r
 
     \            \"typeOfUpdate\": \"N\",\r
 
@@ -52,8 +52,6 @@ body:
 
     \            \"identifierValue\": \"{{sharedRandomString}}\",\r
 
-    \            \"countryCode\": \"LT\",\r
-
     \            \"validFrom\": \"{{validFrom}}\"\r
 
     \        }\r
@@ -66,11 +64,11 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"addressId\": \"3300772154\",\r
+    \            \"addressId\": \"{{addressId}}\",\r
 
     \            \"addressTypeCode\": \"5\",\r
 
-    \            \"addressObjectTypeCode\": \"SEN\",\r
+    \            \"addressObjectTypeCode\": \"{{addressObjectTypeCode}}\",\r
 
     \            \"validFrom\": \"{{validFrom}}\"\r
 
@@ -134,13 +132,25 @@ body:
 
     \        },\r
 
-    \                {\r
+    \        {\r
 
     \            \"typeOfUpdate\": \"N\",\r
 
     \            \"relationshipTypeCode\": \"I_102\", //Mother\r
 
     \            \"relatedPartyMapId\": \"{{motherRelPartyid}}\",\r
+
+    \            \"validFrom\": \"{{validFrom}}\"\r
+
+    \        },\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"relationshipTypeCode\": \"R_41\", //Family member\r
+
+    \            \"relatedPartyMapId\": \"{{familyMemberPartyid}}\",\r
 
     \            \"validFrom\": \"{{validFrom}}\"\r
 

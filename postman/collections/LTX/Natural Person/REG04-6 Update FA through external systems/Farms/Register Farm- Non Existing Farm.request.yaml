@@ -86,9 +86,7 @@ body:
 
     \                            \"isMain\": false,\r
 
-    \                            \"validFrom\": \"{{validFrom}}\",\r
-
-    \                            \"validTo\":\"2025-01-01\"\r
+    \                            \"validFrom\": \"{{validFrom}}\"\r
 
     \                        },\r
 
@@ -98,9 +96,7 @@ body:
 
     \                            \"activityTypeCode\": \"101200\", //Cereal\r
 
-    \                            \"isMain\": false,\r
-
-    \                            \"validFrom\": \"2025-01-03\"\r
+    \                            \"isMain\": false\r
 
     \                        }\r
 

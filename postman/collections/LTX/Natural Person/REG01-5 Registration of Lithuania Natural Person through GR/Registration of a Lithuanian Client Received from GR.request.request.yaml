@@ -105,26 +105,6 @@ body:
 
     \    ]\r
 
-    \    ,\"documents\": [\r
-
-    \        {\r
-
-    \            \"typeOfUpdate\": \"N\",\r
-
-    \            \"documentTypeCode\": \"83\", //License\r
-
-    \            \"documentNumber\": \"1234\",\r
-
-    \            \"avdNumber\":\"1111\",\r
-
-    \            \"issueCountryCode\": \"AD\",\r
-
-    \            \"validFrom\": \"{{validFrom}}\"\r
-
-    \        }\r
-
-    \    ]\r
-
     }"
 scripts:
   - type: beforeRequest

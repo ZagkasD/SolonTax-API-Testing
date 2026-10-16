@@ -66,7 +66,8 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"identifierTypeCode\": \"5\", //Identification number (code) in a foreign country\r
+    \            \"identifierTypeCode\": \"5\", //Identification number (code)
+    in a foreign country\r
 
     \            \"identifierValue\": \"207081875262\",\r
 

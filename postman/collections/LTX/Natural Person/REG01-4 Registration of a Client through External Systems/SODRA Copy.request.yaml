@@ -118,7 +118,8 @@ body:
 
     \    //         \"relationshipTypeCode\": \"C_8\",\r
 
-    \    //         \"relatedPartyMapId\": \"d5b2c657-07a5-4390-8814-e5db2585419f\",\r
+    \    //         \"relatedPartyMapId\":
+    \"d5b2c657-07a5-4390-8814-e5db2585419f\",\r
 
     \    //         \"validFrom\": \"2026-01-01\"\r
 
@@ -146,7 +147,8 @@ body:
 
     \    //         \"typeOfUpdate\": \"N\",\r
 
-    \    //         \"orgUnitPartyId\": \"3dd075ff-e291-4975-a511-000010000000\",\r
+    \    //         \"orgUnitPartyId\":
+    \"3dd075ff-e291-4975-a511-000010000000\",\r
 
     \    //         \"groupTypeCode\": \"1\", // New taxpayer\r
 

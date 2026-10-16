@@ -1,0 +1,49 @@
+$kind: http-request
+url: "{{natural-person-endpoint}}"
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"requestId\": \"Zagkas_ID\",\r
+
+    \    \"mapId\": \"{{partyId}}\",\r
+
+    \    \"dateOfInformation\": \"{{validFrom}}\",\r
+
+    \    \"sourceOfInformationCode\": \"10\", //TIES\r
+
+    \    \"addresses\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"addressId\": \"{{addressId}}\",\r
+
+    \            \"addressTypeCode\": \"5\",\r
+
+    \            \"addressObjectTypeCode\": \"{{addressObjectTypeCode}}\",\r
+
+    \            \"validFrom\": \"{{validFrom}}\",\r
+
+    \            \"validTo\":\"{{validTo}}\"\r
+
+    \        }\r
+
+    \    ]\r
+
+    }"
+scripts:
+  - type: beforeRequest
+    code: "// Generates an 8 character random string of lowercase letters\r
+
+      \r
+
+      \      const randomLetters = Array.from({ length: 8 }, () =>\r
+
+      \      \"abcdefghijklmnopqrstuvwxyz\"[Math.floor(Math.random() * 26)]).join('');\r
+
+      \      pm.variables.set(\"sharedRandomString\", randomLetters);"
+    language: text/javascript
+order: 16904

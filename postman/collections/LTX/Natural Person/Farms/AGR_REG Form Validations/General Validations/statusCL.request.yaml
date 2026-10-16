@@ -1,0 +1,170 @@
+$kind: http-request
+name: statusCL
+description: When isCreate = True, the statusCL must be 3.
+url: "{{farm-endpoint}}"
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"requestId\": \"requestId_Zagkas\",\r
+
+    \  \"dateOfInformation\": \"2026-04-03\",\r
+
+    \  \"sourceOfInformationCode\": \"44\", //UUR\r
+
+    \  \"contacts\": [\r
+
+    \    {\r
+
+    \      \"typeOfUpdate\": \"N\",\r
+
+    \      \"contactTypeCode\": \"6\",\r
+
+    \      \"contactValue\": \"dzagkas@netcompany.com\",\r
+
+    \      \"validFrom\": \"2026-01-01\"\r
+
+    \    }\r
+
+    \  ],\r
+
+    \  \"identifiers\": {\r
+
+    \    \"identifierValue\": \"uhjfds98o7y384\",\r
+
+    \    \"identifierTypeCode\": \"14\", //Farmers\r
+
+    \    \"validFrom\": \"2026-01-01\"\r
+
+    \  },\r
+
+    \  \"owners\": [\r
+
+    \    {\r
+
+    \      \"typeOfUpdate\": \"N\",\r
+
+    \      \"isNatural\": true,\r
+
+    \      \"ownerPartyId\": \"d30cc1c9-7a43-44d0-88ed-84c5bf8a473a\", //FA\r
+
+    \      \"validFrom\": \"2026-01-01\",\r
+
+    \      \"mmTypes\": [\r
+
+    \        {\r
+
+    \          \"typeOfUpdate\": \"N\",\r
+
+    \          \"mmTypeCode\": \"203\", // The only available mmtype of owner\r
+
+    \          \"validFrom\": \"2026-01-01\",\r
+
+    \          \"activities\": [\r
+
+    \            {\r
+
+    \              \"typeOfUpdate\": \"N\",\r
+
+    \              \"activityTypeCode\": \"011100\", //Cereal\r
+
+    \              \"isMain\": true,\r
+
+    \              \"validFrom\": \"2026-01-01\"\r
+
+    \            }\r
+
+    \          ]\r
+
+    \        }\r
+
+    \      ]\r
+
+    \    }\r
+
+    \  ],\r
+
+    //   \"partners\": [\r
+
+    //     {\r
+
+    //       \"typeOfUpdate\": \"N\",\r
+
+    //       \"isNatural\": true,\r
+
+    //       \"partnerPartyId\": \"e48372a0-e6d2-47d0-8297-40efba29196a\",
+    //FA\r
+
+    //       \"validFrom\": \"2026-01-01\",\r
+
+    //       \"mmTypes\": [\r
+
+    //         {\r
+
+    //           \"typeOfUpdate\": \"N\",\r
+
+    //           \"mmTypeCode\": \"222\", // The only available mmtype of
+    partner\r
+
+    //           \"validFrom\": \"2026-01-01\",\r
+
+    //           \"activities\": [\r
+
+    //             {\r
+
+    //               \"typeOfUpdate\": \"N\",\r
+
+    //               \"activityTypeCode\": \"011100\", //Cereal\r
+
+    //               \"isMain\": true,\r
+
+    //               \"validFrom\": \"2026-01-01\"\r
+
+    //             }\r
+
+    //           ]\r
+
+    //         }\r
+
+    //       ]\r
+
+    //     }\r
+
+    //   ],\r
+
+    \  \"statuses\": [\r
+
+    \    {\r
+
+    \      \"typeOfUpdate\": \"N\",\r
+
+    \      \"statusCL\": \"4\", //Registered\r
+
+    \      \"validFrom\": \"2026-01-01\"\r
+
+    \    }\r
+
+    \  ],\r
+
+    \  \"addresses\": [\r
+
+    \    {\r
+
+    \      \"addressId\": \"11\",\r
+
+    \      \"typeOfUpdate\": \"N\",\r
+
+    \      \"addressTypeCode\": \"43\", //Address of place of activity\r
+
+    \      \"addressObjectTypeCode\": \"SAV\", //Municipality\r
+
+    \      \"validFrom\": \"2026-01-01\"\r
+
+    \    }\r
+
+    \  ]\r
+
+    }"
+examples: ./.resources/statusCL.resources/examples
+order: 20000

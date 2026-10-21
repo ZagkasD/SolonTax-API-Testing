@@ -17,9 +17,14 @@ values:
     value: ''
   - key: mainActivityDescription
     value: ''
+  - key: otherActivityType
+    value: ''
+  - key: otherActivityDescription
+    value: ''
   - key: currentDate
     value: ''
   - key: manualStartDate
     value: ''
+    disabled: true
     description: Overwrite start dates
 color: 0

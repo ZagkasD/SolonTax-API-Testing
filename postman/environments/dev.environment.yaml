@@ -19,4 +19,7 @@ values:
     value: ''
   - key: currentDate
     value: ''
+  - key: manualStartDate
+    value: ''
+    description: Overwrite start dates
 color: 0

@@ -13,4 +13,8 @@ values:
     value: ''
   - key: currentDate
     value: '2026-10-21'
+  - key: mainActivityType
+    value: ''
+  - key: mainActivityDescription
+    value: ''
 color: 0

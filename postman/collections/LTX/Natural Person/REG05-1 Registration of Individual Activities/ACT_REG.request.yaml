@@ -1,5 +1,5 @@
 $kind: http-request
-url: "{{ui-config/forms/submit-endpoint}}"
+url: "{{farms}}"
 method: POST
 body:
   type: json

@@ -1,6 +1,6 @@
 name: dev
 values:
-  - key: natural person
+  - key: natural-person-endpoint
     value: ''
   - key: farms
     value: ''

@@ -1,5 +1,4 @@
 $kind: http-request
-name: Update Lithuanian Address Structured
 url: "{{natural-person-endpoint}}"
 method: POST
 body:
@@ -13,18 +12,6 @@ body:
     \    \"dateOfInformation\": \"2026-01-01\",\r
 
     \    \"sourceOfInformationCode\": \"10\", //GR\r
-
-    \    \"basicPersonalData\": {\r
-
-    \        \"typeOfUpdate\": \"N\",\r
-
-    \        \"placeOfBirth\": \"LT\",\r
-
-    \        \"gender\": \"M\",\r
-
-    \        \"dateOfBirth\": \"2000-01-01\"\r
-
-    \    },\r
 
     \    \"addresses\": [\r
 

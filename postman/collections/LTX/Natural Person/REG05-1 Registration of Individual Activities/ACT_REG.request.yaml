@@ -17,7 +17,7 @@ body:
 
     \        \"sourceCLDescription\": \"MAP\",\r
 
-    \        \"receiveDate\": \"{{currentDatePlusOne}}\",   \r
+    \        \"receiveDate\": \"{{currentDate}}\",   \r
 
     \        \"filingTypeCL\": \"ORIGINAL\",\r
 
@@ -38,6 +38,16 @@ scripts:
 
       const tin = parts.length >= 3 ? parts[2] : \"\";\r
 
-      pm.variables.set(\"TIN\", tin);"
+      pm.variables.set(\"TIN\", tin);\r
+
+      \r
+
+      //Set the currentDatePlusOne variable\r
+
+      const date = new Date();\r
+
+      date.setDate(date.getDate() + 1);\r
+
+      pm.variables.set(\"currentDatePlusOne\", date.toISOString().split('T')[0]);"
     language: text/javascript
 order: 2000

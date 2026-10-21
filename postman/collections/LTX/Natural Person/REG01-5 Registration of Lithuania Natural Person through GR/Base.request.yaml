@@ -63,7 +63,7 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"addressId\": \"{{addressId}}\",\r
+    \            \"addressId\": \"{{address14}}\",\r
 
     \            \"addressTypeCode\": \"5\",\r
 

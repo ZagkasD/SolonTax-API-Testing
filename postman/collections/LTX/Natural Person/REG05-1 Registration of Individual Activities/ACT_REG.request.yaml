@@ -1,11 +1,9 @@
 $kind: http-request
-url: "{{farms}}"
+url: "{{form-submission}}"
 method: POST
 body:
   type: json
   content: "{\r
-
-    \        \"id\": null,\r
 
     \        \"party\": {\r
 
@@ -25,7 +23,7 @@ body:
 
     \        \"filingTypeCLDescription\": \"Original\",\r
 
-    \        \"formData\": \"{\\\"isCreate\\\":true,\\\"isMinor\\\":false,\\\"partyId\\\":\\\"{{partyId}}\\\",\\\"taxPayerType\\\":\\\"{{mmType}}\\\",\\\"naturalPersonData\\\":{\\\"identificationCode\\\":\\\"Taxpayer identification number: {{TIN}}\\\",\\\"fullName\\\":\\\"{{fullName}}\\\",\\\"address\\\":{\\\"id\\\":\\\"{{addressId}}\\\"}},\\\"mainActivityData\\\":[{\\\"confirmCompliance\\\":false,\\\"startDate\\\":\\\"{{currentDate}}\\\",\\\"activityCategoryCL\\\":7110,\\\"mainActivityType\\\":\\\"{{mainActivityType}}\\\",\\\"mainActivityDescription\\\":\\\"{{mainActivityDescription/codeListItemDescription}}\\\",\\\"taxPayerTypeSelection\\\":\\\"{{mmType}}\\\"}],\\\"otherActivityData\\\":[{\\\"startDate\\\":\\\"{{StartDate}}\\\",\\\"confirmCompliance\\\":false,\\\"otherActivityType\\\":\\\"011200\\\",\\\"activityCategoryCL\\\":7110,\\\"otherActivitySelection\\\":{\\\"id\\\":\\\"91517285-3f33-438f-934d-d4dcb9212c3d\\\",\\\"codeListItemCode\\\":\\\"011200\\\",\\\"codeListItemDescription\\\":\\\"Growing of rice\\\"},\\\"otherActivityDescription\\\":\\\"Growing of rice\\\",\\\"defaultStartDatePopulatedIRM\\\":\\\"UNPOPULATED\\\"}],\\\"placeOfActivityData\\\":[{\\\"coincides\\\":true,\\\"address\\\":{\\\"countryCodeCL\\\":\\\"LT\\\",\\\"addressOptionCL\\\":\\\"STRUCTURED\\\",\\\"addressTypeCL\\\":\\\"43\\\",\\\"houseNumberStatus\\\":\\\"DISABLED\\\",\\\"creationDttm\\\":\\\"{{currentDate}}\\\",\\\"sourceCL\\\":\\\"3\\\"},\\\"startDate\\\":\\\"{{currentDate}}\\\",\\\"typeOfPlace\\\":\\\"99\\\",\\\"residenceAddress\\\":{\\\"id\\\":\\\"{{addressId}}\\\"}}]}\"\r
+    \        \"formData\": \"{\\\"isCreate\\\":true,\\\"isMinor\\\":false,\\\"partyId\\\":\\\"{{partyId}}\\\",\\\"taxPayerType\\\":\\\"{{mmType}}\\\",\\\"naturalPersonData\\\":{\\\"identificationCode\\\":\\\"Taxpayer identification number: {{TIN}}\\\",\\\"fullName\\\":\\\"{{fullName}}\\\",\\\"address\\\":{\\\"id\\\":\\\"{{addressId}}\\\"}},\\\"mainActivityData\\\":[{\\\"confirmCompliance\\\":false,\\\"startDate\\\":\\\"{{currentDate}}\\\",\\\"activityCategoryCL\\\":7110,\\\"mainActivityType\\\":\\\"{{mainActivityType}}\\\",\\\"mainActivityDescription\\\":\\\"{{mainActivityDescription}}\\\",\\\"taxPayerTypeSelection\\\":\\\"{{mmType}}\\\"}],\\\"otherActivityData\\\":[{\\\"startDate\\\":\\\"{{currentDate}}\\\",\\\"confirmCompliance\\\":false,\\\"otherActivityType\\\":\\\"011200\\\",\\\"activityCategoryCL\\\":7110,\\\"otherActivitySelection\\\":{\\\"id\\\":\\\"91517285-3f33-438f-934d-d4dcb9212c3d\\\",\\\"codeListItemCode\\\":\\\"011200\\\",\\\"codeListItemDescription\\\":\\\"Growing of rice\\\"},\\\"otherActivityDescription\\\":\\\"Growing of rice\\\",\\\"defaultStartDatePopulatedIRM\\\":\\\"UNPOPULATED\\\"}],\\\"placeOfActivityData\\\":[{\\\"coincides\\\":true,\\\"address\\\":{\\\"countryCodeCL\\\":\\\"LT\\\",\\\"addressOptionCL\\\":\\\"STRUCTURED\\\",\\\"addressTypeCL\\\":\\\"43\\\",\\\"houseNumberStatus\\\":\\\"DISABLED\\\",\\\"creationDttm\\\":\\\"{{currentDate}}\\\",\\\"sourceCL\\\":\\\"3\\\"},\\\"startDate\\\":\\\"{{currentDate}}\\\",\\\"typeOfPlace\\\":\\\"99\\\",\\\"residenceAddress\\\":{\\\"id\\\":\\\"{{addressId}}\\\"}}]}\"\r
 
     \    }"
 scripts:

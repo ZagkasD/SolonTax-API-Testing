@@ -7,7 +7,7 @@ body:
 
     \    \"requestId\": \"Zagkas_ID\",\r
 
-    \    \"dateOfInformation\": \"{{validFrom}}\",\r
+    \    \"dateOfInformation\": \"{{currentDate}}\",\r
 
     \    \"sourceOfInformationCode\": \"10\",\r
 

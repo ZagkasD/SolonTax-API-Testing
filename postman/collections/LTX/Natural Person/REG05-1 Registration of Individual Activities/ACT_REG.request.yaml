@@ -19,7 +19,7 @@ body:
 
     \        \"sourceCLDescription\": \"MAP\",\r
 
-    \        \"receiveDate\": \"{{receiveDate}}\",   \r
+    \        \"receiveDate\": \"{{currentDate}}\",   \r
 
     \        \"filingTypeCL\": \"ORIGINAL\",\r
 

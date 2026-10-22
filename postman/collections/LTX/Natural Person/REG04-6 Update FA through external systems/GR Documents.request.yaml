@@ -11,7 +11,7 @@ body:
 
     \    \"dateOfInformation\": \"{{currentDate}}\",\r
 
-    \    \"sourceOfInformationCode\": \"10\", //TIES\r
+    \    \"sourceOfInformationCode\": \"10\",\r
 
     \    \"documents\": [\r
 

@@ -9,7 +9,7 @@ body:
 
     \    \"mapId\": \"{{partyId}}\",\r
 
-    \    \"dateOfInformation\": \"{{validFrom}}\",\r
+    \    \"dateOfInformation\": \"{{currentDate}}\",\r
 
     \    \"sourceOfInformationCode\": \"10\", //TIES\r
 
@@ -19,15 +19,15 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"addressId\": \"{{addressId}}\",\r
+    \            \"documentTypeCode\": \"11\",\r
 
-    \            \"addressTypeCode\": \"5\",\r
+    \            \"documentNumber\": \"1234\",\r
 
-    \            \"addressObjectTypeCode\": \"{{addressObjectTypeCode}}\",\r
+    \            \"issueCountryCode\": \"LT\",\r
 
-    \            \"validFrom\": \"{{validFrom}}\",\r
+    \            \"avdNumber\":\"1\",\r
 
-    \            \"validTo\":\"{{validTo}}\"\r
+    \            \"validFrom\": \"{{validFrom}}\"\r
 
     \        }\r
 

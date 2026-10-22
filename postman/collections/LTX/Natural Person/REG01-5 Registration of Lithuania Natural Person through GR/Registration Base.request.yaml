@@ -55,9 +55,9 @@ body:
 
     \        }\r
 
-    \    ]\r
+    \    ],\r
 
-    \    ,\"addresses\": [\r
+    \    \"addresses\": [\r
 
     \        {\r
 
@@ -73,9 +73,9 @@ body:
 
     \        }\r
 
-    \    ]\r
+    \    ],\r
 
-    \    ,\"contacts\": [\r
+    \    \"contacts\": [\r
 
     \        {\r
 
@@ -89,15 +89,35 @@ body:
 
     \        }\r
 
-    \    ]\r
+    \    ],\r
 
-    \    ,\"citizenships\": [\r
+    \    \"citizenships\": [\r
 
     \        {\r
 
     \            \"typeOfUpdate\": \"N\",\r
 
     \            \"citizenshipCode\": \"LT\",\r
+
+    \            \"validFrom\": \"{{validFrom}}\"\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"documents\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"documentTypeCode\": \"11\",\r
+
+    \            \"documentNumber\": \"1234\",\r
+
+    \            \"issueCountryCode\": \"LT\",\r
+
+    \            \"avdNumber\":\"1\",\r
 
     \            \"validFrom\": \"{{validFrom}}\"\r
 

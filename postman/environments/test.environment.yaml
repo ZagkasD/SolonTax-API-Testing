@@ -1,0 +1,32 @@
+name: test
+values:
+  - key: natural-person-endpoint
+    value: 'https://solon-lith-test.centraldg6.athens.intrasoft-intl.private/data-integration/natural-persons'
+  - key: farms
+    value: 'https://solon-lith-test.centraldg6.athens.intrasoft-intl.private/data-integration/farm-data'
+  - key: form-submission
+    value: 'https://solon-lith-test.centraldg6.athens.intrasoft-intl.private/api-gateway/ui-configuration/lt-forms/ACT_REG/submit'
+  - key: address14
+    value: '417310772301'
+  - key: addressObjectTypeCode
+    value: A_KOM
+    description: address13
+  - key: addressId
+    value: 99f2449d-3839-4b19-828b-44f59d41e0eb
+  - key: mainActivityType
+    value: '011100'
+  - key: mainActivityDescription
+    value: 'Growing of cereals (except rice), leguminous crops and oil seeds'
+  - key: otherActivityType
+    value: '011200'
+  - key: otherActivityDescription
+    value: Growing of rice
+  - key: currentDate
+    value: '2026-10-22'
+  - key: manualStartDate
+    value: '2026-10-30'
+    disabled: true
+    description: Overwrite start dates
+  - key: mmType
+    value: '215'
+color: 120

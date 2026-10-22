@@ -13,17 +13,13 @@ body:
 
     \    \"sourceOfInformationCode\": \"10\", //TIES\r
 
-    \    \"addresses\": [\r
+    \    \"citizenships\": [\r
 
     \        {\r
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"addressId\": \"{{addressId}}\",\r
-
-    \            \"addressTypeCode\": \"5\",\r
-
-    \            \"addressObjectTypeCode\": \"{{addressObjectTypeCode}}\",\r
+    \            \"citizenshipCode\": \"LT\",\r
 
     \            \"validFrom\": \"{{validFrom}}\"\r
 

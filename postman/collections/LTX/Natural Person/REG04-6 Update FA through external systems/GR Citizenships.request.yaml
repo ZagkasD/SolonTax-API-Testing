@@ -25,9 +25,7 @@ body:
 
     \            \"addressObjectTypeCode\": \"{{addressObjectTypeCode}}\",\r
 
-    \            \"validFrom\": \"{{validFrom}}\",\r
-
-    \            \"validTo\":\"{{validTo}}\"\r
+    \            \"validFrom\": \"{{validFrom}}\"\r
 
     \        }\r
 

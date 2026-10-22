@@ -42,8 +42,9 @@ scripts:
 
       \      const randomLetters = Array.from({ length: 8 }, () =>\r
 
-      \      \"abcdefghijklmnopqrstuvwxyz\"[Math.floor(Math.random() * 26)]).join('');\r
+      \      \"abcdefghijklmnopqrstuvwxyz\"[Math.floor(Math.random() *
+      26)]).join('');\r
 
       \      pm.variables.set(\"sharedRandomString\", randomLetters);"
     language: text/javascript
-order: 17000
+order: 19000

@@ -3,7 +3,7 @@ description: |-
   TIN is computed at runtime by a pre-request script. It extracts the third string of the variable fullName. My parties always have the same format: Dimos x y Zagkas, where x = source of information (eg. GR) and y a random 8 lower char string.
 
   startDate is computed at runtime by a pre-request script. It is set to current date + 1. If the manualStartDate variable is enabled in the environment level and set to not null, then it will overwrite the startDate.
-url: "{{form-submission}}"
+url: "{{form-submission-endpoint}}"
 method: POST
 body:
   type: json

@@ -11,9 +11,21 @@ body:
 
     \    \"dateOfInformation\": \"{{validFrom}}\",\r
 
-    \    \"sourceOfInformationCode\": \"10\", //TIES\r
+    \    \"sourceOfInformationCode\": \"101\", //Ties\r
 
     \    \"citizenships\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"K\",\r
+
+    \            \"citizenshipCode\": \"LT\",\r
+
+    \            \"validFrom\": \"{{validFrom}}\",\r
+
+    \            \"validTo\":\"{{validTo}}\"\r
+
+    \        },\r
 
     \        {\r
 
@@ -21,7 +33,7 @@ body:
 
     \            \"citizenshipCode\": \"LT\",\r
 
-    \            \"validFrom\": \"{{validFrom}}\"\r
+    \            \"validFrom\": \"{{newValidFrom}}\"\r
 
     \        }\r
 

@@ -11,4 +11,4 @@ cloudResources:
     ../postman/globals/workspace.globals.yaml: e2af2d65-601b-4797-834d-ce700d72b389
 
 localResources:
-  environments: null
+  environments: []

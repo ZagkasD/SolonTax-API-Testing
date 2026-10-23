@@ -11,7 +11,7 @@ body:
 
     \    \"dateOfInformation\": \"{{validFrom}}\",\r
 
-    \    \"sourceOfInformationCode\": \"10\", //TIES\r
+    \    \"sourceOfInformationCode\": \"10\",\r
 
     \    \"addresses\": [\r
 
@@ -19,7 +19,7 @@ body:
 
     \            \"typeOfUpdate\": \"N\",\r
 
-    \            \"addressId\": \"{{addressId}}\",\r
+    \            \"addressId\": \"{{address14}}\",\r
 
     \            \"addressTypeCode\": \"5\",\r
 

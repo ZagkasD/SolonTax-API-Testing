@@ -2,9 +2,9 @@ name: dev
 values:
   - key: natural-person-endpoint
     value: 'https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/natural-persons'
-  - key: farms
+  - key: farm-endpoint
     value: 'https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/data-integration/farm-data'
-  - key: form-submission
+  - key: form-submission-endpoint
     value: 'https://solon-lith-dev.centraldg6.athens.intrasoft-intl.private/api-gateway/ui-configuration/lt-forms/ACT_REG/submit'
   - key: address14
     value: '417310773295'

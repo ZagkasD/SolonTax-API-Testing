@@ -11,7 +11,7 @@ body:
 
     \    \"dateOfInformation\": \"{{currentDate}}\",\r
 
-    \    \"sourceOfInformationCode\": \"10\",\r
+    \    \"sourceOfInformationCode\": \"101\",\r
 
     \    \"documents\": [\r
 
@@ -27,7 +27,7 @@ body:
 
     \            \"avdNumber\":\"1\",\r
 
-    \            \"validFrom\": \"{{validFrom}}\"\r
+    \            \"validFrom\": \"{{newValidFrom}}\"\r
 
     \        }\r
 
@@ -38,4 +38,4 @@ scripts:
   - type: beforeRequest
     code: ""
     language: text/javascript
-order: 16000
+order: 18000

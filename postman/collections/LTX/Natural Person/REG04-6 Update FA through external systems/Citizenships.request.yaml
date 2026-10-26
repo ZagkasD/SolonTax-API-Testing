@@ -9,23 +9,11 @@ body:
 
     \    \"mapId\": \"{{partyId}}\",\r
 
-    \    \"dateOfInformation\": \"{{validFrom}}\",\r
+    \    \"dateOfInformation\": \"{{currentDate}}\",\r
 
-    \    \"sourceOfInformationCode\": \"101\", //Ties\r
+    \    \"sourceOfInformationCode\": \"101\",\r
 
     \    \"citizenships\": [\r
-
-    \        {\r
-
-    \            \"typeOfUpdate\": \"K\",\r
-
-    \            \"citizenshipCode\": \"LT\",\r
-
-    \            \"validFrom\": \"{{validFrom}}\",\r
-
-    \            \"validTo\":\"{{validTo}}\"\r
-
-    \        },\r
 
     \        {\r
 

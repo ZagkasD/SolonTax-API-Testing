@@ -1,0 +1,33 @@
+$kind: http-request
+url: "{{natural-person-endpoint}}"
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"requestId\": \"Zagkas_ID\",\r
+
+    \    \"mapId\": \"{{partyId}}\",\r
+
+    \    \"dateOfInformation\": \"{{currentDate}}\",\r
+
+    \    \"sourceOfInformationCode\": \"101\",\r
+
+    \    \"basicPersonalData\": {\r
+
+    \        \"typeOfUpdate\": \"N\",\r
+
+    \        \"placeOfBirth\": \"LT\",\r
+
+    \        \"gender\": \"V\",\r
+
+    \        \"dateOfBirth\": \"{{newValidFrom}}\"\r
+
+    \    }\r
+
+    }"
+scripts:
+  - type: beforeRequest
+    code: ""
+    language: text/javascript
+order: 17000

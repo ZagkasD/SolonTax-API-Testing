@@ -21,8 +21,6 @@ values:
     value: '011200'
   - key: otherActivityDescription
     value: Growing of rice
-  - key: currentDate
-    value: '2026-10-22'
   - key: manualStartDate
     value: '2026-10-30'
     disabled: true

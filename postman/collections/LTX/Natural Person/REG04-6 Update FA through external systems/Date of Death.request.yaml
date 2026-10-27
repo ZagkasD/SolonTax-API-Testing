@@ -21,9 +21,9 @@ body:
 
     \        \"gender\": \"V\",\r
 
-    \        // \"dateOfDeath\":\"2020-01-01\", // Do not send this for updating the dateOfDeathAmendDate\r
+    \        \"dateOfDeath\":\"{{newDateOfDeath}}\" // Do not send this for updating the dateOfDeathAmendDate\r
 
-    \        \"dateOfDeathAmendDate\":\"{{newDateOfDeath}}\"\r
+    \        // \"dateOfDeathAmendDate\":\"{{newDateOfDeath}}\"\r
 
     \    }\r
 

@@ -11,17 +11,19 @@ body:
 
     \    \"dateOfInformation\": \"{{currentDate}}\",\r
 
-    \    \"sourceOfInformationCode\": \"101\",\r
+    \    \"sourceOfInformationCode\": \"10\",\r
 
     \    \"basicPersonalData\": {\r
 
-    \        \"typeOfUpdate\": \"N\",\r
+    \        \"typeOfUpdate\": \"K\",\r
 
     \        \"placeOfBirth\": \"LT\",\r
 
     \        \"gender\": \"V\",\r
 
-    \        \"dateOfBirth\": \"{{newValidFrom}}\"\r
+    \        // \"dateOfDeath\":\"2020-01-01\", // Do not send this for updating the dateOfDeathAmendDate\r
+
+    \        \"dateOfDeathAmendDate\":\"{{newDateOfDeath}}\"\r
 
     \    }\r
 

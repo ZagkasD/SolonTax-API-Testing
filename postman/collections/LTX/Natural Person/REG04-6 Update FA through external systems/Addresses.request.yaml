@@ -9,7 +9,7 @@ body:
 
     \    \"mapId\": \"{{partyId}}\",\r
 
-    \    \"dateOfInformation\": \"{{validFrom}}\",\r
+    \    \"dateOfInformation\": \"{{currentDate}}\",\r
 
     \    \"sourceOfInformationCode\": \"10\",\r
 

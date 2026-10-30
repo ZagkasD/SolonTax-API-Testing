@@ -11,13 +11,13 @@ body:
 
     \    \"mapId\": \"{{partyId}}\",\r
 
-    \    \"sourceOfInformationCode\": \"10\",\r
+    \    \"sourceOfInformationCode\": \"90\",\r
 
     \    \"identifiers\": [\r
 
     \        {\r
 
-    \            \"typeOfUpdate\": \"N\",\r
+    \            \"typeOfUpdate\": \"C\",\r
 
     \            \"identifierTypeCode\": \"20\",\r
 
@@ -29,7 +29,7 @@ body:
 
     \            \"validTo\": \"{{futureValidTo}}\",\r
 
-    \            \"cancelationDate\": \"{{currentDate}}\",\r
+    \            \"cancelationDate\": \"{{cancellationDate}}\",\r
 
     \            \"cancelationReasonCode\": \"{{cancelationReason}}\"\r
 
@@ -41,7 +41,7 @@ body:
 
     \        {\r
 
-    \            \"typeOfUpdate\": \"N\",\r
+    \            \"typeOfUpdate\": \"C\",\r
 
     \            \"groupTypeCode\": \"94\",\r
 
@@ -49,7 +49,7 @@ body:
 
     \            \"validTo\": \"{{futureValidTo}}\",\r
 
-    \            \"cancelationDate\": \"{{currentDate}}\",\r
+    \            \"cancelationDate\": \"{{cancellationDate}}\",\r
 
     \            \"cancelationReasonCode\": \"{{cancelationReason}}\"\r
 

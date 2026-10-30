@@ -1,0 +1,61 @@
+$kind: http-request
+url: "{{natural-person-endpoint}}"
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"requestId\": \"requestId_Zagkas\",\r
+
+    \    \"dateOfInformation\": \"{{currentDate}}\",\r
+
+    \    \"mapId\": \"{{partyId}}\",\r
+
+    \    \"sourceOfInformationCode\": \"10\",\r
+
+    \    \"identifiers\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"identifierTypeCode\": \"20\",\r
+
+    \            \"identifierValue\": \"{{identifier}}\",\r
+
+    \            \"countryCode\": \"LT\",\r
+
+    \            \"validFrom\": \"{{futureValidFrom}}\",\r
+
+    \            \"validTo\": \"{{futureValidTo}}\",\r
+
+    \            \"cancelationDate\": \"{{currentDate}}\",\r
+
+    \            \"cancelationReasonCode\": \"{{cancelationReason}}\"\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"groups\": [\r
+
+    \        {\r
+
+    \            \"typeOfUpdate\": \"N\",\r
+
+    \            \"groupTypeCode\": \"94\",\r
+
+    \            \"validFrom\": \"{{futureValidFrom}}\",\r
+
+    \            \"validTo\": \"{{futureValidTo}}\",\r
+
+    \            \"cancelationDate\": \"{{currentDate}}\",\r
+
+    \            \"cancelationReasonCode\": \"{{cancelationReason}}\"\r
+
+    \        }\r
+
+    \    ]\r
+
+    }"
+order: 15000
